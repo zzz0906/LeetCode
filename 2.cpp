@@ -17,6 +17,7 @@ public:
 		size1 = 0;
 		ListNode* mid = l1;
 		while(mid != NULL){
+			a1.push_back()
 			size1++;
 			mid = mid->next;
 		}
@@ -27,7 +28,7 @@ public:
 		}
 		int size = max(size1,size2);
 		for (int i = 0;i<size;i++){
-			
+					
 		} 
     }
 };
