@@ -1,5 +1,5 @@
-# LeetCode
+# LeetCode Recording
 
-LeetCode
+Practicing my programming skill day by day
+Record the consideration and analysis
 
-Exercising My program skills Day by Day
