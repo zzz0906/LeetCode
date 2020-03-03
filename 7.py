@@ -11,7 +11,7 @@ class Solution(object):
             data = []
             while (x > 0):
                 data.append(x % 10)
-                x = x / 10
+                x = int(x / 10)
             mid = 1
             while (len(data) != 0):
                 answer += data.pop() * mid
@@ -24,9 +24,10 @@ class Solution(object):
             data = []
             while (x > 0):
                 data.append(x % 10)
-                x = x / 10
+                x = int(x / 10)
             mid = 1
             while (len(data) != 0):
+                #print(data)
                 answer += data.pop() * mid
                 mid = mid * 10
             if (answer > pow (2,31) - 1 or answer < -pow(2,31)):
@@ -35,4 +36,4 @@ class Solution(object):
 
 if __name__ == '__main__':
     solution = Solution()
-    print solution.reverse(-16)
+    print(solution.reverse(-16))
