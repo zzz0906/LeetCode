@@ -32,3 +32,12 @@ true
 3. ~~If we find all pattern but pointtos < s.length return false~~
 
 Oh oh, it's not that easy; It's a **Recursion** or **Dynamic Programming** exercise. I refer to the **solution**:
+I choose to use Recursion, let me figure it out
+
+First if now position is '.' or a char then we can know that we just can match it with the string itself
+we can if (p[now] != '*')
+            return p[now] in {'.',s[point]} or match(pattern[now+1:],string[point+1:])
+
+if the next position is a '*' 
+So we can get zero pattern[now] then return match(pattern[now+2],string) or more than 1, therefore we can return match(pattern,sting[point+1:])
+
