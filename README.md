@@ -41,3 +41,22 @@ we can if (p[now] != '*')
 if the next position is a '*' 
 So we can get zero pattern[now] then return match(pattern[now+2],string) or more than 1, therefore we can return match(pattern,sting[point+1:])
 
+## 11 Container With Most Water
+
+In this problem, it's easy to learn that we can just pick two points and calculate the answer (container water)
+
+It's a n^2 solution.
+
+Let me keep thinking, maybe we can just start from the middle? That's not correct.
+
+Or we can start from the begin and end. Oh yes, we can.
+
+if there is a better solution, we must move the point to the right left,if the value of the left or right is higher than ourselves. But how to calculate whether is better.
+
+Then our complexity is n
+
+We can just calculate the answer is (wide-1) * higer height or original height * (wide)
+
+**BUT** Which point do we need to move? Right or Left?
+
+Let me see, if the large on to move. we have no choice to make a better cotainer. Because the height is decided by the smaller one. and the wide become smaller (because of moving). So we need to move the smaller one. Then we can get the answer.
