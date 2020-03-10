@@ -63,4 +63,23 @@ Let me see, if the large on to move. we have no choice to make a better cotainer
 
 
 ## 12 Interger to Roman
-this is question for 
+this is question for a integer that to a Roman
+We can can just replace the data with related data.
+
+If the number is < then a value then we should keep replace it. this is a typical replace question
+Roman | value 
+-----|-------
+I	|1
+IV	|4
+V	|5
+IX	|9
+X	|10
+XL	|40
+L	|50
+XC	|90
+C	|100
+CD	|400
+D	|500
+CM	|900
+M	|1000
+we can keep reduce until we cannot find a number that bigger than this number in the table.
