@@ -83,3 +83,16 @@ D	|500
 CM	|900
 M	|1000
 we can keep reduce until we cannot find a number that bigger than this number in the table.
+
+## 15 3sum
+if we just think about the brute force to find the three numbers, the time complexity is
+
+N*(N-1)*(N-2)
+
+It's too expensive. 
+Let me think about sort first. Then we get a sorted array. We can just binary search it. (i,j,k)
+if we fix an i, then we need to find a j and k, then we know that j + k = -i; we can find the k+i. we can use a bucket to store each value.
+
+But you should pay attention to the existing of the value, Because the output cannot have the same value.
+
+However fail, because it will have the probability to we choose a bucket and value is the same of value of the before value. that N^2 cannot be adapted.
