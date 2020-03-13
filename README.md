@@ -96,3 +96,8 @@ if we fix an i, then we need to find a j and k, then we know that j + k = -i; we
 But you should pay attention to the existing of the value, Because the output cannot have the same value.
 
 However fail, because it will have the probability to we choose a bucket and value is the same of value of the before value. that N^2 cannot be adapted.
+________
+
+Let use 3 pointers.j + k = -i if we point to i first, then we need to find the  j + k = -i if j + k > -i, this is a interesting question. the left + right is the most great sum. becuase the answer must between this two value. j....k. we must adjust the it between this two index. if (j + k) > -i k--; < -i then j++ until j == k;
+
+this means the answer index must between the begin and end in the sorted array. 
