@@ -101,3 +101,11 @@ ________
 Let use 3 pointers.j + k = -i if we point to i first, then we need to find the  j + k = -i if j + k > -i, this is a interesting question. the left + right is the most great sum. becuase the answer must between this two value. j....k. we must adjust the it between this two index. if (j + k) > -i k--; < -i then j++ until j == k;
 
 this means the answer index must between the begin and end in the sorted array. 
+
+## 16. 3Sum Closest
+You have to find three number sum closet to the target offer, we can know that the we can use 15 problem
+
+we need to answer close to the target. As the result, we can use a similar method as 15 to solve this problem. 
+a+b+c = target a+b = target - c until find a most similar to the target. 
+
+We keep using the o(n2) method to fix a value then find b and c. as the 15 describe.
