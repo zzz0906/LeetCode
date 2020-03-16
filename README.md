@@ -109,3 +109,10 @@ we need to answer close to the target. As the result, we can use a similar metho
 a+b+c = target a+b = target - c until find a most similar to the target. 
 
 We keep using the o(n2) method to fix a value then find b and c. as the 15 describe.
+
+## 18. 4sum
+It more difficult to the last question.
+
+Can we use last algorithms again? That's not true, we must use another algorithm. Because if we use above algorithm, the time complexity is too high.
+
+However, similarly, we can use a+b = sum - (c+d) so we divide it to the 2 sum and 2 sum. Therefore, we can make a preprocess, first, we can add 2 numbers. for n numbers, we can get a C(n,2); pick 2 entity from the array. Then we choose to find a + b = target.
