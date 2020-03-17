@@ -116,3 +116,6 @@ It more difficult to the last question.
 Can we use last algorithms again? That's not true, we must use another algorithm. Because if we use above algorithm, the time complexity is too high.
 
 However, similarly, we can use a+b = sum - (c+d) so we divide it to the 2 sum and 2 sum. Therefore, we can make a preprocess, first, we can add 2 numbers. for n numbers, we can get a C(n,2); pick 2 entity from the array. Then we choose to find a + b = target.
+
+But there is a problem, I cannot get the answer in my while repeat. I need to fix the repeat answer and no answer problem.
+
