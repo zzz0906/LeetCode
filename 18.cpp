@@ -24,13 +24,10 @@ public:
                 int end = left;
                 while (comb[left] == comb[end])
                     end++;
-                cout<<comb[left]<<endl;
-                cout<<left<<endl;
-                cout<<end<<endl;
                 int st = right;
                 while (comb[right] == comb[st])
-                    st++;
-                for (int k = left; k<=left;k++)
+                    st--;
+                for (int k = left; k<=end;k++)
                     for (int l = st; l<=right;l++){
                         if (et1[k] != et2[l] && et1[k] != et1[l] && et2[k] != et2[l] && et2[k] != et1[l]){
                             vector<int> mid;
@@ -48,6 +45,9 @@ public:
                 left ++;
             else right--;
         }
+        for (int i = 0; i < answer.size();i++)
+            for (int j = 0; j < answer[i].size();j++)
+                cout<<answer[i][j]<<endl;
         return answer;
     }
 };

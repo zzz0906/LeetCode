@@ -117,5 +117,12 @@ Can we use last algorithms again? That's not true, we must use another algorithm
 
 However, similarly, we can use a+b = sum - (c+d) so we divide it to the 2 sum and 2 sum. Therefore, we can make a preprocess, first, we can add 2 numbers. for n numbers, we can get a C(n,2); pick 2 entity from the array. Then we choose to find a + b = target.
 
-But there is a problem, I cannot get the answer in my while repeat. I need to fix the repeat answer and no answer problem.
+In this question, if I am a person, how to simulate I pick the 4 numbers. I can choose ith, jth (>i), choose k(>j), choose l (>k).
 
+Then we can treat k,l like the 2 sum problem.
+
+Therefore, it is a O(n^3). This is shown in 18std.cpp.
+
+**Attention: Do not let the index out of the array, because leetcode will detect it, however our compiler do not **
+
+However it TLE, we need to optimize it.
