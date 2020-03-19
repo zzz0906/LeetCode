@@ -7,39 +7,62 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int> > fourSum(vector<int> &num, int target) {
+    
         vector<vector<int> > res;
-        if(num.empty())
+    
+        if (num.size() < 4)
             return res;
+    
+        std::sort(num.begin(),num.end());
+    
+        for (int i = 0; i < num.size(); i++) {
         
-        sort(num.begin(), num.end());
-        for(int i = 0; i < num.size() - 3; ++i) {
-            for(int j = i + 1; j < num.size() - 2; ++j) {
-                int left = j + 1, right = num.size() - 1;
-                while(left < right) {
-                    int curSum = num[i] + num[j] + num[left] + num[right];
-                    if(curSum == target) {
-                        int tmpa [4] = {num[i], num[j], num[left], num[right]};
-                        vector<int> tmp(tmpa,tmpa+4);
-                        res.push_back(tmp);
-                        
-                        while(left < right && num[left] == num[left + 1])
-                            ++left;
-                        while(left < right && num[right - 1] == num[right])
-                            --right;
-                        ++left;
-                        --right;
-                    } else if(curSum < target)
-                        ++left;
-                    else
-                        --right;
+            int target_3 = target - num[i];
+        
+            for (int j = i + 1; j < num.size(); j++) {
+            
+                int target_2 = target_3 - num[j];
+            
+                int front = j + 1;
+                int back = num.size() - 1;
+            
+                while(front < back) {
+                
+                    int two_sum = num[front] + num[back];
+                
+                    if (two_sum < target_2) front++;
+                
+                    else if (two_sum > target_2) back--;
+                
+                    else {
+                    
+                        vector<int> quadruplet(4, 0);
+                        quadruplet[0] = num[i];
+                        quadruplet[1] = num[j];
+                        quadruplet[2] = num[front];
+                        quadruplet[3] = num[back];
+                        res.push_back(quadruplet);
+                    
+                        // Processing the duplicates of number 3
+                        while (front < back && num[front] == quadruplet[2]) ++front;
+                    
+                        // Processing the duplicates of number 4
+                        while (front < back && num[back] == quadruplet[3]) --back;
+                
+                    }
                 }
-                while(j < num.size() && num[j] == num[j + 1])
-                    ++j;
+                
+                // Processing the duplicates of number 2
+                while(j + 1 < num.size() && num[j + 1] == num[j]) ++j;
             }
-            while(i < num.size() && num[i] == num[i + 1])
-                ++i;
+        
+            // Processing the duplicates of number 1
+            while (i + 1 < num.size() && num[i + 1] == num[i]) ++i;
+        
         }
+    
         return res;
+    
     }
 };
 

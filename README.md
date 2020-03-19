@@ -125,4 +125,4 @@ Therefore, it is a O(n^3). This is shown in 18std.cpp.
 
 **Attention: Do not let the index out of the array, because leetcode will detect it, however our compiler do not **
 
-However it TLE, we need to optimize it.
+However it TLE, we need to optimize it. I found that it's my programming problem, I use another guy's code in 18 std with the smae consideration. Then I pass this problem.
