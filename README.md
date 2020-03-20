@@ -128,3 +128,7 @@ Therefore, it is a O(n^3). This is shown in 18std.cpp.
 However it TLE, we need to optimize it. I found that it's my programming problem, I use another guy's code in 18 std with the smae consideration. Then I pass this problem.
 
 ## 22 Generate Parentheses
+it seems apparently, we choose a place to add the ();
+the begin, inter and end, in this way we can get that:
+xxxx
+we can search all the answer however TLE...
