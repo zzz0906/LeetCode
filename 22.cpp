@@ -1,64 +1,42 @@
 #include<iostream>
-#include<cstdio>
-#include<vector>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string>
+#include<string.h>
+#include<cstring>
 #include<algorithm>
+#include<math.h>
+#include<vector>
 using namespace std;
 class Solution {
 public:
-    bool valid(string temp){
-        int stack_b[100];
-        for (int i = 0; i < 100; i++)
-            stack_b[i] = 0;
-        int index_now = 0;
-        for (int i = 0; i < temp.size(); i++){
-            if (temp[i] == ')'){
-                if (index_now == 0 || stack_b[index_now-1] == 0)
-                    return false;                
-                index_now--;
-            }else{
-                stack_b[index_now] = 1;
-                index_now ++;
-            }
-        }
-        if (index_now > 0) return false;
-        return true;
-    }
-    void checkanswer(string temp){
-        for (int i = 0; i < answer.size();i++)
-            if (answer[i] == temp) return;
-        //cout<<temp<<endl;
-        answer.push_back(temp);    
-    }
-    vector<string> answer;
-    void dfs(int now,string now2){
-        if (valid(now2) == false)
-            return;
-        if (now == 0){
-            checkanswer(now2);
+    void generate(int left, int right, string str, vector<string>& res){
+        if(left==0&&right==0){
+            res.push_back(str);
             return;
         }
-        for (int i = 0; i < now2.size(); i++){
-            for (int j = i; j < now2.size(); j++){
-                string tmp = now2;
-                tmp.insert(i,"(");
-                tmp.insert(j,")");
-                dfs(now-1,tmp);
-            }
-            string tmp = now2;
-            tmp.insert(i,"(");
-            dfs(now-1,tmp+")");
+        if(left>0){
+            generate(left-1, right, str+'(',res);
+        }
+        if(right>left&&right>0){
+            generate(left,right-1,str+')',res);
         }
     }
     vector<string> generateParenthesis(int n) {
-        string tmp[1] = {"()"};
-        vector<string> fi(tmp,tmp+1);
-        if (n == 1)
-            return fi;
-        dfs(n-1,"()");   
-        return this->answer;
+        vector<string> res;
+        generate(n,n,"",res);
+        return res;
     }
 };
-int main(){
-	Solution s;
-    s.generateParenthesis(3);
+int main()
+{
+    Solution temple;
+    vector<string> res1;
+    res1 = temple.generateParenthesis(3);
+    for(int i=0;i<res1.size();i++){
+        cout<<res1[i]<<endl;
+    }
+  return 0;
 }
+ 
+

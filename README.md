@@ -132,3 +132,7 @@ it seems apparently, we choose a place to add the ();
 the begin, inter and end, in this way we can get that:
 xxxx
 we can search all the answer however TLE...
+
+It's a really simple question...we can just
+add a left add a right, and keep the right > current left that's would be right. It's very fancy written style let me analysis it:
+
