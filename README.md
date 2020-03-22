@@ -136,3 +136,10 @@ we can search all the answer however TLE...
 It's a really simple question...we can just
 add a left add a right, and keep the right > current left that's would be right. It's very fancy written style let me analysis it:
 
+If we keep there must be a right < left
+first ()
+then (()), (()). If we can add a left first, then add the right > left
+in the first we add ( -> (( -> ((())) (()(()) this way because we need to go back to find the next standard position
+
+## 23 Merge k Sorted Lists
+
