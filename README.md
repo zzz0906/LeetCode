@@ -143,3 +143,5 @@ in the first we add ( -> (( -> ((())) (()(()) this way because we need to go bac
 
 ## 23 Merge k Sorted Lists
 
+It's a little easy way, to choose a the min answer in all list, and let the chosen list start point ++;
+And repeat until all list has be appended to the answer list.
