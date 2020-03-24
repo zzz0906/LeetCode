@@ -145,3 +145,5 @@ in the first we add ( -> (( -> ((())) (()(()) this way because we need to go bac
 
 It's a little easy way, to choose a the min answer in all list, and let the chosen list start point ++;
 And repeat until all list has be appended to the answer list.
+
+I think the code is all right. However it show me stack buffer overflow. I need to debug it tomorrow.
