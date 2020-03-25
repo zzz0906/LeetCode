@@ -147,3 +147,9 @@ It's a little easy way, to choose a the min answer in all list, and let the chos
 And repeat until all list has be appended to the answer list.
 
 I think the code is all right. However it show me stack buffer overflow. I need to debug it tomorrow.
+
+However, it's not an efficient way to find the min.
+
+We can maintain a heap to get the min. Each time we find the min, and add the head of the list to the heap each time.
+
+I copy other's standard code in the 23_heap.cpp. (\ref https://blog.csdn.net/Ethan95/article/details/85195403)

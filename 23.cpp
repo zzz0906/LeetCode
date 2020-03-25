@@ -43,7 +43,7 @@ public:
                 answer = answer->next;
             }
             current[index] = current[index] -> next;
-        }
+
         return head;
     }
 };
