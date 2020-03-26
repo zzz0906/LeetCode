@@ -19,14 +19,11 @@ public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
         if (lists.empty())
             return NULL;
-        vector<int> points;
         vector<ListNode*> current = lists;
-        for (int i = 0; i < lists.size(); i++)
-            points.push_back(0);
-        ListNode* answer;
-        ListNode* head;
+        ListNode* answer = new ListNode(0);
+        ListNode* head = answer;
         while (check(current)){
-            int mini = 10000000;
+            int mini = 1000;
             int index = 0;
             for (int i = 0; i <lists.size(); i++)
                 if (current[i] != NULL && current[i]->val < mini){
@@ -34,27 +31,32 @@ public:
                     index = i;
                 }
             ListNode * tmp = new ListNode(current[index]->val);
-            printf("%d\n",current[index]->val);
-            if (answer == NULL){
-                answer = tmp;
-                head = answer;
-            }else{
-                answer->next = tmp;
-                answer = answer->next;
-            }
+            //printf("%d\n",current[index]->val);
+            answer->next = tmp;
+            answer = answer ->next;
             current[index] = current[index] -> next;
-
-        return head;
+        }
+        return head -> next;
     }
 };
 int main(){
     Solution s;
      vector<ListNode*> current;
-     ListNode* p1 = new ListNode(2);
+     ListNode* p1 = new ListNode(1);
      ListNode* p1_2 = new ListNode(4);
+     ListNode* p1_3 = new ListNode(4);
+     p1_2->next = p1_3;
      p1->next = p1_2;
-     ListNode* p2 = new ListNode(3);
+     
+     ListNode* p2 = new ListNode(1);
+     ListNode* p2_2 = new ListNode(3);
+     ListNode* p2_3 = new ListNode(4);
+
+     ListNode* p3 = new ListNode(2);
+     ListNode* p3_2 = new ListNode(6);
+     p3->next = p3_2;
      current.push_back(p1);
      current.push_back(p2);
+     current.push_back(p3);
     s.mergeKLists(current);
 }

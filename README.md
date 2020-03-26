@@ -153,3 +153,25 @@ However, it's not an efficient way to find the min.
 We can maintain a heap to get the min. Each time we find the min, and add the head of the list to the heap each time.
 
 I copy other's standard code in the 23_heap.cpp. (\ref https://blog.csdn.net/Ethan95/article/details/85195403)
+
+I found my problem!!! I decide whether the answer is NULL
+
+original code
+```
+if (answer == NULL){
+                answer = tmp;
+                head = answer;
+            }else{
+                answer->next = tmp;
+                answer = answer->next;
+            }
+```
+
+Code now
+```
+answer->next = tmp;
+            answer = answer ->next;
+            current[index] = current[index] -> next;
+```
+
+In the before code, I use a NULL to decide a pointer. I think maybe leetcode do not approve that behavior.
