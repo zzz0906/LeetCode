@@ -175,3 +175,13 @@ answer->next = tmp;
 ```
 
 In the before code, I use a NULL to decide a pointer. I think maybe leetcode do not approve that behavior.
+
+## 25 Reverse Nodes in k-Group
+
+I think it is a easy question too. 
+
+We only need to
+
+1. FIRST we traverse the node list, we add the node to a new list N
+2. Every time we run k times, we reverse the N add it to a new List ANSWER's tail.
+3. We clear the list N. We repeat these operations until we reach the end of the node list.
