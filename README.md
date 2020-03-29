@@ -185,3 +185,9 @@ We only need to
 1. FIRST we traverse the node list, we add the node to a new list N
 2. Every time we run k times, we reverse the N add it to a new List ANSWER's tail.
 3. We clear the list N. We repeat these operations until we reach the end of the node list.
+
+The hardest part is part 3. We need to reverse the N. We need to reach the end, and scratch the end of the list. And do it again. Unitl there is no end.
+
+Attention! if there is no more enough elements for reverse, then keep its original sequence.
+
+We need to decide whether reverse first then decide whether reach the end (prevent the k is exactly the end.)
