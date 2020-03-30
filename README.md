@@ -191,3 +191,14 @@ The hardest part is part 3. We need to reverse the N. We need to reach the end, 
 Attention! if there is no more enough elements for reverse, then keep its original sequence.
 
 We need to decide whether reverse first then decide whether reach the end (prevent the k is exactly the end.)
+
+## 29 Divide Two Integers
+
+It's easy to think about we use minus replacing the mutil.
+
+7 / 3 = 7 - 3 - 3 
+we minus, two "3", thus we know the answer is two.
+
+Attention: please take care of negative numbers!!!
+
+** Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 231 − 1 when the division result overflows. *
