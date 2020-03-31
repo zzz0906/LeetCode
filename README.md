@@ -199,6 +199,16 @@ It's easy to think about we use minus replacing the mutil.
 7 / 3 = 7 - 3 - 3 
 we minus, two "3", thus we know the answer is two.
 
-Attention: please take care of negative numbers!!!
+Attention: please take care of negative numbers and Maximum value. (specially decide)
 
-** Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 231 − 1 when the division result overflows. *
+** Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 231 − 1 when the division result overflows. **
+
+I need to process overflow also if a huge number divide 1. we need to iterate the huge number times. It will be TLE. I need to find the STD answer.
+
+I need to use BIT operations
+The labs() function computes and returns the absolute value of the long integer argument, of the appropriate long integer type for the function. The llabs() function computes and returns the absolute value of long long integer argument.
+
+if we can let divisor << 1 (*2) < dividend then divisor << 1;
+So that we can know that, each time we use t*2, t^2*4, t^3*8 to compute the end of the answer. It's a consideration of quick power. and when we end, we know there is a 2^n;
+
+Then we do it again, until we cannot find a more power number for the t.
