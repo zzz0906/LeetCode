@@ -212,3 +212,15 @@ if we can let divisor << 1 (*2) < dividend then divisor << 1;
 So that we can know that, each time we use t*2, t^2*4, t^3*8 to compute the end of the answer. It's a consideration of quick power. and when we end, we know there is a 2^n;
 
 Then we do it again, until we cannot find a more power number for the t.
+
+## 30 Substring with Concatenation of All Words
+
+We know that the we need to choose a substring for each index, st -> st + arbitrary length
+
+However the words list is same length. Therefore, the arbitary length should be number of list * fixed length
+
+Time complexity is O(n) n = length of s; Let do it.
+
+If we only has one char, then TLE, GG.
+
+We need to use another algorithm. 
