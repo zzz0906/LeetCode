@@ -224,3 +224,6 @@ Time complexity is O(n) n = length of s; Let do it.
 If we only has one char, then TLE, GG.
 
 We need to use another algorithm. 
+
+We compare the each fixed length in the string using for loop instead of HashMap or Trie. I think this may be the problem of the TLE. It still TLE.
+Let me keep optimize it tomorrow.

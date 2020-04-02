@@ -1,5 +1,6 @@
 #include<vector>
 #include<string>
+#include<map>
 using namespace std;
 class Solution {
 public:
@@ -15,8 +16,14 @@ public:
         for (int i = 0; i < s.size();i++){
             tmp = "";
             if (i + arbi_length <= s.length())
-                tmp = s.substr(i, arbi_length);
-            vector<string> tmpw = words;
+                tmp = s.substr(i, arbi_length);        
+            std::map<std::string, int> tmpw;
+            for (int j = 0; j < words.size(); j++){
+                if (tmpw.count(words[j]) == 0)
+                    tmpw.insert(std::make_pair(words[j],1));
+                else
+                    tmpw[words[j]] ++;
+            }
             bool flag = true;
             if (tmp != ""){
                 int st = 0;
@@ -25,19 +32,16 @@ public:
                     st = st + words[0].size();
                     bool tmpflag = false;
                     int index = 0;
-                    for (int j = 0; j < tmpw.size();j++){
-                        if (tmpw[j].compare(now) == 0){
-                            tmpflag = true;
-                            index = j;
-                            break;
-                        }
+                    if (tmpw.count(now) == 1){
+                        map<string,int>::iterator key = tmpw.find(now);
+                        tmpflag = true;
+                        if (tmpw[now] > 1)
+                            tmpw[now] --;
+                        else tmpw.erase(key);
                     }
-                    if (tmpflag == false){
+                    else {
                         flag = false;
                         break;
-                    }else{
-                        tmpw.erase(tmpw.begin()+index);
-                        continue;
                     }
                 }
                 if (flag == true){
