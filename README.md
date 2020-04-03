@@ -227,3 +227,10 @@ We need to use another algorithm.
 
 We compare the each fixed length in the string using for loop instead of HashMap or Trie. I think this may be the problem of the TLE. It still TLE.
 Let me keep optimize it tomorrow.
+
+I use two optimization places:
+
+    1. if substring size > end size just break;
+    2. we use map assignment operations instead of add each words one by one.
+
+Then the code has been accepted.
