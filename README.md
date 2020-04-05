@@ -234,3 +234,15 @@ I use two optimization places:
     2. we use map assignment operations instead of add each words one by one.
 
 Then the code has been accepted.
+
+## 31. Next Permutation
+If we want to understand this problem, we need to know what is permutation.
+In wikipedia
+
+`The word "permutation" also refers to the act or process of changing the linear order of an ordered set`
+
+I wrote a python version in my freshman period. We find a discipline in this problem.
+
+First, we find the diminishing sequence in the sequence. Then we reverse the diminishing sequence. And we have known a number before the diminishing sequence. We exchange this number with a number in the diminishing sequence (which is just a lttile bigger than this number, e.g. 3-4,4-5,5-6).
+
+I just use the standard program to submit. Because it is just a regular program, I need to find the pattern or the discipline.
