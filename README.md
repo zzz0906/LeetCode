@@ -246,3 +246,11 @@ I wrote a python version in my freshman period. We find a discipline in this pro
 First, we find the diminishing sequence in the sequence. Then we reverse the diminishing sequence. And we have known a number before the diminishing sequence. We exchange this number with a number in the diminishing sequence (which is just a lttile bigger than this number, e.g. 3-4,4-5,5-6).
 
 I just use the standard program to submit. Because it is just a regular program, I need to find the pattern or the discipline.
+
+## 32 Longest Valid Parentheses
+
+Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+
+It is a parentheses problem again. 
+
+If we use dfs, we only need to add the left parenthesis, and choose if or if do not match right parenthesis. 
