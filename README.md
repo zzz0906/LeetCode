@@ -254,3 +254,5 @@ Given a string containing just the characters '(' and ')', find the length of th
 It is a parentheses problem again. 
 
 If we use dfs, we only need to add the left parenthesis, and choose if or if do not match right parenthesis. 
+
+Can we use DP? I don't think so. I still cannot know how to decide whether there are Aftereffect.
