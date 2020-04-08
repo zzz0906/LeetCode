@@ -273,3 +273,11 @@ the i - 1 - dp[i-1] represent the begin of max length of the parenthesis. i-2-dp
 Update formula:
 
 dp[i] = dp[i-1] + 2 + dp[j]
+
+## 33. Search in Rotated Sorted Array
+Because the time complexity shall be logN, then I understand that we should use dichotomy. 
+
+It remind me that there is only one point for rotating.
+We can use dichotomy to find the unknow point first.
+
+Then we can use dichotomy to find the really number we need. 
