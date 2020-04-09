@@ -280,4 +280,10 @@ Because the time complexity shall be logN, then I understand that we should use 
 It remind me that there is only one point for rotating.
 We can use dichotomy to find the unknow point first.
 
-Then we can use dichotomy to find the really number we need. 
+Then we can use dichotomy(binary search) to find the really number we need. 
+
+I have this idea, but it is really hard to implement it. Then I refer to why do not mix two processes, finding the target and finding the rotation point.
+
+If the mid value is less than end, then we can know the the mid to the end is in the ascending order. Then, if target is bigger than mid value, then we need to keep searching in the right. If the target is less than mid we must keep to search in the right.
+
+If the mid value is bigger than the end, we know the begin (e.g, 3 4 5 6 0 1 2) then the right is in the ascending order. therefore if the target is less than the mid value, we need to search the target in the right part of the array. otherwise, we need to search in the left part of the array. 
