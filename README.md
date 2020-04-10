@@ -287,3 +287,11 @@ I have this idea, but it is really hard to implement it. Then I refer to why do 
 If the mid value is less than end, then we can know the the mid to the end is in the ascending order. Then, if target is bigger than mid value, then we need to keep searching in the right. If the target is less than mid we must keep to search in the right.
 
 If the mid value is bigger than the end, we know the begin (e.g, 3 4 5 6 0 1 2) then the right is in the ascending order. therefore if the target is less than the mid value, we need to search the target in the right part of the array. otherwise, we need to search in the left part of the array. 
+
+## 34. Find First and Last Position of Element in Sorted Array
+
+It's really easy if you are familiar with C++ STL. You can use lower_bound and upper_bound function.
+
+!! There is some difference between the lower_bound, upper_bound and this problem. If we cannot find the target we shall ouput -1,-1 instead of the bound~
+
+The upper_bound shall be modified in this problem. Let me finish it tomorrow.
