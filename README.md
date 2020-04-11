@@ -295,3 +295,5 @@ It's really easy if you are familiar with C++ STL. You can use lower_bound and u
 !! There is some difference between the lower_bound, upper_bound and this problem. If we cannot find the target we shall ouput -1,-1 instead of the bound~
 
 The upper_bound shall be modified in this problem. Let me finish it tomorrow.
+
+Therefore, we still need to practice binary search
