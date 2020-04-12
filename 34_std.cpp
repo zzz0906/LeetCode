@@ -1,3 +1,4 @@
+#include <iostream>
 #include<vector>
 #include<algorithm>
 using namespace std;
@@ -10,20 +11,19 @@ public:
             if (array[st] == target){
                 position = st;
                 flag = true;
-                return;
             }
             if (array[ed] == target){
                 position = ed;
                 flag = true;
-                return;
             }
+            return;
         }
         if (st == ed){
             if (array[ed] == target){
                 position = ed;
                 flag = true;
-                return;
             }
+            return;
         }
         if (st > ed) return;
         int mid = (st + ed) /2;
@@ -40,28 +40,39 @@ public:
         }
     }
     vector<int> searchRange(vector<int>& nums, int target) {
+        vector<int> answer;
+        if (nums.empty()){
+            answer.push_back(-1);
+            answer.push_back(-1);
+            return answer;
+        }
         flag = false;
         int start = 0;
-        int end = nums.size();
-        vector<int> answer;
+        int end = nums.size()-1;
         search(start, end, nums,target);
-        if (nums[position] != target) {
+        if (flag == false || nums[position] != target) {
             answer.push_back(-1);
             answer.push_back(-1);
         }else{
             int tmp1 = position;
             int tmp2 = position;
-            while (nums[tmp1] == target){
+            while (tmp1 >= 0 && nums[tmp1] == target){
                 tmp1--;
             }
-            while (nums[tmp2] == target){
+            while (tmp2 < nums.size() && nums[tmp2] == target){
                 tmp2++;
             }
             tmp1 ++;
             tmp2 --;
             answer.push_back(tmp1);
             answer.push_back(tmp2);
-            return answer;
         }
+        return answer;
     }
+};
+int main(){
+    Solution s;
+    vector<int> test;
+    test.push_back(1);
+    cout << s.searchRange(test,1)[0] << endl << s.searchRange(test,1)[1] <<endl;
 }

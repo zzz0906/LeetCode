@@ -296,4 +296,10 @@ It's really easy if you are familiar with C++ STL. You can use lower_bound and u
 
 The upper_bound shall be modified in this problem. Let me finish it tomorrow.
 
-Therefore, we still need to practice binary search
+I failed to use upper_bound, we still need to practice binary search.
+
+Let me describe my idea. Let we think about a binary search. If the mid value < target, then we need to find in the right. > left. If equal, then we can record the index and return.
+
+Then we have a index, we need to use while loop to extend to the left and right which is still equal to the target.
+
+Attention to: not found the value and the vector is blank.
