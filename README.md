@@ -303,3 +303,17 @@ Let me describe my idea. Let we think about a binary search. If the mid value < 
 Then we have a index, we need to use while loop to extend to the left and right which is still equal to the target.
 
 Attention to: not found the value and the vector is blank.
+
+### 36. Valid Sudoku
+
+Input is a vector with 2 dimensions. It's easy to use dfs. If we can fill each blank field with any number and each time we need to check the valid features. If we cannot find then return false; else return true;
+
+It seems more easy than it looks. It just need to want to output the valid not to find the solutions.
+
+It has 3 rules:
+* Each row must contain the digits 1-9 without repetition.
+* Each column must contain the digits 1-9 without repetition.
+* Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+
+It's really easy. The difficult part of these 3 questions
+is the question 3. how to iterate question 3 ? I choose to first choose (0,0) then (0,3) then (0,6) then (3,0)
