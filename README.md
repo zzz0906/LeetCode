@@ -317,3 +317,13 @@ It has 3 rules:
 
 It's really easy. The difficult part of these 3 questions
 is the question 3. how to iterate question 3 ? I choose to first choose (0,0) then (0,3) then (0,6) then (3,0)
+
+### 37. Sudoku Solver
+
+Lastday we need to determine whether the graph is valid or not. Today we need to find a solution.
+
+**You may assume that the given Sudoku puzzle will have a single unique solution.**
+
+therefore, we can use dfs, for a point (x,y) if it's '.' then we need to fill this empty space with a number in range of [0-9] and not appear in the row and column. Let us do it!
+
+The relationship between 36 & 37 is really great. We can use 36's solution to decide whether the 37's current Sudoku problem is correct. If it's right, we can keep searching the next state. If it's wrong, we should return.
