@@ -327,3 +327,19 @@ Lastday we need to determine whether the graph is valid or not. Today we need to
 therefore, we can use dfs, for a point (x,y) if it's '.' then we need to fill this empty space with a number in range of [0-9] and not appear in the row and column. Let us do it!
 
 The relationship between 36 & 37 is really great. We can use 36's solution to decide whether the 37's current Sudoku problem is correct. If it's right, we can keep searching the next state. If it's wrong, we should return.
+
+## 40. Combination Sum II
+
+It seems like a DFS problem too. Let us user a dfs to find all the answer.
+
+Or we can use Dynamic Programming. let mean DP[i] = how many combinations for number i.
+
+then answer is DP[target].
+
+We initialize the DP[each element of candidates] = 1
+
+OH...OH, there are problems, we will repeat using the candidates. (e.g., 1+2 =3 DP[3] = 1 DP[1] = 1, howevery, the 3 consist of 1, we cannot use 3+1 to conduct 4.)
+
+I still use dfs, then I am accepted...
+
+I think there is a better way to solve this problem.
