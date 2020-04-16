@@ -343,3 +343,23 @@ OH...OH, there are problems, we will repeat using the candidates. (e.g., 1+2 =3 
 I still use dfs, then I am accepted...
 
 I think there is a better way to solve this problem.
+
+## 41. First Missing Positive
+In this problem, we need to find the smallest missing positive integer in a Given an unsorted integer array.
+
+I need to work in O(n) time and O(1) space. If we use hash function, the space is not O(1). 
+
+**we can use bucket sort in the original array** What do this mean? We use the input vector to do this, we make a[i-1] = i
+a[0] = 1 a[1] = 2....
+
+But how can we put the corresponding numbers into the correct position? Well, we can swap it. If the number > length of the input vector, it certainly cannot be the order positive number. Thus, only it less than the n can be swap to the correct position.
+
+**my own code report wrong answer however std is correct** why???
+
+Because once swap is not enough. We need to keep swap until we cannot swap.
+
+In the deep comprehension, the swap time complexity is to find each number correct position. So the time complexity is less than O(n).
+
+**we need to determine whether a[i] > 0 first beacuse a[i] -1 can be overflow**
+
+Done.
