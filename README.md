@@ -363,3 +363,18 @@ In the deep comprehension, the swap time complexity is to find each number corre
 **we need to determine whether a[i] > 0 first beacuse a[i] -1 can be overflow**
 
 Done.
+
+## 42. Trapping Rain Water
+
+I think we can just use, for each point as the left wall we need to find the right wall.
+
+And for the right wall we need take it as the left wall, then we repeat this process unitl we find the end of the array.
+
+**attention!! if we do not find the great right wall, then we need let left wall ++ not let left wall be the right wall**
+
+Oh..., if the there is a lower floor like, 3,1,1,3 then the real capacity is 3-1! So we need to let a variable to be the baseline.
+
+
+Oh..., if the situation is 2 1 0 1 2 then the 1 and 1 will store 1 and 2 and 2 will store 3 therefore the answer is 3 + 1. we need to only calculate the same height.
+
+That's not correct too. We need to flag the last time right wall. If this time we find is the same as the last right wall. we need to still calculate it.
