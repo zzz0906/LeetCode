@@ -378,3 +378,9 @@ Oh..., if the there is a lower floor like, 3,1,1,3 then the real capacity is 3-1
 Oh..., if the situation is 2 1 0 1 2 then the 1 and 1 will store 1 and 2 and 2 will store 3 therefore the answer is 3 + 1. we need to only calculate the same height.
 
 That's not correct too. We need to flag the last time right wall. If this time we find is the same as the last right wall. we need to still calculate it.
+
+If there are like 3 1 3, if we only calculate 1*(2-0) we need to calculate the (2-0)*(3-1)
+
+Maybe we still need to use the original simulation ways. WALL DOWN UP (STOP HERE)DOWN
+
+It not seems correct. We need to use another methods. Or, we can scan the array first then compare the left and right whihc one is higer. I am a little lazy. Let me keep finishing it tomorrow.
