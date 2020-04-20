@@ -384,3 +384,18 @@ If there are like 3 1 3, if we only calculate 1*(2-0) we need to calculate the (
 Maybe we still need to use the original simulation ways. WALL DOWN UP (STOP HERE)DOWN
 
 It not seems correct. We need to use another methods. Or, we can scan the array first then compare the left and right whihc one is higer. I am a little lazy. Let me keep finishing it tomorrow.
+
+I gave up, this problem in my way, I need to write carefully. I think a more simple solution can make sense too.
+
+OH...someone use stack, whose solution is basical as mine. The solution is genius!
+
+we need to find the down up. and calculate once. Then we find the down up' left and right. Then it would be down up too? if it's we can calculate the rest part which not contain the middle down up. Therefore, we use stack.
+
+
+## 43. Multiply Strings
+
+It seems to return back to high school. We need to write a algorithm.
+
+We need to use https://en.wikipedia.org/wiki/Sch%C3%B6nhage%E2%80%93Strassen_algorithm to compute the product of two numbers.
+
+**please attention that the number we need to shift when we calculate the product by our hand.**

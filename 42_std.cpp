@@ -1,45 +1,35 @@
 #include <vector>
 #include <iostream>
+#include <stack>
 using namespace std;
 class Solution {
 public:
     int trap(vector<int>& height) {
-        if (height.size() == 0)
-            return 0;
-        int left_wall = 0;
-        int answer = 0;
-        while (left_wall < height.size()-1) {
-            int tmp_right_wall = left_wall + 1;
-            while (tmp_right_wall < height.size() && height[tmp_right_wall] < height[left_wall])
-                tmp_right_wall++;
-            if (tmp_right_wall != height.size()){
-                int last = left_wall;
-                int right_wall = left_wall + 1;
-                int tmp = 0;
-                while (right_wall < height.size() && height[last] > height[right_wall]){
-                    answer += height[last] - height[right_wall];
-                    tmp = last;
-                    last ++;
-                    right_wall ++;
-                }
-                if (right_wall < height.size())
-                    if (height[tmp] < height[right_wall]){
-                        answer+=height[right_wall] -height[tmp];
+        int n = height.size();
+        if(n<=2) return 0;
+        int res = 0;
+        stack<int> s;
+        for(int i=0;i<n;++i) {
+            if(s.empty()||height[i]<=height[s.top()])
+                s.push(i);//递减则入递减栈
+            else {
+            	//出现非递减的元素，则为右边界，将栈当中小于此边界的元素弹出计算可储水的量。
+                while(!s.empty()&&height[i]>height[s.top()]) {
+                //这里一定是while循环 如果左边有多个元素小于当前压栈值 持续出栈计算面积 
+                    int t = s.top();
+                    s.pop();
+                    //特殊情况 就是说没有左边界，此时需要判断栈是否为空如果为空直接跳出
+                    if(!s.empty()) {
+                    //根据左右边界计算面积
+                        int l = s.top();
+                        int h = min(height[l],height[i]) - height[t];
+                        int w = i - l - 1;
+                        res += h*w;
                     }
-                last ++;
-                right_wall++;
-                while (right_wall < height.size() && height[last] < height[right_wall]){
-                    answer += height[right_wall] -height[last];
-                    last ++;
-                    right_wall++;
                 }
-                if (right_wall == height.size())
-                    break;
-                left_wall = last;
+                s.push(i);
             }
-            else
-                break;
         }
-        return answer;
+        return res;
     }
 };
