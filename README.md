@@ -399,3 +399,10 @@ It seems to return back to high school. We need to write a algorithm.
 We need to use https://en.wikipedia.org/wiki/Sch%C3%B6nhage%E2%80%93Strassen_algorithm to compute the product of two numbers.
 
 **please attention that the number we need to shift when we calculate the product by our hand.**
+
+## 44. Wildcard Matching
+
+It's a difficult question. I need to find a way to match the '?' and '*' characters
+Maybe we can use dfs to solve '*' problems!
+
+Yes we can. But, it's TLE. Let me think how to solve this problem tomorrow.
