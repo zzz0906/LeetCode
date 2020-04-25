@@ -433,3 +433,20 @@ while (i < m) {
     } else return false;
 }
 ```
+
+## 45. Jump Game II
+
+Oh, it's a classical problem I have met it too many times. I shall use DP. Let me think the DP state tranfer equation. 
+f[i] = update by f[<i], so the steps before one point cannot influence the steps after this point.
+
+TLE.....
+IT's an interval cover problem?
+
+[----]
+
+[ ][----]
+We can transfer this two jump interval to the
+
+[---------]
+
+It's a binary search to find the last reach point for this problem?
