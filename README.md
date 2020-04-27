@@ -460,3 +460,9 @@ In 45 cpp we need to scan all of the jump vector and for each jump vector we als
 In the above std algorithm, we only optimize the each time we do not update the i+a[i]
 
 we only record in this time we can reach the farest point of our jump array.
+
+## 46. Permutations
+
+It's a regular question. However, it need to produce all permutations for the input. which means it's possible that sequence donot contain the original numbers.
+
+Maybe we can permutate the index? Yes, accepted... the medium problem is indeed easy.
