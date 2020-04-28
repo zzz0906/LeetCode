@@ -466,3 +466,11 @@ we only record in this time we can reach the farest point of our jump array.
 It's a regular question. However, it need to produce all permutations for the input. which means it's possible that sequence donot contain the original numbers.
 
 Maybe we can permutate the index? Yes, accepted... the medium problem is indeed easy.
+
+## 47. Permutations II
+
+I think this question is a similar question. We can just delete the same sequence. I hope to use hash table to delete the same sequence. Let me try it.
+
+OH...It has been accepted. But I think there is a more efficient way to implement our methods.
+
+OH, I use the index as the dfs key and use dfs to generate an index sequence. However, The std solution use to select a element of the input array. And in the second problem, if we have visited this combinations before, it means we have search this combinations before, the we need to prune. The velocity and time complexity of the pruning algorithm is faster than my dfs all and delete the same sequence.
