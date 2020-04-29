@@ -474,3 +474,17 @@ I think this question is a similar question. We can just delete the same sequenc
 OH...It has been accepted. But I think there is a more efficient way to implement our methods.
 
 OH, I use the index as the dfs key and use dfs to generate an index sequence. However, The std solution use to select a element of the input array. And in the second problem, if we have visited this combinations before, it means we have search this combinations before, the we need to prune. The velocity and time complexity of the pruning algorithm is faster than my dfs all and delete the same sequence.
+
+## 48. Rotate Image
+
+In this problem, it'a easy question too. It's a long time for no seeing the hard question like the pass days. We keep facing the hard question as a sequence.
+
+I shall not rotate the image instead of making a new one.
+
+we can rotate each element of the matrix and when cover one number and we need to find the conver one's next one.
+
+![alt text](./48.jpg "The key consideration")
+
+We use (i,j) -> (j,k-i-1) to represent the evolution.
+
+Also we use loop int the outside of the matrix unitl the inside.
