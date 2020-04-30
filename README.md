@@ -488,3 +488,14 @@ we can rotate each element of the matrix and when cover one number and we need t
 We use (i,j) -> (j,k-i-1) to represent the evolution.
 
 Also we use loop int the outside of the matrix unitl the inside.
+
+
+## 49. Group Anagrams
+
+In this problem, we hope to classify the same words combinations into the same gropus.
+
+I map to the same string into the same index. I shall use Trie. 
+
+I search in the Internet and find a genius datastructure——unordered_map.
+
+We can use bucket to compute the number of each char. And use this bucket a1b2c3 as the key and a list as the value.  Accept!
