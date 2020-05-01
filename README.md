@@ -499,3 +499,18 @@ I map to the same string into the same index. I shall use Trie.
 I search in the Internet and find a genius datastructure——unordered_map.
 
 We can use bucket to compute the number of each char. And use this bucket a1b2c3 as the key and a list as the value.  Accept!
+
+## 50. Pow(x, n)
+It's a really HARD QUESTION TODAY. I do not know how to solve this. Maybe we can use quick power or something.
+
+So, let us try quick power. We use recursive to implement this problem. 
+
+for 2^n we can compute 2^n/2 * 2^n/2, but, if we compute 2^n/2 * 2^n/2
+WE NEED TO COMPUTE THE X N
+
+FIRST WE NEED TO GET X N/2
+THEN WE LET RES = X N/2
+
+RES * RES = X N
+
+YES!!! accepted! I am so clever!
