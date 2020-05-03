@@ -526,3 +526,10 @@ I write a really ugly dfs algorithm. Then TLE...
 I need to speed it up. 
 
 I shall not use a n^2 loop to place the queen. I need to use to place a queen in current row! Yes! After this way, I pass this problem!
+
+## 52. N-Queens II
+It seems like a DP problem. The n = 4 is the solution of the n = 3 let me think of it. 
+
+It must have some law in this problem.
+
+Let me submit 51 again first. Accept...
