@@ -533,3 +533,34 @@ It seems like a DP problem. The n = 4 is the solution of the n = 3 let me think 
 It must have some law in this problem.
 
 Let me submit 51 again first. Accept...
+
+## 54. Spiral Matrix
+Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+
+It's a circle shape. I have done this in my high school. We right down left up right .... repeat until no way to go. If we have been to some place, we flag this place true. We need to walk through all nodes.
+
+I do not want to implement it today. It's too basic. Let me explore more efficiency solution. 
+
+Nope there is more complex solution. 
+
+*Attention:this solution we can know that we use a array to represent the up down right left. It really flexible and reconstruct for us.*
+
+## 56. Merge Intervals
+
+How familiar question. In my high school we know about the segment TREE. Maybe using lazy tag? like 1-18 if 1-3 2-6 overlap, 
+
+The most easiest way is to use bucket. 
+
+Oh, I cannot do it in this way. It must happen a overlap problem. If not like [1-4] [5-6] shall *not be* [1-6] *shall be* [1-4] [5-6]
+
+Let me use some sort algorithm.
+
+We can set two arrays. one for start of the interval one for end of the interval.
+then one array for storing the start of intervals
+one for storing the end of intervals.
+
+we interate the start and end as 0.
+
+if next start (nows+1) > now end (nowe) then we nowend ++ continue find unitl no next start < now end. Then we add the initial start and now end as a interval. Or the end is the last end. we cannot find more end.
+
+Accept!
