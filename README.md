@@ -564,3 +564,17 @@ we interate the start and end as 0.
 if next start (nows+1) > now end (nowe) then we nowend ++ continue find unitl no next start < now end. Then we add the initial start and now end as a interval. Or the end is the last end. we cannot find more end.
 
 Accept!
+
+##57. Insert Interval
+
+It seems a little easy to  use sort and find the start and end of the interval until no cover.
+
+Yes accept! We need to think about three situation, {} represent the new interval [] original interval
+1. {[]} continue
+2. {[}] record left
+3. [{]} record right
+
+As for [{}] it must satisfy both 2 and 3, becuase [ < } and ] > }
+
+Thus we can reduce all these into a interval. And then we insert it into the answer.
+
