@@ -578,3 +578,12 @@ As for [{}] it must satisfy both 2 and 3, becuase [ < } and ] > }
 
 Thus we can reduce all these into a interval. And then we insert it into the answer.
 
+## 58. Length of Last Word
+
+We need to find a split string and get the last string.
+
+**several important points**
+1. please handle all of the string is ' '
+2. please handle the string is ''
+
+Accept！
