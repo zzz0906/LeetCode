@@ -587,3 +587,20 @@ We need to find a split string and get the last string.
 2. please handle the string is ''
 
 Accept！
+
+## 59. Spiral Matrix II
+
+I have finish it before. Just simulate!!!
+It's a little easy! Just nail it!
+
+## 60. Permutation Sequence
+Use dfs to generate permutations like above question. And break in kth.
+
+Yes, accepted!
+
+## 61. Rotate List
+It seems a little easy too.
+Repeat simulating in the problem. again and again. Until no more k!
+
+or we can use a "mod" methods. we first reach the tail. and we need to find the
+m + n - k%n then we can reach the real position we need to as the tail and head. we just split this place!
