@@ -604,3 +604,9 @@ Repeat simulating in the problem. again and again. Until no more k!
 
 or we can use a "mod" methods. we first reach the tail. and we need to find the
 m + n - k%n then we can reach the real position we need to as the tail and head. we just split this place!
+
+## 64. Minimum Path Sum
+It's a typical case of DP.
+f[i,j] = min(f[i-1,j],j[j-1,i])
+
+Yes accept!
