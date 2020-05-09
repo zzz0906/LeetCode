@@ -610,3 +610,14 @@ It's a typical case of DP.
 f[i,j] = min(f[i-1,j],j[j-1,i])
 
 Yes accept!
+
+## 65. Valid Number
+
+We need to determine the number is valid or not.
+This seems a really really hard problem. We need to use FAM?
+
+We can design a FSM to analysis what we need to transfer to next state after inputting a char or operator. 
+
+We have many tranfer operator. 
+1. only space.
+2. 
