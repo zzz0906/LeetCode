@@ -643,3 +643,8 @@ And if we reach -1 then we return false. And We can return ture if we face 1,7,8
 ## 66. Plus One
 It's a little easy. Use for loop to simulate the carry a number up.
 
+## 67. Add Binary
+
+Also for big number add methods. Using string to simulate add. EASY!
+**Note: PLEASE USE REVERSE STRING AND REMIND THERE IS A MORE NUMBER IN THE END
+
