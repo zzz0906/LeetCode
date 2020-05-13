@@ -656,3 +656,6 @@ If there is only one word in the string we need to add more space in the end. I 
 
 **append(number,entity) append number*entity in the string or vector**s
 
+## 69. Sqrt(x)
+It's just return trunc(sqrt(x))
+...
