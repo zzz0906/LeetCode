@@ -659,3 +659,17 @@ If there is only one word in the string we need to add more space in the end. I 
 ## 69. Sqrt(x)
 It's just return trunc(sqrt(x))
 ...
+
+## 71. Simplify Path
+In this problem, we need to process the UNIX 
+1. Note that the returned canonical path must always begin with a slash /, 
+2. and there must be only a single slash / between two directory names. 
+3. The last directory name (if it exists) must not end with a trailing /. 
+4. Also, the canonical path must be the shortest string representing the absolute path.
+
+For requirement  1,2 we need to add / or Delete redundant slash 
+
+But there is also a .. question.
+
+Oh, I try to use stack to solve this problem. we split it by using slash. If we face a .. we need to pop. if we face a string not "." or "" we push it in our stack.
+Finally we output the stack in the reverse order.
