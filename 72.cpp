@@ -10,15 +10,34 @@ public:
         int c [word1.size()+2][word2.size()+2];
         memset(f, 0, sizeof(f));
         memset(c, 0, sizeof(f));
-        //left 1 oblique 2 up 3
+        //up 1 oblique 2 left 3
         for (int i = 0; i < word1.size();i++)
-            if (word1[i] == word2[0])
+            if (word1[i] == word2[0]){
                 f[i][0] = 1;
+                c[i][0] = 0;
+            }else{
+                if (i == 0)
+                    continue;
+                if (f[i-1][0] > f[i][0]){
+                    f[i][0] = f[i-1][0];
+                    c[i][0] = 1;
+                }
+            }
         for (int i = 0; i < word2.size();i++)
-            if (word1[0] == word2[i])
+            if (word1[0] == word2[i]){
                 f[0][i] = 1;
-        for (int i = 0; i < word1.length();i++){
-            for (int j = 0; j < word2.length();j++){
+                c[i][0] = 0;
+            }
+            else{
+                if (i == 0)
+                    continue;
+                if (f[0][i-1] > f[0][i]){
+                    f[0][i] = f[0][i-1];
+                    c[i][0] = 3;
+                }
+            }
+        for (int i = 1; i < word1.length();i++){
+            for (int j = 1; j < word2.length();j++){
                 if (word1[i] == word2[j]){
                     f[i][j] = f[i-1][j-1]+1;
                     c[i][j] = 2;
@@ -37,16 +56,33 @@ public:
         int currenty = word2.size()-1;
         int index = 0;
         while (c[currentx][currenty] != 0){
-            pos[index] = pair<int,int>(currentx,currenty);
+            if (c[currentx][currenty] == 0 || c[currentx][currenty] == 2){
+                pos[index] = pair<int,int>(currentx,currenty);
+                index++;
+            }
+            //cout<<currentx<<currenty<<endl;
             if (c[currentx][currenty] == 2){
                 currentx--;currenty--;
             }
-            if (c[currentx][currenty] == 1)
+            else if (c[currentx][currenty] == 1)
                 currentx--;
-            if (c[currentx][currenty] ==3)
+            else if (c[currentx][currenty] == 3)
                 currenty--;
-            index++;
+            
         }
+        if (c[currentx][currenty] == 0 || c[currentx][currenty] == 2){
+                pos[index] = pair<int,int>(currentx,currenty);
+                index++;
+        }
+        //final position
+        for (int i = 0; i <index;i++)
+            cout<<pos[i].first<<pos[i].second<<endl;
         // we get the LCS and its position.
+        // Then we need to conduct edit distance
+        return 0;
     }
 };
+int main(){
+    Solution s;
+    s.minDistance("abfg","bd");
+}
