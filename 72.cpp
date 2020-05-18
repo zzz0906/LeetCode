@@ -77,12 +77,35 @@ public:
         //final position
         for (int i = 0; i <index;i++)
             cout<<pos[i].first<<pos[i].second<<endl;
+        int lastforor = 0;
+        int lastfortarget = 0;
+        int cost = 0;
+        for (int i = 0; i <index; i++){
+            int modifyle = pos[i].second - lastfortarget;
+            int orgle = pos[i].first - lastforor;
+            if (modifyle == orgle){
+                cost+=modifyle;
+            }else{
+                cost+=modifyle + abs(modifyle-orgle);
+            }
+            lastfortarget = pos[i].second+1;
+            lastforor = pos[i].first+1;
+        }
+        int modifyle = (word2.size()-1)-(pos[index-1].second);
+        int orgle = (word1.size()-1)-(pos[index-1].first);
+        if (modifyle == orgle){
+            cost+=modifyle;
+        }else{
+            cost+=modifyle + abs(modifyle-orgle);
+        }
         // we get the LCS and its position.
         // Then we need to conduct edit distance
-        return 0;
+        return cost;
     }
 };
 int main(){
     Solution s;
-    s.minDistance("abfg","bd");
+    cout<<s.minDistance("intention","execution")<<endl;
+    // 3 + 1 + 3 = 7
+    
 }

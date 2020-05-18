@@ -700,4 +700,11 @@ if there is not enough char for us, we cannot use replace operation. Then we can
 
 It's my idea.
 
-The standard answer say that we can just take the all questions as a DP. 
+The standard answer say that we can just take the all questions as a DP.
+
+myidea seems wrong. if we need to match the first char for LCS then it cost will be higher.
+
+![alt text](./72_1.jpg "The key consideration")
+![alt text](./72_2.jpg "The key consideration")
+
+Thus we still need to dp the whole question, let me finish it tomorrow.
