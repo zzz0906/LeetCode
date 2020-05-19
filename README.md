@@ -708,3 +708,8 @@ myidea seems wrong. if we need to match the first char for LCS then it cost will
 ![alt text](./72_2.jpg "The key consideration")
 
 Thus we still need to dp the whole question, let me finish it tomorrow.
+
+It's really easy to use DP!!! 
+we let f[i][j] means the edit distance for string before i and j. Then we can know the update question shown as below:
+
+![alt text](./72_3.jpg "The key consideration")
