@@ -727,3 +727,8 @@ if it had been 0, we can just mark it in a zero row or column we mark it. like 1
 This is a constant space but we need to run more interate. 
 
 If we can memoize two array for rows and columns, it turns out to be an easy problem.
+
+## 74. Search a 2D Matrix
+
+It's a easy problem. We can just flatten the matrix into a 1D array. Then use binary search algorithm in the 1d array. DONE.
+
