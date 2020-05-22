@@ -732,3 +732,16 @@ If we can memoize two array for rows and columns, it turns out to be an easy pro
 
 It's a easy problem. We can just flatten the matrix into a 1D array. Then use binary search algorithm in the 1d array. DONE.
 
+## 75. Sort Colors
+
+A rather straight forward solution is a two-pass algorithm using counting sort.
+First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.
+Could you come up with a one-pass algorithm using only constant space?
+
+I see this problem and I want to use a bucket array. But I can only use one pass algorithm. 
+
+I see the std and understand. we can record a point for the start of the array, and a point for the end of the array. Then we scan the array, when we meet a 1, we can just ignore. if we meet a 2, we need to swap it with the end of the array, cause it shall be at the end. and if we meet a 0, we need to swap it with the start of the array.
+
+Attention, we still need to find the i-- for this problem. if we swap with the end of the array, we need to search the end of the array again. 
+
+It's a really clever idea.
