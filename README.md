@@ -745,3 +745,7 @@ I see the std and understand. we can record a point for the start of the array, 
 Attention, we still need to find the i-- for this problem. if we swap with the end of the array, we need to search the end of the array again. 
 
 It's a really clever idea.
+
+## 76. Minimum Window Substring
+
+In this question, we figure out a minimum window for this problem. I consider a problem, if we match a char in the target, shall we match it?
