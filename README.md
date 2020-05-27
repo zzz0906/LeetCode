@@ -749,3 +749,17 @@ It's a really clever idea.
 ## 76. Minimum Window Substring
 
 In this question, we figure out a minimum window for this problem. I consider a problem, if we match a char in the target, shall we match it?
+
+let me think about it.  We ADOBEC=>contains ABC but we 
+
+brute way=> find all string
+
+how about recording all the position of the sub-string. if a updated char match, we can delete before character. ADOBECODEBANC
+That's wrong, we cannot use greedy algorithms.
+
+First we need use Hashmap to record the target string.
+
+How about using two point. one point is at the start of the match stirng, one point is at the end of the match string. if we find a new match string, we expand the end of the match string and reduce the start of the string. Each time we find the new string, we can compare it wtih the answer string.
+
+when we match the all char in target string, we shall stop and move the start of the string and until we cannot match the target character. And at that point, we shall move the end of the point. Each time we find a new matched string, we can compare it wtih the answer string.
+
