@@ -763,3 +763,10 @@ How about using two point. one point is at the start of the match stirng, one po
 
 when we match the all char in target string, we shall stop and move the start of the string and until we cannot match the target character. And at that point, we shall move the end of the point. Each time we find a new matched string, we can compare it wtih the answer string.
 
+77. Combinations
+
+How about dfs, I think dfs is a good way to 
+
+Attention:
+
+* [1,2] == [2,1], Thus we can just dfs the next one is more than the last one. e.g., [1,2] [2,3].
