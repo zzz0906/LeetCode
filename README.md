@@ -284,9 +284,9 @@ Then we can use dichotomy(binary search) to find the really number we need.
 
 I have this idea, but it is really hard to implement it. Then I refer to why do not mix two processes, finding the target and finding the rotation point.
 
-If the mid value is less than end, then we can know the the mid to the end is in the ascending order. Then, if target is bigger than mid value, then we need to keep searching in the right. If the target is less than mid we must keep to search in the right.
+If the mid value is less than end, then we can know the the mid to the end is in the ascending order. Then, if target is bigger than mid value, then we need to keep searching in the right. If the target is less than mid we must keep to search in the left.
 
-If the mid value is bigger than the end, we know the begin (e.g, 3 4 5 6 0 1 2) then the right is in the ascending order. therefore if the target is less than the mid value, we need to search the target in the right part of the array. otherwise, we need to search in the left part of the array. 
+If the mid value is bigger than the end, we know the begin (e.g, 3 4 5 6 0 1 2) then the right is in the ascending order. therefore if the left is bigger than the target && target is less than the mid value, we need to search the target in the right part of the array. otherwise, we need to search in the left part of the array. 
 
 ## 34. Find First and Last Position of Element in Sorted Array
 
@@ -787,3 +787,13 @@ Given a sorted array nums, remove the duplicates in-place such that duplicates a
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 
 Maybe just scan and record the last one, and only permit the last one show up twice.
+
+81. Search in Rotated Sorted Array II
+
+Suppose an array sorted in ascending order. 
+
+I think we can get the original array back. It contains the duplicates. It's a little difference with 32. for input [2,5,6,0,0,1,2], target 3, it shall output false.
+
+I am wrong, it seems really different with the last one. I understand why we cannot use 33's solution. for example, [3 1 1] [1 1 3 1], the 1 == 1, but 3 can show in the left or the right. 
+
+Std use a simple tricks. we move the right pointer to a different position which do not haec the duplicates.
