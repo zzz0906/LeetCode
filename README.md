@@ -797,3 +797,8 @@ I think we can get the original array back. It contains the duplicates. It's a l
 I am wrong, it seems really different with the last one. I understand why we cannot use 33's solution. for example, [3 1 1] [1 1 3 1], the 1 == 1, but 3 can show in the left or the right. 
 
 Std use a simple tricks. we move the right pointer to a different position which do not haec the duplicates.
+
+## 82. Remove Duplicates from Sorted List II
+I think this is a simple question. we need to record the last one, if it's the same as the last then delete it!
+
+It's a little complicated thant the below thought. Because it need to remove duplicates, we need to record the last one before the duplicates. Then we need to process if duplicates in the head. Then we need to find the next duplicates ones and delete them and let the back link to the next header. then fidn the duplicates ones after the head.
