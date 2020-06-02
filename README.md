@@ -802,3 +802,9 @@ Std use a simple tricks. we move the right pointer to a different position which
 I think this is a simple question. we need to record the last one, if it's the same as the last then delete it!
 
 It's a little complicated thant the below thought. Because it need to remove duplicates, we need to record the last one before the duplicates. Then we need to process if duplicates in the head. Then we need to find the next duplicates ones and delete them and let the back link to the next header. then fidn the duplicates ones after the head.
+
+## 83. Remove Duplicates from Sorted List
+
+It‘s a easy version of last question. we can only need to remove duplicates. I write a wrong version of last question as this question. Therefore, let me write it. we can just delete use *lasttmp* and keep it and delete the duplicates ones.
+
+Yes, **atention in the last we need to determine whether delete or link to the last**
