@@ -808,3 +808,7 @@ It's a little complicated thant the below thought. Because it need to remove dup
 It‘s a easy version of last question. we can only need to remove duplicates. I write a wrong version of last question as this question. Therefore, let me write it. we can just delete use *lasttmp* and keep it and delete the duplicates ones.
 
 Yes, **atention in the last we need to determine whether delete or link to the last**
+
+## 84. Largest Rectangle in Histogram
+
+We need to find the largest rectangle in a histogram. This problem really only seems like a above problem. maybe we can choose one pillar and extends to the left and right. 
