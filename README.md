@@ -811,4 +811,23 @@ Yes, **atention in the last we need to determine whether delete or link to the l
 
 ## 84. Largest Rectangle in Histogram
 
-We need to find the largest rectangle in a histogram. This problem really only seems like a above problem. maybe we can choose one pillar and extends to the left and right. 
+We need to find the largest rectangle in a histogram. This problem really only seems like a above problem. maybe we can choose one pillar and extends to the left and right. Oh...oh, that's correct but TLE. I need to choose another efficient way.
+
+I find that, in my extends method, we need to find the shorter one for the pillar which means we cannot extend. the first mini value for the current pillar.  we need to nlogn. I have an idea.
+
+We can record a bucket array, each one recording the index value corresponding index in the histogram.
+e.g., 2 1 5 6 2 3
+
+Then our 2D array is
+0->0
+
+1->1
+
+2->0->4
+Then we can use O(n) time to do that.
+
+Then we need to find a minimum value for each value. Then we need to find the farest which means the minium position for current value.
+
+for 2 we need to find 1 the 1 position is 1.
+
+Oh, that's seems incorrect. We need to find the least distance, first less value. not least less value.
