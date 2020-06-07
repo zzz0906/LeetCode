@@ -831,3 +831,18 @@ Then we need to find a minimum value for each value. Then we need to find the fa
 for 2 we need to find 1 the 1 position is 1.
 
 Oh, that's seems incorrect. We need to find the least distance, first less value. not least less value.
+
+We need to use a data structure which can find the closest less value.
+
+we seems to use stack is a good choice like above problem. First decrease then increase. or increase directly.
+
+But how can I use stack to finish the find the cloest mini value.
+
+### STD solution
+I read the std solution. I found that it push a 0 at the final. 
+
+How can we use a stack to process the array. We can know that the answer if we face a decrease sequence we almost find an answer.
+like 4 5 6 5, then we can know we need to process the <5 pillar before this 5. in 4 5 6 5, the 6 5 is decreasing, and there almost are existing an answer. so we need to find in the increase sequece 4 5 6, which one is the most cloest to 5 but > 5 is 5.
+then we need to 5 6 5 this be an answer. 5*3 6*1. Then we need to keep processing, becase 4 5 6 5, 5>4, we can keep add value.
+
+But,if we record the height of pillar,we cannot compute the distance. Thus, we record the index. 4,5,6,5; 0,1,2,3, when index 3 coming, 1,2 pop out, then it turns into 0,3. Then because in the first, we add a zero at then final, it must out, then we can know that, the answer 4 can be 0,3,4. (4-0-1)*4 = 12 is the final answer.

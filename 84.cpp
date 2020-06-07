@@ -3,6 +3,7 @@ public:
     int largestRectangleArea(vector<int>& heights) {
         if (heights.size() == 0)
             return 0;
+        cout<<heights.size()<<endl;
         int minumum = INT_MIN;
         for (int i = 0; i < heights.size(); i++) {
             int left = i;
