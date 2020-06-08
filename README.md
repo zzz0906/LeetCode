@@ -846,3 +846,21 @@ like 4 5 6 5, then we can know we need to process the <5 pillar before this 5. i
 then we need to 5 6 5 this be an answer. 5*3 6*1. Then we need to keep processing, becase 4 5 6 5, 5>4, we can keep add value.
 
 But,if we record the height of pillar,we cannot compute the distance. Thus, we record the index. 4,5,6,5; 0,1,2,3, when index 3 coming, 1,2 pop out, then it turns into 0,3. Then because in the first, we add a zero at then final, it must out, then we can know that, the answer 4 can be 0,3,4. (4-0-1)*4 = 12 is the final answer.
+
+## 85. Maximal Rectangle
+
+I need to find the maximum all 1 rectangle in a 0,1 rectangle. Can I use dfs to expansion the all 1 rectangle starting from a point in the rectangle?
+
+Nope, It must TLE. Focus on finding the regular pattern, It's another version of 84.
+
+If we take the column as the x-axis of the histogram, and row as the y axis.
+
+When we face a zero, we just cut it down and let it move to the 0 position. like
+
+1 0 1
+
+1 1 0
+
+1 1 1
+
+for the row, 1 1 0, when we face a 0, we already have a 0 in the third pillar, then in the 1 1 1 in the last row, the last column's pillow shall be 1. Thus, the answer is 2*2. We record a height array, and scan each row. when we face a 1 then let the height[i], this column ++, or if we face a zero, we cannot keep a continuous pillar, then we let the pillar = 0.
