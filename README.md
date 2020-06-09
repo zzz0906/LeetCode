@@ -864,3 +864,8 @@ When we face a zero, we just cut it down and let it move to the 0 position. like
 1 1 1
 
 for the row, 1 1 0, when we face a 0, we already have a 0 in the third pillar, then in the 1 1 1 in the last row, the last column's pillow shall be 1. Thus, the answer is 2*2. We record a height array, and scan each row. when we face a 1 then let the height[i], this column ++, or if we face a zero, we cannot keep a continuous pillar, then we let the pillar = 0.
+
+## 86. Partition List
+Partition it into two list which one is greater than the value and the other is less than the value.
+
+I use a if else to dertermin if it's the first time to build a *less than list* or a *more than list*. I think it will consume a little more time. However it run faster than 91.5% programs.
