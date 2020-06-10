@@ -869,3 +869,15 @@ for the row, 1 1 0, when we face a 0, we already have a 0 in the third pillar, t
 Partition it into two list which one is greater than the value and the other is less than the value.
 
 I use a if else to dertermin if it's the first time to build a *less than list* or a *more than list*. I think it will consume a little more time. However it run faster than 91.5% programs.
+
+## 87. Scramble String
+I think it's a easy question too. I think I misjudge it again. abcde caebd. In my understanding, if we need to produce a scramble string, we need to cut it, and reverse one of the cut one.
+how about tring everywhere in the second string and reverse one of the string?
+
+we may choose any non-leaf node and swap its two children. => the part of the string has been reversed
+
+It seems a clone detection problem. 
+
+wrong example abc bca => true ? why?.... abc => a, bc then it can be bc a.
+
+I thnik maybe in the stack, there are some point we reverse it. I cannot simplely reverse it. Let me do it tomorrow.
