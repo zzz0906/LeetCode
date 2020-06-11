@@ -885,3 +885,8 @@ I thnik maybe in the stack, there are some point we reverse it. I cannot simplel
 Above is not correct!!! becuase it's a binary tree.
 
 This is a typical recursive or dp problem. Think about that, for a string s1 and string s2. If it's scramble which means s1 or s2 has been divided into two strings. s11 s12, s21,s22. For this four string, we may exactly know that the s11 == s21 or s12 == s22. **OR** s11 == s22 s12 == s21 it has been scrambled. But it's not enough, because s11 is not having to equal to s21 or s22, it can be scramble of s21 or s22. Therefore, we can use recursive. This consideration is genius!
+
+## 88. Merge Sorted Array
+basical question.
+
+**you should know that you should add it to the nums1** I use insert then nums1's size changed. Thus, I need to use resize to apply for nums1.
