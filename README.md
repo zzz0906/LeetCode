@@ -890,3 +890,22 @@ This is a typical recursive or dp problem. Think about that, for a string s1 and
 basical question.
 
 **you should know that you should add it to the nums1** I use insert then nums1's size changed. Thus, I need to use resize to apply for nums1.
+
+## 89. Gray Code
+bachelor's course digital circuits. LET me to review it.
+
+The principal: The highest number save and n xor n-1 => n-1
+
+We can use recursive for this problem!
+
+for 3 is equal to 
+
+2's gray code
+
+reverse the gray code array. add 1 to the head
+
+0,2,3,1 => 00 01 11 10 => 110 111 101 100
+
+Remeber add 0 to the head like 0,1 because when I transfer a 0 or 1 to a two-sequence binary, it will not have zero at the head.
+
+faster than 8.35% of C++ online submissions for Gray Code.
