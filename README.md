@@ -915,3 +915,24 @@ Use 79's solution. But we cannot contain the same combinations.
 
 I accept it. Even though I am little confused. first I sort the nums array. and get 1,3,3,3,....X some array like this. Then I use different situation to dicuss it. If the last one is same as current one. (because I sort it, the last one must be the same as this one or there is no same number for this index.) Then I only consider the last one exists situation. Because if last do not exists, and I fill current one, because I first think about fill a number to the answer array. Then if last one do not exist which means we have choosen the last one in a iteration of dfs. Then I choose a same value in this round but not choose the last same value,which can cause duplicate. Therefore, if the last one is not same the current one, we use regular dfs. If last one is same as the current one, we only dfs when last exists!! (including contain or not contain).
 
+## 91. Decode Ways
+
+It certainly a DP problem. It'a problem of splitting the numbers into the different ways with 1..26 numbers.
+
+1345=> 1,3,4,5 => 13,4,5
+
+Therefore we mostly can divide it into 2 numbers 10-26
+
+xxxxab = xxxxa,b + xxxx (ab)[when ab <= 26 and a != 0]
+
+**atention** there is no 0 in the a-z. which means 40 => 0
+
+OH...NO, I cannot use recursive. I shall use DP which more faster.
+
+F[i] means before index i we can construct.
+
+if s[i] == '0' f[i] = f[i-2] if s[i-1] != 1 or 2 then return 0. because no 00 30 40 ...
+
+else f[i] = f[i-1] + f[i-2]
+
+Yes I accepted by dp. I real recognize how to use DP.
