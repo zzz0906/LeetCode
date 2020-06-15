@@ -936,3 +936,19 @@ if s[i] == '0' f[i] = f[i-2] if s[i-1] != 1 or 2 then return 0. because no 00 30
 else f[i] = f[i-1] + f[i-2]
 
 Yes I accepted by dp. I real recognize how to use DP.
+
+## 92. Reverse Linked List II
+
+Reverse a linked list from position m to n. Do it in one-pass.
+
+count it. It just a code problem. It test your coding ability.
+
+OHOHOH 1pass accept. I carefully think about the count and we need to choose the split part of the link list.
+
+I divided it into whether m == 1 or not == 1.
+
+when m == 1 we only need to reverse it to record the tale and head. each time I add a new one and take this one as head. In then end I connect the tale to element after the n. and return new head. This
+
+In the same way, we link the m to the new head. And we return the old head if m != 1.
+
+
