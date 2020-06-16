@@ -951,4 +951,16 @@ when m == 1 we only need to reverse it to record the tale and head. each time I 
 
 In the same way, we link the m to the new head. And we return the old head if m != 1.
 
+93. Restore IP Addresses
 
+Given a string containing only digits, restore it by returning all possible valid IP address combinations.
+
+1-4.1-4.1-4.1-4 is the ip address. 
+
+Thus which can have [0-255],[0-255],[0-255],[0-255]. In this situation, we can use dfs...
+
+First, we try 1,2,3 then keep tring until we try 4 times to represent the 4 ip address.
+
+also, when we try 3 times in each 4 times, to try 1,2,3 digits. 
+
+**attention in std's dfs, it use a &references to represent the answer. it really great to add the change value as the parameter not like me use a global value. And std determine whether it valid in 4 times determination every time.**
