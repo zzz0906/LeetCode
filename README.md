@@ -964,3 +964,13 @@ First, we try 1,2,3 then keep tring until we try 4 times to represent the 4 ip a
 also, when we try 3 times in each 4 times, to try 1,2,3 digits. 
 
 **attention in std's dfs, it use a &references to represent the answer. it really great to add the change value as the parameter not like me use a global value. And std determine whether it valid in 4 times determination every time.**
+
+## 94. Binary Tree Inorder Traversal
+
+Inorder, typical question, which means left father right, the father is in the traverse's middle.
+
+First we need to traverse left, if there is a left we need to traverse. Then recording the traverse current position. Then record next.
+
+**attention remeber process NULL situation**
+
+It's really easy.
