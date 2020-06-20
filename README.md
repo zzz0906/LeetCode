@@ -999,3 +999,11 @@ Let me so how DP works. First, s1'length + s2'length = s3'length. And F[0][0] = 
 Thus the equation is dp[i][j] = (dp[i - 1][j] && s1[i - 1] == s3[i - 1 + j]) || (dp[i][j - 1] && s2[j - 1] == s3[j - 1 + i]);.
 
 **attention the string's first index is 0-n-1 but in the dp array begin at 1**
+
+## 98. Validate Binary Search Tree
+
+It's my wechat interview question. The only question is that the all element of left tree shall be less than the root.
+
+Maybe we can generate a binary search tree sequence or repeat use recursive like above questions.
+
+Oh...ps...I am so sorry. That's a really easy question. I think if we can solve it in the wechat interview...I am so distressed. Ugh... That's a really easy question.
