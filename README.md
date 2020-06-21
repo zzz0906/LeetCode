@@ -1007,3 +1007,19 @@ It's my wechat interview question. The only question is that the all element of 
 Maybe we can generate a binary search tree sequence or repeat use recursive like above questions.
 
 Oh...ps...I am so sorry. That's a really easy question. I think if we can solve it in the wechat interview...I am so distressed. Ugh... That's a really easy question.
+
+## 99. Recover Binary Search Tree
+
+To elements exchange, which means maybe we can try to exchange the val of father and child or two children?
+
+A solution using O(n) space is pretty straight forward.?
+
+Let us see the std.
+
+Oh...u can see that if we inorder traverse the tree. 
+
+YES, we use inorder traversal. And sort the inorder sequence like 1,2,4,5 => then we can know that if it is in the order it must refer to the original node and only exchange two nodes. 
+
+But this is not the standard solution. We must use Morris traversal. 
+
+And I thnik the std use morris traverse like the general inorder traversal. record a first and second node. When we find an anominal point. we ensure it. And find the most higher node in the tree. I do not know why this is correct. But it works.

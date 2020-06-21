@@ -12,15 +12,19 @@
 class Solution {
 public:
     vector<int> answer;
+    vector<TreeNode*> Nodelist;
     void dfs(TreeNode * current_node){
         if (current_node->left != NULL)
             dfs(current_node->left);
+        Nodelist.push_back(current_node);
         answer.push_back(current_node->val);
         if (current_node->right != NULL)
             dfs(current_node->right);
     }
-    vector<int> inorderTraversal(TreeNode* root) {
+    void recoverTree(TreeNode* root) {
         dfs(root);
-        return answer;
+        sort(answer.begin(), answer.end());
+        for (int i = 0; i < Nodelist.size();i++)
+            Nodelist[i]->val = answer[i];
     }
 };
