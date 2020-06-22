@@ -1023,3 +1023,14 @@ YES, we use inorder traversal. And sort the inorder sequence like 1,2,4,5 => the
 But this is not the standard solution. We must use Morris traversal. 
 
 And I thnik the std use morris traverse like the general inorder traversal. record a first and second node. When we find an anominal point. we ensure it. And find the most higher node in the tree. I do not know why this is correct. But it works.
+
+## 101. Symmetric Tree
+
+It's a easy question. We only need to determine whether the left tree and right tree is the same tree.
+
+I recently find use one line in the dfs like return dfs() && dfs () is really convenient.
+
+Oh it need symmetric. Not the same tree. Therefore the left shall be the right and the right shall be the left.
+
+Yes accept. It's easy.
+
