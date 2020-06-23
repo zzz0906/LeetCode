@@ -1034,3 +1034,10 @@ Oh it need symmetric. Not the same tree. Therefore the left shall be the right a
 
 Yes accept. It's easy.
 
+## 102. Binary Tree Level Order Traversal
+Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
+
+At the first, I think to add the depth in the dfs. It seems easy now and from left to the right.
+
+Yes, add the depth parameter and according to the depth to put the entry into the array.
+
