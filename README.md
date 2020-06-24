@@ -1055,3 +1055,6 @@ I need to use bfs to control it.
 No, I suddenly find a easy way. We can use dfs and reverse the odd level.
 
 Yes...That's tricky.
+
+## 104. Maximum Depth of Binary Tree
+Really easy. Just dfs and record depth.
