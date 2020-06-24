@@ -1041,3 +1041,17 @@ At the first, I think to add the depth in the dfs. It seems easy now and from le
 
 Yes, add the depth parameter and according to the depth to put the entry into the array.
 
+
+## 103. Binary Tree Zigzag Level Order Traversal
+
+Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
+
+In contrast with 102, it need a zigzag order. let me think about it. in the next odd (begin at 0) level, we need to first right then left. 
+
+That's not correct, if last Level through dfs in the another sequence, current level will keep using this sequence.
+
+I need to use bfs to control it.
+
+No, I suddenly find a easy way. We can use dfs and reverse the odd level.
+
+Yes...That's tricky.
