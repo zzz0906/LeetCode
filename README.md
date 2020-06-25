@@ -1058,3 +1058,12 @@ Yes...That's tricky.
 
 ## 104. Maximum Depth of Binary Tree
 Really easy. Just dfs and record depth.
+
+## 105. Construct Binary Tree from Preorder and Inorder Traversal
+
+the preorder traversal is middle left right.
+the inorder traversal is left middle right.
+
+Therefore, the we can first find the middle point and construct a binary tree. Then we can recursive.
+
+Yes, this is correct. AC!
