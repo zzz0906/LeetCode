@@ -1067,3 +1067,23 @@ the inorder traversal is left middle right.
 Therefore, the we can first find the middle point and construct a binary tree. Then we can recursive.
 
 Yes, this is correct. AC!
+
+## 106. Construct Binary Tree from Inorder and Postorder Traversal
+
+It just put the middle in the end of the tree. like the 105.
+
+Yes I change the postorder to the another version of the preorder. AC!
+
+## 107. Binary Tree Level Order Traversal II
+
+Just reverse the answer of 103.
+
+## 108. Convert Sorted Array to Binary Search Tree
+
+Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
+
+a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+
+Tha's means we need to split in the middle and let left as the left tree and right as the right tree.
+
+We can use recursive again! Yes! AC!
