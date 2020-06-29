@@ -1090,3 +1090,19 @@ We can use recursive again! Yes! AC!
 
 ## 109. Convert Sorted List to Binary Search Tree
 It just tranfer to 108. It's a simple question.
+
+## 110. Balanced Binary Tree
+WE CAN JUST COMPARE THE Maximum Depth OF TWO TREES.
+
+It seems a not easy question. above ways is not correct. 
+
+It means the height diff between left tree and right tree shall less than 1. YES it shall use iteration.
+
+## 111. Minimum Depth of Binary Tree
+
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Just DFS and fin the minimum depth. But it seems not fast?
+
