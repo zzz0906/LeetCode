@@ -1106,3 +1106,7 @@ The minimum depth is the number of nodes along the shortest path from the root n
 
 Just DFS and fin the minimum depth. But it seems not fast?
 
+### 112. Path Sum
+Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.
+
+We need to start at the root node and search through the root until we reach the leaf. Then we need to see whether we get the equal value. And pay attention to null tree situation.
