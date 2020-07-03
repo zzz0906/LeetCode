@@ -1110,3 +1110,9 @@ Just DFS and fin the minimum depth. But it seems not fast?
 Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.
 
 We need to start at the root node and search through the root until we reach the leaf. Then we need to see whether we get the equal value. And pay attention to null tree situation.
+
+### 112. Path Sum II.
+
+It's a really similar question as 112. We can just search all the states and record the answer.
+
+Yes that's correct. But a lttile slow.
