@@ -1116,3 +1116,13 @@ We need to start at the root node and search through the root until we reach the
 It's a really similar question as 112. We can just search all the states and record the answer.
 
 Yes that's correct. But a lttile slow.
+
+### 114. Flatten Binary Tree to Linked List
+
+It's a really interesting question. First, I think it's a easy question. We can just dfs and put it in list.
+
+But the tree need to be done in place. Therefore, we need to do following: (according to std):
+
+1. cut the root right to the end of the the left subtree of right.
+2. cut the left subtree to right of the root.
+3. let the left tree as null. And take the root current subtree as root, repeat this process.
