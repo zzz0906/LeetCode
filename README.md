@@ -1139,3 +1139,5 @@ Let F[i][j] represent the first i char of S, the number of distinct subsequences
 F[i][j] = F[i-1][j] (S[i] != T[j]) else T[j] == S[i]
 
 F[i-1][j-1] + F[i-1][j] => we can match or not.
+
+We shall consider this problem based on i-1 of S and J not **i,j-1** because we must match T.
