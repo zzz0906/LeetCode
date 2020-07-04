@@ -1126,3 +1126,16 @@ But the tree need to be done in place. Therefore, we need to do following: (acco
 1. cut the root right to the end of the the left subtree of right.
 2. cut the left subtree to right of the root.
 3. let the left tree as null. And take the root current subtree as root, repeat this process.
+
+### 115. Distinct Subsequences
+Given a string S and a string T, count the number of distinct subsequences of S which equals T.
+
+subsequences of S == T.
+
+I fell this question is a DP.
+
+Let F[i][j] represent the first i char of S, the number of distinct subsequences of the first j char of T.
+
+F[i][j] = F[i-1][j] (S[i] != T[j]) else T[j] == S[i]
+
+F[i-1][j-1] + F[i-1][j] => we can match or not.
