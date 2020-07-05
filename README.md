@@ -1141,3 +1141,13 @@ F[i][j] = F[i-1][j] (S[i] != T[j]) else T[j] == S[i]
 F[i-1][j-1] + F[i-1][j] => we can match or not.
 
 We shall consider this problem based on i-1 of S and J not **i,j-1** because we must match T.
+
+### 116. Populating Next Right Pointers in Each Node
+
+You may only use constant extra space.
+
+Recursive approach is fine, you may assume implicit stack space does not count as extra space for this problem.
+
+It's hard to think of not using other constant space.
+
+I find a genius solution in std. if we have done the last level next. Then we can know the **right->next = father->next->left**.
