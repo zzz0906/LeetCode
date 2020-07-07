@@ -1161,3 +1161,7 @@ That's cannot be implemented as this way. There may be the root->next->next->nex
 I add too many if else that's so complex.
 
 The std if else is more simple. It shall determine the next same level node. if find the node has left or right children then stop. A very simple idea!
+
+## 118. Pascal's Triangle
+
+It's really easy. I do it in high school. Just simulate.
