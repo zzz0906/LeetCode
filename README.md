@@ -1151,3 +1151,13 @@ Recursive approach is fine, you may assume implicit stack space does not count a
 It's hard to think of not using other constant space.
 
 I find a genius solution in std. if we have done the last level next. Then we can know the **right->next = father->next->left**.
+
+## 117. Populating Next Right Pointers in Each Node II
+
+It's a similar question as 117, but it does not a perfect binary tree.
+
+That's cannot be implemented as this way. There may be the root->next->next->next has something and we need to link this two.
+
+I add too many if else that's so complex.
+
+The std if else is more simple. It shall determine the next same level node. if find the node has left or right children then stop. A very simple idea!
