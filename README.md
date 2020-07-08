@@ -1165,3 +1165,8 @@ The std if else is more simple. It shall determine the next same level node. if 
 ## 118. Pascal's Triangle
 
 It's really easy. I do it in high school. Just simulate.
+
+## 119. Pascal's Triangle II
+？？？. return 118[k].
+
+Yes accept...
