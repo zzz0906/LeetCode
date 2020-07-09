@@ -1170,3 +1170,14 @@ It's really easy. I do it in high school. Just simulate.
 ？？？. return 118[k].
 
 Yes accept...
+
+## 120. Best Time to Buy and Sell Stock II
+Say you have an array prices for which the ith element is the price of a given stock on day i.
+
+Design an algorithm to find the maximum profit. You may complete as many transactions as you like (buy one and sell one share of the stock multiple times).
+
+I think this is the biggest sum of minus interval value. 
+
+I think it's a little hard to sovlve. 
+
+STUPID!!! IF tomorrow price is higher than yesterday, then buy it. KEEP buying it.
