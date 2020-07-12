@@ -1181,3 +1181,27 @@ I think this is the biggest sum of minus interval value.
 I think it's a little hard to sovlve. 
 
 STUPID!!! IF tomorrow price is higher than yesterday, then buy it. KEEP buying it.
+
+## 123. Best Time to Buy and Sell Stock III
+It's a hard question, we need to sell the stock before we buy it again but we only have two chance to do the transactions.
+
+It's hard than 120,121,122. I see the std solution. It use DP. 
+
+we need to define f[i][j] as the maximum profit in i days and j times transactions.
+
+And std define two array, one for local array as the last transaction is in the jth day and global which do not need to last transaction is in the j th day.
+
+the local shall be transfered from the 
+1. buy today Global(i-1, j-1)
+2. buy yesterday i-1 days and j-1 transaction global value + i-1,i diff 
+3. buy more days ago but sell in yesterday local(i-1,j) but we shall sell it today
+
+and the global answer shall be tranfered from local and yesterday's global results.
+
+## 124.Binary Tree Maximum Path Sum
+Given a non-empty binary tree, find the maximum path sum.
+
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+
+It remind me of LCA. It seems a compression and dp problem in high school. 
+
