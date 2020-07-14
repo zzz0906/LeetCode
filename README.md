@@ -1205,3 +1205,11 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 
 It remind me of LCA. It seems a compression and dp problem in high school. 
 
+It do not know how to know, even violent.
+
+STD use dfs and backtracking. we use dfs and reach the end, then go back to the father. Then the father has choice, left or right or nothing (less than zero).
+
+## 125. Valid Palindrome
+
+Ignore except char and number. It's easy. I do not know why the acceptance is 30%.
+
