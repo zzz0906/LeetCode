@@ -1213,3 +1213,9 @@ STD use dfs and backtracking. we use dfs and reach the end, then go back to the 
 
 Ignore except char and number. It's easy. I do not know why the acceptance is 30%.
 
+## 126. Word Ladder II
+
+It's an interesting question. We only need to know use the dictionary words to tranfer one word to another target.
+
+I think maybe dfs is the right answer? The std use bfs. I think the dfs the time complexity is almost the same efficiency.
+
