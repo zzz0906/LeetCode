@@ -1219,3 +1219,14 @@ It's an interesting question. We only need to know use the dictionary words to t
 
 I think maybe dfs is the right answer? The std use bfs. I think the dfs the time complexity is almost the same efficiency.
 
+And it need the shortest!!! we can conduct pruning here. We can not bigger than current known answer.
+
+The dfs is great now...but TLE. I need more efficiency.
+
+Oh I understand why bfs is more efficient. Because we need the shortest. If we find a answer. WE can shut down because other answer is not important.
+
+Let me code a bfs tomorrow.
+
+# 127. Word Ladder
+I don't think there is some difference?
+

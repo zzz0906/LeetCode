@@ -3,9 +3,13 @@ public:
     vector<string> realwordslist;
     string target;
     vector<vector<string>> answer;
+    int minlen = INT_MAX;
     void dfs(unordered_set<string> record, vector<string> path){
+        if (path.size() > minlen) return;
         if (path[path.size()-1] == target){
             answer.push_back(path);
+            if (path.size() < minlen)
+                minlen = path.size();
             return;
         }
         if (path.size() > realwordslist.size()) return;
@@ -27,8 +31,12 @@ public:
         realwordslist = wordList;
         target = endWord;
         vector<string> path;
+        path.push_back(beginWord);
         unordered_set<string> record;
         dfs(record, path);
-        return answer;
+        vector<vector<string>> shortanswer;
+        for (int i = 0; i <answer.size();i++)
+            if (answer[i].size() == minlen) shortanswer.push_back(answer[i]);
+        return shortanswer;
     }
 };

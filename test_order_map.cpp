@@ -18,6 +18,8 @@ int main(){
     // vector<int>::const_iterator tmpe = test.end();
     // vector<int> newv(tmpf, tmpe);
     // cout<<newv.size()<<endl;
-    set<string> colle;
-    colle.insert("f");
+    //set<string> colle;
+    //colle.insert("f");
+    vector<int> tmp;
+    cout<<tmp.size()<<endl;
 }
