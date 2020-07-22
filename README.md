@@ -1229,6 +1229,11 @@ Let me code a bfs tomorrow.
 
 I use bfs but still TLE. I know the difference between my program and std!!! **I iterate wordlist to find the one diff string. But the std use the string.size() * 'a' - 'z'. It change the current string to find whether the modified one existing in the wordlist**.
 
-# 127. Word Ladder
+## 127. Word Ladder
 I don't think there is some difference? Just return the answer.size() or zero.
 
+## 128. Longest Consecutive Sequence
+
+Maybe bucket sort? O(n) Or record the consecutive start and end. Nope it isn't O(n). Interval Tree? query -> o(logn) => o(nlogn).
+
+STD is really easy. We can ++ && -- each entry in the array. for example, for 3, we try to find the 2,1, in the array. how do we find it? HashMap => bucket!
