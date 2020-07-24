@@ -1237,3 +1237,9 @@ I don't think there is some difference? Just return the answer.size() or zero.
 Maybe bucket sort? O(n) Or record the consecutive start and end. Nope it isn't O(n). Interval Tree? query -> o(logn) => o(nlogn).
 
 STD is really easy. We can ++ && -- each entry in the array. for example, for 3, we try to find the 2,1, in the array. how do we find it? HashMap => bucket!
+
+## 129. Sum Root to Leaf Numbers
+
+just dfs and stoi done!
+
+Holy faster than 100%. I am really good!
