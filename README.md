@@ -1243,3 +1243,13 @@ STD is really easy. We can ++ && -- each entry in the array. for example, for 3,
 just dfs and stoi done!
 
 Holy faster than 100%. I am really good!
+
+## 130. Surrounded Regions
+
+It's a question about finding the surrounding regions, like the GO game. 
+
+A huge mistake. I let dfs go left and right and left and right... I debug for 30 minutes.
+
+And!!! This method is first find if the region can reach the end. Then we modify the 'O' to the 'X' one by one. And TLE.
+
+**std is really easy. I am a stupid guy. we can know why there are 'O' because it has O in the edge. Therefore we can first let the edge 'O' and its connected 'O' turn into $. Then let 'O' to 'X'. Then let $ into 'O'.   **
