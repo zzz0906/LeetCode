@@ -1253,3 +1253,17 @@ A huge mistake. I let dfs go left and right and left and right... I debug for 30
 And!!! This method is first find if the region can reach the end. Then we modify the 'O' to the 'X' one by one. And TLE.
 
 **std is really easy. I am a stupid guy. we can know why there are 'O' because it has O in the edge. Therefore we can first let the edge 'O' and its connected 'O' turn into $. Then let 'O' to 'X'. Then let $ into 'O'.   **
+
+## 131. Palindrome Partitioning
+
+I feel a little hard of this question. DFS 2^[length of string]. where to split it.
+
+And remember DP! can we use DP?
+
+THE STD is DFS. 
+
+I think I just use std. I don't want to write dfs again.
+
+The dfs in each turn find the split point from start to the string end.
+
+I thought we can use whether we split in this point or not. It seems like the std program. But more recursive space needed.
