@@ -1267,3 +1267,21 @@ I think I just use std. I don't want to write dfs again.
 The dfs in each turn find the split point from start to the string end.
 
 I thought we can use whether we split in this point or not. It seems like the std program. But more recursive space needed.
+
+## 132. Palindrome Partitioning II
+
+BFS? from split into 2 and split into 3 .... string.length (each char as the palindrome)?
+
+NOPE!! **DP** again! f[i] represent from 0-i the minimum cuts needed.
+
+for [0-i] we can transfered from [0-j] and [j+1,i] and we can know that the minimum cuts can be f[j]
+
+and when f[j+1,i] is a palindrome then we can get the minimum cuts. we for loop all before value. 
+
+Because the ansewr must be transfered from before cut in j and then cut in j!
+
+Also, we use a p[i][j] to record whether it's a palindrome form i to j
+
+and p[i][j] = (s[i] == s[j]) && p[i+1][j-1] 
+
+Then we can update when p[j+1,i] then f[j] + 1
