@@ -1285,3 +1285,13 @@ Also, we use a p[i][j] to record whether it's a palindrome form i to j
 and p[i][j] = (s[i] == s[j]) && p[i+1][j-1] 
 
 Then we can update when p[j+1,i] then f[j] + 1
+
+## 133. Clone Graph
+
+It was a recursive clone for each node? I think.
+
+Oh, I understand why this problem is a medium problem. We may have clone this node before. We shall not clone two same nodes.
+
+I add a vector to record the nodes we have cloned.
+
+Yes, this solution is correct. faster than 97.26%/
