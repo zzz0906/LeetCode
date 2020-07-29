@@ -1294,4 +1294,22 @@ Oh, I understand why this problem is a medium problem. We may have clone this no
 
 I add a vector to record the nodes we have cloned.
 
-Yes, this solution is correct. faster than 97.26%/
+Yes, this solution is correct. faster than 97.26%.
+
+## 135. Candy
+
+DP!
+
+higher rates => more candies but same rates => less candies
+
+the minimum one => 1 candy. less than left and right => 1 candy
+
+Then we can infer the next position's number of candies.
+
+STD use a very simple way. If the right > left then let right + 1. In this way, we confirm all right > left.
+
+Next, we iterate over right to left to keep left > right. 
+
+**BUT, how to prove this solvment is the minimum solution?**
+
+I don't know, I may prove it some day.
