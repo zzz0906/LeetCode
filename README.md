@@ -1332,4 +1332,16 @@ then one & ~three (only when three = 1, it wll be zero)
 
 answer is one.
 
+## 138. Copy List with Random Pointer
+
+IT just like the graph. we can also make a node list and record the copy node we have made.
+
+Then STD use hashmap too. Let just copy his code.
+
+He use a node->node to represent the original node and copy node.
+
+then when random pointer it can just use map[orignal node] to get the copy node.
+
+I wonder why the hashmap can record the pointer<->pointer
+
 
