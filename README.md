@@ -1344,4 +1344,27 @@ then when random pointer it can just use map[orignal node] to get the copy node.
 
 I wonder why the hashmap can record the pointer<->pointer
 
+## 139. Word Break
+dfs: one word in dic can be included or not included.
+
+I think using RE in python is more easy to implement DFS.
+
+No, it has some different place, we need to split not cut & merge
+
+Let me see the if the std use dfs. 
+
+And it can use repeatedly for word in dic.
+
+for a string we add xxx xxx xx until we find a word in list. if in we can use it or keep dfs!!!
+
+TLE...in [a,aa,aaa]
+
+std use DP!!!!
+
+STING <-> DP!!!!
+
+Because it satisfy the sub optimal. 0-j it must transfered from 0-i = true and i-j in dic!
+
+
+
 
