@@ -1365,7 +1365,7 @@ STING <-> DP!!!!
 
 Because it satisfy the sub optimal. 0-j it must transfered from 0-i = true and i-j in dic!
 
-140. Word Break II
+## 140. Word Break II
 
 Return all solution.
 
@@ -1386,6 +1386,14 @@ oh for example, catsand => cat,sand, | cats, and we put them in the <string, vec
 Then when facing it again we just use our hashset. It can solve a, aaa, aaaaa, aaaa, because a we have put it in the hash set !
 
 Genius!
+
+## 141. Linked List Cycle
+
+we can set a slow and fast pointer. slow = slow -> next, and fast = fast->next->next
+
+Then, if there is a cycle, it's clear that the two pointers will meet each other.
+
+Yes, accept!
 
 
 
