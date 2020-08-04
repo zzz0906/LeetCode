@@ -1395,6 +1395,16 @@ Then, if there is a cycle, it's clear that the two pointers will meet each other
 
 Yes, accept!
 
+## 142. Linked List Cycle II
+
+Use a hashmap to store the worked node.
+
+yes but it's too slow
+
+It still can use slow and fast pointer
+
+![slow and fast pointer](./leetcode_142.jpg "The key consideration")
+
 
 
 
