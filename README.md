@@ -1405,6 +1405,14 @@ It still can use slow and fast pointer
 
 ![slow and fast pointer](./leetcode_142.jpg "The key consideration")
 
+## 143. Reorder List
+
+we can let the last second node's next equal to the current left's next (begin from first node).
+
+And let the current node's original next be assigned to the current. 
+
+AC, but too slow...
+
 
 
 
