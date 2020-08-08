@@ -1413,6 +1413,17 @@ And let the current node's original next be assigned to the current.
 
 AC, but too slow...
 
+## 144. Binary Tree Preorder Traversal
+
+144 need us not to use recursive. Therefore maybe we can record the next dfs node in a dequeu and interation.
+
+OH...it seems incorrect. we need to go to the left before the right.
+
+the right answer is shown as following:
+
+we shall maintain a stack instead of a queue. and we shall push the right then left because left shall be dfs first. then we can push the left's left and right ... until we iterate all left's node.
+
+AC!
 
 
 
