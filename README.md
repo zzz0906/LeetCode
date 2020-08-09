@@ -1425,5 +1425,15 @@ we shall maintain a stack instead of a queue. and we shall push the right then l
 
 AC!
 
+## 145. Binary Tree Postorder Traversal
+
+Maybe add a flag stack and first we push root left right and make root as false then we will not add its child again.
+
+YES! AC! But little slow.
+
+OH postorder: left right root; preorder: root left right
+
+we can add root right left and we add as the head then the node we "dfs" finally will be added to the head.
+
 
 
