@@ -1449,4 +1449,12 @@ There is no both O(1) algorithm?
 AND... IF it exist in map, we need to find its queue's place and erase it and push it back again.
 
 
+STD use a int,list<pair<int,int>>::iterator
+
+get -> pure O(1) (binway nodes delete can be O(1) and add to head)
+
+put -> can be O(1)!!  need to delete the last one (record it?) add to head not exist in hash map
+       exist in hashmap, delete it and add to head
+
+
 
