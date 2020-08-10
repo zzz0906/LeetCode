@@ -1435,5 +1435,18 @@ OH postorder: left right root; preorder: root left right
 
 we can add root right left and we add as the head then the node we "dfs" finally will be added to the head.
 
+## 146. LRU Cache
+
+
+THE LRU SHALL evict (pop the first) the oldest -> queue when get this value put it in the queue back.
+
+(actually, in fact we cannot implement LRU because of capacity expand (time) we only can implement a likehood aglorithm "I remember it in OS course in PKU").
+
+YES, the get need to update stack which is O(n). 
+
+There is no both O(1) algorithm?
+
+AND... IF it exist in map, we need to find its queue's place and erase it and push it back again.
+
 
 
