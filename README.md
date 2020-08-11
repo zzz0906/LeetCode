@@ -1456,5 +1456,11 @@ get -> pure O(1) (binway nodes delete can be O(1) and add to head)
 put -> can be O(1)!!  need to delete the last one (record it?) add to head not exist in hash map
        exist in hashmap, delete it and add to head
 
+## 147. Insertion Sort List
+
+to i th node, we need to interate head to ith, and insert it to the next > value.
+
+**I found that if I do not delete the cycle in the node list (because I do not delete the post->next but I add the next to the place of the sort list, it will TLE (check problem)**
+
 
 
