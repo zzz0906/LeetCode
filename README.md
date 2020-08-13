@@ -1462,5 +1462,27 @@ to i th node, we need to interate head to ith, and insert it to the next > value
 
 **I found that if I do not delete the cycle in the node list (because I do not delete the post->next but I add the next to the place of the sort list, it will TLE (check problem)**
 
+## 149. sort list
+
+I think quick sort and merge sort in linked list is always O(n^2) .
+
+THE merge sort can be logn we can use fast slow point. in 21 we have finished merge two list.
+
+**I found that whatever quick sort or merge sort we shall go to the mid of the list first, then we need to let left and right keep going and exchange the two value.**
+
+## 149. Max Points on a Line
+
+WE can use brute force and a high efficent method to determine whether in the same straight line![determinante](leetcode149.jpg)
+
+This method is really easy to implement but need the Further Mathematics.
 
 
+## 150. Evaluate Reverse Polish Notation
+
+It's a basic polish notation problem!
+
+Use stack and when facing symbol just + - * / for the stack top and second. When facing numbers please add them to the stack.
+
+Final answer is the top of the stack.
+
+yes! AC faster than 99.68.
