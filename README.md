@@ -1486,3 +1486,19 @@ Use stack and when facing symbol just + - * / for the stack top and second. When
 Final answer is the top of the stack.
 
 yes! AC faster than 99.68.
+
+## 151. Reverse Words in a String
+
+It's a easy question?
+
+* A word is defined as a sequence of non-space characters.
+* Input string may contain leading or trailing spaces. However, your reversed string should not contain leading or trailing spaces.
+* You need to reduce multiple spaces between two words to a single space in the reversed string.
+
+py's string operations is really easy. Therefore I use python.
+
+PYTHON [start:end:step] => [1,2,3,4,5] [2:5:1] =>  we select 3, 4, [::-1] reversed the array!!
+
+" ".join([]) we add " " to the interval between each element of the array.
+
+THE answer is threee line!
