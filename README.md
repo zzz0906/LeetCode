@@ -1502,3 +1502,24 @@ PYTHON [start:end:step] => [1,2,3,4,5] [2:5:1] =>  we select 3, 4, [::-1] revers
 " ".join([]) we add " " to the interval between each element of the array.
 
 THE answer is threee line!
+
+## 152. Maximum Product Subarray
+
+I think it's a DP problem. enumerate all possible combination?
+
+When seeing the continuous problem, I remember the DP with F1[i],F2[i];
+F1[i] represent the included ith element max product
+F2[i] represent the excluded ith element max product
+
+F1[i+1] = max(F1[i],F2[i]*V[i+1]); I don't think this DP has optimal substructure!
+
+THE std use this way:
+F1,F2 must included the ith element, this way has the optimal substructure
+F1[i] represent the max product
+F2[i] represent the min product
+F1[i-1]*nums[i], F2[i-1]*nums[i], nums[i]
+
+The answer is one of the F[0..n-1]
+
+YES AC!!
+
