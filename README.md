@@ -1523,3 +1523,16 @@ The answer is one of the F[0..n-1]
 
 YES AC!!
 
+## 153. Find Minimum in Rotated Sorted Array
+
+We can just find the rotated point and binary search in the two side.
+
+Oh, it's not to find some number. it just neeed to find the minimum.
+
+just 4,5 | 1,2,3, or 1,2,3,4,5 |
+
+| represent the rotated pivot. we need to find the ascending until descending.
+
+Or the rotated pivot in the end which means no descending and return the first element.
+
+AC~
