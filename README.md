@@ -1536,3 +1536,31 @@ just 4,5 | 1,2,3, or 1,2,3,4,5 |
 Or the rotated pivot in the end which means no descending and return the first element.
 
 AC~
+
+## 154. Find Minimum in Rotated Sorted Array II
+
+Duplicates？I still can use above 153's solution to solve it.
+
+STD use binary search to solve this two problem.
+
+It's clear that the left mid right
+left < mid => min in mid+1-right 
+right > mid =>  mid in left-mid-1
+else we have the duplicates we need to move right until left != right.
+
+## 155. Min Stack
+
+I plan to write a stack by myself using heap;
+
+Using a array is better than linked list to implement heap...
+
+
+STUPID QUESTION!!! JUST record the minimum is fine.
+
+BUT WHEN POP? HOW can we find the minimum of the rest number;
+
+OH GENIUS. I think this question is a really hard question.
+
+we shall know that the minimum value is under the bigger value, which means the bigger value do not have the influence. BECAUSE the bigger value must pop first. then the minimum value cannot be the small value.
+
+MY method is a piece of shit. IT's a really easy question.
