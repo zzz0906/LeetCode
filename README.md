@@ -1564,3 +1564,15 @@ OH GENIUS. I think this question is a really hard question.
 we shall know that the minimum value is under the bigger value, which means the bigger value do not have the influence. BECAUSE the bigger value must pop first. then the minimum value cannot be the small value.
 
 MY method is a piece of shit. IT's a really easy question.
+
+## 160. Intersection of Two Linked Lists
+we need to find the intersection of two linked lists. 
+
+One may be longer than the other one.
+
+
+I think O(n^2) just enumerate all nodes in A for B
+
+and determine whether this node is one of the B, if it is, then it must be the intersection one.
+
+AC!
