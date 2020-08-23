@@ -1576,3 +1576,11 @@ I think O(n^2) just enumerate all nodes in A for B
 and determine whether this node is one of the B, if it is, then it must be the intersection one.
 
 AC!
+
+## 162. Find Peak Element
+
+I use O(n) to iterate over all elements in the array. 
+
+It seems there is a O(logn) algorithm?
+
+Yes, we can use binary search directly. if mid > mid+1 => the partition maximum in the left-mid or mid < mid +1 => mid-rihgt contains the partition maximum.
