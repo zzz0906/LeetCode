@@ -1611,3 +1611,19 @@ and we calculate the difference between nearest one and compare it with res.
 
 YES AC!!
 
+## 165. Compare Version Numbers
+
+It's a easy question, but it has some hazard;
+first we need to split by '.';
+
+then we get two array which are strings splited by '.'
+
+we need to add '0' for shot strings array
+
+then we begin to compare
+
+we need to delete leading zero for each element of array according to the problem description
+
+Finally we need to transfer the element to the int then we can use < > to compare them
+
+if "equal" then we can move to the next element;
