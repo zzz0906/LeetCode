@@ -1658,5 +1658,10 @@ for example 565 / 1000 = 0.5 ... 655
 
 this is the same remainder => means recurring not the 0.**5**
 
+## 167. Two Sum II - Input array is sorted
 
+It's a easy question. 
 
+Just enumerate one value then target-value is our "tmptarget"
+
+then binary search the tmptarget.
