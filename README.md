@@ -1665,3 +1665,51 @@ It's a easy question.
 Just enumerate one value then target-value is our "tmptarget"
 
 then binary search the tmptarget.
+
+## 168. Excel Sheet Column Title
+
+Recently, All of problem is easy. return its corresponding column title in excel.
+
+We just neeed to transfer 10-based -> 26-based
+
+/ and % are used to transfer different based;
+
+**attention** because it has 'A'-'Z' => it's a 27 based
+                     
+                             '0'-'1' => it's a 2 based
+
+we need to / 27!
+
+NO!! 1->'A'; then we can know 'Z'->26; BUT 0??
+
+26->'Z'
+
+26/27 = 0
+
+26%27 = 26
+
+27/27 = 1
+
+27%27 = 0
+
+2=>10
+
+It's so hard...
+
+Let me see the std...
+
+it need to determine whether n % 26 == 0
+
+we can see the std:
+
+```
+if (n % 26 == 0) {
+                res += 'Z';
+                n -= 26;
+            } else {
+                res += n % 26 - 1 + 'A';
+                n -= n % 26;
+            }
+```
+
+use - % and then use the / n quotient
