@@ -1713,3 +1713,36 @@ if (n % 26 == 0) {
 ```
 
 use - % and then use the / n quotient
+
+
+
+Z = 26
+AA = 26*1 + 1
+ZZ = 26*26 + 26
+
+which means we can -1 each time and / and % use 0-25
+
+## 169. Majority Element
+
+we need to find the n/2 interval has this value
+
+we use space to compute but we need space O(n/2)
+
+we can use unordered_map 
+
+AC but too slow... why? because the efficiency of unordered_map?
+
+THE std use moore voting 
+
+if current voting = 0 then answer = current number and voting + 1
+
+if answer = current number voting + 1 else voting - 1
+
+## 171. Excel Sheet Column Number
+
+It's 168's another version...
+
+AA = 1*26 + 1
+
+yes AC! **XXX = (x-'A')*26^Q**
+

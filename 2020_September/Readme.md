@@ -18,3 +18,42 @@ I still think we shall use dfs
 
 
 YES! correct we need to enumerate each place of time but **attention for the special place for a time**
+
+## Contains Duplicate III
+
+Given an array of integers, find out whether there are two distinct indices i and j in the array such that the absolute difference between nums[i] and nums[j] is at most t and the absolute difference between i and j is at most k.
+
+It's a slides window whose length is k then we need to record a heap to record the max and min
+
+then we can know the max-min in this windows and compare to t.
+
+This's easy to implement.
+
+We also can use monotonic queue. 
+
+because we know that the number > current number and the number exist before current number in the slides window.
+
+This number cannot be the minimum.
+
+Also the number < current number and the number exist before current number in the slides window. this cannot be the maximum.
+
+we can use this idea to implement a max and min queue. and calculate the difference~
+
+
+I consider this problem as a total different problem
+
+**please read the problem description carefully**
+
+It means the difference can reach t!! not at most t.
+
+NO NO NO we just need to find the numbers.
+
+THE STD use bucket.
+
+```
+In our case, the bucket looks like [0,t],[t+1,2t+1],…. Each time we distribute the current element nums[i] into a bucket, if this bucket is not empty then we find two elements that satisfy the two above requirements and we are done; otherwise we check two adjacent buckets to see whether any one of them is non empty and it contains an element whose value lies in the range of [nums[i]-t,nums[i]+t].
+```
+
+The STD use a map; and delete in O(n) and add in O(1); 
+
+search in o(logn) find the lower bound of nums[i] - t and 
