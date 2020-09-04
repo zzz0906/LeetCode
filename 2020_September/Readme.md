@@ -56,4 +56,19 @@ In our case, the bucket looks like [0,t],[t+1,2t+1],…. Each time we distribute
 
 The STD use a map; and delete in O(n) and add in O(1); 
 
-search in o(logn) find the lower bound of nums[i] - t and 
+search in o(logn) find the lower bound of nums[i] - t and we compare whether it's bigger or smaller than the other value.
+
+## Repeated Substring Pattern
+Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
+
+we can iterate the number of substring existing
+
+=> 2 3 4 ... k until length/k = 1 => length/k =2
+
+length/k = 2 => the max is length (the copy exist length!)
+
+if length % k != 0 we can continue
+
+AC!
+
+
