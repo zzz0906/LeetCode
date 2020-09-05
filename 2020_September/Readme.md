@@ -71,4 +71,15 @@ if length % k != 0 we can continue
 
 AC!
 
+## Partition Labels
+
+A string S of lowercase English letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
+
+Enumerate?
+
+Try to greedily choose the smallest partition that includes the first letter. If you have something like "abaccbdeffed", then you might need to add b. You can use an map like "last['b'] = 5" to help you expand the width of your partition.
+
+Greedy! we find a interval and we need to find how longest we can reach and no other existed char exist in the out of this interval.
+
+**it's a union find algorithm but I just use brute force to find all the included interval. and ac.**
 
