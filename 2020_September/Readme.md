@@ -83,3 +83,15 @@ Greedy! we find a interval and we need to find how longest we can reach and no o
 
 **it's a union find algorithm but I just use brute force to find all the included interval. and ac.**
 
+## All Elements in Two Binary Search Trees
+
+We let two pointer point the two BST. Then we do the next operation in the last problem
+
+I finish leetcode' 173 recently. It transfer BTS to array. we can transfer twice and merge array!
+
+It's too complicated. I decided to use std.
+
+
+JUST tranfer it into two array and merge it...my solution use less space but it's too complicated.
+
+
