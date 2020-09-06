@@ -1805,3 +1805,20 @@ my solution is correct! But my coding is poor. I want to let current can be the 
 YES AC. It's correct! but my written sytle is poor. 
 
 I need to know that the **let n = node first while (n) {s.push_back(n); n->left} | while (n->left) when n = null then boom!**
+
+## 174. Dungeon Game
+
+DFS? find the maxium final value? if > 0 => 1 is fine or the knight need to be - final + 1
+
+OR DP? jsut F[i,j] = min(F[i-1,j],F[i,j-1])
+
+There is a hazard! in the mid way, the knight cannot be die
+
+
+DFS is correct but TLE...
+
+It can DP I knew it!! DP with reverse direction from MN to 00
+
+DP[i][j] means how many less blood can be reach in the i,j
+
+therefore i,j <= min(i+1,j,)(i,j+1) - dp[i,j]
