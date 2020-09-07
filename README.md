@@ -1830,3 +1830,15 @@ It's a easy question. Use sql and left join.
 I used to use inner join. But enven if some one do not have address the question ask us to return name null null.
 
 therefore it's a small hazard.
+
+## 176. Second Highest Salary
+
+SQL just 30 accepted rates? let me do it.
+
+It's easy to select the second highest salary use 1,1; it's hard to return null maybe we need to use if else
+
+we can use if null to let the null value to be set as nulll
+
+**we need to remove duplicates! therefore we need to use distinct**
+
+**we can select * as xxx directly**

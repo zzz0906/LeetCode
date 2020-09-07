@@ -108,3 +108,15 @@ Therefore just use loop to get the right, down slides.
 **attention:we need to slides A also slides B it's different you can think the last column if you just slide A the last column always in the outside except no slides but if you slides B the A left column can be inside! Or it means you can slides left and up (let B right and down!) **
 
 YES! AC!
+
+## Word Pattern
+
+char => String ??
+
+Just MAP. 
+
+WE can use emplace_back and lambda function!
+
+but ! abba , "dog dog dog dog" shall be false... It's a little bit different but I think it can be true loosely.
+
+we can just add a string => char bi-direction is ac!!
