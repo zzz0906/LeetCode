@@ -95,3 +95,16 @@ It's too complicated. I decided to use std.
 JUST tranfer it into two array and merge it...my solution use less space but it's too complicated.
 
 
+## Image Overlap
+
+It's a problem that we need to slide a image to cover more 1
+
+DFS? Just slide we can slide N*N
+
+If we use dfs to get all posibilities, we may have duplicates
+
+Therefore just use loop to get the right, down slides.
+
+**attention:we need to slides A also slides B it's different you can think the last column if you just slide A the last column always in the outside except no slides but if you slides B the A left column can be inside! Or it means you can slides left and up (let B right and down!) **
+
+YES! AC!

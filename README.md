@@ -1822,3 +1822,11 @@ It can DP I knew it!! DP with reverse direction from MN to 00
 DP[i][j] means how many less blood can be reach in the i,j
 
 therefore i,j <= min(i+1,j,)(i,j+1) - dp[i,j]
+
+## 175. Combine Two Tables
+
+It's a easy question. Use sql and left join.
+
+I used to use inner join. But enven if some one do not have address the question ask us to return name null null.
+
+therefore it's a small hazard.
