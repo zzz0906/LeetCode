@@ -120,3 +120,9 @@ WE can use emplace_back and lambda function!
 but ! abba , "dog dog dog dog" shall be false... It's a little bit different but I think it can be true loosely.
 
 we can just add a string => char bi-direction is ac!!
+
+## Sum of Root To Leaf Binary Numbers
+
+I seem to have finished this problem. just dfs + when leaf calculate the binary to ten based number and add it to the answer;
+
+AC!

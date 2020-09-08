@@ -1842,3 +1842,16 @@ we can use if null to let the null value to be set as nulll
 **we need to remove duplicates! therefore we need to use distinct**
 
 **we can select * as xxx directly**
+
+
+## 177. Nth Highest Salary
+
+Recent questions are sql-based! Interesting!
+
+I use a really strange approach declare.
+
+It seems a little bit different with set. 
+
+declare will be assigned in each procedure again.
+
+however, set will only be run once.
