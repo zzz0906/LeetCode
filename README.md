@@ -1855,3 +1855,15 @@ It seems a little bit different with set.
 declare will be assigned in each procedure again.
 
 however, set will only be run once.
+
+## 178. Rank Scores
+
+Today is still a SQL day!
+
+I need to get the rank. A LOOP for it!
+
+For MySQL solutions, to escape reserved words used as column names, you can use an apostrophe before and after the keyword. For example `Rank`.
+
+This is really great hint for debug!
+
+Also we can use DENSE_RANK for problem requirements.

@@ -126,3 +126,7 @@ we can just add a string => char bi-direction is ac!!
 I seem to have finished this problem. just dfs + when leaf calculate the binary to ten based number and add it to the answer;
 
 AC!
+
+## Compare Version Numbers
+
+I have done 165 before. AC!
