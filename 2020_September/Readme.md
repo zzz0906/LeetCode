@@ -130,3 +130,27 @@ AC!
 ## Compare Version Numbers
 
 I have done 165 before. AC!
+
+## Bulls and Cows
+
+It's really a hard problem to understand.
+
+But it seems easy. Just compare in each position
+
+```
+Input: secret = "1123", guess = "0111"
+
+Output: "1A1B"
+
+Explanation: The 1st 1 in friend
+```
+
+Why this become 1A1B? 
+
+the numebr and position is correct called bulls
+
+match the number but in wrong places call the cows
+
+It's clear that we can get the all bulls. Then the rest number I need to determin the wrong position.
+
+but we cannot use a number twice therefore I use two flag to record the number and position number we have used.
