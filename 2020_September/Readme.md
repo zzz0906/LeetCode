@@ -154,3 +154,9 @@ match the number but in wrong places call the cows
 It's clear that we can get the all bulls. Then the rest number I need to determin the wrong position.
 
 but we cannot use a number twice therefore I use two flag to record the number and position number we have used.
+
+## Maximum Product Subarray
+
+I have done 152 before! done. we need to record a minus and positive number which means the min and max
+
+but! the max can be tranfer from min!
