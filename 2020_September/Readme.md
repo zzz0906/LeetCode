@@ -160,3 +160,15 @@ but we cannot use a number twice therefore I use two flag to record the number a
 I have done 152 before! done. we need to record a minus and positive number which means the min and max
 
 but! the max can be tranfer from min!
+
+## Combination Sum III
+
+DFS? use some trick and pruning in dfs?
+
+YES...AC!
+
+JUST DFS and determin in the k-1 numebr to do some pruning operations.
+
+* target - current >= last number break (avoid duplicates number)
+
+* target - current > 9 in the last number it cannot be > 9
