@@ -172,3 +172,19 @@ JUST DFS and determin in the k-1 numebr to do some pruning operations.
 * target - current >= last number break (avoid duplicates number)
 
 * target - current > 9 in the last number it cannot be > 9
+
+## Insert Interval
+
+union set?
+
+Oh the original one must be the no overlap
+
+It's too easy
+
+TOO MANY BUG! I modify it according to the test cases again and again.
+
+57?? I have done it before.
+
+My past solution is just find all have the intersection interval with new intervals
+
+And delete them and add other in the array
