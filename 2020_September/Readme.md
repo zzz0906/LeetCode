@@ -188,3 +188,23 @@ TOO MANY BUG! I modify it according to the test cases again and again.
 My past solution is just find all have the intersection interval with new intervals
 
 And delete them and add other in the array
+
+## House Robber
+
+two adjacent house were broken on the same night. 
+
+It's a clear DP problem. because we cannot rob the first and the second which means we may not choose the best at this time.
+
+1 3 5 7
+
+2 4 6 8???
+
+It's so easy? maybe 1 4, 1 3
+
+we still need to use DP
+
+F[i] = F[i-2]+a[i],F[i-3]+a[i] for example 1 2 3 4 5 
+
+5 <- 3,2 
+
+yes! that's correct! I can do some dp problems!
