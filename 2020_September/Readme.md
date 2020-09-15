@@ -208,3 +208,11 @@ F[i] = F[i-2]+a[i],F[i-3]+a[i] for example 1 2 3 4 5
 5 <- 3,2 
 
 yes! that's correct! I can do some dp problems!
+
+## Length of Last Word
+
+It's easy but too many bug...
+
+for example, ' ' only a space means the split array is blank we need to solve it.
+
+Therefore I add some condition in the code.
