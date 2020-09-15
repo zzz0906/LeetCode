@@ -1897,4 +1897,16 @@ Greedy is correct. becuse in the (//31 315 we need to choose 315; however when 9
 I use std's interesting writing style.
 
 use sort and design the compare style of sort
+
+## 180. Consecutive Numbers
+
+SQL today! find all numbers that appear at least three times consecutively.
+
+Interesting. I don't know how to do it...i1 == i2 == i3 The last number ? I seem to do this operation before
+
+oh oh limit? but we need the same? how to do it?
+
+Use multiple table select => the multiplication of these tables (Descartes).
+
+
                         

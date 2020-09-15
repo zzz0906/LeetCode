@@ -216,3 +216,4 @@ It's easy but too many bug...
 for example, ' ' only a space means the split array is blank we need to solve it.
 
 Therefore I add some condition in the code.
+
