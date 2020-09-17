@@ -217,3 +217,26 @@ for example, ' ' only a space means the split array is blank we need to solve it
 
 Therefore I add some condition in the code.
 
+## Maximum XOR of Two Numbers in an Array
+
+Math problem. Interesting. 
+
+two numbers xor the number of different in its bit
+
+a b c
+
+a^b b^c a^c
+
+It's so hard...let me do it precisely.
+
+I understand we can use tried and for each number and use greedy to find the multiplier!
+
+THE GREEDY IS SHOWN AS FOLLOW:
+
+we first fix a number and transfer it to a bit number.
+
+I find use python's dictionary to construct a tried is much easier.
+
+BUT I still write C++ to finish this functionality. **So celever greedy idea.**
+
+YES AC! I think this problem is hard.

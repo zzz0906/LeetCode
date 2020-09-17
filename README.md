@@ -1908,5 +1908,9 @@ oh oh limit? but we need the same? how to do it?
 
 Use multiple table select => the multiplication of these tables (Descartes).
 
+## 181. Employees Earning More Than Their Managers
 
+It's obvious to use left join and find name whose salary higher than its manger!
+
+AC.
                         
