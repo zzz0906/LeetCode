@@ -240,3 +240,56 @@ I find use python's dictionary to construct a tried is much easier.
 BUT I still write C++ to finish this functionality. **So celever greedy idea.**
 
 YES AC! I think this problem is hard.
+
+## Robot Bounded In Circle
+
+JUST simulation? 
+
+I know the why this problem is so hard. We don't know the number of instructions then robot will go to the past place.
+
+There must be a ans k; after the k the robot will be the original place otherwise it cannot return to the original place forever.
+
+Because it can 4 time therefore it must 
+
+The std repeat instructions once and determin whether it's in the original place || the direction is not north.
+
+Strange...
+
+I still use 4 times repeat and find whether it comes back to North and orginal place in this 4 repeat.
+
+## Best Time to Buy and Sell Stock
+
+the max minus min must be the answer but we need the max after the min
+
+the after min is better than current min;
+
+therefore we can record the past min; and we can use current - past_min and compare it to the ans;
+
+## Sequential Digits
+
+Does 78910 is correct? each digits which means not? therefore the biggest number is 9
+
+therefore, for example, 4 digits - 8 digits 1234 2345
+
+we can iterate over 4-8 digits!
+
+AC!
+
+## Unique Paths III
+
+It's a clear a DP problem. Nope? 4 directions? maybe dfs? or dfs in memory? or bfs? I think bfs is fine.
+
+Or dp from the end? or search from the end;
+
+I think memory search from the end is the correct answer. We can record the 1 step place; 2 step place (let 2 step to one step place the number of answer ++)
+
+BFS need to record the path we have run... It's so stupid. Can I use dp?
+
+...STD use my solution.
+
+walk over every non-obstacle square exactly once. please be careful...
+
+I ignore this sentence; I am so stupid. 
+
+I choose to use std's solution => just dfs
+
