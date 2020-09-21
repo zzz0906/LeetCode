@@ -1913,4 +1913,46 @@ Use multiple table select => the multiplication of these tables (Descartes).
 It's obvious to use left join and find name whose salary higher than its manger!
 
 AC.
-                        
+
+## 182. Duplicate Emails
+
+maybe we can left join on the same value and find some value that happens twice!
+
+I also find that we can use group by having count(*) > 1! great!
+
+## 183. Customers Who Never Order
+left join and its id == null means it never orders anything?
+
+I was coding in below way. But I cannot select * from (table) where id == null
+
+but we can use `where something in (table)`
+
+Therefore I want to use inner join and where id not in 
+
+OH...I am so stupid. Just id not in orders's CustomerId
+
+It's a really really easy question!
+
+## 184. Department Highest Salary
+
+Two tables; one for employee and one for department. We need to find the max value for each department (contains lots of employees)
+
+The hard place of this question is to choose the duplicate max value.
+
+Maybe we can choose to use join and to select all having the max value one.
+
+It's little hard. Let me see the std solution.
+
+PLS! use **in**; BUT maybe if we contains a value which is not max value in this department but in another department?
+
+THE std is so clever. He select departmentid from first empolyetable and choose whether it is the max in this table which id == this departmentid. he repeat this process and get the ans.
+
+for each id they choose max and use in to determine whether is max and choose all max duplicates.
+
+## 185. Department Top Three Salaries
+
+Last problem same method. However...This version of MySQL doesn't yet support 'LIMIT & IN/ALL/ANY/SOME subquery'
+
+I still look into other's solution. I found that we need to use count(biggher than current salary) < 3 which means its rank is in 3.
+
+Then we need to sort the top 3 through 'order'!
