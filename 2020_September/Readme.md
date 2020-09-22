@@ -293,3 +293,15 @@ I ignore this sentence; I am so stupid.
 
 I choose to use std's solution => just dfs
 
+## Car Pooling
+
+It's a interval increment problem?
+
+And decide whether after this operation, if there is some interval is bigger than capacity.
+
+Binary index tree?  Maybe we can use o(logN) to get the sum of interval and modify the number in o(logN)
+
+Or we just use O(1*K) modify (Maybe segment tree can get better performance)
+
+AC **1-5 5-7 which means the passagers can enter the car in 5 and the passagers in the can leave the car**
+

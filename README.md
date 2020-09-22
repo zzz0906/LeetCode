@@ -1956,3 +1956,21 @@ Last problem same method. However...This version of MySQL doesn't yet support 'L
 I still look into other's solution. I found that we need to use count(biggher than current salary) < 3 which means its rank is in 3.
 
 Then we need to sort the top 3 through 'order'!
+
+## 186. Repeated DNA Sequences
+
+C++ again!
+
+Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
+
+unordermap? record 11 => 2
+
+the number of 10 length k string is (k-10)
+
+yes...AC
+
+the std transfer string to bit code to save the space. Interesting.
+
+And it seems std use rolling hash to record the string we have record. It's Rabin-Karp algorithm.
+
+Rabin-Karp doesn't means two string is equal when it has the same hash. It still need to compare stirng when hash value is equal because the hash has go trhough the mode operation.
