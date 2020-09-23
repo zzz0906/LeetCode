@@ -2014,4 +2014,21 @@ We also can use holds and unholds to let buy or not buy can be transfered from (
 
 AC! It's an interesting DP problem.
 
+## 189. Rotate Array
 
+we can know that we need to let last k numbers to the first k
+
+
+[0,...,N-k-1]
+0 => k
+k => k*2
+
+[N-k,N-1]
+
+My sol has some problems. If we use last one to push the kthe one then => it may push some value in the last k and cover it...
+
+Also, we can know if we just cover one by one it may go to the same place. how to solve it?
+
+THE STD use reverse ! so clever ... 1 2 3 4 5 6 7 => 4 3 2 1 7 6 5 => 5 6 7 1 2 3 4
+
+in the array we can just swap n-k and swap k => this is easy to do in O(1) space!

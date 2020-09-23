@@ -318,3 +318,19 @@ oh std first we need to vote two numbers then we need to cheeck whether its exis
 also we need check whether this two numbers are not equal.
 
 AC!
+
+## Gas Station
+
+Is this problem a greedy problem?
+
+gas-cost means the most gas you can get in this interval. Choose the max diff?
+
+NOPE...If we choose max diff at start maybe in the before starting point, we still can get some gas in this place...
+
+we must start from a > 0 positive value. AND -3 2 -1 5; the interval sum cannot exist negative once.
+
+Can we use prefix sum to do some accelerate operations? nope...
+
+just enumerate? enumerate is fine...
+
+YES, AC!
