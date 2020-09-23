@@ -1974,3 +1974,44 @@ the std transfer string to bit code to save the space. Interesting.
 And it seems std use rolling hash to record the string we have record. It's Rabin-Karp algorithm.
 
 Rabin-Karp doesn't means two string is equal when it has the same hash. It still need to compare stirng when hash value is equal because the hash has go trhough the mode operation.
+
+## 188. Best Time to Buy and Sell Stock IV
+
+I can buy k time this time at most, which means 1,2,3, ..., k-1, k intervals maxium for this problem's maxium.
+
+DP? DFS?
+
+for 1 transaction; max(current - past(min));
+for 2 transactions; i,j m,n (m>j)
+
+we can dfs...but it may be TLE in high probability.
+
+I look for std...
+
+STD use DP and use two arrays
+
+it define the local[i][j] means we in ith days and we can conduct transactions at most j times and **we must sell stock in j**'s best ans
+
+global[i][j] loose the constraint. We do not need to sell the stock in the j
+
+therefore we can know that
+
+- local[i][j] = max(global[i - 1][j - 1] + max(diff, 0), local[i - 1][j] + diff)
+
+- global[i][j] = max(local[i][j], global[i - 1][j])，
+
+we can global must tranfer from last day global or today's local (sell it in ith day or not)
+
+also local means sell at ith. the local will be tranfered from global j-1, i-1 days + (diff > 0)
+
+And because at ith day we only need to update 1-k for ith and update i+1 from i
+
+therefore we can save space for 1...n days we can just record each day and return the final answer.
+
+AND a optimization for this problem. if K >> size; we can just buy and sell many many times.
+
+We also can use holds and unholds to let buy or not buy can be transfered from (buy or hold)
+
+AC! It's an interesting DP problem.
+
+

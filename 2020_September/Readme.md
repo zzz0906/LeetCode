@@ -305,3 +305,16 @@ Or we just use O(1*K) modify (Maybe segment tree can get better performance)
 
 AC **1-5 5-7 which means the passagers can enter the car in 5 and the passagers in the can leave the car**
 
+## Majority Element II
+
+Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+
+Note: The algorithm should run in linear time and in O(1) space.
+
+votes methods? >n/3*3 means there are 2 major elements at most.
+
+oh std first we need to vote two numbers then we need to cheeck whether its existing number > n/3
+
+also we need check whether this two numbers are not equal.
+
+AC!
