@@ -334,3 +334,11 @@ Can we use prefix sum to do some accelerate operations? nope...
 just enumerate? enumerate is fine...
 
 YES, AC!
+
+## Find the Difference
+
+If we can use additional space; hashset
+
+If we cannot use additional space; we need to search each char in the s? or some clever solution?
+
+**XOR** char also can use xor!

@@ -2032,3 +2032,22 @@ Also, we can know if we just cover one by one it may go to the same place. how t
 THE STD use reverse ! so clever ... 1 2 3 4 5 6 7 => 4 3 2 1 7 6 5 => 5 6 7 1 2 3 4
 
 in the array we can just swap n-k and swap k => this is easy to do in O(1) space!
+
+## 190. Reverse Bits
+
+When I first see this problem, will the value be overflow?
+
+the easiest solution for this problem is just tranfer to binary and reverse
+
+**PLEASE USE BIT OPERATION**
+
+1101 & 1  => 1 (res<<1+1)
+1101 >> 1 => 110
+
+110 & 1 => 0 (res<<1+0)
+110 >> 1 => 11
+
+therefore we can know our algorithm is that
+
+res<<1 + n&1
+n >> 1
