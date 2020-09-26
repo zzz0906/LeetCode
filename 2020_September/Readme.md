@@ -346,3 +346,13 @@ If we cannot use additional space; we need to search each char in the s? or some
 ## Largest Number
 
 Solution is in 179; we can just consider it as string and use concat and compare who need in the first
+
+## Teemo Attacking
+
+Interesting! Just simulate? It seems easy.
+
+ascending time series? means no equal value?
+
+OR just iterate over the vector? and then record the last poison value?
+
+YES AC! but we need to know that the time start from 0;

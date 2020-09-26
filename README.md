@@ -2058,3 +2058,25 @@ Like the above problem. we count the 1 one by one
 
 we let it & 1 and let it << 1 until we find all 1;
 
+## 192. Word Frequency
+
+holy; bash script...
+
+words.txt contains only lowercase characters and space ' ' characters.
+Each word must consist of lowercase characters only.
+Words are separated by one or more whitespace characters.
+
+we need to know following operations:
+
+sed `s` means replace  Specific characters and `g` means replace the cache `^$` means nothing between start ^ and end $
+
+uniq -c can output the number of duplicates one
+
+The awk command programming language requires no compiling, and allows the user to use variables, numeric functions, string functions, and logical operators.define text patterns that are to be searched for in each line of a document
+
+Therefore, we know after uniq-c we get $2 $1 the word and its numbers
+
+then print it and sort it by n(string to number) r(ascending) k2(key is the second value)
+
+cat words.txt | sed 's/ /\n/g' | sed '/^$/d' | sort | uniq -c | awk '{print $2, $1}' | sort -nrk2
+
