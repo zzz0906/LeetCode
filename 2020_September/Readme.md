@@ -342,3 +342,7 @@ If we can use additional space; hashset
 If we cannot use additional space; we need to search each char in the s? or some clever solution?
 
 **XOR** char also can use xor!
+
+## Largest Number
+
+Solution is in 179; we can just consider it as string and use concat and compare who need in the first

@@ -2051,3 +2051,10 @@ therefore we can know our algorithm is that
 
 res<<1 + n&1
 n >> 1
+
+## 191. Number of 1 Bits
+
+Like the above problem. we count the 1 one by one
+
+we let it & 1 and let it << 1 until we find all 1;
+
