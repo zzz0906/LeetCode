@@ -356,3 +356,23 @@ ascending time series? means no equal value?
 OR just iterate over the vector? and then record the last poison value?
 
 YES AC! but we need to know that the time start from 0;
+
+## Evaluate Division
+
+Very interesting question. We have know the ration between multiple variables. After that, we need to use this relationships.
+
+Maybe we can transfer in the single variable first?
+
+but like this expression "bc"/"ad" how to solve it?
+
+**single variable relationships?** 
+
+Surprisely... It's a recurssion! 
+
+BUT std has a problem. for example bc/cd = b/d
+
+if we know the bc/bd and we want to know the answer of the b/d. If we do a operation like the std, the ans is -1
+
+if we want to get a/e = a/c * c/d * d/e
+
+my falut... A/B means only one variable, which means bc/bd means a variable called bc and another variable called bd.

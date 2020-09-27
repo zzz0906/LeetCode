@@ -2080,3 +2080,14 @@ then print it and sort it by n(string to number) r(ascending) k2(key is the seco
 
 cat words.txt | sed 's/ /\n/g' | sed '/^$/d' | sort | uniq -c | awk '{print $2, $1}' | sort -nrk2
 
+## 193. Valid Phone Numbers
+
+BASH again.
+
+You may assume that a valid phone number must appear in one of the following two formats: (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means a digit)
+
+we may need to use regex? therefore the regex in the shell!
+
+grep -P means Perl regex!
+
+we can grep a file directly.
