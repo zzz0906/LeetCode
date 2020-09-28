@@ -376,3 +376,79 @@ if we know the bc/bd and we want to know the answer of the b/d. If we do a opera
 if we want to get a/e = a/c * c/d * d/e
 
 my falut... A/B means only one variable, which means bc/bd means a variable called bc and another variable called bd.
+
+## Subarray Product Less Than K
+
+0 < nums.length <= 50000.
+0 < nums[i] < 1000.
+0 <= k < 10^6.
+
+subarray use prefix?
+
+1..i
+1..j
+
+1..j/1..i = i,j
+
+enumarte for i,j
+
+1000^5000 impossible...
+
+another sol:
+
+50000^3  impossible...
+
+optimize it? : like in the second loop we can record a prefix product
+
+50000^2 = 2500000000 TLE
+
+OR DP? I don't know...
+
+WE need a nlogn
+
+e.g. 0-10 1-10 must can count answer ! therefore we can let i = j!
+
+for 1 the next round j = 11
+
+1-4: 1-4; 2-4; 3-4;
+
+but we will repeat count...
+
+IT's DP!
+
+For each j, let opt(j) be the smallest i so that nums[i] * nums[i+1] * ... * nums[j] is less than k. opt is an increasing function.
+1-1
+2-1
+3-1
+4-2
+
+1 + 1-2 + 1-3 + 2-3 + (must contain the j)
+
+how to get opt(j)? 1-1 
+
+opt(j) we know opt(j-1) => 2...j-1
+
+opt(j-1)...j-1*j < k (optj) = optj-1
+
+else while 
+
+THE HINT is really great! record a place the top place we can reach that have the < k product
+
+and the ans must include k
+
+LET US SEE STD.
+
+same us my above solution, but more gentle!
+
+mantain a left for current index. 
+
+left cur pro
+0     0   1
+0     0   3
+0     1   6
+0     2   12
+0     3   24 > 15 ... 1    3   8
+1     4   120 > 15    5    4   1
+
+REALLY GENTLE THAN MY CODE. LEARN IT!
+
