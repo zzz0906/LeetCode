@@ -2108,3 +2108,11 @@ therefore s[1] store all col
 then output s[1] as a line finish transpose!
 
 So clever!
+
+## 195. Tenth Line
+
+BASH again
+
+output tenth line; if < 10? error? or other mem space value?
+
+awk + NR done?

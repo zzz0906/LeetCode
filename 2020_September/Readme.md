@@ -452,3 +452,8 @@ left cur pro
 
 REALLY GENTLE THAN MY CODE. LEARN IT!
 
+## Word break
+
+Same as 139 which I have finished before. please see in leetcode 139.
+
+DP + HASH
