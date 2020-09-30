@@ -450,10 +450,35 @@ left cur pro
 0     3   24 > 15 ... 1    3   8
 1     4   120 > 15    5    4   1
 
-REALLY GENTLE THAN MY CODE. LEARN IT!
+REALLY GENTLE THAN MsY CODE. LEARN IT!
 
 ## Word break
 
 Same as 139 which I have finished before. please see in leetcode 139.
 
 DP + HASH
+
+## First Missing Positive
+
+Your algorithm should run in O(n) time and uses constant extra space.
+
+I think a solution. Find the maximum. and 1 to maximum to find the first value but find is in nlogn...
+
+First find the minimum > 0
+
+then done...
+
+It seems too easy
+
+minimum > 1 ans = 1
+
+
+OR first we get all positive numbers
+
+1+2+3+4
+
+Surprise I have done this problem before...
+
+I review my idea. It's too gorgeous.
+
+I use the original array as the bucket. And keep swaping until each number < length to its corrospoding position!

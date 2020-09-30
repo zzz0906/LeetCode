@@ -2116,3 +2116,19 @@ BASH again
 output tenth line; if < 10? error? or other mem space value?
 
 awk + NR done?
+
+## 196. Delete Duplicate Emails
+
+SQL today!
+
+delete duplicates
+
+just see std and learn it.
+
+JUST use delete and from two same table and delete email equal but id > id
+
+DELETE p2 FROM Person p1, Person p2
+WHERE p1.Email = p2.Email AND p2.Id > p1.Id;
+
+DELETE FROM Person WHERE Id NOT IN
+(SELECT Id FROM (SELECT MIN(Id) Id FROM Person GROUP BY Email) p);
