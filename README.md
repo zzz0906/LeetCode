@@ -2132,3 +2132,28 @@ WHERE p1.Email = p2.Email AND p2.Id > p1.Id;
 
 DELETE FROM Person WHERE Id NOT IN
 (SELECT Id FROM (SELECT MIN(Id) Id FROM Person GROUP BY Email) p);
+
+## 197. Rising Temperature
+
+Just compare today with the day before?
+
+SELECT w1.Id FROM Weather w1, Weather w2
+WHERE w1.Temperature > w2.Temperature AND DATEDIFF(w1.Date, w2.Date) = 1;
+
+
+It clear to do this work by DATEDIFF!
+
+## 199. Binary Tree Right Side View
+Return to normal algorithm problem today!
+
+we only want to get the right side of the tree today.
+
+I forgot it. A very similar problem. We can just put the elements in the queue in each depth of a tree.
+
+And a tips **height  = depth + 1**
+
+## 200. Number of Islands
+
+Union set? Or bfs and give some flags?
+
+## 201.

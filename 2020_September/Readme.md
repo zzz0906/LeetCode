@@ -482,3 +482,4 @@ Surprise I have done this problem before...
 I review my idea. It's too gorgeous.
 
 I use the original array as the bucket. And keep swaping until each number < length to its corrospoding position!
+
