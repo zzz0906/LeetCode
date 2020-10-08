@@ -2156,4 +2156,4 @@ And a tips **height  = depth + 1**
 
 Union set? Or bfs and give some flags?
 
-## 201.
+yes, bfs is correct. Flag each node of the graph as -1 and bfs each time and iterate to find the next '1' of the graph.
