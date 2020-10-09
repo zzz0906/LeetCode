@@ -2157,3 +2157,36 @@ And a tips **height  = depth + 1**
 Union set? Or bfs and give some flags?
 
 yes, bfs is correct. Flag each node of the graph as -1 and bfs each time and iterate to find the next '1' of the graph.
+
+## 201. Bitwise AND of Numbers Range
+
+the bit of each number can and together.
+
+0
+1
+10
+11
+100 4
+101
+110
+111
+1000 8
+10000 16
+32
+64
+2 4 8
+
+I found that it's clear that the interval contains the 
+
+if there are 2^n and 2^(n+1) in the range then we can know the reason!
+
+if the length(binary form of start) - length(binary form of end) >= 1 which means it's zero!
+
+If else then we need to compute start-end's answer;
+
+AC!
+
+
+
+
+

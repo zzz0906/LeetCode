@@ -10,3 +10,13 @@ the t is increasing; which means we can push out the t-3000's value which cannot
 
 Same as 61 which I have done before
 
+
+## Binary Search
+
+lower_bound? ...
+
+It seems so easy.
+
+YES ac... if lower_bound find it then return lower_bound index else return -1;
+
+This problem help me with reviewing the c++ stl.

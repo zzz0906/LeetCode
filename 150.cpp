@@ -12,6 +12,7 @@ public:
                 value.push(stoi(tokens[index]));
             }
             else{
+                if (a + b)
                 int a = value.top();value.pop();
                 int b = value.top();value.pop();
                 if (tokens[index] == "+") value.push(a+b);
