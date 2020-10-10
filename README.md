@@ -2186,7 +2186,20 @@ If else then we need to compute start-end's answer;
 
 AC!
 
+## 202. Happy Number
 
+number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
 
+19
 
+1^2 + 9 ^ 2 = 82
 
+8^2 + 2 ^ 2 = 68
+
+6^2 + 8 ^ 2 = 100
+
+1 + 0 + 0 = 1
+
+map and find 1?
+
+YES...It's a easy question.AC.
