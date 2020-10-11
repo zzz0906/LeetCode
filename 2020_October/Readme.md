@@ -64,4 +64,34 @@ HOLY!! two dimensions array can be sorted directly!
 
 YES...it use recursive to compare two one-dimension array in two dimension array...
 
+## Remove Duplicate Letters
+
+Given a string s, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.
+
+Note: This question is the same as 1081: https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/
+
+the smallerest means the smallest dad
+
+
+Maybe we can first iterate over 'a'-'z' and find the corresponding places 
+
+NO NO... we need record each character's position. It's a little complex...
+
+Let me see the std's answer;
+
+The std is so clever. He use a hash table to record the number of each character.
+
+Then let we traverse the string, and when we face a char we need to compare it to the last character of the ans, if the last character of ans is bigger, which means current character is a better answer, but if the last character of the ans's count number is 0 which means it do not have any characters in the behind of the string. Therefore we cannot delete it.
+
+(e.g., addc even if c < d but count d is zero therefore we cannot get the answer);
+
+AC...So clever. The key point of this problem is
+
+1. record the number of existing for this character
+2. if last < current and there are last in the behind of the string we can delete last and add current
+3. we can keep 2 until cannot find this last.
+
+
+
+
 

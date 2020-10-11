@@ -2225,3 +2225,9 @@ Acutally, there are some tricks. First, you need to consider
 8. current->val != val, then we can know that last =current and current = current->next
 
 Basically, I think we must consider above 8 situations.
+
+## 204. Count Primes
+
+..? What is wrong with leetcode.
+
+Yes, I write a sieve. But I use a bool array to represent whether a number is sieved or not. AC! And faster than 84%!
