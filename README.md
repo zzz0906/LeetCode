@@ -2203,3 +2203,25 @@ number equals 1 (where it will stay), or it loops endlessly in a cycle which doe
 map and find 1?
 
 YES...It's a easy question.AC.
+
+
+**USE slow and fast pointer to find the cycle!**
+
+## 203. Remove Linked List Elements
+
+Boring and easy...
+
+AC...
+
+Acutally, there are some tricks. First, you need to consider
+
+1. head is null
+2. head is not null but only one head with specific val
+3. head is not null but only one head without specific val
+4. there are several nodes in the list, but head with the specific val, therefore you need to find the head whose val is not specific val first. 
+5. after above process, if it's null return null
+6. else let last = head and current = head->next and begin iteration
+7. current->val = val let last ->next = current->next
+8. current->val != val, then we can know that last =current and current = current->next
+
+Basically, I think we must consider above 8 situations.

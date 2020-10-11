@@ -38,3 +38,30 @@ It seems in order traverse is the easiest way.
 It's very hard to consider using input and output stream!
 
 learn it!
+
+## Minimum Number of Arrows to Burst Balloons
+
+I read this question twice to understand what this question want to express. The ballon is around [x1,x2] you need to shot a point in the [x1,x2] then you can burst this ballon.
+
+Some ballon is overlay you can shot one to busrt multiple.
+
+-2^31 <= xstart < xend <= 2^31 - 1
+
+This problem is to find the interval's intersection!
+
+[[1,2],[2,3],[3,4],[4,5]]
+
+2,3,4
+
+when we shot 2,4 then we can burst all. Oh, DP?
+
+Nope...I take the std's idea. 
+First for the minimum ballon, it start has no overlap. which means 1,2 2,3 3,4 4,5 we can just shot 1,2 and we must shot it. Then, for an iterval. We must shot it. then it has a the end and the ballon whose start is less than its end can be shot either. 
+
+But **after that**, we need to update end. because maybe there are situations start start end end then we want to shoot both two ballons, we need to let the shot point in the start-min(end,end).
+
+HOLY!! two dimensions array can be sorted directly!
+
+YES...it use recursive to compare two one-dimension array in two dimension array...
+
+
