@@ -91,7 +91,21 @@ AC...So clever. The key point of this problem is
 2. if last < current and there are last in the behind of the string we can delete last and add current
 3. we can keep 2 until cannot find this last.
 
+## Buddy Strings
+
+Given two strings A and B of lowercase letters, return true if you can swap two letters in A so the result is equal to B, otherwise, return false.
+
+only two letters
+
+o(n^2) enumerate each place of swap?
 
 
+NO NO NO.
 
+if they are buddy string.
 
+1. eaqual a==a
+
+2. we only have one pair (a[i] = b[j] b[i] = a[j])
+
+AC! yes.

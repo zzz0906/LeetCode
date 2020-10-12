@@ -2231,3 +2231,11 @@ Basically, I think we must consider above 8 situations.
 ..? What is wrong with leetcode.
 
 Yes, I write a sieve. But I use a bool array to represent whether a number is sieved or not. AC! And faster than 84%!
+
+## 205. Isomorphic Strings
+
+Record the each char position and compare each char's position is equal to the other string.
+
+AC faster > 5%...
+
+Easy just summarizing the number of existing numbers...
