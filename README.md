@@ -2239,3 +2239,11 @@ Record the each char position and compare each char's position is equal to the o
 AC faster > 5%...
 
 Easy just summarizing the number of existing numbers...
+
+## 206. Reverse Linked List
+
+still easy today...
+
+return a Reverse Linked List
+
+just traverse to end and put it in a new linked list. Again and again.

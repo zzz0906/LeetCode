@@ -109,3 +109,17 @@ if they are buddy string.
 2. we only have one pair (a[i] = b[j] b[i] = a[j])
 
 AC! yes.
+
+## Sort List
+
+! leetcode 148 I have done it before. 
+
+According to list, the best method is merge sort!
+
+Fisrt we can use slow and fast to divide the list to two equal list
+
+then we can sort it.
+
+When the number of element is 1 then return it.
+
+This step is perfect! merge(sort(l1),sort(l2))!
