@@ -2247,3 +2247,21 @@ still easy today...
 return a Reverse Linked List
 
 just traverse to end and put it in a new linked list. Again and again.
+
+## 207. Course Schedule
+
+Find a cycle in a graph!
+
+dfs?
+
+WRONG! 1->0 1->7 7->0 there is no cycle! but return false;
+
+see std
+
+oh just add one sentence! just after accessing to this node delete the flag; 1->0; return to 1 then 0 can be false;
+
+in one path!
+
+vector's time complexity << map!
+
+use vector!

@@ -123,3 +123,42 @@ then we can sort it.
 When the number of element is 1 then return it.
 
 This step is perfect! merge(sort(l1),sort(l2))!
+
+## House Robber II
+
+It seems a classical DP problem.
+
+0 1 2
+
+=> 2 5 4 10 15
+
+4 15
+
+5 15
+
+therefore the ans do not have to interval one, it can interval two element!
+
+f[i,1] => grab ith max value
+
+f[i,0] => do not grab ith
+
+f[i,1] => max(f[i-2,0]+v[i],f[i-2,1]+v[i])
+
+f[i,0] => max(f[i-1,1],f[i-1,0],f[i-2,1],f[i-2,0])
+
+OH...we need to record whether choosing the first for the final.
+
+A little complex...
+
+let me see the std's solution.
+
+
+OH... clever it compute twice once for only 1...end once for only 0...end-1
+
+return max(rob(nums, 0, nums.size() - 1), rob(nums, 1, nums.size()));
+
+[0,num.size()-1) [1,nums.size()]
+
+therefore! if (right - left <= 1) return nums[left];
+
+And std use overload, really clever!
