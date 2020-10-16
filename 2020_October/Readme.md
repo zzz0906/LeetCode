@@ -162,3 +162,15 @@ return max(rob(nums, 0, nums.size() - 1), rob(nums, 1, nums.size()));
 therefore! if (right - left <= 1) return nums[left];
 
 And std use overload, really clever!
+
+## Rotate Array
+
+Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
+
+Could you do it in-place with O(1) extra space?
+
+erase and push front (insert begin?)
+
+also **k = k % length** because we do not rotate again and again.
+
+AC!

@@ -2264,4 +2264,8 @@ in one path!
 
 vector's time complexity << map!
 
-use vector!
+use vector and pronum!!
+
+## 208. Implement Trie (Prefix Tree)
+
+Just take the edge as the char and record a ture or false for each edge to record whether the edge will be final.
