@@ -174,3 +174,27 @@ erase and push front (insert begin?)
 also **k = k % length** because we do not rotate again and again.
 
 AC!
+
+## Search a 2D Matrix
+
+Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+
+1. Integers in each row are sorted from left to right.
+
+2. The first integer of each row is greater than the last integer of the previous row.
+
+Just as the sorted list? But this problem is with more information?
+
+in the last element, I need to try to keep removing the first element.
+
+## Repeated DNA Sequences
+
+187 I have done it before!
+
+please refer to 186.
+
+## Best Time to Buy and Sell Stock IV
+
+DP!
+
+188..I have done it before!

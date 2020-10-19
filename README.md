@@ -1957,7 +1957,7 @@ I still look into other's solution. I found that we need to use count(biggher th
 
 Then we need to sort the top 3 through 'order'!
 
-## 186. Repeated DNA Sequences
+## 187. Repeated DNA Sequences
 
 C++ again!
 
@@ -2269,3 +2269,61 @@ use vector and pronum!!
 ## 208. Implement Trie (Prefix Tree)
 
 Just take the edge as the char and record a ture or false for each edge to record whether the edge will be final.
+
+## 209. Minimum Size Subarray Sum
+
+Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s. If there isn't one, return 0 instead.
+
+If you have figured out the O(n) solution, try coding another solution of which the time complexity is O(n log n). 
+
+O(n)? It seems impossible?
+
+prefix sum + enumerate : n*n
+
+Oh, I have an idea...
+
+e.g. 2 3 1 2 4 3:
+
+ans: 
+
+2
+
+2 3
+
+2 3 1
+
+2 3 1 2 > 7 => remove 2 => 3 1 2
+
+1 2 4
+
+1 2 4 3
+
+Use deque instead of vector! and record the current sum of the deque!
+
+AC! 
+
+## 210. Course Schedule II
+
+Topology!
+
+BFS or keep remove the 0 indegree nodes!
+
+Just use a deque to record the 0 indegree nodes.
+
+And push them into the queue. 
+
+And delete the edge from this node
+
+keep above procedure! 
+
+make which course need to be learned fist clear!
+
+## 212.Word Search II
+
+Given a 2D board and a list of words from the dictionary, find all words in the board.
+
+Each word must be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.
+
+DFS?
+
+brute force can pass...
