@@ -2327,3 +2327,28 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 DFS?
 
 brute force can pass...
+
+
+We can use trie. but we need to construct it from the matrix!
+
+let me see the std's solution
+
+oh the std construct a trie for the words
+```
+void insert(string s) {
+    TrieNode *p = root;
+    for (auto &a : s) {
+        int i = a - 'a';
+        if (!p->child[i]) p->child[i] = new TrieNode();
+        p = p->child[i];
+    }
+    p->str = s;
+}
+```
+
+in the above code, only the end's str is not empty!
+
+and search in the matrix and determine whether it in the trie.
+
+construct trie for words + dfs in the matrix for the trie
+

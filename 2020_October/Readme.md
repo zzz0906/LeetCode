@@ -198,3 +198,26 @@ please refer to 186.
 DP!
 
 188..I have done it before!
+
+## Minimum Domino Rotations For Equal Row
+
+Return the minimum number of rotations so that all the values in A are the same, or all the values in B are the same.
+
+If it cannot be done, return -1.
+
+brute force:
+1. choose a fixed number
+2. if the number is different then rotate it
+3. repeat above process for each element of array
+
+1 <= A[i], B[i] <= 6
+
+...
+
+It's so easy...just enumerate 1 to 6 for A and B
+
+2*6*2 * 104
+
+= 24*10^4 = 2.4 * 10^5
+
+AC!
