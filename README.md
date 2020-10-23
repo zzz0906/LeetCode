@@ -2352,3 +2352,14 @@ and search in the matrix and determine whether it in the trie.
 
 construct trie for words + dfs in the matrix for the trie
 
+## 214. Shortest Palindrome
+
+String problem - Oh Oh DP problem
+
+by adding characters in front of it
+
+Interesting
+
+
+
+## 215.  

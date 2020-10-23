@@ -221,3 +221,19 @@ It's so easy...just enumerate 1 to 6 for A and B
 = 24*10^4 = 2.4 * 10^5
 
 AC!
+
+## Clone Graph
+
+I have done it before... 133 done.
+
+## Minimum Depth of Binary Tree
+
+done it before...
+
+111. Minimum Depth of Binary Tree
+
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Just DFS and fin the minimum depth. But it seems not fast?
