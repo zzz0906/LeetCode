@@ -2381,3 +2381,9 @@ In std, we need to determin the whether head-i is palindrome and recall our func
 ## 215. Kth Largest Element in an Array
 
 sort and return?...AC
+
+## 217. Contains Duplicate
+
+just bucket? or unordered_map?
+
+ac...unordered_map!

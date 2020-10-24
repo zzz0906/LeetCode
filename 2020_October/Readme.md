@@ -237,3 +237,33 @@ Given a binary tree, find its minimum depth.
 The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
 
 Just DFS and fin the minimum depth. But it seems not fast?
+
+## 132 Pattern
+
+maybe we can record the 
+
+n^3 enumerate
+
+the std use priority_queue
+
+how to do this?
+
+132 pattern means ikj i is the smallest j is smaller
+
+and the first element is j and we only need to record the element > j
+
+when we find a new element we do following operations:
+
+1. if this element is bigger than top of the stack means we have a 132' 3
+
+2. then we need to roll back stack until we find a element which biggest but smaller than this element
+
+3. in the above operations when we find a third element and the bigest second element we only need to record the second element
+because we just need to find a value (the first element) < the second one
+
+4. if we have a bigger third element than the top of the stack, we need to update to find the optimal value of the second element
+
+I think this way is letting we record a second value (in the third place)
+
+this solution is so clever!
+
