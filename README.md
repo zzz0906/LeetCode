@@ -2360,6 +2360,24 @@ by adding characters in front of it
 
 Interesting
 
+We need to find the minimum steps to let it be a palindrome.
 
+It's so hard...
 
-## 215.  
+the std use two pointers, one pointers at the start of the string and another at the end of the string
+
+and if they are equal, both of them --; otherwise the end--
+
+for example in this way abbac, a-c, a-a, b-b;
+
+In this way we can ensure that from head to where there is a palindrome
+
+but attention **maybe there is no palindrome from head to there, e.g.: adcba a-a d...until nothing, i = 2**
+
+in this case, the "ad" is not palindrome.
+
+In std, we need to determin the whether head-i is palindrome and recall our function again.
+
+## 215. Kth Largest Element in an Array
+
+sort and return?...AC
