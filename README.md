@@ -2387,3 +2387,50 @@ sort and return?...AC
 just bucket? or unordered_map?
 
 ac...unordered_map!
+
+## 218. The Skyline Problem
+
+what is the red point meaning in the right figure is key to this problem.
+
+the red point is from horizontal to vertical?
+
+the std use a scan method and multitest data structure
+
+multitest 
+
+```
+Multisets are containers that store elements following a specific order, and where multiple elements can have equivalent values.
+
+In a multiset, the value of an element also identifies it (the value is itself the key, of type T). The value of the elements in a multiset cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container.
+
+Internally, the elements in a multiset are always sorted following a specific strict weak ordering criterion indicated by its internal comparison object (of type Compare).
+
+multiset containers are generally slower than unordered_multiset containers to access individual elements by their key, but they allow the direct iteration on subsets based on their order.
+
+Multisets are typically implemented as binary search trees.
+```
+
+pair can be used as <first,second>
+
+and the std's solution is as below:
+
+first, we need to put the hight to the heap
+
+then we get the heightest of we iterate over's elements
+
+we record the last highest element
+
+if this time current heighest element is not equal to the pre heightest
+
+which means
+
+1. we walk to the end of one element and the last heighest  has been removed.
+
+2. we add a new element to the the range is becomse more higher
+
+And the ans's x shall be the update's place 's x and ans's y shall be current the heighest value.
+
+I learn two things in this problem
+
+1. multisets means heap
+2. we need to observe the problem to find the pattern in the problem!

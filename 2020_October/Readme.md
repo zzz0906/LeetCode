@@ -267,3 +267,35 @@ I think this way is letting we record a second value (in the third place)
 
 this solution is so clever!
 
+## Bag of Tokens
+If your current power is at least tokens[i], you may play the ith token face up, losing tokens[i] power and gaining 1 score.
+
+If your current score is at least 1, you may play the ith token face down, gaining tokens[i] power and losing 1 score.
+
+which means I have two operations to let the tokes and score exchange.
+
+It seems a greedy algorithm.
+
+I have no more time to do this problem. Skip this problem today.
+
+## Stone Game IV
+
+It seems like a game theory
+
+A,B will use their the best policy.
+
+n-square_number-square_number
+
+preprocess all square numbers in 1-10^5
+
+Or it's a recursive? like 4-> 4-1 4-4
+
+my recursion idea can be initialized as a DP
+
+THE std use DP to solve this problem.
+
+dp[i] true means alice win and false means bob win
+
+dp[i-k*k] if there is a way let it be true then I will choose this method
+
+
