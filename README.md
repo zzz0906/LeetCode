@@ -2434,3 +2434,23 @@ I learn two things in this problem
 
 1. multisets means heap
 2. we need to observe the problem to find the pattern in the problem!
+
+## 222. Count Complete Tree Nodes
+
+just count it? yes AC...
+
+But we need to use the prpoerties of complete tree
+
+except the last level of the tree other level is full which means we only need to count the last'nodes
+
+we can use this properties
+
+in my way 2^n-1 + last level's nodes is a great solution
+
+however!!! the last level's nodes is hard to summarizing.
+
+Therefore the std use another method to implement this properties.
+
+It summary whether current nodes have left most and right most. If it has it must equal to the 2^h
+
+else just take the left and right as the new tree!

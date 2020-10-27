@@ -299,3 +299,29 @@ dp[i] true means alice win and false means bob win
 dp[i-k*k] if there is a way let it be true then I will choose this method
 
 
+## Champagne Tower
+
+It's easy to think that after the second row, their champagn is output equal to all cup
+
+1 2 2 1
+
+so if it ask i,j
+
+1+2+..i-1
+
+1:2:2...:1
+
+**In the first row, we do not satisfy these rules.**
+
+**NO!!**
+
+my idea has problems. I think the bowl is as the recurrence sequence!
+
+Or I don't know. It's hard.
+
+let me see std solutions.
+
+std use dp. whcih means 1:2:...:2:1 is incorrect.
+
+dp[i + 1][j] += (dp[i][j] - 1) / 2.0;
+dp[i + 1][j + 1] += (dp[i][j] - 1) / 2.0;
