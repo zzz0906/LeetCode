@@ -2454,3 +2454,15 @@ Therefore the std use another method to implement this properties.
 It summary whether current nodes have left most and right most. If it has it must equal to the 2^h
 
 else just take the left and right as the new tree!
+
+## 219. Contains Duplicate II
+
+Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k.
+
+I seem to have solve this problem before?
+
+i to find i-k - i + k?
+
+O(i*k)
+
+better map index value to 

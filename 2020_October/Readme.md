@@ -222,6 +222,10 @@ It's so easy...just enumerate 1 to 6 for A and B
 
 AC!
 
+## Linked List Cycle II
+
+see **142** in the daily training~
+
 ## Clone Graph
 
 I have done it before... 133 done.
