@@ -2466,3 +2466,20 @@ i to find i-k - i + k?
 O(i*k)
 
 better map index value to 
+
+## 223. Rectangle Area
+
+To find the juntion place of two rectangles.
+
+It's like a Category Discussion method. More simplest method?
+
+Let me see STD. I think this problem is a little hard...
+
+First consider the situation without junction
+
+if (E >= C || F >= D || B >= H || A >= G) return sum1 + sum2;
+
+Without junction just compute the (min left - max right) * (min up - max down)
+
+Also **sum1 + sum2 may > INT_MAX** we need let it minus the overlap part first!
+

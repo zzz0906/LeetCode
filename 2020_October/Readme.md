@@ -329,3 +329,11 @@ std use dp. whcih means 1:2:...:2:1 is incorrect.
 
 dp[i + 1][j] += (dp[i][j] - 1) / 2.0;
 dp[i + 1][j + 1] += (dp[i][j] - 1) / 2.0;
+
+## Summary Ranges
+
+Just scan it? and if it can continues to last one, then keep going on!
+
+yes record the start end continuous! and determine whether it's continuous
+
+Yes AC!
