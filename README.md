@@ -2483,3 +2483,22 @@ Without junction just compute the (min left - max right) * (min up - max down)
 
 Also **sum1 + sum2 may > INT_MAX** we need let it minus the overlap part first!
 
+## 224. Basic Calculator
+
+Implement a basic calculator to evaluate a simple expression string.
+
+The expression string may contain open ( and closing parentheses ), the plus + or minus sign -, non-negative integers and empty spaces .
+
+I decide to use py3 this time. python string!
+
+1. delete space first
+2. **non-negative** integers means we can just use stack
+3. the value more be more than 10
+
+It still have negative after we do the minus and add...
+
+AC...just modify my code for each test case, it's so not robust.
+
+I also need to determine last operation is '-' or number to record whether I need to add the last number.
+
+also if it's negative number -- = + +- = -

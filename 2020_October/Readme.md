@@ -337,3 +337,27 @@ Just scan it? and if it can continues to last one, then keep going on!
 yes record the start end continuous! and determine whether it's continuous
 
 Yes AC!
+
+## Maximize Distance to Closest Person
+
+Like DP...Nope...it contains some pattern.
+
+There is at least one empty seat, and at least one person sitting.
+
+Alex wants to sit in the seat such that the distance between him and the closest person to him is maximized. 
+
+Return that maximum distance to the closest person.
+
+1 1 1 1 0 0 0 1 1 1
+
+enumerate for all 0 places? and record the last one
+
+o(n) is enough!
+
+No...I found a simpler way to solve this problem.
+
+Just find start ... 1; 1...1; 1...end; three situations
+
+and the ans is lenght/2
+
+AC!
