@@ -2502,3 +2502,26 @@ AC...just modify my code for each test case, it's so not robust.
 I also need to determine last operation is '-' or number to record whether I need to add the last number.
 
 also if it's negative number -- = + +- = -
+
+## 225. Implement Stack using Queues
+
+Review how to use queue in stack. 
+
+Just use deque which is too stronger to implement stack also queue but loose indexing.
+
+It's cheating to use deque in some way.
+
+Let me see std how to solve this problem.
+
+It use two queue
+
+
+first .... end (need to push_out)
+
+then the core idea of this problem is let push and back agian to get following format:
+
+end first ...
+
+then put the end in the another queue.
+
+in this way we can always get the end element (we do not use two queue, one queue and another element is also great?)
