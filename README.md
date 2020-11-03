@@ -2525,3 +2525,9 @@ end first ...
 then put the end in the another queue.
 
 in this way we can always get the end element (we do not use two queue, one queue and another element is also great?)
+
+## 226. Invert Binary Tree
+
+Seriously? just let the two turee excahnge recursively
+
+Yes...AC...

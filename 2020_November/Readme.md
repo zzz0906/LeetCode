@@ -10,3 +10,6 @@ Then iterate linked list and each time exp / 2;
 
 AC.
 
+## Insertion Sort List
+
+147.. I have done it before! Please see it in the 147.
