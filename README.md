@@ -2531,3 +2531,17 @@ in this way we can always get the end element (we do not use two queue, one queu
 Seriously? just let the two turee excahnge recursively
 
 Yes...AC...
+
+## 227. Basic Calculator II
+
+224's * / get!
+
+Use * / first 
+
+then use + -
+
+It seems just add a little for last problem.
+
+I use std to solve this problem.
+
+Later when I face basic calculator III I will do it by myself.

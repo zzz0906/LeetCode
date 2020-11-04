@@ -13,3 +13,12 @@ AC.
 ## Insertion Sort List
 
 147.. I have done it before! Please see it in the 147.
+
+## Consecutive Characters
+
+just record the last character and last existing times? It's so easy.
+
+
+and return the max existing time? O(length)
+
+AC!
