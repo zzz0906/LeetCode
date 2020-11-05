@@ -2545,3 +2545,17 @@ It seems just add a little for last problem.
 I use std to solve this problem.
 
 Later when I face basic calculator III I will do it by myself.
+
+## 230. Kth Smallest Element in a BST
+
+Given a binary search tree, write a function kthSmallest to find the kth smallest element in it.
+
+Interesting! left root right is the order of 
+
+Transfer the BST to array first?
+
+STD use a count to count the number of nodes we traverse!
+
+L L L L L ROOT RIGHT LEFT LEFT LEFT ROOT RIGHT => keep the inorder!
+
+This method is so clever!

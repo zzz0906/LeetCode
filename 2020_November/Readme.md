@@ -22,3 +22,18 @@ just record the last character and last existing times? It's so easy.
 and return the max existing time? O(length)
 
 AC!
+
+## Minimum Height Trees
+
+the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h))  are called minimum height trees (MHTs).
+
+return the max degree's nodes?
+
+I feel like this theory is correct...
+
+Oh my idea is correct? oh...no...there are some difference
+
+It shall be the topology of the nodes' degree.
+
+AC!
+
