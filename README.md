@@ -2559,3 +2559,15 @@ STD use a count to count the number of nodes we traverse!
 L L L L L ROOT RIGHT LEFT LEFT LEFT ROOT RIGHT => keep the inorder!
 
 This method is so clever!
+
+## 231. Power of Two
+
+The biggest is 2^31...
+
+or bit operations?
+
+keep /2
+
+AC... yes keep /2 and let the dinumetor * 2 to decide whether it equal to the original number.
+
+AC!

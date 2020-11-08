@@ -37,3 +37,19 @@ It shall be the topology of the nodes' degree.
 
 AC!
 
+## Add Two Numbers II
+
+High precision problem...use linked list to simulate the two sum of two integers
+
+I need to use reversed order it's n^2 if we keep iterating
+
+if n^2 space 
+
+the std use stack...instead we can also just use vector.
+
+C++ class must be **new**!!
+
+AC! This problem let me review how to do the higher precision.
+
+remember the last carry. 
+
