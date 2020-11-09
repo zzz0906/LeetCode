@@ -2571,3 +2571,17 @@ keep /2
 AC... yes keep /2 and let the dinumetor * 2 to decide whether it equal to the original number.
 
 AC!
+
+## 232. Implement Queue using Stacks
+
+like the above question one stack to store the first element of the stack.
+
+only pop need to pop all 
+
+Is there any easier solution?
+
+a key property: a stack wo pop out 1,2,3,4 wo push them to another stack *up 4 3 2 1 down* then we pop then push to original stack
+
+the order of these number is the same as original stack. 1 2 3 4 and the new one is 5
+
+so genius! let the first in the top and each time we pop out them to a stack and push the new one in the top of the stack.
