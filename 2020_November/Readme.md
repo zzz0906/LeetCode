@@ -60,3 +60,11 @@ Recursive?
 ...yes
 
 it's a so easy problem.
+
+## Maximum Difference Between Node and Ancestor
+
+Just record the max value and min value of the subtree?
+
+I think this idea is correct.
+
+AC!

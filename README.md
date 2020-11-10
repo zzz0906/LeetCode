@@ -1,7 +1,13 @@
 # LeetCode Recording
 
 Practicing my programming skill day by day
-Record the consideration and analysis
+Record the consideration or std's solution
+
+**Hard Problem:**
+
+233
+
+
 
 ## 10 Regular Expression Matching
 ~~Because it just contains '*', '.'.
@@ -2585,3 +2591,71 @@ a key property: a stack wo pop out 1,2,3,4 wo push them to another stack *up 4 3
 the order of these number is the same as original stack. 1 2 3 4 and the new one is 5
 
 so genius! let the first in the top and each time we pop out them to a stack and push the new one in the top of the stack.
+
+## 233. Number of Digit One
+
+The std just find the pattern of this problem
+
+the std give the table as below:
+
+| the number of digits 1 | the number containing 1 | the range of the number |
+|  ----  | ----  | ---- |
+| 1  | 1 |  [1-9]   |
+| 11  | <font color="#dd0000">1</font>0 <font color="#dd0000">11</font> <font color="#dd0000">1</font>2 <font color="#dd0000">1</font>3 <font color="#dd0000">1</font>4 <font color="#dd0000">1</font>5 <font color="#dd0000">1</font>6 <font color="#dd0000">1</font>7 <font color="#dd0000">1</font>8 <font color="#dd0000">1</font>9 |      |
+| 1  | 21 |   [10-19]   |
+| 1  | 31 |   [20-29]   |
+| 1  | 41 |  [30-39]    |
+| 1  | 51 |  [40-49]    |
+| 1  | 61 |  [50-59]    |
+| 1  | 71 |  [60-69]    |
+| 1  | 81 |  [70-79]    |
+| 1  | 91 |  [80-89]    |
+| -  | to the three digits |      |
+| 11  | 100 101 102 103  104  105  106  107  108  109 |  [100-109]    |
+| 21  | <font color="red">11</font>0 <font color="#dd0000">111</font>  <font color="red">11</font>2  <font color="red">11</font>3  <font color="red">11</font>4  <font color="red">11</font>5  <font color="red">11</font>6  <font color="red">11</font>7  <font color="red">11</font>8  <font color="red">11</font>9  |   [110-119]   |
+
+first, let (it + 8) / 10
+
+we use two aid variables a and b
+
+b += n % 10 * a
+
+
+124
+
+----
+
+132/10 *1 + 0 = 13
+
+b = 1 + 4*1 = 5
+
+a = 1*10 = 10
+
+132 / 10 = 13
+
+----
+
+21 / 10 * 10 + 0 = 20
+
+b = 5 + 3*10 = 35
+
+a = 100
+
+n = 13/10 = 1
+
+----
+
+(1+8)/10 = 0 + 35
+
+----
+
+13 + 20 + 35
+
+124
+
+
+(n + 8) / 10 * a + (n % 10 == 1) * b;
+
+means n > 2 then left n = 1 then b if n == 0 then nothing !
+
+Let me review this problem again some day. This is a very hard problem!
