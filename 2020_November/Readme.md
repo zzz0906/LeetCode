@@ -68,3 +68,9 @@ Just record the max value and min value of the subtree?
 I think this idea is correct.
 
 AC!
+
+## Flipping an Image
+
+Easy?
+
+AC... just follow the problem ask me to do.
