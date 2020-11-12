@@ -2691,3 +2691,18 @@ And also, where is the middle slow pointer?
 therefore we need to compare in the slow->next pointer
 
 ![alt text](./234.jpg "the process of reverse")
+
+## 235. Lowest Common Ancestor of a Binary Search Tree
+
+LCA! Come on!
+
+I don't know how to solve this easy problem...
+
+Let me see the solution.
+
+Use BST's property... I keep thinking solve the problem of LCA
+
+if p,q in the left and right which means the answer is current root
+
+Or we can keep searching left or right
+

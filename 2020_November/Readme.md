@@ -74,3 +74,25 @@ AC!
 Easy?
 
 AC... just follow the problem ask me to do.
+
+## Valid Square
+
+Given the coordinates of four points in 2D space, return whether the four points could construct a square.
+
+The coordinate (x,y) of a point is represented by an integer array with two integers.
+
+3 + 2 + 1 = 6 edges there are 4 equal edges then
+
+The first node has two choice assuming this node is 0
+
+1 2;2 3; 1 3;
+
+But also angle!!!
+
+Just look std I give up
+
+OH!! std tell us if two diagonal are equal means the angle is 90 degrees!
+
+And determine whether there is two same node!
+
+AC!
