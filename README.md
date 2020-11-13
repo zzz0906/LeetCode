@@ -2706,3 +2706,36 @@ if p,q in the left and right which means the answer is current root
 
 Or we can keep searching left or right
 
+## 236. Lowest Common Ancestor of a Binary Tree
+
+compare to the above problem, this problem cannot determine the order of the element I input into the problem.
+
+So we cannot determine the like 235. how about use two extra array to record their parents?
+
+I want to use unordered_set to record the p's parents
+
+and use a array to record the q's parents and reverse the the q's parents and determine whether q's parents one by one in the unordered_set of p;
+
+It need more space.
+
+Let me see the std's solution.the std write 1 recursion and its solution seems easier.
+
+First for the current node, if p in its left tree and q in its right tree which means the current node is the LCA.
+
+therefore we can use LCA to determine whether there is p || q in the left or right tree
+
+```
+TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+       if (!root || p == root || q == root) return root;
+```
+
+```
+TreeNode *left = lowestCommonAncestor(root->left, p, q);
+TreeNode *right = lowestCommonAncestor(root->right, p , q);
+```
+
+if left and right are not null whcih means we find the left p and right q therefore the root is the answer;
+
+if onyl left or right is not null then we only need to return left or right whcih means we cannot find in the right or left p and q. We need to left the subtree keep finding the LCA. 
+
+

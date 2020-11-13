@@ -96,3 +96,13 @@ OH!! std tell us if two diagonal are equal means the angle is 90 degrees!
 And determine whether there is two same node!
 
 AC!
+
+## Permutations II
+
+I remember I have done it before. Just let index as the flag which cannot be the same. 
+
+Yes 47. and AC, I review my idea. It's so inefficient!
+
+And coding style is ugly!
+
+Let me revise it.
