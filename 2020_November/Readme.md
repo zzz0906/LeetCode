@@ -23,6 +23,7 @@ and return the max existing time? O(length)
 
 AC!
 
+
 ## Minimum Height Trees
 
 the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h))  are called minimum height trees (MHTs).
@@ -106,3 +107,36 @@ Yes 47. and AC, I review my idea. It's so inefficient!
 And coding style is ugly!
 
 Let me revise it.
+
+
+
+## Mirror Reflection
+
+There is a special square room with mirrors on each of the four walls.  Except for the southwest corner, there are receptors on each of the remaining corners, numbered 0, 1, and 2.
+
+The square room has walls of length p, and a laser ray from the southwest corner first meets the east wall at a distance q from the 0th receptor.
+
+Math problem huh! long time no problem! let me do it!
+
+It means give a angle at the first time and what is the corner. 
+
+Let me just see the std answer.
+
+std use category discussion
+
+* P = Q 1
+* P/Q = 2/1 2
+* P/Q = 3/1 1
+![](17_1.png)
+* P/Q = 4/1 2
+* P/Q = 3/2 0
+![](17_2.png)
+
+And the std find the pattern. If the P > 1 then we need add P-1 extra room horizontal and Q > 1 we need to add Q-1 extra room verticallly.
+
+Odd P ODD Q 1
+
+ODD P Even Q 0
+
+EVEN P ODD Q 2
+

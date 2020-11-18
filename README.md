@@ -2739,3 +2739,12 @@ if left and right are not null whcih means we find the left p and right q theref
 if onyl left or right is not null then we only need to return left or right whcih means we cannot find in the right or left p and q. We need to left the subtree keep finding the LCA. 
 
 
+## 237. Delete Node in a Linked List
+
+Seriously? Boring. Next one.
+
+Wait??? No HEAD??
+
+node = node->next?
+
+YEH AC... A little Brain Teaser
