@@ -24,6 +24,7 @@ and return the max existing time? O(length)
 AC!
 
 
+
 ## Minimum Height Trees
 
 the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h))  are called minimum height trees (MHTs).
@@ -140,3 +141,13 @@ ODD P Even Q 0
 
 EVEN P ODD Q 2
 
+
+## Merge Intervals
+
+56 problem in the regular exercise!
+
+AC!
+
+Just sort and push to the ans one by one...
+
+sort in the all start and end until we find a start > end means a new interval!

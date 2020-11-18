@@ -2748,3 +2748,23 @@ Wait??? No HEAD??
 node = node->next?
 
 YEH AC... A little Brain Teaser
+
+## 238. Product of Array Except Self
+
+It's guaranteed that the product of the elements of any prefix or suffix of the array (including the whole array) fits in a 32 bit integer.
+
+Just get the prefix value and divide it.
+
+Yes, but if we face 0!! we need to pay attention to it.
+
+We record the number of zero. Using
+```
+if (nums[i] == 0 && zero == 1)
+    ans.push_back(pi); //there are none zero outside
+if (nums[i] == 0 && zero > 1)
+    ans.push_back(0); //there are zero outside
+if (nums[i] != 0 && zero >= 1)
+    ans.push_back(0); //there are zero outside
+if (nums[i] != 0 && zero == 0)
+    ans.push_back(pi/nums[i]); //there are none zero outside
+```
