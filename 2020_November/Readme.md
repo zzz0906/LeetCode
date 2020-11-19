@@ -151,3 +151,15 @@ AC!
 Just sort and push to the ans one by one...
 
 sort in the all start and end until we find a start > end means a new interval!
+
+## Decode String
+
+Just simulation. I think python is easier to face this problem?
+
+It's not so complicated. It only need to use a stack? yes!
+
+python [start:end] is included start - end+1!
+
+Yes py is easier to process string. But I don't know the effiecency!
+
+

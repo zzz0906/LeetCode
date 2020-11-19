@@ -2768,3 +2768,16 @@ if (nums[i] != 0 && zero >= 1)
 if (nums[i] != 0 && zero == 0)
     ans.push_back(pi/nums[i]); //there are none zero outside
 ```
+
+## 239. Sliding Window Maximum
+
+Montone Queue? Yes... Kidding me.
+
+Core idea: higher value 
+
+3 -1 -3 5
+
+[3 -1 -3]
+When 5 comming pop out -1 -3 because they will never be the maximum value!
+
+Yes AC!
