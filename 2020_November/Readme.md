@@ -163,3 +163,39 @@ python [start:end] is included start - end+1!
 Yes py is easier to process string. But I don't know the effiecency!
 
 
+## House Robber III
+
+After happy weekend I need to keep working on the problem now.
+
+ After a tour, the smart thief realized that "all houses in this place forms a binary tree". It will automatically contact the police if two directly-linked houses were broken into on the same night.
+
+ which means parent | child we only can choose one 
+
+ Compare the maxium value!
+
+ Oh, is there any possible like this way?:
+```
+           1
+   3           1000
+1000 1000    0      0
+```
+
+We need to stole three 1000 instead of other three
+
+Tree-DP?
+
+The std use dfs+hashset
+
+if we havec stolen A then we need to determine the max of B and C
+
+```
+if (root->left) {
+            val += dfs(root->left->left, m) + dfs(root->left->right, m);
+        }
+        if (root->right) {
+            val += dfs(root->right->left, m) + dfs(root->right->right, m);
+        }
+        val = max(val + root->val, dfs(root->left, m) + dfs(root->right, m));
+```
+
+We can clear see the root->left->left = dfs(dfs(root->left)->left). There are search overlap. Therefore we can use a HashMap to save the time!

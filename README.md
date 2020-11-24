@@ -2781,3 +2781,48 @@ Core idea: higher value
 When 5 comming pop out -1 -3 because they will never be the maximum value!
 
 Yes AC!
+
+
+## 240. 
+
+Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+
+Integers in each row are sorted in ascending from left to right.
+Integers in each column are sorted in ascending from top to bottom.
+
+O(n) get row logn search
+
+O(nlogn)?
+
+Review lower bound again! I implement it by myself.
+
+size == 0! classic!
+
+the first size == 1 the second size == 0! classic!
+
+Tester! AC
+
+But I do not use the column is also ordered.
+
+Let me see std how to solve it. 
+
+```
+class Solution {
+public:
+    bool searchMatrix(vector<vector<int> > &matrix, int target) {
+        if (matrix.empty() || matrix[0].empty()) return false;
+        if (target < matrix[0][0] || target > matrix.back().back()) return false;
+        int x = matrix.size() - 1, y = 0;
+        while (true) {
+            if (matrix[x][y] > target) --x;
+            else if (matrix[x][y] < target) ++y;
+            else return true;
+            if (x < 0 || y >= matrix[0].size()) break;
+        }
+        return false;
+    }
+};
+```
+
+it begin in the left down. The only problem whether the ans in its left. If target is smaller we up, bigger we right. Because, the bigger menas it will never show up in ths column must go right. smaller means it will never show up in this row! make sense!
+
