@@ -2783,7 +2783,7 @@ When 5 comming pop out -1 -3 because they will never be the maximum value!
 Yes AC!
 
 
-## 240. 
+## 240. Search a 2D Matrix II
 
 Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
 
@@ -2826,3 +2826,18 @@ public:
 
 it begin in the left down. The only problem whether the ans in its left. If target is smaller we up, bigger we right. Because, the bigger menas it will never show up in ths column must go right. smaller means it will never show up in this row! make sense!
 
+## 241. Different Ways to Add Parentheses
+
+The only solution I can learn is to use dfs.
+
+1-k; k-n; => 1-q,q-k and k-p,p-n
+
+and remember the symbol
+
+Also review c++ switch case 
+
+...In my way it's the different paraenthese's value. Therefore the duplicated values are approved.
+
+then keep use this way to add parenthesis.
+
+YES AC!

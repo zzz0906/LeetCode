@@ -199,3 +199,14 @@ if (root->left) {
 ```
 
 We can clear see the root->left->left = dfs(dfs(root->left)->left). There are search overlap. Therefore we can use a HashMap to save the time!
+
+## Basic Calculator II
+
+227 I have done before!
+
+I use this idea:
+
+* first calculate * and / 
+* then use -1 to represent - 
+* Finally in the end we all add all values!
+                
