@@ -2841,3 +2841,9 @@ Also review c++ switch case
 then keep use this way to add parenthesis.
 
 YES AC!
+
+## 242. Valid Anagram
+
+Anagram means the same characters different order.
+
+Use map to record the number of char! and let --; 

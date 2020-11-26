@@ -209,4 +209,25 @@ I use this idea:
 * first calculate * and / 
 * then use -1 to represent - 
 * Finally in the end we all add all values!
-                
+
+## Smallest Integer Divisible by K
+
+Given a positive integer K, you need to find the length of the smallest positive integer N such that N is divisible by K, and N only contains the digit 1.
+
+Interesting. 111/3 = 37
+
+First it cannot be the even;
+
+7 -> 111 111 
+
+the ans is ... brute force
+
+OH!! and Pigeonhole principle!
+
+K has k-1 remainders. 1,11,111...(k) 1 means we have computed k-1 remainder
+
+g = (g * 10 + 1) % K must have a circulation here. 1,3,5,1,3,5....
+
+therefore it must < k we only need to calculate k times.
+
+Yes AC!
