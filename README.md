@@ -2846,4 +2846,12 @@ YES AC!
 
 Anagram means the same characters different order.
 
-Use map to record the number of char! and let --; 
+Use map to record the number of char! and let --;
+
+## 243. Binary Tree Paths
+
+DFS to find all root-to-leaf paths.
+
+Just easy. Record the path and add a char to the string and return it.
+
+AC!

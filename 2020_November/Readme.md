@@ -231,3 +231,33 @@ g = (g * 10 + 1) % K must have a circulation here. 1,3,5,1,3,5....
 therefore it must < k we only need to calculate k times.
 
 Yes AC!
+
+## Longest Substring with At Least K Repeating Characters
+
+Given a string s and an integer k, return the length of the longest substring of s such that the frequency of each character in this substring is greater than or equal to k.
+
+memory-augumented search?
+
+can we preprocess all char value in this interval? [1..7]: a:4,b:5 [1..3]: a:2,b:1 => [3..7] a:2,b:4, like prefix sum.
+
+It was correct but TLE... 
+
+Use map or the array here is too slow
+
+iteration for st -> iterattion for ed -> iterattion for 26 characters O(k\*k\*26)
+
+but if our time complexity is O(k\*k) then we can pass.
+
+According std...we can use *MASK* int to do the same operation!
+
+We iterate the string; and use current iteration place as the start of the substring
+
+How to detect one substring is fix the requirements? shall we perform like my solution?
+
+one by one detect map m? NO!!! USE mask.
+
+**if the value of m\[0-26\] > 0 then we change a position of the integer to 1; if m\[0-26\] >k we rechange it to 0 if this value is 0 means yes! it can be a valid answer or it's 1 means there are char > 1 but < k**
+
+If you refer to my code, you will find maxid = j; i = maxid +1; which means current start at i - j is the answer which means the new answer cannot be k in [i-j] to m because if k-m is the answer which means i - j is the answer if we add k-m still can be the ansewr then it will be i - m. i-k must exist in k -j therefore i-m still can be the answer!
+
+!i = max_id + 1!
