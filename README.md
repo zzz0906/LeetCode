@@ -4,6 +4,8 @@ Practicing my programming skill day by day
 
 Record my insights or std's solution
 
+I labeled problems according to its best solution's algorithm. If there is no fixed type of algorithm, I will labeled it trick (use brain, no template algorithm). Also, if I do not list it in the summary table, it means that the problems are easy enough to finish it in my sophomore.
+
 ## Valuable Problems (Hard to associate them with a fixed algorithm)
 
 1. [233]() Number of Digit One
@@ -13,141 +15,13 @@ Record my insights or std's solution
 | # | Title | Solution | Insights | Difficulty|
 |---| ----- | -------- | ---------- | ---------|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [C++](./Scripts/10.cpp)|[Recursion](./Insights/10.md)| Hard
-
-## 11 Container With Most Water
-
-In this problem, it's easy to learn that we can just pick two points and calculate the answer (container water)
-
-It's a n^2 solution.
-
-Let me keep thinking, maybe we can just start from the middle? That's not correct.
-
-Or we can start from the begin and end. Oh yes, we can.
-
-if there is a better solution, we must move the point to the right left,if the value of the left or right is higher than ourselves. But how to calculate whether is better.
-
-Then our complexity is n
-
-We can just calculate the answer is (wide-1) * higer height or original height * (wide)
-
-**BUT** Which point do we need to move? Right or Left?
-
-Let me see, if the large on to move. we have no choice to make a better cotainer. Because the height is decided by the smaller one. and the wide become smaller (because of moving). So we need to move the smaller one. Then we can get the answer.
-
-
-## 12 Interger to Roman
-this is question for a integer that to a Roman
-We can can just replace the data with related data.
-
-If the number is < then a value then we should keep replace it. this is a typical replace question
-Roman | value 
------|-------
-I	|1
-IV	|4
-V	|5
-IX	|9
-X	|10
-XL	|40
-L	|50
-XC	|90
-C	|100
-CD	|400
-D	|500
-CM	|900
-M	|1000
-we can keep reduce until we cannot find a number that bigger than this number in the table.
-
-## 15 3sum
-if we just think about the brute force to find the three numbers, the time complexity is
-
-N*(N-1)*(N-2)
-
-It's too expensive. 
-Let me think about sort first. Then we get a sorted array. We can just binary search it. (i,j,k)
-if we fix an i, then we need to find a j and k, then we know that j + k = -i; we can find the k+i. we can use a bucket to store each value.
-
-But you should pay attention to the existing of the value, Because the output cannot have the same value.
-
-However fail, because it will have the probability to we choose a bucket and value is the same of value of the before value. that N^2 cannot be adapted.
-________
-
-Let use 3 pointers.j + k = -i if we point to i first, then we need to find the  j + k = -i if j + k > -i, this is a interesting question. the left + right is the most great sum. becuase the answer must between this two value. j....k. we must adjust the it between this two index. if (j + k) > -i k--; < -i then j++ until j == k;
-
-this means the answer index must between the begin and end in the sorted array. 
-
-## 16. 3Sum Closest
-You have to find three number sum closet to the target offer, we can know that the we can use 15 problem
-
-we need to answer close to the target. As the result, we can use a similar method as 15 to solve this problem. 
-a+b+c = target a+b = target - c until find a most similar to the target. 
-
-We keep using the o(n2) method to fix a value then find b and c. as the 15 describe.
-
-## 18. 4sum
-It more difficult to the last question.
-
-Can we use last algorithms again? That's not true, we must use another algorithm. Because if we use above algorithm, the time complexity is too high.
-
-However, similarly, we can use a+b = sum - (c+d) so we divide it to the 2 sum and 2 sum. Therefore, we can make a preprocess, first, we can add 2 numbers. for n numbers, we can get a C(n,2); pick 2 entity from the array. Then we choose to find a + b = target.
-
-In this question, if I am a person, how to simulate I pick the 4 numbers. I can choose ith, jth (>i), choose k(>j), choose l (>k).
-
-Then we can treat k,l like the 2 sum problem.
-
-Therefore, it is a O(n^3). This is shown in 18std.cpp.
-
-**Attention: Do not let the index out of the array, because leetcode will detect it, however our compiler do not **
-
-However it TLE, we need to optimize it. I found that it's my programming problem, I use another guy's code in 18 std with the smae consideration. Then I pass this problem.
-
-## 22 Generate Parentheses
-it seems apparently, we choose a place to add the ();
-the begin, inter and end, in this way we can get that:
-xxxx
-we can search all the answer however TLE...
-
-It's a really simple question...we can just
-add a left add a right, and keep the right > current left that's would be right. It's very fancy written style let me analysis it:
-
-If we keep there must be a right < left
-first ()
-then (()), (()). If we can add a left first, then add the right > left
-in the first we add ( -> (( -> ((())) (()(()) this way because we need to go back to find the next standard position
-
-## 23 Merge k Sorted Lists
-
-It's a little easy way, to choose a the min answer in all list, and let the chosen list start point ++;
-And repeat until all list has be appended to the answer list.
-
-I think the code is all right. However it show me stack buffer overflow. I need to debug it tomorrow.
-
-However, it's not an efficient way to find the min.
-
-We can maintain a heap to get the min. Each time we find the min, and add the head of the list to the heap each time.
-
-I copy other's standard code in the 23_heap.cpp. (\ref https://blog.csdn.net/Ethan95/article/details/85195403)
-
-I found my problem!!! I decide whether the answer is NULL
-
-original code
-```
-if (answer == NULL){
-                answer = tmp;
-                head = answer;
-            }else{
-                answer->next = tmp;
-                answer = answer->next;
-            }
-```
-
-Code now
-```
-answer->next = tmp;
-            answer = answer ->next;
-            current[index] = current[index] -> next;
-```
-
-In the before code, I use a NULL to decide a pointer. I think maybe leetcode do not approve that behavior.
+|11| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Scripts/11.cpp)|[Trcik](./Insights/11.md)|medium
+|12| [Interger to Roman](https://leetcode.com/problems/integer-to-roman/) | [C++](./Scripts/12.cpp)|[Trcik](./Insights/12.md)|medium
+|15| [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Scripts/15.cpp)|[Binary](./Insights/15.md)|medium
+|16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](./Scripts/16.cpp)|[Binary](./Insights/16.md)|medium
+|18| [4Sum](https://leetcode.com/problems/4sum/) | [C++](./Scripts/18.cpp)|[Binary](./Insights/18.md)|medium
+|22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[DFS](./Insights/22.md)|medium
+|23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 
 ## 25 Reverse Nodes in k-Group
 
@@ -2822,3 +2696,9 @@ DFS to find all root-to-leaf paths.
 Just easy. Record the path and add a char to the string and return it.
 
 AC!
+
+## 244. Add Digits
+
+Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
+
+when its string format's length > 0, we keep sum all the values.
