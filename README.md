@@ -9,6 +9,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 ## Valuable Problems (Hard to associate them with a fixed algorithm)
 
 1. [233]() Number of Digit One
+2. [262]() Trips and Users
 
 ## Summary Table
 
@@ -23,117 +24,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[DFS](./Insights/22.md)|medium
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 
-## 25 Reverse Nodes in k-Group
-
-I think it is a easy question too. 
-
-We only need to
-
-1. FIRST we traverse the node list, we add the node to a new list N
-2. Every time we run k times, we reverse the N add it to a new List ANSWER's tail.
-3. We clear the list N. We repeat these operations until we reach the end of the node list.
-
-The hardest part is part 3. We need to reverse the N. We need to reach the end, and scratch the end of the list. And do it again. Unitl there is no end.
-
-Attention! if there is no more enough elements for reverse, then keep its original sequence.
-
-We need to decide whether reverse first then decide whether reach the end (prevent the k is exactly the end.)
-
-## 29 Divide Two Integers
-
-It's easy to think about we use minus replacing the mutil.
-
-7 / 3 = 7 - 3 - 3 
-we minus, two "3", thus we know the answer is two.
-
-Attention: please take care of negative numbers and Maximum value. (specially decide)
-
-** Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−231,  231 − 1]. For the purpose of this problem, assume that your function returns 231 − 1 when the division result overflows. **
-
-I need to process overflow also if a huge number divide 1. we need to iterate the huge number times. It will be TLE. I need to find the STD answer.
-
-I need to use BIT operations
-The labs() function computes and returns the absolute value of the long integer argument, of the appropriate long integer type for the function. The llabs() function computes and returns the absolute value of long long integer argument.
-
-if we can let divisor << 1 (*2) < dividend then divisor << 1;
-So that we can know that, each time we use t*2, t^2*4, t^3*8 to compute the end of the answer. It's a consideration of quick power. and when we end, we know there is a 2^n;
-
-Then we do it again, until we cannot find a more power number for the t.
-
-## 30 Substring with Concatenation of All Words
-
-We know that the we need to choose a substring for each index, st -> st + arbitrary length
-
-However the words list is same length. Therefore, the arbitary length should be number of list * fixed length
-
-Time complexity is O(n) n = length of s; Let do it.
-
-If we only has one char, then TLE, GG.
-
-We need to use another algorithm. 
-
-We compare the each fixed length in the string using for loop instead of HashMap or Trie. I think this may be the problem of the TLE. It still TLE.
-Let me keep optimize it tomorrow.
-
-I use two optimization places:
-
-    1. if substring size > end size just break;
-    2. we use map assignment operations instead of add each words one by one.
-
-Then the code has been accepted.
-
-## 31. Next Permutation
-If we want to understand this problem, we need to know what is permutation.
-In wikipedia
-
-`The word "permutation" also refers to the act or process of changing the linear order of an ordered set`
-
-I wrote a python version in my freshman period. We find a discipline in this problem.
-
-First, we find the diminishing sequence in the sequence. Then we reverse the diminishing sequence. And we have known a number before the diminishing sequence. We exchange this number with a number in the diminishing sequence (which is just a lttile bigger than this number, e.g. 3-4,4-5,5-6).
-
-I just use the standard program to submit. Because it is just a regular program, I need to find the pattern or the discipline.
-
-## 32 Longest Valid Parentheses
-
-Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
-
-It is a parentheses problem again. 
-
-If we use dfs, we only need to add the left parenthesis, and choose if or if do not match right parenthesis. 
-
-Can we use DP? I don't think so. I still cannot know how to decide whether there are Aftereffect.
-
-I refer to the website 
-https://www.cnblogs.com/grandyang/p/4424731.html
-
-It's exactly a DP problem. 
-
-Let DP represent the longest parenthesis length before i-1. therefore, the DP[i] can be calculated as length before this symbol.
-1...i, we need to find the before symbol, DP[i-1]
-
-if(s[i-1]=='(' || j<0 || s[j]==')') 
-    dp[i] = 0;
-
-the i - 1 - dp[i-1] represent the begin of max length of the parenthesis. i-2-dp[i-1]....i-2 i-1
-
-Update formula:
-
-dp[i] = dp[i-1] + 2 + dp[j]
-
-## 33. Search in Rotated Sorted Array
-Because the time complexity shall be logN, then I understand that we should use dichotomy. 
-
-It remind me that there is only one point for rotating.
-We can use dichotomy to find the unknow point first.
-
-Then we can use dichotomy(binary search) to find the really number we need. 
-
-I have this idea, but it is really hard to implement it. Then I refer to why do not mix two processes, finding the target and finding the rotation point.
-
-If the mid value is less than end, then we can know the the mid to the end is in the ascending order. Then, if target is bigger than mid value, then we need to keep searching in the right. If the target is less than mid we must keep to search in the left.
-
-If the mid value is bigger than the end, we know the begin (e.g, 3 4 5 6 0 1 2) then the right is in the ascending order. therefore if the left is bigger than the target && target is less than the mid value, we need to search the target in the right part of the array. otherwise, we need to search in the left part of the array. 
 
 ## 34. Find First and Last Position of Element in Sorted Array
 
@@ -2718,3 +2608,22 @@ condition 2: b = b xor this element;
 
 then we can get a and b. BUT how to diff this two element by the xor result? diff' = xor result & - (xor results) to get the 1 which is the 1 in the most right side. The minus value in the computer means the complement code. and we only need to 1001001
 0110110 + 1 = 0110111 & 1001001 means the first 1 in the right. GOTCHA!
+
+## 262. Trips and Users
+
+Holy! SQL today.
+
+The Trips table holds all taxi trips. Each trip has a unique Id, while Client_Id and Driver_Id are both foreign keys to the Users_Id at the Users table. Status is an ENUM type of (‘completed’, ‘cancelled_by_driver’, ‘cancelled_by_client’).
+
+Write a SQL query to find the cancellation rate of requests made by unbanned users (both client and driver must be unbanned) between Oct 1, 2013 and Oct 3, 2013. The cancellation rate is computed by dividing the number of canceled (by client or driver) requests made by unbanned users by the total number of requests made by unbanned users.
+
+For the above tables, your SQL query should return the following rows with the cancellation rate being rounded to two decimal places.
+
+1. find the ubanned users
+2. group by request at
+3. group by status.sum()/ the same group
+
+First, I want to know why the std do not consider the driver need to be. Then I found that the std use USER table which include all users (driver and client) as the left table which take all driver into accounts!
+
+BUT in my opinion, **a.users_id = b.client_id still need to be considered this times' b. driver id's banned = NO!**
+
