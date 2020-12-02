@@ -2689,7 +2689,7 @@ Anagram means the same characters different order.
 
 Use map to record the number of char! and let --;
 
-## 243. Binary Tree Paths
+## 257. Binary Tree Paths
 
 DFS to find all root-to-leaf paths.
 
@@ -2697,8 +2697,24 @@ Just easy. Record the path and add a char to the string and return it.
 
 AC!
 
-## 244. Add Digits
+## 258. Add Digits
 
 Given a non-negative integer num, repeatedly add all its digits until the result has only one digit.
 
 when its string format's length > 0, we keep sum all the values.
+
+## 260. Single Number III
+
+Given an integer array nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once. You can return the answer in any order.
+
+how do we solve single number? just use the xor! This 'Bit Manipulation's method is hard to understand.
+
+The solution still is intelligent but hard to understand. first we perform xor can get the diff two element's xor results.
+
+Then we need to find a object: use the xor results to get a distinguish condition for this two element
+
+condition 1: a = a xor this element;
+condition 2: b = b xor this element;
+
+then we can get a and b. BUT how to diff this two element by the xor result? diff' = xor result & - (xor results) to get the 1 which is the 1 in the most right side. The minus value in the computer means the complement code. and we only need to 1001001
+0110110 + 1 = 0110111 & 1001001 means the first 1 in the right. GOTCHA!
