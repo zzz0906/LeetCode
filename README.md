@@ -2627,3 +2627,32 @@ First, I want to know why the std do not consider the driver need to be. Then I 
 
 BUT in my opinion, **a.users_id = b.client_id still need to be considered this times' b. driver id's banned = NO!**
 
+## 263. Ugly Number
+
+Ugly numbers are positive numbers whose prime factors only include 2, 3, 5.
+
+keep /2 or /3 or /5 or return false!
+
+## 264. Ugly Number II
+
+Write a program to find the n-th ugly number.
+
+Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. 
+
+Iterate and determine? TLE...
+
+prime sieve?
+
+2 3 5 2*2 2*3 2*5 2*2*2 2*2*3
+
+it's the past answer *2,*3,*5
+
+res
+
+res[m1] res[m2] res[m3]
+
+res[m1]\*2 res[m2]\*3 res[m3]\*3
+
+and m1++ if we choose these one to generate a new sample and use it compare with others and choose the minimum!
+
+like sieve! in the heap!
