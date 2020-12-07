@@ -24,23 +24,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[DFS](./Insights/22.md)|medium
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 
-
-## 34. Find First and Last Position of Element in Sorted Array
-
-It's really easy if you are familiar with C++ STL. You can use lower_bound and upper_bound function.
-
-!! There is some difference between the lower_bound, upper_bound and this problem. If we cannot find the target we shall ouput -1,-1 instead of the bound~
-
-The upper_bound shall be modified in this problem. Let me finish it tomorrow.
-
-I failed to use upper_bound, we still need to practice binary search.
-
-Let me describe my idea. Let we think about a binary search. If the mid value < target, then we need to find in the right. > left. If equal, then we can record the index and return.
-
-Then we have a index, we need to use while loop to extend to the left and right which is still equal to the target.
-
-Attention to: not found the value and the vector is blank.
-
 ### 36. Valid Sudoku
 
 Input is a vector with 2 dimensions. It's easy to use dfs. If we can fill each blank field with any number and each time we need to check the valid features. If we cannot find then return false; else return true;
@@ -897,7 +880,7 @@ That's cannot be implemented as this way. There may be the root->next->next->nex
 
 I add too many if else that's so complex.
 
-The std if else is more simple. It shall determine the next same level node. if find the node has left or right children then stop. A very simple idea!
+The std if else is more simple. It shall determine the next same level node. if program find the node has left or right children then stop. A very simple idea!
 
 ## 118. Pascal's Triangle
 
@@ -2656,3 +2639,20 @@ res[m1]\*2 res[m2]\*3 res[m3]\*3
 and m1++ if we choose these one to generate a new sample and use it compare with others and choose the minimum!
 
 like sieve! in the heap!
+
+## 268. Missing Number
+
+Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+
+Follow up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?
+
+## 273. Integer to English Words
+
+the problem need to be solved in 'three' part.
+
+For example 12345
+
+and we add it every 3 ways: "Thousand", "Million", "Billion"
+
+n/100 n%100/10 n%10 then we analyzed the last two bits again in this way!
+

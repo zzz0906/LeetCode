@@ -37,3 +37,19 @@ while (cur || !q.empty()){
 find a factor keep count ++ unitl count = k? if we iterate to n, we still cannot find the kth then return -1?
 
 AC...
+
+## Populating Next Right Pointers in Each Node II
+
+117 I have done it before!
+
+Let me review it.
+
+It's also a challenge problem.
+
+It'a recursive problem actually. we need to let the right connect correctly first.
+
+## Spiral Matrix II
+
+I have done it before too...
+
+59...Just simulate it.
