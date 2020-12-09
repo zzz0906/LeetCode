@@ -2656,3 +2656,44 @@ and we add it every 3 ways: "Thousand", "Million", "Billion"
 
 n/100 n%100/10 n%10 then we analyzed the last two bits again in this way!
 
+## 274. H-Index
+
+Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.
+
+"A scientist has index h if h of his/her N papers have at least h citations each, and the other N − h papers have no more than h citations each."
+
+Let M be the length of the paper
+
+2N-h = M
+
+N (> h), N-h <= h
+
+????
+
+In the problem, 3 paper > 3 2 papers (2 != 3-3)
+
+let me see the std solution
+
+The problem's description is confusing. It shall says the other N-hindex paper has index < hindex.
+
+It's a disaster. the problem ask me to do following:
+
+1. >=h ' number = h
+2. <=h ' number = papernumber - h
+
+My solution is almost correct.
+
+STD:
+
+1. sort big to small
+2. find an i citations[0..i] >= i which means there is h paper >= h and n-h <= h
+
+we only need to find a i citations[i] <= i [0..i] >= i is the answer
+
+BUT...
+
+[3,0,6,1,5,3,3]
+
+there are 5 paper >= 3 3 != 5
+
+no duplicates?

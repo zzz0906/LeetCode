@@ -53,3 +53,17 @@ It'a recursive problem actually. we need to let the right connect correctly firs
 I have done it before too...
 
 59...Just simulate it.
+
+## Pairs of Songs With Total Durations Divisible by 60
+
+n^2?
+
+and mod first? it seems easy.
+
+N^2 tle...
+
+1 <= time.length <= 6 * 104
+
+oh! sort? and match each other in the order? 0,1,2...59? 59+1 58+2!
+
+Yes AC!
