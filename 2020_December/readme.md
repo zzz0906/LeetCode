@@ -67,3 +67,7 @@ N^2 tle...
 oh! sort? and match each other in the order? 0,1,2...59? 59+1 58+2!
 
 Yes AC!
+
+## Binary Search Tree Iterator
+
+I remember I have solved this problem before. Just use a stack to store all the order?
