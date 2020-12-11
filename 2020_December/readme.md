@@ -71,3 +71,24 @@ Yes AC!
 ## Binary Search Tree Iterator
 
 I remember I have solved this problem before. Just use a stack to store all the order?
+
+## Valid Mountain Array
+
+Given an array of integers arr, return true if and only if it is a valid mountain array.
+
+arr.length >= 3
+There exists some i with 0 < i < arr.length - 1 such that:
+arr[0] < arr[1] < ... < arr[i - 1] < A[i]
+arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
+
+first increase then decrease.
+
+Easy just record a flag for increase and decrease?
+
+Yes but we need to pay attention to
+
+1. only decrease with the same value (determine no increase)
+2. only increase with the same value (determine no i-d's change)
+3. the same value (determine arr[size-1] == arr[size-2])
+
+AC!

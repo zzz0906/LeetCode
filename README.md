@@ -2410,3 +2410,15 @@ no duplicates?
 It's almost the same as above problem?
 
 AC...I resubmit the 274's code.
+
+## 278. First Bad Version
+
+Since each version is developed based on the previous version, all the versions after a bad version are also bad.
+
+[1..n]
+
+divide and conquer? 
+
+yes but st + ed may out of the int;
+
+therefore, I employ long long to finish the sum them.
