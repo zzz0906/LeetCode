@@ -92,3 +92,15 @@ Yes but we need to pay attention to
 3. the same value (determine arr[size-1] == arr[size-2])
 
 AC!
+
+## Palindrome Partitioning
+
+Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.
+
+I remember I use dfs + hashset?
+
+Nope I have solved this problem before. leetcode 131
+
+dfs to enumerate the start place of current string and choose the next start place
+
+cur - next is a palindrome? then go to next round else go back to find the palindrome or return.

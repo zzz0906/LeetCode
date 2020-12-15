@@ -25,188 +25,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 
 
-## 61. Rotate List
-It seems a little easy too.
-Repeat simulating in the problem. again and again. Until no more k!
-
-or we can use a "mod" methods. we first reach the tail. and we need to find the
-m + n - k%n then we can reach the real position we need to as the tail and head. we just split this place!
-
-## 64. Minimum Path Sum
-It's a typical case of DP.
-f[i,j] = min(f[i-1,j],j[j-1,i])
-
-Yes accept!
-
-## 65. Valid Number
-
-We need to determine the number is valid or not.
-This seems a really really hard problem. We need to use FAM?
-
-We can design a FSM to analysis what we need to transfer to next state after inputting a char or operator. 
-
-```
-We have many tranfer operator. 
-int transTable[][6] = {
-		//0INVA,1SPA,2SIG,3DI,4DO,5E
-			-1,  0,  3,  1,  2, -1,//0 represent no input or only space
-			-1,  8, -1,  1,  4,  5,//1 represent after a number input
-			-1, -1, -1,  4, -1, -1,//2 no number before or only input a dot
-			-1, -1, -1,  1,  2, -1,//3 input a symbol
-			-1,  8, -1,  4, -1,  5,//4 there is number before
-			-1, -1,  6,  7, -1, -1,//5 after a e or E input
-			-1, -1, -1,  7, -1, -1,//6 input a e or E then input a symbol
-			-1,  8, -1,  7, -1, -1,//7 input a e or E then input a symbol
-			-1,  8, -1, -1, -1, -1,//8 after a valid number then input a space
-		};
-```
-
-![alt text](./65.jpg "The key consideration")
-
-This figure shows a simple FSM.
-
-And if we reach -1 then we return false. And We can return ture if we face 1,7,8 in the end of the state.
-
-## 66. Plus One
-It's a little easy. Use for loop to simulate the carry a number up.
-
-## 67. Add Binary
-
-Also for big number add methods. Using string to simulate add. EASY!
-**Note: PLEASE USE REVERSE STRING AND REMIND THERE IS A MORE NUMBER IN THE END
-
-## 68. Text Justification
-
-I think this is a really easy question. We can use a greedy policy to add words in a line. first we add one word. then we add a space and a word again. If the lenghth > maxWidth then stops. then we have append k words. k-1 space. then we have (maxWidth - k words' length) space to allocate. we can use a loop and each time the k-1 space 1th 2th 3th ... k-1 th space + 1; unitl we use all space to simulate the divide.
-
-If there is only one word in the string we need to add more space in the end. I think this is really simple question.
-
-**append(number,entity) append number*entity in the string or vector**s
-
-## 69. Sqrt(x)
-It's just return trunc(sqrt(x))
-...
-
-## 71. Simplify Path
-In this problem, we need to process the UNIX 
-1. Note that the returned canonical path must always begin with a slash /, 
-2. and there must be only a single slash / between two directory names. 
-3. The last directory name (if it exists) must not end with a trailing /. 
-4. Also, the canonical path must be the shortest string representing the absolute path.
-
-For requirement  1,2 we need to add / or Delete redundant slash 
-
-But there is also a .. question.
-
-Oh, I try to use stack to solve this problem. we split it by using slash. If we face a .. we need to pop. if we face a string not "." or "" we push it in our stack.
-Finally we output the stack in the reverse order.
-
-## 72. Edit Distance
-In this problem, we need to solve the edit times.
-I do this job in a code Similarity detection, thus it's a little easy for me.
-
-we have 3 operations
-
-Insert a character
-
-Delete a character
-
-Replace a character
-
-oh now, It seems a greedy or dynamic programming.
-
-I still think it's a DP. because we need to find a maximum sub string match. Then conduct a Delete or replace.
-
-It not that easy...I am wrong. I need to conduct a LCS first. then Delete LCS not in that edit. 
-
-We have two string org, target.
-
-Assuming we find a LCS string S for them. Then we know there is a part of the target not in S.
-for each char we can know how many we need to add. First we use replace other do for the org.
-if there is not enough char for us, we cannot use replace operation. Then we can only use delete for redundant char. then we can perform add a character. These operations condcut our answers.
-
-It's my idea.
-
-The standard answer say that we can just take the all questions as a DP.
-
-myidea seems wrong. if we need to match the first char for LCS then it cost will be higher.
-
-![alt text](./72_1.jpg "The key consideration")
-![alt text](./72_2.jpg "The key consideration")
-
-Thus we still need to dp the whole question, let me finish it tomorrow.
-
-It's really easy to use DP!!! 
-we let f[i][j] means the edit distance for string before i and j. Then we can know the update question shown as below:
-
-![alt text](./72_3.jpg "The key consideration")
-
-## 73. Set Matrix Zeroes
-
-I think this problem is an easy question. We can just scan the original matrix and modify it. The reason is that we do not have enough time for scanning the matrix?
-
-I understand what is my fault! if I update it first, there is question! this column's other row can be 0 too then it can be fault.
-
-e.g., 1,2 =0 then we update column 2 all to zero, however we do not know 3,2 = 0 is updated or had been 0, thus we shall do as following:
-
-if it had been 0, we can just mark it in a zero row or column we mark it. like 1 and 2.
-
-This is a constant space but we need to run more interate. 
-
-If we can memoize two array for rows and columns, it turns out to be an easy problem.
-
-## 74. Search a 2D Matrix
-
-It's a easy problem. We can just flatten the matrix into a 1D array. Then use binary search algorithm in the 1d array. DONE.
-
-## 75. Sort Colors
-
-A rather straight forward solution is a two-pass algorithm using counting sort.
-First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's.
-Could you come up with a one-pass algorithm using only constant space?
-
-I see this problem and I want to use a bucket array. But I can only use one pass algorithm. 
-
-I see the std and understand. we can record a point for the start of the array, and a point for the end of the array. Then we scan the array, when we meet a 1, we can just ignore. if we meet a 2, we need to swap it with the end of the array, cause it shall be at the end. and if we meet a 0, we need to swap it with the start of the array.
-
-Attention, we still need to find the i-- for this problem. if we swap with the end of the array, we need to search the end of the array again. 
-
-It's a really clever idea.
-
-## 76. Minimum Window Substring
-
-In this question, we figure out a minimum window for this problem. I consider a problem, if we match a char in the target, shall we match it?
-
-let me think about it.  We ADOBEC=>contains ABC but we 
-
-brute way=> find all string
-
-how about recording all the position of the sub-string. if a updated char match, we can delete before character. ADOBECODEBANC
-That's wrong, we cannot use greedy algorithms.
-
-First we need use Hashmap to record the target string.
-
-How about using two point. one point is at the start of the match stirng, one point is at the end of the match string. if we find a new match string, we expand the end of the match string and reduce the start of the string. Each time we find the new string, we can compare it wtih the answer string.
-
-when we match the all char in target string, we shall stop and move the start of the string and until we cannot match the target character. And at that point, we shall move the end of the point. Each time we find a new matched string, we can compare it wtih the answer string.
-
-77. Combinations
-
-How about dfs, I think dfs is a good way to 
-
-Attention:
-
-* [1,2] == [2,1], Thus we can just dfs the next one is more than the last one. e.g., [1,2] [2,3].
-
-
-79. Word Search
-
-Given a 2D board and a word, find if the word exists in the grid.
-
-It's a DFS algorithm again...? if we find the first letter of the word match the matrix, then we can dfs and keep find its neighbors until we cannot match or match the words.
-
-Oh, I search the std, it's a typical DFS algorithm.
-
 80. Remove Duplicates from Sorted Array II
 
 Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length.
@@ -2422,3 +2240,19 @@ divide and conquer?
 yes but st + ed may out of the int;
 
 therefore, I employ long long to finish the sum them.
+
+## 279. Perfect Squares
+
+Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n.
+
+1+2^2+3^2
+
+it's a DP problem or dfs?
+
+n -> sqrt(n)? nope... it may not be the best like 12 = not 9 + 1 + 1 + 1 is 4 + 4 + 4
+
+I suddenly want to use python to solve this problem.
+
+I need to chage it to DP...
+
+AC...yes just transfer the dfs to DP.
