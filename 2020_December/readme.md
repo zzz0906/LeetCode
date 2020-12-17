@@ -104,3 +104,9 @@ Nope I have solved this problem before. leetcode 131
 dfs to enumerate the start place of current string and choose the next start place
 
 cur - next is a palindrome? then go to next round else go back to find the palindrome or return.
+
+## Validate Binary Search Tree
+
+It's easy question. Just to ensure all root's value shall < its whole left tree.
+
+Also I find my original code is not correct and modify it.

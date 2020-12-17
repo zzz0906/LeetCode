@@ -2256,3 +2256,47 @@ I suddenly want to use python to solve this problem.
 I need to chage it to DP...
 
 AC...yes just transfer the dfs to DP.
+
+## 282. expression add operators
+
+Given a string that contains only digits 0-9 and a target value, return all possibilities to add binary operators (not unary) +, -, or * between the digits so they evaluate to the target value.
+
+I wrote a similar haskell program?
+
+we need to use dfs to perform following things:
+
+1. choose last number need to be operated
+2. choose the opertator we need to use
+
+I think use python it's more easy with lower efficiency though I still use c++.
+
+I record cur_position we need to start and select next number; also current expression and current val;
+
+current is incorrect. becase 5+2*3 = 11 not 6\*3!
+
+therefore we can perform calculate in the end;
+
+OH...1*05 is not valid... we only can let 0 be 0
+
+TLE...
+
+"3456237490"
+9191
+
+the std use a diff solution instead of stack
+
+for example 35+41\*2, we record the last round 41 and if this time is * then we need to let the value be the 35-41+41*2
+
+ans-dif+dif*2!
+
+and the overflow:
+
+If the first 32 bits are not all 1s, all 0s, it can be judged that overflow has occurred
+
+I give up. I use long long instead.
+
+STILL!!! TLE...
+
+"2147483647" 2147483647
+
+I decide to use std's solution. my code is too ugly. I see the std has a similar solution.
