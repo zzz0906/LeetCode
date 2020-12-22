@@ -18,20 +18,11 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [C++](./Scripts/10.cpp)|[Recursion](./Insights/10.md)| Hard
 |11| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Scripts/11.cpp)|[Trcik](./Insights/11.md)|medium
 |12| [Interger to Roman](https://leetcode.com/problems/integer-to-roman/) | [C++](./Scripts/12.cpp)|[Trcik](./Insights/12.md)|medium
-|15| [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Scripts/15.cpp)|[Binary](./Insights/15.md)|medium
+|15| [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Scripts/15.cpp)|[Divide and Conquer](./Insights/15.md)|medium
 |16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](./Scripts/16.cpp)|[Binary](./Insights/16.md)|medium
-|18| [4Sum](https://leetcode.com/problems/4sum/) | [C++](./Scripts/18.cpp)|[Binary](./Insights/18.md)|medium
+|18| [4Sum](https://leetcode.com/problems/4sum/) | [C++](./Scripts/18.cpp)|[Divide and Conquer](./Insights/18.md)|medium
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[DFS](./Insights/22.md)|medium
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
-
-
-80. Remove Duplicates from Sorted Array II
-
-Given a sorted array nums, remove the duplicates in-place such that duplicates appeared at most twice and return the new length.
-
-Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
-
-Maybe just scan and record the last one, and only permit the last one show up twice.
 
 81. Search in Rotated Sorted Array II
 
@@ -2300,3 +2291,31 @@ STILL!!! TLE...
 "2147483647" 2147483647
 
 I decide to use std's solution. my code is too ugly. I see the std has a similar solution.
+
+## 283. Move Zeroes
+
+Easy question. Just remove all zeroes from the array.
+
+we can record two array and concat them one for zeroes and another for general numbers.
+
+oh...You must do this in-place without making a copy of the array.
+Minimize the total number of operations.
+
+how about exchange? yeah! AC!
+
+## 284. Peeking Iterator
+
+a PeekingIterator that support the peek() operation -- it essentially peek() at the element that will be returned by the next call to next().
+
+this is a confusing problem. what does peak menas? peek means we can select next one?
+
+oh, after reading the solution, I understand the meaning of this problem. we need to use next to get next value. if we run peek we need to store next one into another value and next return this 'another value'. 
+
+the hard part of this problem is how to use next and peek.
+
+if we call next in the peek, we will reorder the array. we need to record the next one.
+
+* call next directly -> return next;
+* call next but call peek before return peek's value and update peek to false;
+* call peek withou call next just record the next; 
+* call peek with call peek and next before just return _value.

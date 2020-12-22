@@ -110,3 +110,60 @@ cur - next is a palindrome? then go to next round else go back to find the palin
 It's easy question. Just to ensure all root's value shall < its whole left tree.
 
 Also I find my original code is not correct and modify it.
+
+## Decoded String at Index
+
+An encoded string S is given.  To find and write the decoded string to a tape, the encoded string is read one character at a time and the following steps are taken:
+
+If the character read is a letter, that letter is written onto the tape.
+If the character read is a digit (say d), the entire current tape is repeatedly written d-1 more times in total.
+Now for some encoded string S, and an index K, find and return the K-th letter (1 indexed) in the decoded string.
+
+I seem to write a similar question for decoding a string in this way. when facing a string just repeat and add to answer? python's work!
+
+I use simulate to this question! 
+
+OH...I need to use mod or it will be TLE...
+
+first I need to get the before length like
+
+kkkk then we need to let it mode k
+
+but how can i get the number of records?
+
+oh...i do not read the problem carefully. a22 means (aa)2 not a*22. Also, a2b3 means (aab)3
+
+oh...std only get the kth number.
+
+we record current number length cnt when it's bigger than k then stop and find the kth.
+
+and when facing a number we let cnt/number and k % number! because aa3 = 2*3 = 6 we let 6/3 first and then let k % 6/3 =  5%2 = 1 because we know k < length and we need to find the repeat one.
+
+It's a hard problem and need us to think carefully.
+
+##  Smallest Range II
+
+Given an array A of integers, for each integer A[i] we need to choose either x = -K or x = K, and add x to A[i] (only once).
+
+After this process, we have some array B.
+
+Return the smallest(maximum value of B - minimum value of B).
+
+we need to let maximum and minimum be close ASAP.
+
+Greedy? 
+
+I see std's solution.
+
+this idea is genius!
+
+* sort 
+* we need to let minimum + k and maximum - k
+* we need to divide the array to two part [0,i];[i,n]
+* min and max in first part 0+k i+k and min and max in second part i-k,n-k
+
+and we need to iterate i. it's o(nlogn)
+
+
+
+ 
