@@ -24,16 +24,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[DFS](./Insights/22.md)|medium
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 
-81. Search in Rotated Sorted Array II
-
-Suppose an array sorted in ascending order. 
-
-I think we can get the original array back. It contains the duplicates. It's a little difference with 32. for input [2,5,6,0,0,1,2], target 3, it shall output false.
-
-I am wrong, it seems really different with the last one. I understand why we cannot use 33's solution. for example, [3 1 1] [1 1 3 1], the 1 == 1, but 3 can show in the left or the right. 
-
-Std use a simple tricks. we move the right pointer to a different position which do not haec the duplicates.
-
 ## 82. Remove Duplicates from Sorted List II
 I think this is a simple question. we need to record the last one, if it's the same as the last then delete it!
 
@@ -2319,3 +2309,27 @@ if we call next in the peek, we will reorder the array. we need to record the ne
 * call next but call peek before return peek's value and update peek to false;
 * call peek withou call next just record the next; 
 * call peek with call peek and next before just return _value.
+
+## 287. Find the Duplicate Number
+
+Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
+
+There is only one duplicate number in nums, return this duplicate number.
+
+sum them and - the 1-n's sum?
+
+oh...nope it may be 11
+
+oh...binary search?
+
+How can we prove that at least one duplicate number must exist in nums? 
+Can you solve the problem without modifying the array nums?
+Can you solve the problem using only constant, O(1) extra space?
+Can you solve the problem with runtime complexity less than O(n2)?
+ 
+Can you solve the problem without modifying the array nums? => I cannot sort
+
+I need to binary search and use o(n) to find how many number < this mid
+
+we binary to [1..n]. get the number of numerb < (1+n)/2 through o(n) summary.
+

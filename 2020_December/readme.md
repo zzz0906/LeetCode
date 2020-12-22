@@ -164,6 +164,14 @@ this idea is genius!
 
 and we need to iterate i. it's o(nlogn)
 
+## Balanced Binary Tree
 
+Given a binary tree, determine if it is height-balanced.
 
- 
+For this problem, a height-balanced binary tree is defined as:
+
+a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
+
+just DO it recursively? 
+
+yes determine abs|height1 - height2| <= 1 and its left and right. Then AC!
