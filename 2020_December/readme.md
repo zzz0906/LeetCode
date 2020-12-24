@@ -175,3 +175,19 @@ a binary tree in which the left and right subtrees of every node differ in heigh
 just DO it recursively? 
 
 yes determine abs|height1 - height2| <= 1 and its left and right. Then AC!
+
+## Next Greater Element III
+
+Given a positive integer n, find the smallest integer which has exactly the same digits existing in the integer n and is greater in value than n. If no such positive integer exists, return -1.
+
+abcddd
+
+just move the bigger digits into the first place?
+
+no...12443322 -> 13222344
+
+The fisrt solution: 
+
+like our idea. first, find the element in the tail that is greater than current value. If it's an ascending array, there is no solution. find it and swap the first element bigger than current value in the ascending array. Then, sort the value;
+
+this is the way to get the next permutation!

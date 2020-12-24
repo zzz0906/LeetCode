@@ -2333,3 +2333,22 @@ I need to binary search and use o(n) to find how many number < this mid
 
 we binary to [1..n]. get the number of numerb < (1+n)/2 through o(n) summary.
 
+## 289. Game of Life
+
+eight neighbors; 
+
+Any live cell with fewer than two live neighbors dies, as if caused by under-population.
+Any live cell with two or three live neighbors lives on to the next generation.
+Any live cell with more than three live neighbors dies, as if by over-population..
+Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
+
+Write a function to compute the next state (after one update) of the board given its current state. The next state is created by applying the above rules simultaneously to every cell in the current state, where births and deaths occur simultaneously.
+
+summary its neighbors dies and lives?
+
+Could you solve it in-place? Remember that the board needs to be updated at the same time: You cannot update some cells first and then use their updated values to update other cells.
+In this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?
+
+so, my method is incorrect. because we will update it first and use the update result to update other values.
+
+THE std use more states! becase like we have four rules, we can let 0 -> 4 if there are 3 live neighbors. And 4 will not affect the answer. genius!
