@@ -191,3 +191,10 @@ The fisrt solution:
 like our idea. first, find the element in the tail that is greater than current value. If it's an ascending array, there is no solution. find it and swap the first element bigger than current value in the ascending array. Then, sort the value;
 
 this is the way to get the next permutation!
+
+## Swap Nodes in Pairs
+Given a linked list, swap every two adjacent nodes and return its head.
+
+You may not modify the values in the list's nodes. Only nodes itself may be changed.
+
+just record last previous node and newnext node? yeah, ac.

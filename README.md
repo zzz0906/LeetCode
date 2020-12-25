@@ -24,231 +24,9 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[DFS](./Insights/22.md)|medium
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 
-## 82. Remove Duplicates from Sorted List II
-I think this is a simple question. we need to record the last one, if it's the same as the last then delete it!
 
-It's a little complicated thant the below thought. Because it need to remove duplicates, we need to record the last one before the duplicates. Then we need to process if duplicates in the head. Then we need to find the next duplicates ones and delete them and let the back link to the next header. then fidn the duplicates ones after the head.
 
-## 83. Remove Duplicates from Sorted List
 
-It‘s a easy version of last question. we can only need to remove duplicates. I write a wrong version of last question as this question. Therefore, let me write it. we can just delete use *lasttmp* and keep it and delete the duplicates ones.
-
-Yes, **atention in the last we need to determine whether delete or link to the last**
-
-## 84. Largest Rectangle in Histogram
-
-We need to find the largest rectangle in a histogram. This problem really only seems like a above problem. maybe we can choose one pillar and extends to the left and right. Oh...oh, that's correct but TLE. I need to choose another efficient way.
-
-I find that, in my extends method, we need to find the shorter one for the pillar which means we cannot extend. the first mini value for the current pillar.  we need to nlogn. I have an idea.
-
-We can record a bucket array, each one recording the index value corresponding index in the histogram.
-e.g., 2 1 5 6 2 3
-
-Then our 2D array is
-0->0
-
-1->1
-
-2->0->4
-Then we can use O(n) time to do that.
-
-Then we need to find a minimum value for each value. Then we need to find the farest which means the minium position for current value.
-
-for 2 we need to find 1 the 1 position is 1.
-
-Oh, that's seems incorrect. We need to find the least distance, first less value. not least less value.
-
-We need to use a data structure which can find the closest less value.
-
-we seems to use stack is a good choice like above problem. First decrease then increase. or increase directly.
-
-But how can I use stack to finish the find the cloest mini value.
-
-### STD solution
-I read the std solution. I found that it push a 0 at the final. 
-
-How can we use a stack to process the array. We can know that the answer if we face a decrease sequence we almost find an answer.
-like 4 5 6 5, then we can know we need to process the <5 pillar before this 5. in 4 5 6 5, the 6 5 is decreasing, and there almost are existing an answer. so we need to find in the increase sequece 4 5 6, which one is the most cloest to 5 but > 5 is 5.
-then we need to 5 6 5 this be an answer. 5*3 6*1. Then we need to keep processing, becase 4 5 6 5, 5>4, we can keep add value.
-
-But,if we record the height of pillar,we cannot compute the distance. Thus, we record the index. 4,5,6,5; 0,1,2,3, when index 3 coming, 1,2 pop out, then it turns into 0,3. Then because in the first, we add a zero at then final, it must out, then we can know that, the answer 4 can be 0,3,4. (4-0-1)*4 = 12 is the final answer.
-
-## 85. Maximal Rectangle
-
-I need to find the maximum all 1 rectangle in a 0,1 rectangle. Can I use dfs to expansion the all 1 rectangle starting from a point in the rectangle?
-
-Nope, It must TLE. Focus on finding the regular pattern, It's another version of 84.
-
-If we take the column as the x-axis of the histogram, and row as the y axis.
-
-When we face a zero, we just cut it down and let it move to the 0 position. like
-
-1 0 1
-
-1 1 0
-
-1 1 1
-
-for the row, 1 1 0, when we face a 0, we already have a 0 in the third pillar, then in the 1 1 1 in the last row, the last column's pillow shall be 1. Thus, the answer is 2*2. We record a height array, and scan each row. when we face a 1 then let the height[i], this column ++, or if we face a zero, we cannot keep a continuous pillar, then we let the pillar = 0.
-
-## 86. Partition List
-Partition it into two list which one is greater than the value and the other is less than the value.
-
-I use a if else to dertermin if it's the first time to build a *less than list* or a *more than list*. I think it will consume a little more time. However it run faster than 91.5% programs.
-
-## 87. Scramble String
-I think it's a easy question too. I think I misjudge it again. abcde caebd. In my understanding, if we need to produce a scramble string, we need to cut it, and reverse one of the cut one.
-how about tring everywhere in the second string and reverse one of the string?
-
-we may choose any non-leaf node and swap its two children. => the part of the string has been reversed
-
-It seems a clone detection problem. 
-
-wrong example abc bca => true ? why?.... abc => a, bc then it can be bc a.
-
-I thnik maybe in the stack, there are some point we reverse it. I cannot simplely reverse it. Let me do it tomorrow.
-
-Above is not correct!!! becuase it's a binary tree.
-
-This is a typical recursive or dp problem. Think about that, for a string s1 and string s2. If it's scramble which means s1 or s2 has been divided into two strings. s11 s12, s21,s22. For this four string, we may exactly know that the s11 == s21 or s12 == s22. **OR** s11 == s22 s12 == s21 it has been scrambled. But it's not enough, because s11 is not having to equal to s21 or s22, it can be scramble of s21 or s22. Therefore, we can use recursive. This consideration is genius!
-
-## 88. Merge Sorted Array
-basical question.
-
-**you should know that you should add it to the nums1** I use insert then nums1's size changed. Thus, I need to use resize to apply for nums1.
-
-## 89. Gray Code
-bachelor's course digital circuits. LET me to review it.
-
-The principal: The highest number save and n xor n-1 => n-1
-
-We can use recursive for this problem!
-
-for 3 is equal to 
-
-2's gray code
-
-reverse the gray code array. add 1 to the head
-
-0,2,3,1 => 00 01 11 10 => 110 111 101 100
-
-Remeber add 0 to the head like 0,1 because when I transfer a 0 or 1 to a two-sequence binary, it will not have zero at the head.
-
-faster than 8.35% of C++ online submissions for Gray Code.
-
-## 90. Subsets II
-Use 79's solution. But we cannot contain the same combinations.
-
-I accept it. Even though I am little confused. first I sort the nums array. and get 1,3,3,3,....X some array like this. Then I use different situation to dicuss it. If the last one is same as current one. (because I sort it, the last one must be the same as this one or there is no same number for this index.) Then I only consider the last one exists situation. Because if last do not exists, and I fill current one, because I first think about fill a number to the answer array. Then if last one do not exist which means we have choosen the last one in a iteration of dfs. Then I choose a same value in this round but not choose the last same value,which can cause duplicate. Therefore, if the last one is not same the current one, we use regular dfs. If last one is same as the current one, we only dfs when last exists!! (including contain or not contain).
-
-## 91. Decode Ways
-
-It certainly a DP problem. It'a problem of splitting the numbers into the different ways with 1..26 numbers.
-
-1345=> 1,3,4,5 => 13,4,5
-
-Therefore we mostly can divide it into 2 numbers 10-26
-
-xxxxab = xxxxa,b + xxxx (ab)[when ab <= 26 and a != 0]
-
-**atention** there is no 0 in the a-z. which means 40 => 0
-
-OH...NO, I cannot use recursive. I shall use DP which more faster.
-
-F[i] means before index i we can construct.
-
-if s[i] == '0' f[i] = f[i-2] if s[i-1] != 1 or 2 then return 0. because no 00 30 40 ...
-
-else f[i] = f[i-1] + f[i-2]
-
-Yes I accepted by dp. I real recognize how to use DP.
-
-## 92. Reverse Linked List II
-
-Reverse a linked list from position m to n. Do it in one-pass.
-
-count it. It just a code problem. It test your coding ability.
-
-OHOHOH 1pass accept. I carefully think about the count and we need to choose the split part of the link list.
-
-I divided it into whether m == 1 or not == 1.
-
-when m == 1 we only need to reverse it to record the tale and head. each time I add a new one and take this one as head. In then end I connect the tale to element after the n. and return new head. This
-
-In the same way, we link the m to the new head. And we return the old head if m != 1.
-
-93. Restore IP Addresses
-
-Given a string containing only digits, restore it by returning all possible valid IP address combinations.
-
-1-4.1-4.1-4.1-4 is the ip address. 
-
-Thus which can have [0-255],[0-255],[0-255],[0-255]. In this situation, we can use dfs...
-
-First, we try 1,2,3 then keep tring until we try 4 times to represent the 4 ip address.
-
-also, when we try 3 times in each 4 times, to try 1,2,3 digits. 
-
-**attention in std's dfs, it use a &references to represent the answer. it really great to add the change value as the parameter not like me use a global value. And std determine whether it valid in 4 times determination every time.**
-
-## 94. Binary Tree Inorder Traversal
-
-Inorder, typical question, which means left father right, the father is in the traverse's middle.
-
-First we need to traverse left, if there is a left we need to traverse. Then recording the traverse current position. Then record next.
-
-**attention remeber process NULL situation**
-
-It's really easy.
-
-## 95. Unique Binary Search Trees II
-I think it's a little hard problem. 
-Given an integer n, generate all structurally unique BST's (binary search trees) that store values 1 ... n.
-
-We got a sorted array. Therefore, we only find a interval and let left is the left tree.
-
-I use std code and find that it use c++ 11 perfectly. First when we only have one number it must be a root (the leaf of the last recursion). 
-
-## 97. Interleaving String
-find whether s3 is formed by the interleaving of s1 and s2.
-
-It remind me of the befoer problem. We need to find out whether the one of the string is the substring. We need to keep the sequence. I remeber we can use dfs + cut interval. 
-
-This situation seems more complex. Not only we satisfy the order, number and we cannot use two char twice for one string. Because it must belong to one string. 
-
-OK, I have to see the std. 
-
-It...DP again. 
-
-Let me so how DP works. First, s1'length + s2'length = s3'length. And F[0][0] = true for dp array. if one of the array is empty. Then the other one shall be equal to the s3. let us think about the F[i][j]. Which means we use the s1' first i char and s2' first j char and combine them as s3's i+j char. Let us think about it. If we want to know the final answer f[n][m]. the n+m char for s3 must come from the s1 or s2. If it come from s1, then n+m-1 is come from s1's n-1 and s2'm. Therefore it come for f[n-1][m] or f[m-1][n]. 
-
-Thus the equation is dp[i][j] = (dp[i - 1][j] && s1[i - 1] == s3[i - 1 + j]) || (dp[i][j - 1] && s2[j - 1] == s3[j - 1 + i]);.
-
-**attention the string's first index is 0-n-1 but in the dp array begin at 1**
-
-## 98. Validate Binary Search Tree
-
-It's my wechat interview question. The only question is that the all element of left tree shall be less than the root.
-
-Maybe we can generate a binary search tree sequence or repeat use recursive like above questions.
-
-Oh...ps...I am so sorry. That's a really easy question. I think if we can solve it in the wechat interview...I am so distressed. Ugh... That's a really easy question.
-
-## 99. Recover Binary Search Tree
-
-To elements exchange, which means maybe we can try to exchange the val of father and child or two children?
-
-A solution using O(n) space is pretty straight forward.?
-
-Let us see the std.
-
-Oh...u can see that if we inorder traverse the tree. 
-
-YES, we use inorder traversal. And sort the inorder sequence like 1,2,4,5 => then we can know that if it is in the order it must refer to the original node and only exchange two nodes. 
-
-But this is not the standard solution. We must use Morris traversal. 
-
-And I thnik the std use morris traverse like the general inorder traversal. record a first and second node. When we find an anominal point. we ensure it. And find the most higher node in the tree. I do not know why this is correct. But it works.
 
 ## 101. Symmetric Tree
 
@@ -2352,3 +2130,24 @@ In this question, we represent the board using a 2D array. In principle, the boa
 so, my method is incorrect. because we will update it first and use the update result to update other values.
 
 THE std use more states! becase like we have four rules, we can let 0 -> 4 if there are 3 live neighbors. And 4 will not affect the answer. genius!
+
+## 292. Nim Game
+
+You are playing the following Nim Game with your friend:
+
+Initially, there is a heap of stones on the table. You and your friend will alternate taking turns, and you go first. On each turn, the person whose turn it is will remove 1 to 3 stones from the heap. The one who removes the last stone is the winner.
+Given n, the number of stones in the heap, return true if you can win the game assuming both you and your friend play optimally, otherwise return false.
+
+dfs?
+
+or min-max? or it has some pattern?
+
+n-1,2,3 if i have to win in the last 1,2,3=> friend; 1+(1,2,3) (2+1,2,3); which means your friend must loose!
+
+if there is a solution bob can win in the next round; bob will choose this one.
+
+1 <= n <= 2^31 - 1! we cannot use dfs.
+
+yes, 4=> how many we catch, the next one must loose. 
+
+why: if there are (n+1)\*m stones, n is the maximum number we can catch. when we choose x, 1 < x < n; the other one will catch n+1 - x; then it turn into a (n+1)\*(m-1), which means in the end, it turn into n + 1 and you must loose. 
