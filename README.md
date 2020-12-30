@@ -2150,4 +2150,24 @@ if there is a solution bob can win in the next round; bob will choose this one.
 
 yes, 4=> how many we catch, the next one must loose. 
 
-why: if there are (n+1)\*m stones, n is the maximum number we can catch. when we choose x, 1 < x < n; the other one will catch n+1 - x; then it turn into a (n+1)\*(m-1), which means in the end, it turn into n + 1 and you must loose. 
+why: if there are (n+1)\*m stones, n is the maximum number we can catch. when we choose x, 1 < x < n; the other one will catch n+1 - x; then it turn into a (n+1)\*(m-1), which means in the end, it turn into n + 1 and you must loose.
+
+## Remove Invalid Parentheses
+
+we only focus () and make the input valid.
+
+std use bfs. 
+
+first how to dertermin it's valid? )( => false; which means we let each left bracket ++ and right bracket --; if we get a negative value in this process which means we get a ) and no (. 
+
+and the bfs will delete all ( or ) in any times. 
+
+```
+ string str = t.substr(0, i) + t.substr(i + 1);
+                if (!visited.count(str)) {
+                    q.push(str);
+                    visited.insert(str);
+                }
+```
+
+if we do not face this string before, we will delete this bracket and push it into the queue.

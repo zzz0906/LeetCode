@@ -198,3 +198,19 @@ Given a linked list, swap every two adjacent nodes and return its head.
 You may not modify the values in the list's nodes. Only nodes itself may be changed.
 
 just record last previous node and newnext node? yeah, ac.
+
+## Pseudo-Palindromic Paths in a Binary Tree
+
+At first, I am confused about why 2,3,3 is palindromic. then I notice Pseudo-Palindromic's Pseudo, which means we can reorganize them. 3123 => the odd's times number must be 0 or 1!
+
+I modify a std's solution, even though it's chaos. It first record the odd and if the odd = false it will add 1 to the odd number or -1 if it's even. 
+
+in each dfs it will change the odd's value. and when it equal to true, it will -1; 
+
+```
+oddNum += isOdd[current->val] ? -1 : 1;
+```
+
+when it equal to false, it means it happens even times before, it need to +1 and when it's true, it means this time it's even time and it need to +1. so the condition is the before condition!
+
+and each time we record the odd number and isOdd for 0 - 9. in the final count, it must contain <= 1's odd number according to above analysis. 
