@@ -2152,7 +2152,7 @@ yes, 4=> how many we catch, the next one must loose.
 
 why: if there are (n+1)\*m stones, n is the maximum number we can catch. when we choose x, 1 < x < n; the other one will catch n+1 - x; then it turn into a (n+1)\*(m-1), which means in the end, it turn into n + 1 and you must loose.
 
-## Remove Invalid Parentheses
+## 301. Remove Invalid Parentheses
 
 we only focus () and make the input valid.
 
@@ -2171,3 +2171,11 @@ and the bfs will delete all ( or ) in any times.
 ```
 
 if we do not face this string before, we will delete this bracket and push it into the queue.
+
+## 303. Range Sum Query - Immutable
+
+Given an integer array nums, find the sum of the elements between indices i and j (i ≤ j), inclusive.
+
+just record the prefix? let me try.
+
+yes ac. hint: we can put 0 in the prefix sum to let the answer equal to the i,j i start in 0, therefore the answer is j+1 - i which will delete j but include i.

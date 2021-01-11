@@ -1,0 +1,32 @@
+##  Create Sorted Array through Instructions
+
+Given an integer array instructions, you are asked to create a sorted array from the elements in instructions. You start with an empty container nums. For each element from left to right in instructions, insert it into nums. The cost of each insertion is the minimum of the following.
+
+* The number of elements currently in nums that are strictly less than instructions[i].
+* The number of elements currently in nums that are strictly greater than instructions[i].
+
+it seems a simulation + an array to record some extra information?
+
+1 <= instructions.length <= 105;1 <= instructions[i] <= 105.
+
+binary search and find the most left equal place?
+
+(log1+log2 + .. logn); nlogn => it's ok?
+
+yes. I use std's python solution.
+
+in python, there are bisec and bisec_left, one means all the elements in the left is less than current another is less or equal than current element.
+
+```
+bisect_left and bisect
+```
+
+Sorted Containers is an Apache2 licensed Python sorted collections library, written in pure-Python, and fast as C-extensions. The introduction is the best way to get started.
+
+Sorted list values must be comparable. The total ordering of values must not change while they are stored in the sorted list.
+
+Although I accpet this problem. But there are some places to optimize. For example, we find the left and right place, but we add this element. To use less code, we use sorted list's properties to add this element;
+
+we use n*3log(n); but we can optimize it to n*(logn+some constant)
+
+If I have more time today, I will write my owncode, using binary searching.
