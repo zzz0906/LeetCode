@@ -6,7 +6,9 @@ Record my insights or std's solution
 
 I labeled problems according to its best solution's algorithm. If there is no fixed type of algorithm, I will labeled it trick (use brain, no template algorithm). Also, if I do not list it in the summary table, it means that the problems are easy enough to finish it in my sophomore.
 
-## Valuable Problems (Hard to associate them with a fixed algorithm)
+## Valuable Problems
+
+* Hard to associate them with a fixed algorithm
 
 1. [233]() Number of Digit One
 2. [262]() Trips and Users
@@ -23,195 +25,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |18| [4Sum](https://leetcode.com/problems/4sum/) | [C++](./Scripts/18.cpp)|[Divide and Conquer](./Insights/18.md)|medium
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[DFS](./Insights/22.md)|medium
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
-
-
-
-
-
-## 101. Symmetric Tree
-
-It's a easy question. We only need to determine whether the left tree and right tree is the same tree.
-
-I recently find use one line in the dfs like return dfs() && dfs () is really convenient.
-
-Oh it need symmetric. Not the same tree. Therefore the left shall be the right and the right shall be the left.
-
-Yes accept. It's easy.
-
-## 102. Binary Tree Level Order Traversal
-Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
-
-At the first, I think to add the depth in the dfs. It seems easy now and from left to the right.
-
-Yes, add the depth parameter and according to the depth to put the entry into the array.
-
-
-## 103. Binary Tree Zigzag Level Order Traversal
-
-Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
-
-In contrast with 102, it need a zigzag order. let me think about it. in the next odd (begin at 0) level, we need to first right then left. 
-
-That's not correct, if last Level through dfs in the another sequence, current level will keep using this sequence.
-
-I need to use bfs to control it.
-
-No, I suddenly find a easy way. We can use dfs and reverse the odd level.
-
-Yes...That's tricky.
-
-## 104. Maximum Depth of Binary Tree
-Really easy. Just dfs and record depth.
-
-## 105. Construct Binary Tree from Preorder and Inorder Traversal
-
-the preorder traversal is middle left right.
-the inorder traversal is left middle right.
-
-Therefore, the we can first find the middle point and construct a binary tree. Then we can recursive.
-
-Yes, this is correct. AC!
-
-## 106. Construct Binary Tree from Inorder and Postorder Traversal
-
-It just put the middle in the end of the tree. like the 105.
-
-Yes I change the postorder to the another version of the preorder. AC!
-
-## 107. Binary Tree Level Order Traversal II
-
-Just reverse the answer of 103.
-
-## 108. Convert Sorted Array to Binary Search Tree
-
-Given an array where elements are sorted in ascending order, convert it to a height balanced BST.
-
-a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
-
-Tha's means we need to split in the middle and let left as the left tree and right as the right tree.
-
-We can use recursive again! Yes! AC!
-
-## 109. Convert Sorted List to Binary Search Tree
-It just tranfer to 108. It's a simple question.
-
-## 110. Balanced Binary Tree
-WE CAN JUST COMPARE THE Maximum Depth OF TWO TREES.
-
-It seems a not easy question. above ways is not correct. 
-
-It means the height diff between left tree and right tree shall less than 1. YES it shall use iteration.
-
-## 111. Minimum Depth of Binary Tree
-
-Given a binary tree, find its minimum depth.
-
-The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
-
-Just DFS and fin the minimum depth. But it seems not fast?
-
-### 112. Path Sum
-Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.
-
-We need to start at the root node and search through the root until we reach the leaf. Then we need to see whether we get the equal value. And pay attention to null tree situation.
-
-### 112. Path Sum II.
-
-It's a really similar question as 112. We can just search all the states and record the answer.
-
-Yes that's correct. But a lttile slow.
-
-### 114. Flatten Binary Tree to Linked List
-
-It's a really interesting question. First, I think it's a easy question. We can just dfs and put it in list.
-
-But the tree need to be done in place. Therefore, we need to do following: (according to std):
-
-1. cut the root right to the end of the the left subtree of right.
-2. cut the left subtree to right of the root.
-3. let the left tree as null. And take the root current subtree as root, repeat this process.
-
-### 115. Distinct Subsequences
-Given a string S and a string T, count the number of distinct subsequences of S which equals T.
-
-subsequences of S == T.
-
-I fell this question is a DP.
-
-Let F[i][j] represent the first i char of S, the number of distinct subsequences of the first j char of T.
-
-F[i][j] = F[i-1][j] (S[i] != T[j]) else T[j] == S[i]
-
-F[i-1][j-1] + F[i-1][j] => we can match or not.
-
-We shall consider this problem based on i-1 of S and J not **i,j-1** because we must match T.
-
-### 116. Populating Next Right Pointers in Each Node
-
-You may only use constant extra space.
-
-Recursive approach is fine, you may assume implicit stack space does not count as extra space for this problem.
-
-It's hard to think of not using other constant space.
-
-I find a genius solution in std. if we have done the last level next. Then we can know the **right->next = father->next->left**.
-
-## 117. Populating Next Right Pointers in Each Node II
-
-It's a similar question as 117, but it does not a perfect binary tree.
-
-That's cannot be implemented as this way. There may be the root->next->next->next has something and we need to link this two.
-
-I add too many if else that's so complex.
-
-The std if else is more simple. It shall determine the next same level node. if program find the node has left or right children then stop. A very simple idea!
-
-## 118. Pascal's Triangle
-
-It's really easy. I do it in high school. Just simulate.
-
-## 119. Pascal's Triangle II
-？？？. return 118[k].
-
-Yes accept...
-
-## 120. Best Time to Buy and Sell Stock II
-Say you have an array prices for which the ith element is the price of a given stock on day i.
-
-Design an algorithm to find the maximum profit. You may complete as many transactions as you like (buy one and sell one share of the stock multiple times).
-
-I think this is the biggest sum of minus interval value. 
-
-I think it's a little hard to sovlve. 
-
-STUPID!!! IF tomorrow price is higher than yesterday, then buy it. KEEP buying it.
-
-## 123. Best Time to Buy and Sell Stock III
-It's a hard question, we need to sell the stock before we buy it again but we only have two chance to do the transactions.
-
-It's hard than 120,121,122. I see the std solution. It use DP. 
-
-we need to define f[i][j] as the maximum profit in i days and j times transactions.
-
-And std define two array, one for local array as the last transaction is in the jth day and global which do not need to last transaction is in the j th day.
-
-the local shall be transfered from the 
-1. buy today Global(i-1, j-1)
-2. buy yesterday i-1 days and j-1 transaction global value + i-1,i diff 
-3. buy more days ago but sell in yesterday local(i-1,j) but we shall sell it today
-
-and the global answer shall be tranfered from local and yesterday's global results.
-
-## 124.Binary Tree Maximum Path Sum
-Given a non-empty binary tree, find the maximum path sum.
-
-For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
-
-It remind me of LCA. It seems a compression and dp problem in high school. 
-
-It do not know how to know, even violent.
-
-STD use dfs and backtracking. we use dfs and reach the end, then go back to the father. Then the father has choice, left or right or nothing (less than zero).
 
 ## 125. Valid Palindrome
 
@@ -2179,3 +1992,17 @@ Given an integer array nums, find the sum of the elements between indices i and 
 just record the prefix? let me try.
 
 yes ac. hint: we can put 0 in the prefix sum to let the answer equal to the i,j i start in 0, therefore the answer is j+1 - i which will delete j but include i.
+
+## 304. Range Sum Query 2D - Immutable
+
+Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
+
+how about giving each row a prefix sum? let me try
+
+yes AC! but a little slow. 
+
+oh, the std use left triangular matrix. we use prefix sum of upper left triangular matrix.  1 - 2 - 3 we minus the 4 twice therefore we need to add 4 again.
+
+1 - 2 - 3 + 4;
+
+![](./304.jpg)

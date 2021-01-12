@@ -30,3 +30,13 @@ Although I accpet this problem. But there are some places to optimize. For examp
 we use n*3log(n); but we can optimize it to n*(logn+some constant)
 
 If I have more time today, I will write my owncode, using binary searching.
+
+## Merge Sorted Array
+
+two pointer?
+
+i,j points to the start of the sorted array. Comparing the start place of the array and put them into a new array?
+
+o(N+M)
+
+oh...I know why the problem will give a larger nums1...you can compare the elements in reverse order. the bigger one in the end and in each turn! I am so idiot. 
