@@ -40,3 +40,11 @@ i,j points to the start of the sorted array. Comparing the start place of the ar
 o(N+M)
 
 oh...I know why the problem will give a larger nums1...you can compare the elements in reverse order. the bigger one in the end and in each turn! I am so idiot. 
+
+## Add Two Numbers
+
+A past problem before.
+
+multiply strings or linked list. Just use a number to record the carry digits!
+
+AC!
