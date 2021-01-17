@@ -20,6 +20,9 @@ int main(){
     // cout<<newv.size()<<endl;
     //set<string> colle;
     //colle.insert("f");
-    vector<int> tmp;
-    cout<<tmp.size()<<endl;
+    int length = 10;
+    int* a = new int[length];
+    a[0] = 1;
+    cout<<a[9]<<endl;
+    //cout<<tmp.size()<<endl;
 }
