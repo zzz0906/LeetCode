@@ -48,3 +48,15 @@ A past problem before.
 multiply strings or linked list. Just use a number to record the carry digits!
 
 AC!
+
+## Kth Largest Element in an Array
+
+Just sort it and return the k-1... it's so easy.
+
+## Count Sorted Vowel Strings
+
+first, give me the length;
+
+it's like a dp? we can record a,e,i,o,u's length then an is from a + e + i + o + u?
+
+yes, ac...

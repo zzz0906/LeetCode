@@ -36,3 +36,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[Recursion](./Insights/22.md)|medium
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 |25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Scripts/25.cpp)|[Simulation](./Insights/25.md)|Hard
+|307| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [C++](./Scripts/307.cpp)|[Data Structure](./Insights/307.md)|Medium
+|309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./Scripts/309_std.cpp)|[Dynamic Programming](./Insights/309.md)|Medium
