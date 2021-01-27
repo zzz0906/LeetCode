@@ -60,3 +60,27 @@ first, give me the length;
 it's like a dp? we can record a,e,i,o,u's length then an is from a + e + i + o + u?
 
 yes, ac...
+
+## Path With Minimum Effort
+
+A route's effort is the maximum absolute difference in heights between two consecutive cells of the route.
+
+Return the minimum effort required to travel from the top-left cell to the bottom-right cell.
+
+DP again?
+
+if we want to know i,j; we must come from i-1,j; i,j-1 i+1,j, i,j+1 four directions.
+
+```
+STD: dp[y][x] = min(max(dp[ty][tx], abs(h[ty][tx] – h[y][x]))) (x, y) and (tx, ty) are neighbors
+repeat this process for at most rows * cols times.
+if dp does not change after one round which means we found the optimal solution and can break earlier.
+```
+
+Therefore the core process of this problem is repeating cols*rows times!
+
+Oh, it's a bellman-ford equation exactly. We can do at most rows*cols relax times! It's easy to think why should we do these process cols\*rows times.
+
+Also, the std said that we can use dijkstra directly. Why I do not think about this algorithm!?
+
+
