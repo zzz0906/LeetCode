@@ -84,3 +84,13 @@ Oh, it's a bellman-ford equation exactly. We can do at most rows*cols relax time
 Also, the std said that we can use dijkstra directly. Why I do not think about this algorithm!?
 
 
+## Concatenation of Consecutive Binary Numbers
+
+Basically, it let the behind one extend 10^n (n equals to the bits number.)
+
+this problems has several hard points
+
+* it's a reverse concat. For example, 123 is 1 10 11 the last one is 3. Threfore, if we use power to do the simulation, we should transfer 3 first, and get the end bit first.
+* pay attention to the modular. In all time we shall do the modular. I forgot to do the modular in the sum to the final answer. Then RE...
+
+AC!
