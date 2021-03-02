@@ -33,10 +33,11 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |15| [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Scripts/15.cpp)|[Divide and Conquer](./Insights/15.md)|medium
 |16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](./Scripts/16.cpp)|[Divide and Conquer](./Insights/16.md)|medium
 |18| [4Sum](https://leetcode.com/problems/4sum/) | [C++](./Scripts/18.cpp)|[Divide and Conquer](./Insights/18.md)|medium
-|22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[Recursion](./Insights/22.md)|medium
+|22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[Recursion](./Insights/22.md)|medium 
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 |25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Scripts/25.cpp)|[Simulation](./Insights/25.md)|Hard
 |307| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [C++](./Scripts/307.cpp)|[Data Structure](./Insights/307.md)|Medium
 |309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./Scripts/309_std.cpp)|[Dynamic Programming](./Insights/309.md)|Medium
 |312| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [C++](./Scripts/312_std.cpp)|[Dynamic Programming](./Insights/312.md)| Hard
 |313| [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [C++](./Scripts/313.cpp)|[Dynamic Programming](./Insights/313.md)| Medium
+|315| [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./Scripts/315.cpp)|[Data Structure](./Insights/315.md)| Hard
