@@ -41,3 +41,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |312| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [C++](./Scripts/312_std.cpp)|[Dynamic Programming](./Insights/312.md)| Hard
 |313| [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [C++](./Scripts/313.cpp)|[Dynamic Programming](./Insights/313.md)| Medium
 |315| [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./Scripts/315.cpp)|[Data Structure](./Insights/315.md)| Hard
+|318| [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](./Scripts/318.cpp)|[Brute Force](./Insights/318.md)| Medium

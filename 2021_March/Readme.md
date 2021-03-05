@@ -12,3 +12,10 @@ Bucket?
 
 we tag 1 and iterate over 200000.
 
+## Intersection of Two Linked Lists
+
+n^2 iterations?
+
+Find the first same node?
+
+160. I have done it before. let me just copy my code.
