@@ -47,3 +47,17 @@ Fuck...so the maximum answer is 2.
 we only need to detect it can be removed by once. It's a palindrome!
 
 AC...
+
+## Coin Change
+
+You are given coins of different denominations and a total amount of money amount
+
+You may assume that you have an infinite number of each kind of coin.
+
+It's a DP?
+
+It's hard to think the equation in a short time.
+
+DP[i] = DP[i - coins[i]] + 1
+
+Genius! Max = amount + 1; dp[0] = 0;
