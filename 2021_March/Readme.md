@@ -61,3 +61,37 @@ It's hard to think the equation in a short time.
 DP[i] = DP[i - coins[i]] + 1
 
 Genius! Max = amount + 1; dp[0] = 0;
+
+## Swapping Nodes in a Linked List
+
+You are given the head of a linked list, and an integer k.
+
+Return the head of the linked list after swapping the values of the kth node from the beginning and the kth node from the end (the list is 1-indexed).
+
+1 2 3 4 5 ... kth
+
+we can find the k-1; k; k+1; and the length - (k-1) ; length - k; length - (k+1);
+
+we only need to do is let k-1 -> next = reverse k; reverse k -> next = k + 1; and the length - (k+1) -> next = k; k->next = length - (k-1);
+
+let me see the std. my solution still has some problems.
+
+may be the k and reverse k is the adjacent nodes. 
+
+the std swap these two nodes's value directly...It's correct and meaningful?
+
+two pointers and the first one called p1, the second called p2. p1 to the k, then the rest is length - k; so if the p2 go on the length - k then the p2 must be the reverse k. For example, p1 is 4th; 1 2 3 4] 5 6; then the revse 4 is 2th, so we can let p1 pass to the end (5,6) and in each step let p2 also go on a step. 
+
+## Best Time to Buy and Sell Stock with Transaction Fee
+
+This problem agian! DP. hard to think transaction equation.
+
+sold[i] the maximum profit sold in ith days.
+
+hold[i] the maximum profit if we hold this stock.
+
+and transaction:
+
+sold[i] = max(sold[i - 1], hold[i - 1] + prices[i] - fee);
+
+hold[i] = max(hold[i - 1], sold[i - 1] - prices[i]);

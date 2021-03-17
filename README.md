@@ -8,7 +8,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 
 
 * **Scripts** folder is use to store my accepted code. you can copy it to submit. But I recommend you to read my code and insights then write your own code.
-    1. C,C++,Python3,Java. I will choose one given by my mood. I'd like to learn GO in the future and add it.
+    1. C,C++,Python3,Java. I ill choose one given by my mood. I'd like to learn GO in the future and add it.
 
     2. xxx_std means I use some one else code (because it's a easy question or easy to implement (lazy) or too hard (I can't do it!')). Basically I use [grandyang's code !](https://github.com/grandyang/leetcode), Thanks for his help!
 
