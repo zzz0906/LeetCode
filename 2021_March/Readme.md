@@ -95,3 +95,13 @@ and transaction:
 sold[i] = max(sold[i - 1], hold[i - 1] + prices[i] - fee);
 
 hold[i] = max(hold[i - 1], sold[i - 1] - prices[i]);
+
+## Generate Random Point in a Circle
+
+Given the radius and x-y positions of the center of a circle, write a function randPoint which generates a uniform random point in the circle.
+
+Just random; if the point is outer of the circle, just random again!
+
+!: do not add srand in the rand; because in each turn it will use another random seed and generate a different random number.
+
+After delet it then AC!
