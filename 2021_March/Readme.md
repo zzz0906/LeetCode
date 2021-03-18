@@ -104,4 +104,4 @@ Just random; if the point is outer of the circle, just random again!
 
 !: do not add srand in the rand; because in each turn it will use another random seed and generate a different random number.
 
-After delet it then AC!
+After delete it then AC!
