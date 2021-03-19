@@ -105,3 +105,29 @@ Just random; if the point is outer of the circle, just random again!
 !: do not add srand in the rand; because in each turn it will use another random seed and generate a different random number.
 
 After delete it then AC!
+
+## Wiggle Subsequence
+
+Given an integer array nums, return the length of the longest wiggle sequence.
+
+A wiggle sequence is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence.
+
+A subsequence is obtained by deleting some elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.
+
+Follow up: Could you solve this in O(n) time?
+
+let me try some examples
+
+1 17 5 10,13,15, 10,5 ,16
+
+maybe we shall use brute force? or dp
+
+f[i] = 1..j => n^2 problem
+
+how to get o(n) solution? the std use greedy and two pointer
+
+the std use two pointer. and if current value > last then increase pointer = decrease pointer + 1
+
+also, if current value < last one then decrease pointer = increase pointer + 1
+
+so clever in this way!

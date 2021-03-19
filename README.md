@@ -245,5 +245,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |313| [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [C++](./Scripts/313.cpp)|[Dynamic Programming](./Insights/313.md)| Medium
 |315| [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./Scripts/315.cpp)|[Data Structure](./Insights/315.md)| Hard
 |318| [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](./Scripts/318.cpp)|[Brute Force](./Insights/318.md)| Medium
-|319| [Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | [C++](./Scripts/319..cpp) | [Trick](./Insights/319.md) | Medium
-|321| [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) | [C++](./Scripts/321..cpp) | [Greedy+DP](./Insights/321.md) | Hard
+|319| [Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | [C++](./Scripts/319.cpp) | [Trick](./Insights/319.md) | Medium
+|321| [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) | [C++](./Scripts/321.cpp) | [Greedy+DP](./Insights/321.md) | Hard
+|324| [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [C++](./Scripts/324.cpp) | [Greedy+DP](./Insights/324.md) | Medium
