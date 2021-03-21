@@ -131,3 +131,25 @@ the std use two pointer. and if current value > last then increase pointer = dec
 also, if current value < last one then decrease pointer = increase pointer + 1
 
 so clever in this way!
+
+## Reordered Power of 2
+
+Starting with a positive integer N, we reorder the digits in any order (including the original order) such that the leading digit is not zero.
+
+Return true if and only if we can do this in a way such that the resulting number is a power of 2.
+
+Just brute force?
+
+find all 2^n
+
+2 4 6 8 16 32 64
+
+10^9 < 2^31
+
+therefore it only contains 0-30; we can enumerate them/
+
+for a number we can map it to a set.
+
+the ansewr wheter it exists an equal set!
+
+AC!
