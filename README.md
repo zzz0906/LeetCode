@@ -249,4 +249,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |321| [Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) | [C++](./Scripts/321.cpp) | [Greedy+DP](./Insights/321.md) | Hard
 |324| [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [C++](./Scripts/324.cpp) | [Greedy+DP](./Insights/324.md) | Medium
 |327| [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [C++](./Scripts/327.cpp) | [Data Structure](./Insights/327.md) | Hard
+|328| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](./Scripts/328.cpp) | [Data Structure](./Insights/328.md) | Medium
 
