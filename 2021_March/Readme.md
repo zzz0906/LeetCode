@@ -181,3 +181,56 @@ Trie?
 the std use hashset and compare them with these rules.
 
 Simple and clever methods!
+
+## Russian Doll Envelopes
+You are given a 2D array of integers envelopes where envelopes[i] = [wi, hi] represents the width and the height of an envelope.
+
+One envelope can fit into another if and only if both the width and height of one envelope are greater than the other envelope's width and height.
+
+Return the maximum number of envelopes you can Russian doll (i.e., put one inside the other).
+
+Interesting.
+
+Disjoint-set?
+
+1 <= wi, hi <= 104
+
+I can assume it's a surface. we need to find each point it contains how many 1 insder their evelope.
+
+5000*10^4 = 5\*10^7 yeah!
+
+for example, assume a evelope is (2,3) another is (3,4)
+
+|
+
+|---*
+
+|--*
+
+|
+
+| _ _ _ _ _ _
+
+like this, we put the evelope in a coordinate. And we calculate it contains how 
+
+Oh, we can use prefix sum to accelerate the sum process.
+
+but let me see if we do not use prefix sum, willl it TLE.
+
+10^8 ... TLE.
+
+My idea is wrong.
+
+Let me see the std's solution.
+
+sort! if the first element is the same, it will sort by the second element. we do not need to implement another comparement.
+
+the answer is so easy. if the last one is smaller than the current one, then answer++.
+
+The real problem is why? because it's a russian doll!
+
+Therefore, it I cannot contain you, then the next bigger block must cotain me or you. so the answer is still my max value before this block!
+
+the std use not this block, instead it's all before blocks...I am misleading. oh...because maybe current one contains only huge width. It can contain the answer before, but it cannot cotain the max value we record. If we only compare to the last one, it will add 1. So this method is incorrect!
+
+YES! AC!

@@ -1,41 +1,21 @@
 class Solution {
 public:
-    vector<string> spellchecker(vector<string>& wordlist, vector<string>& queries) {
-        vector<string> res;
-        unordered_set<string> st;
-        unordered_map<string, string> m1;
-        unordered_map<string, string> m2;
-        for (int i = 0; i < wordlist.size(); ++i) {
-            string word = wordlist[i];
-            st.insert(word);
-            transform(word.begin(), word.end(), word.begin(), ::tolower);
-            if (!m1.count(word)) m1[word] = wordlist[i];
-            // add all lowercase words to hashset
-            for (char &c : word) {
-                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') c = '_';
-            }
-            if (!m2.count(word)) m2[word] = wordlist[i];
-            // add all characters to the wordlist
-        }
-        for (string query : queries) {
-            if (st.count(query)) {
-                res.push_back(query);
-                continue;
-            }
-            transform(query.begin(), query.end(), query.begin(), ::tolower);
-            if (m1.count(query)) {
-                res.push_back(m1[query]);
-                continue;
-            }
-            for (char &c : query) {
-                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') c = '_';
-            }
-            if (m2.count(query)) {
-                res.push_back(m2[query]);
-                continue;
-            }
-            res.push_back("");
+    int maxEnvelopes(vector<vector<int>>& envelopes) {
+        if (envelopes.empty() || envelopes[0].size() == 0) return 0;
+        int res = 1, n = envelopes.size();
+        vector<int> dp(n,1);
+        sort(envelopes.begin(), envelopes.end());
+        for (int i = 1; i < n; i++){
+            for (int j = 0; j < i; ++j)
+                if (envelopes[i][0] > envelopes[j][0] && envelopes[i][1] > envelopes[j][1]) {
+                    dp[i] = max(dp[i], dp[j] + 1);
+                }
+            res = max(res,dp[i]);
         }
         return res;
+            // if (envelopes[i][0] > envelopes[i-1][0] && envelopes[i][1] > envelopes[i-1][1])
+            //     dp[i] = dp[i-1] + 1;
+            // else
+            //     dp[i] = dp[i-1];
     }
 };
