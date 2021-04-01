@@ -251,3 +251,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |327| [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [C++](./Scripts/327.cpp) | [Data Structure](./Insights/327.md) | Hard
 |328| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](./Scripts/328.cpp) | [Data Structure](./Insights/328.md) | Medium
 |329| [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)| [C++](./Scripts/329.cpp) | [DP+DFS](./Insights/329.md) | Hard
+|330| [Patching Array](https://leetcode.com/problems/patching-array/)| [C++](./Scripts/330.cpp) | [TBC...](./Insights/330.md) | Hard
