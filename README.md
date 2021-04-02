@@ -252,3 +252,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |328| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](./Scripts/328.cpp) | [Data Structure](./Insights/328.md) | Medium
 |329| [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)| [C++](./Scripts/329.cpp) | [DP+DFS](./Insights/329.md) | Hard
 |330| [Patching Array](https://leetcode.com/problems/patching-array/)| [C++](./Scripts/330.cpp) | [TBC...](./Insights/330.md) | Hard
+|331| [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)| [C++](./Scripts/331.cpp) | [TBC...](./Insights/331.md) | Medium

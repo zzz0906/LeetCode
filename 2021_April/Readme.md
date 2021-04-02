@@ -21,3 +21,6 @@ the std is so beautiful; How can I write these code? First, we stamp it. abca; t
 
 a***ca; then we try to reduce our stamp to \*bca; abc\*; we cannot generate ab\*a because if we want to paste it to the target then paste another original, next one must cover the a or other char.
 
+## Palindrome Linked List
+
+Done it befoere! 234!
