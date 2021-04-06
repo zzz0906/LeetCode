@@ -24,3 +24,31 @@ a***ca; then we try to reduce our stamp to \*bca; abc\*; we cannot generate ab\*
 ## Palindrome Linked List
 
 Done it befoere! 234!
+
+## Global and Local Inversions
+
+We have some permutation A of [0, 1, ..., N - 1], where N is the length of A.
+
+The number of (global) inversions is the number of i < j with 0 <= i < j < N and A[i] > A[j].
+
+The number of local inversions is the number of i with 0 <= i < N and A[i] > A[i+1].
+
+Return true if and only if the number of global inversions is equal to the number of local inversions.
+
+simulation must be TLE.
+
+we need to try other ways. 
+
+It's a permutation. But this condition is hard to use.
+
+today's thinking is over. I need to use more time. Fuck, the std also do not use permutations.
+
+oh if the local inversions == global inversion, it means besides i+1 no other huge j.
+
+we need to set a mininumber from i+2 - end; if the minimum > A[i], it means besides i + 1 there are some other values which are bigger than A[i].
+
+But maybe this turn fail (Global > local) but in next turn local > Global? The std do not consider this situation? 
+
+Accept but it has to proof that in each number global == local then overall global == local. proof: if these two values are not equal, oh fuck...
+
+the local must < global. Becuase local is one of the global! so it's must be equal in each turn.
