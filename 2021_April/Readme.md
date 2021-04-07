@@ -52,3 +52,28 @@ But maybe this turn fail (Global > local) but in next turn local > Global? The s
 Accept but it has to proof that in each number global == local then overall global == local. proof: if these two values are not equal, oh fuck...
 
 the local must < global. Becuase local is one of the global! so it's must be equal in each turn.
+
+## Minimum Operations to Make Array Equal
+
+You have an array arr of length n where arr[i] = (2 * i) + 1 for all valid values of i (i.e. 0 <= i < n).
+
+In one operation, you can select two indices x and y where 0 <= x, y < n and subtract 1 from arr[x] and add 1 to arr[y] (i.e. perform arr[x] -=1 and arr[y] += 1). The goal is to make all the elements of the array equal. It is guaranteed that all the elements of the array can be made equal using some operations.
+
+Given an integer n, the length of the array. Return the minimum number of operations needed to make all the elements of arr equal.
+
+1 3 5 7 ...
+
+let me find the pattern
+
+1 3 5 => 3 3 3; 2
+
+1 3 5 7 9=> 9-5 + 7-5
+
+1 3 5 7 9 11=> 11-6 + 9-6 + 7-6
+
+so we need to calculate it from odd and even.
+
+so odd => n/2*2 + 1 even=> n
+
+AC!
+
