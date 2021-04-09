@@ -255,4 +255,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |331| [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)| [C++](./Scripts/331.cpp) | [Tricky](./Insights/331.md) | Medium
 |332| [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)| [C++](./Scripts/332.cpp) | [DFS+Tricky](./Insights/332.md) | Medium
 |334| [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)| [C++](./Scripts/334.cpp) | [Tricky](./Insights/334.md) | Medium
-|335| [335. Self Crossing](https://leetcode.com/problems/self-crossing/)| [C++](./Scripts/335.cpp) | [Tricky](./Insights/335.md) | Hard
+|335| [Self Crossing](https://leetcode.com/problems/self-crossing/)| [C++](./Scripts/335.cpp) | [Tricky](./Insights/335.md) | Hard
+|336| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)| [C++](./Scripts/336.cpp) | [Data Structure](./Insights/336.md) | Hard

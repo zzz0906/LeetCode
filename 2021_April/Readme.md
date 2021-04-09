@@ -94,3 +94,11 @@ just sum all voewl and determine whether it's odd or even.
 fuck!  Split this string into two halves of equal lengths, and let a be the first half and b be the second half.
 
 AC...details are important
+
+## Letter Combinations of a Phone Number
+
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
+
+Too stupid; just a key value and for loop
+
+17...I have done it before. I use dfs...before.
