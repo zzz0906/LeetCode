@@ -257,3 +257,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |334| [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)| [C++](./Scripts/334.cpp) | [Tricky](./Insights/334.md) | Medium
 |335| [Self Crossing](https://leetcode.com/problems/self-crossing/)| [C++](./Scripts/335.cpp) | [Tricky](./Insights/335.md) | Hard
 |336| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)| [C++](./Scripts/336.cpp) | [Data Structure](./Insights/336.md) | Hard
+|341| [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)| [C++](./Scripts/341.cpp) | [Data Structure](./Insights/341.md) | Medium

@@ -102,3 +102,18 @@ Given a string containing digits from 2-9 inclusive, return all possible letter 
 Too stupid; just a key value and for loop
 
 17...I have done it before. I use dfs...before.
+
+## Verifying an Alien Dictionary
+
+alphabet is some permutation of lowercase letters.
+
+Given a sequence of words written in the alien language, and the order of the alphabet, return true if and only if the given words are sorted lexicographicaly in this alien language.
+
+It seems used a has to store the order. 
+
+1 <= words.length <= 100 and for each words iterate it, each char's position in the permutation shall be smaller than its successor
+
+##  Longest Increasing Path in a Matrix
+
+I solved this problem a few days ago. It's memrory-based search IF we have gone to this place, just return.
+
