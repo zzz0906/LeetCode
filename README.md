@@ -36,17 +36,17 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[Recursion](./Insights/22.md)|medium 
 |23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 |25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Scripts/25.cpp)|[Simulation](./Insights/25.md)|Hard
-|29| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | [C++](./Scripts/29..cpp) | [TBC...](./Insights/29.md) | Medium
-|30| [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | [C++](./Scripts/30..cpp) | [TBC...](./Insights/30.md) | Hard
-|31| [Next Permutation](https://leetcode.com/problems/next-permutation) | [PY](./Scripts/31..py) | [TBC...](./Insights/31.md) | Medium
-|32| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [C++](./Scripts/32..cpp) | [TBC...](./Insights/32.md) | Hard
-|33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [C++](./Scripts/33..cpp) | [TBC...](./Insights/33.md) | Medium
-|34| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [C++](./Scripts/34..cpp) | [TBC...](./Insights/34.md) | Medium
-|36| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [C++](./Scripts/36..cpp) | [TBC...](./Insights/36.md) | Medium
-|37| [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | [C++](./Scripts/37..cpp) | [TBC...](./Insights/37.md) | Hard
-|40| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [C++](./Scripts/40..cpp) | [TBC...](./Insights/40.md) | Medium
-|41| [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | [C++](./Scripts/41..cpp) | [TBC...](./Insights/41.md) | Hard
-|42| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | [C++](./Scripts/42..cpp) | [TBC...](./Insights/42.md) | Hard
+|29| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | [C++](./Scripts/29..cpp) | [Bit Operation](./Insights/29.md) | Medium
+|30| [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | [C++](./Scripts/30..cpp) | [Data Structure](./Insights/30.md) | Hard
+|31| [Next Permutation](https://leetcode.com/problems/next-permutation) | [PY](./Scripts/31..py) | [Trick](./Insights/31.md) | Medium
+|32| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [C++](./Scripts/32..cpp) | [DP](./Insights/32.md) | Hard
+|33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [C++](./Scripts/33..cpp) | [Binary Search](./Insights/33.md) | Medium
+|34| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [C++](./Scripts/34..cpp) | [Binary Search](./Insights/34.md) | Medium
+|36| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [C++](./Scripts/36..cpp) | [Trick](./Insights/36.md) | Medium
+|37| [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | [C++](./Scripts/37..cpp) | [DFS](./Insights/37.md) | Hard
+|40| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [C++](./Scripts/40..cpp) | [DP](./Insights/40.md) | Medium
+|41| [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | [C++](./Scripts/41..cpp) | [Bucket+Trick](./Insights/41.md) | Hard
+|42| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | [C++](./Scripts/42..cpp) | [Data Structure](./Insights/42.md) | Hard
 |43| [Multiply Strings](https://leetcode.com/problems/multiply-strings) | [C++](./Scripts/43..cpp) | [TBC...](./Insights/43.md) | Medium
 |44| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | [C++](./Scripts/44..cpp) | [TBC...](./Insights/44.md) | Hard
 |45| [Jump Game II](https://leetcode.com/problems/jump-game-ii) | [C++](./Scripts/45..cpp) | [TBC...](./Insights/45.md) | Hard
@@ -258,3 +258,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |335| [Self Crossing](https://leetcode.com/problems/self-crossing/)| [C++](./Scripts/335.cpp) | [Tricky](./Insights/335.md) | Hard
 |336| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)| [C++](./Scripts/336.cpp) | [Data Structure](./Insights/336.md) | Hard
 |341| [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)| [C++](./Scripts/341.cpp) | [Data Structure](./Insights/341.md) | Medium
+|342| [Power of Four](https://leetcode.com/problems/power-of-four/)| [C++](./Scripts/342.cpp) | [Easy](./Insights/342.md) | Easy

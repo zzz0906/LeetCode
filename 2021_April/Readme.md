@@ -117,3 +117,10 @@ It seems used a has to store the order.
 
 I solved this problem a few days ago. It's memrory-based search IF we have gone to this place, just return.
 
+## Deepest Leaves Sum
+
+Given the root of a binary tree, return the sum of values of its deepest leaves.
+
+just record the maxium depth and sum; when new bigger depth happens, restart sum and record the new maximum depth.
+
+Yes AC. Easy today.
