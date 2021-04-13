@@ -258,4 +258,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |335| [Self Crossing](https://leetcode.com/problems/self-crossing/)| [C++](./Scripts/335.cpp) | [Tricky](./Insights/335.md) | Hard
 |336| [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)| [C++](./Scripts/336.cpp) | [Data Structure](./Insights/336.md) | Hard
 |341| [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)| [C++](./Scripts/341.cpp) | [Data Structure](./Insights/341.md) | Medium
-|342| [Power of Four](https://leetcode.com/problems/power-of-four/)| [C++](./Scripts/342.cpp) | [Easy](./Insights/342.md) | Easy
+|342| [Power of Four](https://leetcode.com/problems/power-of-four/)| [C++](./Scripts/342.cpp) | [Math](./Insights/342.md) | Easy
+|343| [Integer Break](https://leetcode.com/problems/integer-break/)| [C++](./Scripts/343.cpp) | [Math](./Insights/343.md) | Medium

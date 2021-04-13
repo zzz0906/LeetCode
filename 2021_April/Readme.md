@@ -124,3 +124,6 @@ Given the root of a binary tree, return the sum of values of its deepest leaves.
 just record the maxium depth and sum; when new bigger depth happens, restart sum and record the new maximum depth.
 
 Yes AC. Easy today.
+
+## Beautiful Arrangement II
+
