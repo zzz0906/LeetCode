@@ -127,3 +127,32 @@ Yes AC. Easy today.
 
 ## Beautiful Arrangement II
 
+iven two integers n and k, you need to construct a list which contains n different positive integers ranging from 1 to n and obeys the following requirement:
+
+Suppose this list is [a1, a2, a3, ... , an], then the list [|a1 - a2|, |a2 - a3|, |a3 - a4|, ... , |an-1 - an|] has exactly k distinct integers.
+
+If there are multiple answers, print any of them.
+
+if n = 3 k = 1 => 1 2 3 no so 1 3 2
+
+oh for 1 2 3 4
+
+first k = 1
+
+then 1 4 2 3=> 1 3 2 1;
+
+so we move one biggest from end to head the type of substraction + 1.
+
+## Flatten Nested List Iterator
+
+You are given a nested list of integers nestedList. Each element is either an integer or a list whose elements may also be integers or other lists. Implement an iterator to flatten it.
+
+Implement the NestedIterator class:
+
+NestedIterator(List<NestedInteger> nestedList) Initializes the iterator with the nested list nestedList.
+int next() Returns the next integer in the nested list.
+boolean hasNext() Returns true if there are still some integers in the nested list and false otherwise.
+
+Used a stack and we can ensure the next element must be a integer.
+
+AC! I use deque instead this time. Be careful with the front(). If we use front we must determine whether it's empty or not!
