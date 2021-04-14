@@ -156,3 +156,13 @@ boolean hasNext() Returns true if there are still some integers in the nested li
 Used a stack and we can ensure the next element must be a integer.
 
 AC! I use deque instead this time. Be careful with the front(). If we use front we must determine whether it's empty or not!
+
+## Partition List
+
+partition it such that all nodes less than x come before nodes greater than or equal to x.
+
+Just iterate all elements in the nodeslist and and put all nodes bigger than x to a new node list.
+
+AC...
+
+But I guess the problem want us to modify the original list not add new linked list? Whatever, even though it need use to modify the original list, it still need use new space to expand the bigger or smaller list.

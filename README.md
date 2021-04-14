@@ -261,3 +261,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |342| [Power of Four](https://leetcode.com/problems/power-of-four/)| [C++](./Scripts/342.cpp) | [Math](./Insights/342.md) | Easy
 |343| [Integer Break](https://leetcode.com/problems/integer-break/)| [C++](./Scripts/343.cpp) | [Math](./Insights/343.md) | Medium
 |344| [Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](./Scripts/344.cpp) | [Data Structure](./Insights/344.md) | Easy
+|345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)| [C++](./Scripts/345.cpp) | [Simulation](./Insights/345.md) | Easy
