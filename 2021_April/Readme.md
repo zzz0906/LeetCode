@@ -166,3 +166,13 @@ Just iterate all elements in the nodeslist and and put all nodes bigger than x t
 AC...
 
 But I guess the problem want us to modify the original list not add new linked list? Whatever, even though it need use to modify the original list, it still need use new space to expand the bigger or smaller list.
+
+## Fibonacci Number
+
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+
+Given n, calculate F(n).
+
+Reallllll? so easy. Just iterate from 2 to n?
+
+AC.
