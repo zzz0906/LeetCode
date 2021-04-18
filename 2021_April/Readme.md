@@ -176,3 +176,45 @@ Given n, calculate F(n).
 Reallllll? so easy. Just iterate from 2 to n?
 
 AC.
+
+## Number of Submatrices That Sum to Target
+
+Given a matrix and a target, return the number of non-empty submatrices that sum to target.
+
+A submatrix x1, y1, x2, y2 is the set of all cells matrix[x][y] with x1 <= x <= x2 and y1 <= y <= y2.
+
+Two submatrices (x1, y1, x2, y2) and (x1', y1', x2', y2') are different if they have some coordinate that is different: for example, if x1 != x1'.
+
+It seems like a DP problem.
+
+but it may contain duplicates...
+
+The std use prefix sum of matrix.
+
+and enumerate four nodes of sub matrix.
+
+It's basical brute force. let me see more celever solution. 
+
+First, construct prefix sum array by each row;
+
+```
+for (int i = 0; i < m; ++i) {
+            for (int j = 1; j < n; ++j) {
+                matrix[i][j] += matrix[i][j - 1];
+            }
+        }
+```
+
+Pay attention to this, each row is separated for other row.
+
+Second, use i,j to enumerate the columns.
+
+Then we fixed i,j and find row of these columns whether there are zero or!! there are 0-current happens before. Which means, we need to find the current cummulative sum of rows and before sum whose sum is equal to target - current sum;
+
+e.g., we get 1,2,3 we need to find 1, 1,2 whose sum is equal to sum - target.
+
+It's too hard to think this solution.
+
+Enumearte column; Enumearte row, use target - prefix sum to find prefix sum in O(1);
+
+O(N^3) overall.

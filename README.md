@@ -263,3 +263,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |344| [Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](./Scripts/344.cpp) | [Data Structure](./Insights/344.md) | Easy
 |345| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)| [C++](./Scripts/345.cpp) | [Simulation](./Insights/345.md) | Easy
 |347| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)| [C++](./Scripts/347.cpp) | [Data Structure](./Insights/347.md) | Medium
+|349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [C++](./Scripts/349.cpp) | [Data Structure](./Insights/349.md) | Easy
