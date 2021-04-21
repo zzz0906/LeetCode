@@ -33,7 +33,9 @@ int main(){
     // sort(vect2.begin(), vect2.end());
     // cout<<lower_bound(vect2.begin(), vect2.end(),vect[3]) - vect2.begin();
 
-    vector<int> t, res(10);
-    cout<<t.size()<<endl;
+    long long a = 4294967291;
+    cout << int(a) << endl;
+    // vector<int> t, res(10);
+    // cout<<t.size()<<endl;
     //cout<<tmp.size()<<endl;
 }
