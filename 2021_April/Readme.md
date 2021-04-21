@@ -218,3 +218,65 @@ It's too hard to think this solution.
 Enumearte column; Enumearte row, use target - prefix sum to find prefix sum in O(1);
 
 O(N^3) overall.
+
+## Combination Sum IV
+
+Given an array of distinct integers nums and a target integer target, return the number of possible combinations that add up to target.
+
+The answer is guaranteed to fit in a 32-bit integer.
+
+if we know how to combine i from 1..j
+
+and for k from i, 1..j is d[i]*d[j]
+
+for example
+
+1 , 2 (1,1) 5
+
+5*1 
+
+1 + 2 + 2
+
+1*5
+
+1 + 2 + 2
+
+let me see the std;
+
+he use a dp to record how many solutions for a fixed number i.
+
+for above example, 5 can extract to 1 + 4 2 + 3;
+
+therefore we need to sum all these sitautions.
+
+for the 4, it can add by 1 + 3; 2 + 2;
+
+(1, 1, 1, 1)
+(1, 1, 2) [1+3]
+(1, 2, 1) [3+1]
+
+is three way. Thus, it includes duplicates
+
+Overall, dp[x] += dp[x-a] when a is one of coins;
+
+What if negative numbers are allowed in the given array? How does it change the problem? What limitation we need to add to the question to allow negative numbers?
+
+If there are some negative numbers, our target may need to be excluded of original arary.
+
+holy, if I use int it will hint me errors. But if I use unsigned int, it will show me RE...
+
+I knew it. The problem said that 'The answer is guaranteed to fit in a 32-bit integer'.
+
+However, the answer will > 2^31 - 1; therefore, if we use long, when it out of int, it will hint me RE.
+
+The only way is to use unsigned int. If unsigned int is bigger than 2^31 - 1; it will turn to negative number automatically.
+
+## N-ary Tree Preorder Traversal
+
+Given the root of an n-ary tree, return the preorder traversal of its nodes' values.
+
+Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
+
+just in the same way?
+
+first add root and left to right.
