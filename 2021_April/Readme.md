@@ -280,3 +280,23 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
 just in the same way?
 
 first add root and left to right.
+
+## Triangle
+
+Given a triangle array, return the minimum path sum from top to bottom.
+
+For each step, you may move to an adjacent number of the row below. More formally, if you are on index i on the current row, you may move to either index i or index i + 1 on the next row.
+
+DP?
+
+Classical. Again and Again. 
+
+DP[i] can be came from DP[i] or DP[i-1]
+
+Follow up: Could you do this using only O(n) extra space, where n is the total number of rows in the triangle?
+
+oh I know. Use the roll array!
+
+remember vector first size then values a(size,values)!!!
+
+AC. use a array to record last row. and substitute it repeatlly.

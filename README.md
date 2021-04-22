@@ -266,3 +266,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |349| [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [C++](./Scripts/349.cpp) | [Data Structure](./Insights/349.md) | Easy
 |350| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)| [C++](./Scripts/350.cpp) | [Data Structure](./Insights/350.md) | Easy
 |352| [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)| [C++](./Scripts/352.cpp) | [Data Structure](./Insights/352.md) | Hard
+|355| [Design Twitter](https://leetcode.com/problems/design-twitter/)| [C++](./Scripts/355.cpp) | [Data Structure](./Insights/355.md) | Medium
