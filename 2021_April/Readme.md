@@ -300,3 +300,58 @@ oh I know. Use the roll array!
 remember vector first size then values a(size,values)!!!
 
 AC. use a array to record last row. and substitute it repeatlly.
+
+## Brick Wall
+
+There is a brick wall in front of you. The wall is rectangular and has several rows of bricks. The bricks have the same height but different width. You want to draw a vertical line from the top to the bottom and cross the least bricks.
+
+The brick wall is represented by a list of rows. Each row is a list of integers representing the width of each brick in this row from left to right.
+
+If your line go through the edge of a brick, then the brick is not considered as crossed. You need to find out how to draw the line to cross the least bricks and return the number of crossed bricks.
+
+You cannot draw a line just along one of the two vertical edges of the wall, in which case the line will obviously cross no bricks.
+
+The width sum of bricks in different rows are the same and won't exceed INT_MAX.
+The number of bricks in each row is in range [1,10,000]. The height of wall is in range [1,10,000]. Total number of bricks of the wall won't exceed 20,000.
+
+We need to cross least brick. It hint me it will not be huge than INT_MAX. 
+
+I don't know, no insights...this problem is really hard...
+
+Nope this is a easy question. Just use a hasmap to record all nodes' brick's number
+
+I have my own idea!
+
+Oh it's same. Just record the middle cut point.
+
+For example, 1,2,2,1 => 1 3 5 this place to cut is better. we want to more this edge we can cut less bricks!
+
+## Critical Connections in a Network
+
+OH! Tarjand and return all nodes after we shrink circle to a signle node.
+
+Return all dfn[u] > low[v] 's edge!
+
+The tarjan we can read tarjan algorith.
+
+let me use a py std code.
+
+## Rotate Image
+
+I seem to finish this work before.
+
+Yep. 48
+
+## 48. Rotate Image
+
+In this problem, it'a easy question too. It's a long time for no seeing the hard question like the pass days. We keep facing the hard question as a sequence.
+
+I shall not rotate the image instead of making a new one.
+
+we can rotate each element of the matrix and when cover one number and we need to find the conver one's next one.
+
+![alt text](./48.jpg "The key consideration")
+
+We use (i,j) -> (j,k-i-1) to represent the evolution.
+
+Also we use loop int the outside of the matrix unitl the inside.

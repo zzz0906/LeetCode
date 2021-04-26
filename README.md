@@ -267,3 +267,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |350| [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)| [C++](./Scripts/350.cpp) | [Data Structure](./Insights/350.md) | Easy
 |352| [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)| [C++](./Scripts/352.cpp) | [Data Structure](./Insights/352.md) | Hard
 |355| [Design Twitter](https://leetcode.com/problems/design-twitter/)| [C++](./Scripts/355.cpp) | [Data Structure](./Insights/355.md) | Medium
+|357| [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)| [C++](./Scripts/357.cpp) | [Trick](./Insights/357.md) | Medium
+|363| [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)| [C++](./Scripts/363.cpp) | [Data Structure](./Insights/363.md) | Hard
+|365| [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)| [C++](./Scripts/365.cpp) | [Trick](./Insights/365.md) | Medium
