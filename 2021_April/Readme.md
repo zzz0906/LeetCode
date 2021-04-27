@@ -355,3 +355,23 @@ we can rotate each element of the matrix and when cover one number and we need t
 We use (i,j) -> (j,k-i-1) to represent the evolution.
 
 Also we use loop int the outside of the matrix unitl the inside.
+
+## Furthest Building You Can Reach
+
+You are given an integer array heights representing the heights of buildings, some bricks, and some ladders.
+
+You start your journey from building 0 and move to the next building by possibly using bricks or ladders.
+
+While moving from building i to building i+1 (0-indexed),
+
+If the current building's height is greater than or equal to the next building's height, you do not need a ladder or bricks.
+If the current building's height is less than the next building's height, you can either use one ladder or (h[i+1] - h[i]) bricks.
+Return the furthest building index (0-indexed) you can reach if you use the given ladders and bricks optimally.
+
+Interesting, first we can know that we have following problems:
+
+a1 a2 a3 a4 is the diff we need to use our tool. We can use ladder to delete a largest one!. Oh I know keep this operation until we have no ladder. and sum exceed of bricks.
+
+OH i know. we need to record the largest one to second largest one...
+
+Yes AC!

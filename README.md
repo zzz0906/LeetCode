@@ -47,12 +47,12 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |40| [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | [C++](./Scripts/40..cpp) | [DP](./Insights/40.md) | Medium
 |41| [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | [C++](./Scripts/41..cpp) | [Bucket+Trick](./Insights/41.md) | Hard
 |42| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | [C++](./Scripts/42..cpp) | [Data Structure](./Insights/42.md) | Hard
-|43| [Multiply Strings](https://leetcode.com/problems/multiply-strings) | [C++](./Scripts/43..cpp) | [TBC...](./Insights/43.md) | Medium
-|44| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | [C++](./Scripts/44..cpp) | [TBC...](./Insights/44.md) | Hard
-|45| [Jump Game II](https://leetcode.com/problems/jump-game-ii) | [C++](./Scripts/45..cpp) | [TBC...](./Insights/45.md) | Hard
-|46| [Permutations](https://leetcode.com/problems/permutations) | [C++](./Scripts/46..cpp) | [TBC...](./Insights/46.md) | Medium
-|47| [Permutations II](https://leetcode.com/problems/permutations-ii) | [C++](./Scripts/47..cpp) | [TBC...](./Insights/47.md) | Medium
-|48| [Rotate Image](https://leetcode.com/problems/rotate-image) | [C++](./Scripts/48..cpp) | [TBC...](./Insights/48.md) | Medium
+|43| [Multiply Strings](https://leetcode.com/problems/multiply-strings) | [C++](./Scripts/43..cpp) | [Trick](./Insights/43.md) | Medium
+|44| [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | [C++](./Scripts/44..cpp) | [Trick](./Insights/44.md) | Hard
+|45| [Jump Game II](https://leetcode.com/problems/jump-game-ii) | [C++](./Scripts/45..cpp) | [DP](./Insights/45.md) | Hard
+|46| [Permutations](https://leetcode.com/problems/permutations) | [C++](./Scripts/46..cpp) | [Trick](./Insights/46.md) | Medium
+|47| [Permutations II](https://leetcode.com/problems/permutations-ii) | [C++](./Scripts/47..cpp) | [Trick+Data Structure](./Insights/47.md) | Medium
+|48| [Rotate Image](https://leetcode.com/problems/rotate-image) | [C++](./Scripts/48..cpp) | [Trick](./Insights/48.md) | Medium
 |49| [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [C++](./Scripts/49..cpp) | [TBC...](./Insights/49.md) | Medium
 |50| [Pow(x, n)](https://leetcode.com/problems/powx-n) | [C++](./Scripts/50..cpp) | [TBC...](./Insights/50.md) | Medium
 |51| [N-Queens](https://leetcode.com/problems/n-queens) | [C++](./Scripts/51..cpp) | [TBC...](./Insights/51.md) | Hard
@@ -270,3 +270,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |357| [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)| [C++](./Scripts/357.cpp) | [Trick](./Insights/357.md) | Medium
 |363| [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)| [C++](./Scripts/363.cpp) | [Data Structure](./Insights/363.md) | Hard
 |365| [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)| [C++](./Scripts/365.cpp) | [Trick](./Insights/365.md) | Medium
+|367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)| [C++](./Scripts/367.cpp) | [Trick](./Insights/367.md) | Easy
