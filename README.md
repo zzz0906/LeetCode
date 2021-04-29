@@ -271,3 +271,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |363| [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)| [C++](./Scripts/363.cpp) | [Data Structure](./Insights/363.md) | Hard
 |365| [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)| [C++](./Scripts/365.cpp) | [Trick](./Insights/365.md) | Medium
 |367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)| [C++](./Scripts/367.cpp) | [Trick](./Insights/367.md) | Easy
+|368| [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)| [C++](./Scripts/368.cpp) | [DP](./Insights/368.md) | Medium

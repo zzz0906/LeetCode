@@ -375,3 +375,18 @@ a1 a2 a3 a4 is the diff we need to use our tool. We can use ladder to delete a l
 OH i know. we need to record the largest one to second largest one...
 
 Yes AC!
+## Unique Paths II
+
+ robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
+
+The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
+
+Now consider if some obstacles are added to the grids. How many unique paths would there be?
+
+An obstacle and space is marked as 1 and 0 respectively in the grid.
+
+Typical DP. first reach the obstacles. And go to end from obstacles.
+
+if we face a obstacles, just continue let it's solution be zero.
+
+AC! 
