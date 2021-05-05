@@ -390,3 +390,27 @@ Typical DP. first reach the obstacles. And go to end from obstacles.
 if we face a obstacles, just continue let it's solution be zero.
 
 AC! 
+
+## Find First and Last Position of Element in Sorted Array
+
+Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+
+If target is not found in the array, return [-1, -1].
+
+Follow up: Could you write an algorithm with O(log n) runtime complexity?
+
+lower bound? upper bound?
+
+I want to write a strcit ologn, because if all the elements are the same, if we binary search and keep moving will got an o(n)'s worse performance.
+
+pay attention to that: 
+
+···
+while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < / <= target) left = mid + 1;
+            else right = mid;
+        }
+···
+
+if we use nums[mid] < we can know that if it's equal, the right will be the mid; Thus, it will [left - mid] which means we will get the the most left elements in the end. We need run this process twice with = and not =.

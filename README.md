@@ -272,3 +272,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |365| [Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/)| [C++](./Scripts/365.cpp) | [Trick](./Insights/365.md) | Medium
 |367| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)| [C++](./Scripts/367.cpp) | [Trick](./Insights/367.md) | Easy
 |368| [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)| [C++](./Scripts/368.cpp) | [DP](./Insights/368.md) | Medium
+|371| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)| [C++](./Scripts/371.cpp) | [Trick](./Insights/371.md) | Medium
+|372| [Super Pow](https://leetcode.com/problems/super-pow/)| [C++](./Scripts/372.cpp) | [Trick](./Insights/372.md) | Medium
