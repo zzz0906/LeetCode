@@ -274,3 +274,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |368| [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)| [C++](./Scripts/368.cpp) | [DP](./Insights/368.md) | Medium
 |371| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)| [C++](./Scripts/371.cpp) | [Trick](./Insights/371.md) | Medium
 |372| [Super Pow](https://leetcode.com/problems/super-pow/)| [C++](./Scripts/372.cpp) | [Trick](./Insights/372.md) | Medium
+|373| [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)| [C++](./Scripts/373.cpp) | [Trick](./Insights/373.md) | Medium
