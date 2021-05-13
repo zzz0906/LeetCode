@@ -68,3 +68,9 @@ HINT: Keep a window of size n - k over the array. The answer is max(answer, tota
 the hint2 is too Celever! It basically tell you how to do.
 
 Yes AC. Use a prefix sum and slides window. O(n).
+
+## Range Sum Query 2D - Immutable
+
+prefix sum? A - B - C + D(the most left upper)
+
+304. Which I have finished it before. But I use a less efficient way. I calculate prefix sum for each row. Not for the whole matrix. 

@@ -53,16 +53,16 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |46| [Permutations](https://leetcode.com/problems/permutations) | [C++](./Scripts/46..cpp) | [Trick](./Insights/46.md) | Medium
 |47| [Permutations II](https://leetcode.com/problems/permutations-ii) | [C++](./Scripts/47..cpp) | [Trick+Data Structure](./Insights/47.md) | Medium
 |48| [Rotate Image](https://leetcode.com/problems/rotate-image) | [C++](./Scripts/48..cpp) | [Trick](./Insights/48.md) | Medium
-|49| [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [C++](./Scripts/49..cpp) | [TBC...](./Insights/49.md) | Medium
-|50| [Pow(x, n)](https://leetcode.com/problems/powx-n) | [C++](./Scripts/50..cpp) | [TBC...](./Insights/50.md) | Medium
-|51| [N-Queens](https://leetcode.com/problems/n-queens) | [C++](./Scripts/51..cpp) | [TBC...](./Insights/51.md) | Hard
-|52| [N-Queens II](https://leetcode.com/problems/n-queens-ii) | [C++](./Scripts/52..cpp) | [TBC...](./Insights/52.md) | Hard
-|54| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | [C++](./Scripts/54..cpp) | [TBC...](./Insights/54.md) | Medium
-|56| [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [C++](./Scripts/56..cpp) | [TBC...](./Insights/56.md) | Medium
-|57| [Insert Interval](https://leetcode.com/problems/insert-interval) | [C++](./Scripts/57..cpp) | [TBC...](./Insights/57.md) | Medium
-|58| [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [C++](./Scripts/58..cpp) | [TBC...](./Insights/58.md) | Easy
-|59| [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [C++](./Scripts/59..cpp) | [TBC...](./Insights/59.md) | Medium
-|60| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [C++](./Scripts/60..cpp) | [TBC...](./Insights/60.md) | Hard
+|49| [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [C++](./Scripts/49..cpp) | [Data Structure](./Insights/49.md) | Medium
+|50| [Pow(x, n)](https://leetcode.com/problems/powx-n) | [C++](./Scripts/50..cpp) | [Quick Pow](./Insights/50.md) | Medium
+|51| [N-Queens](https://leetcode.com/problems/n-queens) | [C++](./Scripts/51..cpp) | [DFS](./Insights/51.md) | Hard
+|52| [N-Queens II](https://leetcode.com/problems/n-queens-ii) | [C++](./Scripts/52..cpp) | [DFS](./Insights/52.md) | Hard
+|54| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | [C++](./Scripts/54..cpp) | [Trick](./Insights/54.md) | Medium
+|56| [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [C++](./Scripts/56..cpp) | [Trick](./Insights/56.md) | Medium
+|57| [Insert Interval](https://leetcode.com/problems/insert-interval) | [C++](./Scripts/57..cpp) | [Trick](./Insights/57.md) | Medium
+|58| [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [C++](./Scripts/58..cpp) | [Trick](./Insights/58.md) | Easy
+|59| [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [C++](./Scripts/59..cpp) | [Trick](./Insights/59.md) | Medium
+|60| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [C++](./Scripts/60..cpp) | [DFS](./Insights/60.md) | Hard
 |61| [Rotate List](https://leetcode.com/problems/rotate-list) | [PY](./Scripts/61..py) | [TBC...](./Insights/61.md) | Medium
 |64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [C++](./Scripts/64..cpp) | [TBC...](./Insights/64.md) | Medium
 |65| [Valid Number](https://leetcode.com/problems/valid-number) | [C++](./Scripts/65..cpp) | [TBC...](./Insights/65.md) | Hard
@@ -275,3 +275,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |371| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)| [C++](./Scripts/371.cpp) | [Trick](./Insights/371.md) | Medium
 |372| [Super Pow](https://leetcode.com/problems/super-pow/)| [C++](./Scripts/372.cpp) | [Trick](./Insights/372.md) | Medium
 |373| [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)| [C++](./Scripts/373.cpp) | [Trick](./Insights/373.md) | Medium
+|374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./Scripts/374.cpp) | [Binary Search](./Insights/374.md) | Medium
