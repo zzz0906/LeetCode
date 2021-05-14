@@ -74,3 +74,31 @@ Yes AC. Use a prefix sum and slides window. O(n).
 prefix sum? A - B - C + D(the most left upper)
 
 304. Which I have finished it before. But I use a less efficient way. I calculate prefix sum for each row. Not for the whole matrix. 
+
+## Ambiguous Coordinates
+
+We had some 2-dimensional coordinates, like "(1, 3)" or "(2, 0.5)".  Then, we removed all commas, decimal points, and spaces, and ended up with the string s.  Return a list of strings representing all possibilities for what our original coordinates could have been.
+
+Our original representation never had extraneous zeroes, so we never started with numbers like "00", "0.0", "0.00", "1.0", "001", "00.01", or any other number that can be represented with less digits.  Also, a decimal point within a number never occurs without at least one digit occuring before it, so we never started with numbers like ".1".
+
+The final answer list can be returned in any order.  Also note that all coordinates in the final answer have exactly one space between them (occurring after the comma.)
+
+we can add 2 . and 1; And the answer is (length of string)^3 if we use brute force. But we need to summary all special situation. I use std's solution directly.
+
+if S == "": return []
+
+if S == "0": return [S]
+
+if S == "0XXX0": return []
+
+if S == "0XXX": return ["0.XXX"]
+
+if S == "XXX0": return [S]
+
+return [S, "X.XXX", "XX.XX", "XXX.X"...]
+
+It's a DFS idea. First we find the position of ,. Then we try to add . in this two number. 
+
+And we combine these two '.' 's situation. 
+
+So the time complexity is O(length)^3;

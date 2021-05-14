@@ -234,3 +234,4 @@ Therefore, it I cannot contain you, then the next bigger block must cotain me or
 the std use not this block, instead it's all before blocks...I am misleading. oh...because maybe current one contains only huge width. It can contain the answer before, but it cannot cotain the max value we record. If we only compare to the last one, it will add 1. So this method is incorrect!
 
 YES! AC!
+

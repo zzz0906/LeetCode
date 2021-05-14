@@ -63,12 +63,12 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |58| [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [C++](./Scripts/58..cpp) | [Trick](./Insights/58.md) | Easy
 |59| [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [C++](./Scripts/59..cpp) | [Trick](./Insights/59.md) | Medium
 |60| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [C++](./Scripts/60..cpp) | [DFS](./Insights/60.md) | Hard
-|61| [Rotate List](https://leetcode.com/problems/rotate-list) | [PY](./Scripts/61..py) | [TBC...](./Insights/61.md) | Medium
-|64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [C++](./Scripts/64..cpp) | [TBC...](./Insights/64.md) | Medium
-|65| [Valid Number](https://leetcode.com/problems/valid-number) | [C++](./Scripts/65..cpp) | [TBC...](./Insights/65.md) | Hard
-|66| [Plus One](https://leetcode.com/problems/plus-one) | [C++](./Scripts/66..cpp) | [TBC...](./Insights/66.md) | Easy
-|67| [Add Binary](https://leetcode.com/problems/add-binary) | [PY](./Scripts/67..py) | [TBC...](./Insights/67.md) | Easy
-|68| [Text Justification](https://leetcode.com/problems/text-justification) | [C++](./Scripts/68..cpp) | [TBC...](./Insights/68.md) | Hard
+|61| [Rotate List](https://leetcode.com/problems/rotate-list) | [PY](./Scripts/61..py) | [Trick](./Insights/61.md) | Medium
+|64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [C++](./Scripts/64..cpp) | [DP](./Insights/64.md) | Medium
+|65| [Valid Number](https://leetcode.com/problems/valid-number) | [C++](./Scripts/65..cpp) | [STATE MACHINE](./Insights/65.md) | Hard
+|66| [Plus One](https://leetcode.com/problems/plus-one) | [C++](./Scripts/66..cpp) | [Arbitrary-precision Arithmetic](./Insights/66.md) | Easy
+|67| [Add Binary](https://leetcode.com/problems/add-binary) | [PY](./Scripts/67..py) | [Arbitrary-precision Arithmetic](./Insights/67.md) | Easy
+|68| [Text Justification](https://leetcode.com/problems/text-justification) | [C++](./Scripts/68..cpp) | [Trick](./Insights/68.md) | Hard
 |69| [Sqrt(x)](https://leetcode.com/problems/sqrtx) | [C++](./Scripts/69..cpp) | [TBC...](./Insights/69.md) | Easy
 |71| [Simplify Path](https://leetcode.com/problems/simplify-path) | [C++](./Scripts/71..cpp) | [TBC...](./Insights/71.md) | Medium
 |72| [Edit Distance](https://leetcode.com/problems/edit-distance) | [C++](./Scripts/72..cpp) | [TBC...](./Insights/72.md) | Hard
@@ -240,9 +240,9 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |304| [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [C++](./Scripts/304..cpp) | [TBC...](./Insights/304.md) | Medium
 |306| [Additive Number](https://leetcode.com/problems/additive-number) | [C++](./Scripts/306..cpp) | [TBC...](./Insights/306.md) | Medium
 |307| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [C++](./Scripts/307.cpp)|[Data Structure](./Insights/307.md)|Medium
-|309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./Scripts/309_std.cpp)|[Dynamic Programming](./Insights/309.md)|Medium
-|312| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [C++](./Scripts/312_std.cpp)|[Dynamic Programming](./Insights/312.md)| Hard
-|313| [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [C++](./Scripts/313.cpp)|[Dynamic Programming](./Insights/313.md)| Medium
+|309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./Scripts/309_std.cpp)|[DP](./Insights/309.md)|Medium
+|312| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [C++](./Scripts/312_std.cpp)|[DP](./Insights/312.md)| Hard
+|313| [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [C++](./Scripts/313.cpp)|[DP](./Insights/313.md)| Medium
 |315| [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./Scripts/315.cpp)|[Data Structure](./Insights/315.md)| Hard
 |318| [Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](./Scripts/318.cpp)|[Brute Force](./Insights/318.md)| Medium
 |319| [Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | [C++](./Scripts/319.cpp) | [Trick](./Insights/319.md) | Medium
@@ -275,4 +275,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |371| [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)| [C++](./Scripts/371.cpp) | [Trick](./Insights/371.md) | Medium
 |372| [Super Pow](https://leetcode.com/problems/super-pow/)| [C++](./Scripts/372.cpp) | [Trick](./Insights/372.md) | Medium
 |373| [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)| [C++](./Scripts/373.cpp) | [Trick](./Insights/373.md) | Medium
-|374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./Scripts/374.cpp) | [Binary Search](./Insights/374.md) | Medium
+|374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./Scripts/374.cpp) | [Binary Search](./Insights/374.md) | Easy
+|375| [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./Scripts/375.cpp) | [Binary Search](./Insights/375.md) | Medium
