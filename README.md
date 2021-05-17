@@ -277,3 +277,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |373| [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)| [C++](./Scripts/373.cpp) | [Trick](./Insights/373.md) | Medium
 |374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./Scripts/374.cpp) | [Binary Search](./Insights/374.md) | Easy
 |375| [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./Scripts/375.cpp) | [Binary Search](./Insights/375.md) | Medium
+|378| [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| [C++](./Scripts/378.cpp) | [Binary Search](./Insights/378.md) | Medium

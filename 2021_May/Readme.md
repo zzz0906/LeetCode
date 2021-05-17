@@ -102,3 +102,25 @@ It's a DFS idea. First we find the position of ,. Then we try to add . in this t
 And we combine these two '.' 's situation. 
 
 So the time complexity is O(length)^3;
+
+## Binary Tree Camera
+
+Given a binary tree, we install cameras on the nodes of the tree. 
+
+Each camera at a node can monitor its parent, itself, and its immediate children.
+
+Calculate the minimum number of cameras needed to monitor all nodes of the tree.
+
+we shall install all even nodes. so the problem is to count the nodes in even level. 
+
+Nope...it's incorrect.
+
+DP? f[i,0] f[i,1] to represent install and uninstall camera. Thus, f[son,0]
+
+fuck...bull shit. It's a greedy algorithm. The leaf's father shall be put a camera.
+
+the std use 2 to represent the leaf's son or grandpa' node.
+
+leaf->camera->granpa->leaft
+
+0->1->2-> (because his son is both 2) we shall return 0
