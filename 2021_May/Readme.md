@@ -124,3 +124,36 @@ the std use 2 to represent the leaf's son or grandpa' node.
 leaf->camera->granpa->leaft
 
 0->1->2-> (because his son is both 2) we shall return 0
+
+## Longest String Chain
+
+Given a list of words, each word consists of English lowercase letters.
+
+Let's say word1 is a predecessor of word2 if and only if we can add exactly one letter anywhere in word1 to make it equal to word2. For example, "abc" is a predecessor of "abac".
+
+A word chain is a sequence of words [word_1, word_2, ..., word_k] with k >= 1, where word_1 is a predecessor of word_2, word_2 is a predecessor of word_3, and so on.
+
+Return the longest possible length of a word chain with words chosen from the given list of words.
+
+f[i] = max(f[j] + 1) if words i is the predecessor of words j
+
+words[i] only consists of English lowercase letters.
+
+It's easy?
+
+we can use a map['a'] to refer to the number of a
+
+oh my way is incorrect...we shall add the characters in anywhere. means substring.
+
+o(n) to determine the substring. oh fuck the std use on to determine...
+
+Also, we have two tricks to accelerate the process. 
+
+```
+if (words[j].size() + 1 < words[i].size()) break;
+if (words[j].size() == words[i].size()) continue;
+```
+
+we only need + 1' size.
+
+Yes, AC!

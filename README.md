@@ -69,13 +69,13 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |66| [Plus One](https://leetcode.com/problems/plus-one) | [C++](./Scripts/66..cpp) | [Arbitrary-precision Arithmetic](./Insights/66.md) | Easy
 |67| [Add Binary](https://leetcode.com/problems/add-binary) | [PY](./Scripts/67..py) | [Arbitrary-precision Arithmetic](./Insights/67.md) | Easy
 |68| [Text Justification](https://leetcode.com/problems/text-justification) | [C++](./Scripts/68..cpp) | [Trick](./Insights/68.md) | Hard
-|69| [Sqrt(x)](https://leetcode.com/problems/sqrtx) | [C++](./Scripts/69..cpp) | [TBC...](./Insights/69.md) | Easy
-|71| [Simplify Path](https://leetcode.com/problems/simplify-path) | [C++](./Scripts/71..cpp) | [TBC...](./Insights/71.md) | Medium
-|72| [Edit Distance](https://leetcode.com/problems/edit-distance) | [C++](./Scripts/72..cpp) | [TBC...](./Insights/72.md) | Hard
-|73| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | [C++](./Scripts/73..cpp) | [TBC...](./Insights/73.md) | Medium
-|74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [C++](./Scripts/74..cpp) | [TBC...](./Insights/74.md) | Medium
-|75| [Sort Colors](https://leetcode.com/problems/sort-colors) | [C++](./Scripts/75..cpp) | [TBC...](./Insights/75.md) | Medium
-|76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](./Scripts/76..cpp) | [TBC...](./Insights/76.md) | Hard
+|69| [Sqrt(x)](https://leetcode.com/problems/sqrtx) | [C++](./Scripts/69..cpp) | [Trick](./Insights/69.md) | Easy
+|71| [Simplify Path](https://leetcode.com/problems/simplify-path) | [C++](./Scripts/71..cpp) | [String Process](./Insights/71.md) | Medium
+|72| [Edit Distance](https://leetcode.com/problems/edit-distance) | [C++](./Scripts/72..cpp) | [DP](./Insights/72.md) | Hard
+|73| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | [C++](./Scripts/73..cpp) | [Trick](./Insights/73.md) | Medium
+|74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [C++](./Scripts/74..cpp) | [Binary Search](./Insights/74.md) | Medium
+|75| [Sort Colors](https://leetcode.com/problems/sort-colors) | [C++](./Scripts/75..cpp) | [Trick](./Insights/75.md) | Medium
+|76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](./Scripts/76..cpp) | [Greedy](./Insights/76.md) | Hard
 |77| [Combinations](https://leetcode.com/problems/combinations) | [SQL](./Scripts/77..sql) | [TBC...](./Insights/77.md) | Medium
 |79| [Word Search](https://leetcode.com/problems/word-search) | [C++](./Scripts/79..cpp) | [TBC...](./Insights/79.md) | Medium
 |80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./Scripts/80..cpp) | [TBC...](./Insights/80.md) | Medium
@@ -278,3 +278,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |374| [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./Scripts/374.cpp) | [Binary Search](./Insights/374.md) | Easy
 |375| [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./Scripts/375.cpp) | [Binary Search](./Insights/375.md) | Medium
 |378| [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| [C++](./Scripts/378.cpp) | [Binary Search](./Insights/378.md) | Medium
+|380| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [C++](./Scripts/380.cpp) | [Data Structure](./Insights/380.md) | Medium
