@@ -20,13 +20,6 @@ public:
     bool remove(int val) {
         if (!m.count(val)) return false;
         int last = nums.back();
-        if (last == val){
-            m[last].pop_back();
-            nums.pop_back();
-            if (m[val].size() == 0)
-                m.erase(val);
-            return true;
-        }
         m[last].pop_back();
         m[last].push_back(m[val].back());
         nums[m[val].back()] = last;

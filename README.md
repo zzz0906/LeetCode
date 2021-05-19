@@ -279,3 +279,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |375| [Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./Scripts/375.cpp) | [Binary Search](./Insights/375.md) | Medium
 |378| [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| [C++](./Scripts/378.cpp) | [Binary Search](./Insights/378.md) | Medium
 |380| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [C++](./Scripts/380.cpp) | [Data Structure](./Insights/380.md) | Medium
+|381| [https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)| [C++](./Scripts/381.cpp) | [Data Structure](./Insights/381.md) | Hard
