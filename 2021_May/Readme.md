@@ -188,3 +188,14 @@ DFS; we cannot use an extra data structure to store them.
 * What is the time complexity of your modified solution? What is the most time-consuming part and memory-consuming part of it? How to optimize?
 * How to make sure the duplicated files you find are not false positive?
 
+## Minimum Moves to Equal Array Elements II
+
+Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.
+
+In one move, you can increment or decrement an element of the array by 1.
+
+Oh i seem to finish this problem before. the middle value is the best?
+
+sort first; find middle. And calculate all the diff to the middle.
+
+yes ac...great!
