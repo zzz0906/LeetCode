@@ -281,3 +281,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |380| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [C++](./Scripts/380.cpp) | [Data Structure](./Insights/380.md) | Medium
 |381| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)| [C++](./Scripts/381.cpp) | [Data Structure](./Insights/381.md) | Hard
 |383| [Ransom Note](https://leetcode.com/problems/ransom-note/)| [PY](./Scripts/383.py) | [String](./Insights/383.md) | Easy
+|384| [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)| [C++](./Scripts/384.cpp) | [Data Structure](./Insights/384.md) | Medium

@@ -199,3 +199,7 @@ Oh i seem to finish this problem before. the middle value is the best?
 sort first; find middle. And calculate all the diff to the middle.
 
 yes ac...great!
+
+## Binary Tree Level Order Traversal
+
+102\. I have done it before. We can use a queue to record the level order.
