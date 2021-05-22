@@ -203,3 +203,19 @@ yes ac...great!
 ## Binary Tree Level Order Traversal
 
 102\. I have done it before. We can use a queue to record the level order.
+
+## Find and Replace Pattern
+
+Given a list of strings words and a string pattern, return a list of words[i] that match pattern. You may return the answer in any order.
+
+A word matches the pattern if there exists a permutation of letters p so that after replacing every letter x in the pattern with p(x), we get the desired word.
+
+Recall that a permutation of letters is a bijection from letters to letters: every letter maps to another letter, and no two letters map to the same letter.
+
+we can count all the position shall be the same. I also have done this question before?
+
+Nope, let me do it.
+
+Yes, we shall count the same character's position. We need to keep each position's same character's position is same. Also, if there two characters is the same but do not cotain in this same position list, we shall return false (e.g., ccc and baa); even all same position is correct but for c cc there are same characters but without same position list.
+
+Overall AC!
