@@ -219,3 +219,7 @@ Nope, let me do it.
 Yes, we shall count the same character's position. We need to keep each position's same character's position is same. Also, if there two characters is the same but do not cotain in this same position list, we shall return false (e.g., ccc and baa); even all same position is correct but for c cc there are same characters but without same position list.
 
 Overall AC!
+
+## N-Queens
+
+Done it before. DFS!

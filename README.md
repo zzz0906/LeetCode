@@ -283,3 +283,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |383| [Ransom Note](https://leetcode.com/problems/ransom-note/)| [PY](./Scripts/383.py) | [String](./Insights/383.md) | Easy
 |384| [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)| [C++](./Scripts/384.cpp) | [Data Structure](./Insights/384.md) | Medium
 |385| [Mini Parser](https://leetcode.com/problems/mini-parser/)| [C++](./Scripts/385.cpp) | [Recursion](./Insights/385.md) | Medium
+|386| [ Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)| [C++](./Scripts/386.cpp) | [Trick](./Insights/386.md) | Medium
