@@ -223,3 +223,56 @@ Overall AC!
 ## N-Queens
 
 Done it before. DFS!
+
+## Find the Shortest Superstring
+
+Given an array of strings words, return the smallest string that contains each string in words as a substring. If there are multiple valid strings of the smallest length, return any of them.
+
+You may assume that no string in words is a substring of another string in words.
+
+oh interesting. We only need it contains the substring;
+
+for example, "ctaagt","gcta" => gctaagt we can combine the string with the same part.
+
+* 1 <= words.length <= 12
+* 1 <= words[i].length <= 20
+* words[i] consists of lowercase English letters.
+* All the strings of words are unique.
+
+we can strat from a string. And next string's substring == current string's substring we onnly add miss part.
+
+for example, abbcd with a string bbdef => abbcdef
+
+Nope it's incorrect, it will destroy the original architecture.
+
+OH...it's tsp problem. the brute force: get all order of these string eliminate the duplicates. Find the best order which can result in the shortest substring. And the duplicates string is the number of duplicates from tail of the string to the head of the another string.
+Thus, we can use DP to solve TSP.
+
+DP[i][j] means we have been to mask node of i (i can be transfered to a binary value (e.g., 100100100)) means we have been to 1,4,6 nodes.
+
+And the last node is j. Because we have n string, i == 2^n; we update it by 1 << i and [i] = A[i]. And we update from 1 to 2^n;.
+
+Also, we need to calculate the overlap array before to represent the duplicates array.
+
+a valid array. the position j is 1. we can use it as the string answer;
+
+when mask both cotains i and j then we can update it.
+```
+string t = dp[mask ^ (1 << j)][i] + A[j].substr(overlap[i][j];
+```
+
+start from i to j.
+
+The dp solution is so clear. 
+
+One question from 1 to 1 << N why this iterate order is correct?
+
+0001
+0010
+0011
+0100
+0101
+0110
+0111
+
+In binary form, we start from less node to more nodes. It's deem correct?
