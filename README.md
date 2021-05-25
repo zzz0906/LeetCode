@@ -78,8 +78,8 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](./Scripts/76..cpp) | [Greedy](./Insights/76.md) | Hard
 |77| [Combinations](https://leetcode.com/problems/combinations) | [SQL](./Scripts/77..sql) | [DFS](./Insights/77.md) | Medium
 |79| [Word Search](https://leetcode.com/problems/word-search) | [C++](./Scripts/79..cpp) | [DFS](./Insights/79.md) | Medium
-|80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./Scripts/80..cpp) | [TBC...](./Insights/80.md) | Medium
-|81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [C++](./Scripts/81..cpp) | [TBC...](./Insights/81.md) | Medium
+|80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./Scripts/80..cpp) | [Data Structure](./Insights/80.md) | Medium
+|81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [Binary Search](./Scripts/81..cpp) | [TBC...](./Insights/81.md) | Medium
 |82| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [C++](./Scripts/82..cpp) | [TBC...](./Insights/82.md) | Medium
 |83| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](./Scripts/83..cpp) | [TBC...](./Insights/83.md) | Easy
 |84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [SQL](./Scripts/84..sql) | [TBC...](./Insights/84.md) | Hard
