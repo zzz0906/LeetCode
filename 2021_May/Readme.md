@@ -276,3 +276,9 @@ One question from 1 to 1 << N why this iterate order is correct?
 0111
 
 In binary form, we start from less node to more nodes. It's deem correct?
+
+## To Lower Case
+
+Just += 32 (65 and 97 for 'a' and 'A').
+
+AC.

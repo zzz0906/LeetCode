@@ -285,3 +285,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |385| [Mini Parser](https://leetcode.com/problems/mini-parser/)| [C++](./Scripts/385.cpp) | [Recursion](./Insights/385.md) | Medium
 |386| [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)| [C++](./Scripts/386.cpp) | [Trick](./Insights/386.md) | Medium
 |387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)| [C++](./Scripts/387.cpp) | [Data Structure](./Insights/387.md) | Easy
+|388| [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)| [C++](./Scripts/388.cpp) | [Data Structure](./Insights/388.md) | Medium
