@@ -287,3 +287,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |387| [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)| [C++](./Scripts/387.cpp) | [Data Structure](./Insights/387.md) | Easy
 |388| [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)| [C++](./Scripts/388.cpp) | [Data Structure](./Insights/388.md) | Medium
 |390| [Elimination Game](https://leetcode.com/problems/elimination-game/)| [C++](./Scripts/390.cpp) | [Data Structure](./Insights/390.md) | Medium
+|391| [Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)| [C++](./Scripts/391.cpp) | [Bit Operation](./Insights/391.md) | Hard
+
