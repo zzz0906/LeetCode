@@ -288,4 +288,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |388| [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)| [C++](./Scripts/388.cpp) | [Data Structure](./Insights/388.md) | Medium
 |390| [Elimination Game](https://leetcode.com/problems/elimination-game/)| [C++](./Scripts/390.cpp) | [Data Structure](./Insights/390.md) | Medium
 |391| [Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)| [C++](./Scripts/391.cpp) | [Bit Operation](./Insights/391.md) | Hard
-
+|392| [Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [PY](./Scripts/392.py) | [String](./Insights/392.md) | Easy

@@ -301,3 +301,6 @@ the biggest is 111111111...for a deci-binary
 
 so the answer is maximum single bit accross the string?
 
+## Maximum Product of Word Lengths
+
+318! done before
