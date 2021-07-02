@@ -290,3 +290,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |391| [Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)| [C++](./Scripts/391.cpp) | [Bit Operation](./Insights/391.md) | Hard
 |392| [Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [PY](./Scripts/392.py) | [String](./Insights/392.md) | Easy
 |393| [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)| [C++](./Scripts/393.cpp) | [Bit Operation](./Insights/393.md) | Medium
+|396| [Rotate Function](https://leetcode.com/problems/rotate-function/)| [C++](./Scripts/396.py) | [Tricky](./Insights/396.md) | Medium

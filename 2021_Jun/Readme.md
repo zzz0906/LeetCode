@@ -18,3 +18,8 @@ The std use bfs. start from a value and bfs and add them all into the queue.
 BUT!!! I think most efficient way is still binary search. 
 
 The method of using a number and unordered_set to perform the node we have been to is really pretty.
+
+## Lowest Common Ancestor of a Binary Tree
+
+236 has done before. Review it. For each node, iterate through its left and right tree. And decide whether its left or right tree contains target nodes! It yes, the answer is root; If not, return no-null of them. The non-null node means one of the sub-tree contains target nodes and the returned value is the answer.
+
