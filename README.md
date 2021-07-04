@@ -292,3 +292,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |393| [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)| [C++](./Scripts/393.cpp) | [Bit Operation](./Insights/393.md) | Medium
 |396| [Rotate Function](https://leetcode.com/problems/rotate-function/)| [C++](./Scripts/396.py) | [Tricky](./Insights/396.md) | Medium
 |397| [Integer Replacement](https://leetcode.com/problems/integer-replacement/)| [C++](./Scripts/397.cpp) | [Tricky](./Insights/397.md) | Medium
+|398| [Random Pick Index](https://leetcode.com/problems/random-pick-index/)| [C++](./Scripts/398.cpp) | [Tricky](./Insights/398.md) | Medium

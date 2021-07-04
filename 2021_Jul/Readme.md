@@ -38,3 +38,19 @@ yep. AC!
 let me see the std.
 
 oh...the array is sorted. we can use binary search directly. we can delete n-k number that start from head and tail...brillant!
+
+## Max Sum of Rectangle No Larger Than K
+
+363 I have done before. Let me review it.
+
+The std use binary search and prefix sum to solve this problem. 
+
+In my view again, the std solution use two iterator to enumerate the rows.
+
+From i-j; can we find the number of columns which
+
+1. First iterate the left, then right of a rectangle i-j
+2. Then, we have i - j; in this step, we calculate the prefix sum of each rom in sum array. Because we need to iterate the index j, we can calculate in each iteration.
+3. We need to enumerate the column index j. Pay attention to here, we can use two sum's idea. we can iterate from 1 - m row; we want to know the i - j == k? thus, we can do this, k - [1-j] = target, and we need to find the target in the [1-j] and the target will be the lower_bound!
+
+So interesting problem.

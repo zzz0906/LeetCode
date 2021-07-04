@@ -8,7 +8,8 @@ public:
             for (int j = i; j < n; ++j) {
                 for (int k = 0; k < m; ++k) {
                     sum[k] += matrix[k][j];
-                }
+                }// sum[k] = row[k]'s sum
+                // At first we only have the first number of row. -> 
                 int curSum = 0;
                 set<int> st{{0}};
                 for (auto a : sum) {
