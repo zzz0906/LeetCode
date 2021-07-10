@@ -54,3 +54,21 @@ From i-j; can we find the number of columns which
 3. We need to enumerate the column index j. Pay attention to here, we can use two sum's idea. we can iterate from 1 - m row; we want to know the i - j == k? thus, we can do this, k - [1-j] = target, and we need to find the target in the [1-j] and the target will be the lower_bound!
 
 So interesting problem.
+
+##  Longest Increasing Subsequence
+
+Given an integer array nums, return the length of the longest strictly increasing subsequence.
+
+A subsequence is a sequence that can be derived from an array by deleting some or no elements without changing the order of the remaining elements. For example, [3,6,2,7] is a subsequence of the array [0,3,1,6,2,2,7].
+
+Classical DP problem right?
+
+f[i] represents the maximum length of including current element.
+
+f[i] <- f[j] + 1 whose v[j] < v[i]; n ^ 2;
+
+Then the minimum problem can be optimized to nlogn. 
+
+<!-- And we can use some idea of montonic queue  -->
+
+<!-- we know that, the element whose value > current value but length <= current value, this element is meaningless. then we can use binary search to find the corresponding maximum length value. -->

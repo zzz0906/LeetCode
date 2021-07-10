@@ -293,3 +293,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |396| [Rotate Function](https://leetcode.com/problems/rotate-function/)| [C++](./Scripts/396.py) | [Tricky](./Insights/396.md) | Medium
 |397| [Integer Replacement](https://leetcode.com/problems/integer-replacement/)| [C++](./Scripts/397.cpp) | [Tricky](./Insights/397.md) | Medium
 |398| [Random Pick Index](https://leetcode.com/problems/random-pick-index/)| [C++](./Scripts/398.cpp) | [Tricky](./Insights/398.md) | Medium
+|400| [Nth Digit](https://leetcode.com/problems/nth-digit/)| [C++](./Scripts/400.cpp) | [Tricky](./Insights/400.md) | Medium
