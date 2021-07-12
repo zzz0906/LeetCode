@@ -72,3 +72,35 @@ Then the minimum problem can be optimized to nlogn.
 <!-- And we can use some idea of montonic queue  -->
 
 <!-- we know that, the element whose value > current value but length <= current value, this element is meaningless. then we can use binary search to find the corresponding maximum length value. -->
+
+## Find Median from Data Stream
+
+The median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value and the median is the mean of the two middle values.
+
+For example, for arr = [2,3,4], the median is 3.
+For example, for arr = [2,3], the median is (2 + 3) / 2 = 2.5.
+Implement the MedianFinder class:
+
+MedianFinder() initializes the MedianFinder object.
+void addNum(int num) adds the integer num from the data stream to the data structure.
+double findMedian() returns the median of all elements so far. Answers within 10-5 of the actual answer will be accepted.
+
+oh, this median is not the binary search. 
+
+just preserve the order of the array. priority queue
+
+each time use binary search to insert; but insert time cannot be o(1);
+
+if we use priority queue; the complexity is o(n/2);
+
+skip list? or the binary tree. but we need it to be balanced, otherwise its complexity is o(n);we need to record the number of the subtree.
+
+oh multiset's cbegin is constant begin and we need to use advanced to perform ++ operation.
+
+more efficient solution than the obvious one is to keep a persistent iterator to the middle element and update it whenever you insert/delete items from the set. 
+
+let me try advanced first.
+
+AC!
+
+the std use big and small heap. the big heap store the left, and sort it from minimum to maximum. and small heap store the maximum to minimum. thus, the answer is the minimum of the left + the maximum of the right. genius idea!

@@ -80,15 +80,15 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |79| [Word Search](https://leetcode.com/problems/word-search) | [C++](./Scripts/79..cpp) | [DFS](./Insights/79.md) | Medium
 |80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./Scripts/80..cpp) | [Data Structure](./Insights/80.md) | Medium
 |81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [Binary Search](./Scripts/81..cpp) | [TBC...](./Insights/81.md) | Medium
-|82| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [C++](./Scripts/82..cpp) | [TBC...](./Insights/82.md) | Medium
-|83| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](./Scripts/83..cpp) | [TBC...](./Insights/83.md) | Easy
-|84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [SQL](./Scripts/84..sql) | [TBC...](./Insights/84.md) | Hard
-|85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | [SQL](./Scripts/85..sql) | [TBC...](./Insights/85.md) | Hard
-|86| [Partition List](https://leetcode.com/problems/partition-list) | [C++](./Scripts/86..cpp) | [TBC...](./Insights/86.md) | Medium
-|87| [Scramble String](https://leetcode.com/problems/scramble-string) | [C++](./Scripts/87..cpp) | [TBC...](./Insights/87.md) | Hard
-|88| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [C++](./Scripts/88..cpp) | [TBC...](./Insights/88.md) | Easy
-|89| [Gray Code](https://leetcode.com/problems/gray-code) | [C++](./Scripts/89..cpp) | [TBC...](./Insights/89.md) | Medium
-|90| [Subsets II](https://leetcode.com/problems/subsets-ii) | [C++](./Scripts/90..cpp) | [TBC...](./Insights/90.md) | Medium
+|82| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [C++](./Scripts/82..cpp) | [Linked List Operation](./Insights/82.md) | Medium
+|83| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](./Scripts/83..cpp) | [Linked List Operation](./Insights/83.md) | Easy
+|84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [c++](./Scripts/84.cpp) | [Tricky](./Insights/84.md) | Hard
+|85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | [SQL](./Scripts/85..sql) | [Tricky](./Insights/85.md) | Hard
+|86| [Partition List](https://leetcode.com/problems/partition-list) | [C++](./Scripts/86..cpp) | [Linked List Operation](./Insights/86.md) | Medium
+|87| [Scramble String](https://leetcode.com/problems/scramble-string) | [C++](./Scripts/87..cpp) | [Recursion](./Insights/87.md) | Hard
+|88| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [C++](./Scripts/88..cpp) | [Merge Sort](./Insights/88.md) | Easy
+|89| [Gray Code](https://leetcode.com/problems/gray-code) | [C++](./Scripts/89..cpp) | [Bit Operation](./Insights/89.md) | Medium
+|90| [Subsets II](https://leetcode.com/problems/subsets-ii) | [C++](./Scripts/90..cpp) | [DFS](./Insights/90.md) | Medium
 |91| [Decode Ways](https://leetcode.com/problems/decode-ways) | [C++](./Scripts/91..cpp) | [TBC...](./Insights/91.md) | Medium
 |92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | [C++](./Scripts/92..cpp) | [TBC...](./Insights/92.md) | Medium
 |93| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [SH](./Scripts/93..sh) | [TBC...](./Insights/93.md) | Medium
@@ -294,3 +294,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |397| [Integer Replacement](https://leetcode.com/problems/integer-replacement/)| [C++](./Scripts/397.cpp) | [Tricky](./Insights/397.md) | Medium
 |398| [Random Pick Index](https://leetcode.com/problems/random-pick-index/)| [C++](./Scripts/398.cpp) | [Tricky](./Insights/398.md) | Medium
 |400| [Nth Digit](https://leetcode.com/problems/nth-digit/)| [C++](./Scripts/400.cpp) | [Tricky](./Insights/400.md) | Medium
+|401| [Binary Watch](https://leetcode.com/problems/binary-watch/)| [C++](./Scripts/401.cpp) | [Bit Operation](./Insights/401.md) | Easy
