@@ -89,15 +89,15 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |88| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [C++](./Scripts/88..cpp) | [Merge Sort](./Insights/88.md) | Easy
 |89| [Gray Code](https://leetcode.com/problems/gray-code) | [C++](./Scripts/89..cpp) | [Bit Operation](./Insights/89.md) | Medium
 |90| [Subsets II](https://leetcode.com/problems/subsets-ii) | [C++](./Scripts/90..cpp) | [DFS](./Insights/90.md) | Medium
-|91| [Decode Ways](https://leetcode.com/problems/decode-ways) | [C++](./Scripts/91..cpp) | [TBC...](./Insights/91.md) | Medium
-|92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | [C++](./Scripts/92..cpp) | [TBC...](./Insights/92.md) | Medium
-|93| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [SH](./Scripts/93..sh) | [TBC...](./Insights/93.md) | Medium
-|94| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [C++](./Scripts/94..cpp) | [TBC...](./Insights/94.md) | Medium
-|95| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | [C++](./Scripts/95..cpp) | [TBC...](./Insights/95.md) | Medium
-|97| [Interleaving String](https://leetcode.com/problems/interleaving-string) | [C++](./Scripts/97..cpp) | [TBC...](./Insights/97.md) | Hard
-|98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [SQL](./Scripts/98..sql) | [TBC...](./Insights/98.md) | Medium
-|99| [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [C++](./Scripts/99..cpp) | [TBC...](./Insights/99.md) | Hard
-|101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [C++](./Scripts/101..cpp) | [TBC...](./Insights/101.md) | Easy
+|91| [Decode Ways](https://leetcode.com/problems/decode-ways) | [C++](./Scripts/91..cpp) | [DP](./Insights/91.md) | Medium
+|92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | [C++](./Scripts/92..cpp) | [Linked List Operation](./Insights/92.md) | Medium
+|93| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [CPP](./Scripts/93.cpp) | [Brute Force](./Insights/93.md) | Medium
+|94| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [C++](./Scripts/94..cpp) | [DFS](./Insights/94.md) | Medium
+|95| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | [C++](./Scripts/95..cpp) | [DFS](./Insights/95.md) | Medium
+|97| [Interleaving String](https://leetcode.com/problems/interleaving-string) | [C++](./Scripts/97..cpp) | [DP](./Insights/97.md) | Hard
+|98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [SQL](./Scripts/98..sql) | [DFS](./Insights/98.md) | Medium
+|99| [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [C++](./Scripts/99..cpp) | [DFS](./Insights/99.md) | Hard
+|101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [C++](./Scripts/101..cpp) | [DFS](./Insights/101.md) | Easy
 |102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [C++](./Scripts/102..cpp) | [TBC...](./Insights/102.md) | Medium
 |103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [C++](./Scripts/103..cpp) | [TBC...](./Insights/103.md) | Medium
 |104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [C++](./Scripts/104..cpp) | [TBC...](./Insights/104.md) | Easy
@@ -295,3 +295,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |398| [Random Pick Index](https://leetcode.com/problems/random-pick-index/)| [C++](./Scripts/398.cpp) | [Tricky](./Insights/398.md) | Medium
 |400| [Nth Digit](https://leetcode.com/problems/nth-digit/)| [C++](./Scripts/400.cpp) | [Tricky](./Insights/400.md) | Medium
 |401| [Binary Watch](https://leetcode.com/problems/binary-watch/)| [C++](./Scripts/401.cpp) | [Bit Operation](./Insights/401.md) | Easy
+|402| [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)| [C++](./Scripts/402.cpp) | [Bit Operation](./Insights/402.md) | Easy

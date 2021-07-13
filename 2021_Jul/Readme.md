@@ -104,3 +104,7 @@ let me try advanced first.
 AC!
 
 the std use big and small heap. the big heap store the left, and sort it from minimum to maximum. and small heap store the maximum to minimum. thus, the answer is the minimum of the left + the maximum of the right. genius idea!
+
+## Isomorphic Strings
+
+205 done before. Just use a map->vector to record all the characters' positions. Easy.
