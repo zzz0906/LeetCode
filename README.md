@@ -297,3 +297,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |401| [Binary Watch](https://leetcode.com/problems/binary-watch/)| [C++](./Scripts/401.cpp) | [Bit Operation](./Insights/401.md) | Easy
 |402| [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)| [C++](./Scripts/402.cpp) | [Data Structure](./Insights/402.md) | Easy
 |403| [Frog Jump](https://leetcode.com/problems/frog-jump/)| [C++](./Scripts/403.cpp) | [DP](./Insights/403.md) | Hard
+|404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)| [C++](./Scripts/404.cpp) | [Tree](./Insights/404.md) | Easy  
+|405| [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)| [C++](./Scripts/405.cpp) | [Tree](./Insights/405.md) | Easy  

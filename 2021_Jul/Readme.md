@@ -126,3 +126,37 @@ order and str consist of lowercase letters only.
 we can just count the number of char in the string. and output following the order string and add the extra string.
 
 O(N); Easy.
+
+## Valid Triangle Number
+
+Given an integer array nums, return the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
+
+for each numbre, we need to the number of numbers < current value and in the left of current value as k;
+
+also we can get the number of numbers whose values are larger than current value and are in the right of current value. We name this number as j;
+
+the answer is j*k for each value. 
+
+1 <= nums.length <= 1000
+0 <= nums[i] <= 1000
+
+we know 0 <= nums[i] <= 1000; we can use two bucket to do above left and right things.
+
+First, we can from left to right, and put each value in a bucket while record a prefix sum. For example, 1,3,3,7,9
+
+bucket : 1: 1 prefix sum: 1: 1
+
+bucket : 1: 1 3: 1 prefix sum: 1: 1 3: 2 prefix sum 
+
+for a number k; the answer will be the (left prefix sum - bucket itself )*(right prefix sum - bucket itself)
+
+the complexity is o(n)
+
+oh godd secnario!
+
+## 4Sum 
+
+18\. I have done before. 
+
+just use a n^3 is ok...? 
+
