@@ -299,3 +299,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |403| [Frog Jump](https://leetcode.com/problems/frog-jump/)| [C++](./Scripts/403.cpp) | [DP](./Insights/403.md) | Hard
 |404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)| [C++](./Scripts/404.cpp) | [Tree](./Insights/404.md) | Easy  
 |405| [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)| [C++](./Scripts/405.cpp) | [Tree](./Insights/405.md) | Easy  
+|406| [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)| [C++](./Scripts/406.cpp) | [Tree](./Insights/406.md) | Medium

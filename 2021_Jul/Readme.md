@@ -160,3 +160,24 @@ oh godd secnario!
 
 just use a n^3 is ok...? 
 
+## Partition Array into Disjoint Intervals
+
+Given an array nums, partition it into two (contiguous) subarrays left and right so that:
+
+Every element in left is less than or equal to every element in right.
+
+left and right are non-empty.
+
+left has the smallest possible size.
+
+Return the length of left after such a partitioning.  It is guaranteed that such a partitioning exists.
+
+we can take the left's maximum as a value, and right's minimum as a value, and we perform removing and inserting. Thus, it's a heap alike data structure?
+
+5 0 3; 8 6; two priority list can solve this problem. better idea?
+
+if we restrict the left array, the only things we need to do is to find the maximum in the right; when the array all the value is the descend in the right, and all less the right value,  the complexity will reach o(n^2).
+
+or, we can use a idea like prefix sum. We can use a array to record the maximum and minimum
+
+yes! AC! 
