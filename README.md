@@ -98,9 +98,9 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [SQL](./Scripts/98..sql) | [DFS](./Insights/98.md) | Medium
 |99| [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [C++](./Scripts/99..cpp) | [DFS](./Insights/99.md) | Hard
 |101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [C++](./Scripts/101..cpp) | [DFS](./Insights/101.md) | Easy
-|102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [C++](./Scripts/102..cpp) | [TBC...](./Insights/102.md) | Medium
-|103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [C++](./Scripts/103..cpp) | [TBC...](./Insights/103.md) | Medium
-|104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [C++](./Scripts/104..cpp) | [TBC...](./Insights/104.md) | Easy
+|102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [C++](./Scripts/102..cpp) | [DFS](./Insights/102.md) | Medium
+|103| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [C++](./Scripts/103..cpp) | [DFS](./Insights/103.md) | Medium
+|104| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [C++](./Scripts/104..cpp) | [DFS](./Insights/104.md) | Easy
 |105| [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [C++](./Scripts/105..cpp) | [TBC...](./Insights/105.md) | Medium
 |106| [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | [C++](./Scripts/106..cpp) | [TBC...](./Insights/106.md) | Medium
 |107| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [C++](./Scripts/107..cpp) | [TBC...](./Insights/107.md) | Medium
@@ -300,3 +300,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |404| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)| [C++](./Scripts/404.cpp) | [Tree](./Insights/404.md) | Easy  
 |405| [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)| [C++](./Scripts/405.cpp) | [Tree](./Insights/405.md) | Easy  
 |406| [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)| [C++](./Scripts/406.cpp) | [Tree](./Insights/406.md) | Medium
+|407| [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)| [C++](./Scripts/407.cpp) | [BFS](./Insights/407.md) | Hard

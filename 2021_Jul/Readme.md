@@ -181,3 +181,29 @@ if we restrict the left array, the only things we need to do is to find the maxi
 or, we can use a idea like prefix sum. We can use a array to record the maximum and minimum
 
 yes! AC! 
+
+## Binary Tree Pruning
+
+Given the root of a binary tree, return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
+
+A subtree of a node node is node plus every node that is a descendant of node.
+
+DFS the tree, and take return value as each tree's subtree contain 1. if anyone of subtree do not cotain 1, just delete it, or not link it.
+
+AC!
+
+## Convert Sorted Array to Binary Search Tree
+
+108 I have done before.
+
+I think we can just cut from middle?
+
+```
+a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
+
+Tha's means we need to split in the middle and let left as the left tree and right as the right tree.
+
+We can use recursive again! Yes! AC!
+```
+
+I use a trick that use the iterator to build a vecotr.
