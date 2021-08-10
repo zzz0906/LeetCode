@@ -20,9 +20,11 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 
 * Hard to associate them with a fixed algorithm
 
-1. [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
-2. [233](./Insights/233.md) Number of Digit One
-3. [262](./Insights/262.md) Trips and Users
+* [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
+* [128](.Insights/128.md) Longest Consecutive Sequence
+* [233](./Insights/233.md) Number of Digit One
+* [262](./Insights/262.md) Trips and Users
+
 
 
 ## Summary Table
@@ -117,15 +119,15 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |116| [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | [C++](./Scripts/116.cpp) | [Recursion](./Insights/116.md) | Medium
 |117| [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) | [C++](./Scripts/117.cpp) | [Recursion](./Insights/117.md) | Medium
 |118| [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | [C++](./Scripts/118.cpp) | [DP](./Insights/118.md) | Easy
-|119| [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [C++](./Scripts/119.cpp) | [DP ](./Insights/119.md) | Easy
+|119| [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [C++](./Scripts/119.cpp) | [DP](./Insights/119.md) | Easy
 |120| [Triangle](https://leetcode.com/problems/triangle) | [C++](./Scripts/120.cpp) | [DP](./Insights/120.md) | Medium
-|123| [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [C++](./Scripts/123.cpp) | [TBC...](./Insights/123.md) | Hard
-|124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | [C++](./Scripts/124.cpp) | [TBC...](./Insights/124.md) | Hard
-|126| [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | [C++](./Scripts/126.cpp) | [TBC...](./Insights/126.md) | Hard
-|127| [Word Ladder](https://leetcode.com/problems/word-ladder) | [C++](./Scripts/127.cpp) | [TBC...](./Insights/127.md) | Hard
-|128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | [C++](./Scripts/128.cpp) | [TBC...](./Insights/128.md) | Hard
-|129| [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | [C++](./Scripts/129.cpp) | [TBC...](./Insights/129.md) | Medium
-|130| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) | [C++](./Scripts/130.cpp) | [TBC...](./Insights/130.md) | Medium
+|123| [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [C++](./Scripts/123.cpp) | [DP](./Insights/123.md) | Hard
+|124| [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | [C++](./Scripts/124.cpp) | [DFS](./Insights/124.md) | Hard
+|126| [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | [C++](./Scripts/126.cpp) | [Memory Based Search](./Insights/126.md) | Hard
+|127| [Word Ladder](https://leetcode.com/problems/word-ladder) | [C++](./Scripts/127.cpp) | [Memory Based Search](./Insights/127.md) | Hard
+|128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | [C++](./Scripts/128.cpp) | [Brute Force with Data Structure](./Insights/128.md) | Hard
+|129| [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | [C++](./Scripts/129.cpp) | [DFS](./Insights/129.md) | Medium
+|130| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) | [C++](./Scripts/130.cpp) | [DFS](./Insights/130.md) | Medium
 |131| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | [C++](./Scripts/131.cpp) | [TBC...](./Insights/131.md) | Medium
 |132| [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | [C++](./Scripts/132.cpp) | [TBC...](./Insights/132.md) | Hard
 |133| [Clone Graph](https://leetcode.com/problems/clone-graph) | [C++](./Scripts/133.cpp) | [TBC...](./Insights/133.md) | Medium
@@ -305,3 +307,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |407| [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)| [C++](./Scripts/407.cpp) | [BFS](./Insights/407.md) | Hard
 |409| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)| [C++](./Scripts/409.py) | [Brute Force](./Insights/409.md) | Easy
 |410| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [C++](./Scripts/410.cpp) | [Binary Search](./Insights/410.md) | Hard
+|412| [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)| [C++](./Scripts/412.cpp) | [Simulation](./Insights/412.md) | Easy

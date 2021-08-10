@@ -76,3 +76,29 @@ the key problem for this one is how to process the same value. For example, with
 we use a vector to record the uniond find's father's all son's positions. And process them together to use the maximum rank.
 
 This problem is harder. I think it's a really valuable problem.
+
+## Add Strings
+
+Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string.
+
+You must solve the problem without using any built-in library for handling large integers (such as BigInteger). You must also not convert the inputs to integers directly.
+
+Arbitrary-precision arithmeti. just simulate the process of add.
+
+yes ac. Pay attention to reverse the string to perform add operation.
+
+## Flip String to Monotone Increasing
+
+A binary string is monotone increasing if it consists of some number of 0's (possibly none), followed by some number of 1's (also possibly none).
+
+You are given a binary string s. You can flip s[i] changing it from 0 to 1 or from 1 to 0.
+
+Return the minimum number of flips to make s monotone increasing.
+
+```
+Example 1:
+
+Input: s = "00110"
+Output: 1
+Explanation: We flip the last digit to get 00111.
+```
