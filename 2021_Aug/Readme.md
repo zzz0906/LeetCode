@@ -102,3 +102,17 @@ Input: s = "00110"
 Output: 1
 Explanation: We flip the last digit to get 00111.
 ```
+
+if we turn some 0->1, we must transfer all the digits behind this position into 1.
+
+But I fell it's a DP problem.
+
+It's a DP, a reverse DP.
+
+f[i,1] and f[i,0] means the number of steps we need to perform to let the [i-n] still be a Monotone Increasing when we turn i to 1 or 0;
+
+thus, if s[i] == 1 f[i,1] = f[i+1,1] + 0; if s[i] == 0 f[i,1] = f[i+1,1] + 1
+
+Thus, we can dp from end to start!
+
+AC!

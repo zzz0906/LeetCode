@@ -128,14 +128,14 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |128| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | [C++](./Scripts/128.cpp) | [Brute Force with Data Structure](./Insights/128.md) | Hard
 |129| [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers) | [C++](./Scripts/129.cpp) | [DFS](./Insights/129.md) | Medium
 |130| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions) | [C++](./Scripts/130.cpp) | [DFS](./Insights/130.md) | Medium
-|131| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | [C++](./Scripts/131.cpp) | [TBC...](./Insights/131.md) | Medium
-|132| [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | [C++](./Scripts/132.cpp) | [TBC...](./Insights/132.md) | Hard
-|133| [Clone Graph](https://leetcode.com/problems/clone-graph) | [C++](./Scripts/133.cpp) | [TBC...](./Insights/133.md) | Medium
-|135| [Candy](https://leetcode.com/problems/candy) | [C++](./Scripts/135.cpp) | [TBC...](./Insights/135.md) | Hard
-|137| [Single Number II](https://leetcode.com/problems/single-number-ii) | [C++](./Scripts/137.cpp) | [TBC...](./Insights/137.md) | Medium
-|138| [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | [C++](./Scripts/138.cpp) | [TBC...](./Insights/138.md) | Medium
-|139| [Word Break](https://leetcode.com/problems/word-break) | [PY](./Scripts/139..py) | [TBC...](./Insights/139.md) | Medium
-|140| [Word Break II](https://leetcode.com/problems/word-break-ii) | [PY](./Scripts/140..py) | [TBC...](./Insights/140.md) | Hard
+|131| [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) | [C++](./Scripts/131.cpp) | [Brute Force](./Insights/131.md) | Medium
+|132| [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii) | [C++](./Scripts/132.cpp) | [DP](./Insights/132.md) | Hard
+|133| [Clone Graph](https://leetcode.com/problems/clone-graph) | [C++](./Scripts/133.cpp) | [Brute Force](./Insights/133.md) | Medium
+|135| [Candy](https://leetcode.com/problems/candy) | [C++](./Scripts/135.cpp) | [DP](./Insights/135.md) | Hard
+|137| [Single Number II](https://leetcode.com/problems/single-number-ii) | [C++](./Scripts/137.cpp) | [BIT OPERATION](./Insights/137.md) | Medium
+|138| [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | [C++](./Scripts/138.cpp) | [Brute Force](./Insights/138.md) | Medium
+|139| [Word Break](https://leetcode.com/problems/word-break) | [PY](./Scripts/139..py) | [DP](./Insights/139.md) | Medium
+|140| [Word Break II](https://leetcode.com/problems/word-break-ii) | [PY](./Scripts/140..py) | [DFS](./Insights/140.md) | Hard
 |141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [C++](./Scripts/141.cpp) | [TBC...](./Insights/141.md) | Easy
 |142| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [C++](./Scripts/142.cpp) | [TBC...](./Insights/142.md) | Medium
 |143| [Reorder List](https://leetcode.com/problems/reorder-list) | [C++](./Scripts/143.cpp) | [TBC...](./Insights/143.md) | Medium
@@ -308,3 +308,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |409| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)| [C++](./Scripts/409.py) | [Brute Force](./Insights/409.md) | Easy
 |410| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [C++](./Scripts/410.cpp) | [Binary Search](./Insights/410.md) | Hard
 |412| [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)| [C++](./Scripts/412.cpp) | [Simulation](./Insights/412.md) | Easy
+|413| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)| [C++](./Scripts/413.cpp) | [](./Insights/413.md) | Medium
+|414| [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [C++](./Scripts/414.cpp) | [](./Insights/414.md) | Easy
