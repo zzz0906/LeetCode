@@ -116,3 +116,17 @@ thus, if s[i] == 1 f[i,1] = f[i+1,1] + 0; if s[i] == 0 f[i,1] = f[i+1,1] + 1
 Thus, we can dp from end to start!
 
 AC!
+
+## Array of Doubled Pairs
+
+Given an integer array of even length arr, return true if it is possible to reorder arr such that arr[2 * i + 1] = 2 * arr[2 * i] for every 0 <= i < len(arr) / 2, or false otherwise.
+
+We only need all 0 1 . 1 2 to have 2 times relationship. So it not transitive we only need 1 pair for the length 2 or 3 array. And 2 pairs for the length 4 or 5 array. So the question is asking the pair of 2 times relationship. so logn to find the *2 or /2 number exist or not. Nlong. Done! Let me implement it first.
+
+oh fuck...this solution is wrong. for example 2 4 8 1. 2 shall match 1 instead of 4. but my algorithm will match 4.
+
+let me see the std. oh std is the same as me? the use hashset instead of binary search.
+
+we do not need to consider half pointer. Because we search from small to bigger.
+
+yeh, hashset is better than binary search.

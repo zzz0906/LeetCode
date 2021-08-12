@@ -21,7 +21,8 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * Hard to associate them with a fixed algorithm
 
 * [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
-* [128](.Insights/128.md) Longest Consecutive Sequence
+* [128](./Insights/128.md) Longest Consecutive Sequence
+* [141] (./Insights/141.md) Linked List Cycle
 * [233](./Insights/233.md) Number of Digit One
 * [262](./Insights/262.md) Trips and Users
 
@@ -136,15 +137,15 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |138| [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | [C++](./Scripts/138.cpp) | [Brute Force](./Insights/138.md) | Medium
 |139| [Word Break](https://leetcode.com/problems/word-break) | [PY](./Scripts/139..py) | [DP](./Insights/139.md) | Medium
 |140| [Word Break II](https://leetcode.com/problems/word-break-ii) | [PY](./Scripts/140..py) | [DFS](./Insights/140.md) | Hard
-|141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [C++](./Scripts/141.cpp) | [TBC...](./Insights/141.md) | Easy
-|142| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [C++](./Scripts/142.cpp) | [TBC...](./Insights/142.md) | Medium
-|143| [Reorder List](https://leetcode.com/problems/reorder-list) | [C++](./Scripts/143.cpp) | [TBC...](./Insights/143.md) | Medium
-|144| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | [C++](./Scripts/144.cpp) | [TBC...](./Insights/144.md) | Medium
-|145| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | [C++](./Scripts/145.cpp) | [TBC...](./Insights/145.md) | Medium
-|146| [LRU Cache](https://leetcode.com/problems/lru-cache) | [C++](./Scripts/146.cpp) | [TBC...](./Insights/146.md) | Medium
-|147| [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list) | [C++](./Scripts/147.cpp) | [TBC...](./Insights/147.md) | Medium
-|149| [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | [C++](./Scripts/149.cpp) | [TBC...](./Insights/149.md) | Hard
-|150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [C++](./Scripts/150.cpp) | [TBC...](./Insights/150.md) | Medium
+|141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [C++](./Scripts/141.cpp) | [Tricky](./Insights/141.md) | Easy
+|142| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [C++](./Scripts/142.cpp) | [Tricky](./Insights/142.md) | Medium
+|143| [Reorder List](https://leetcode.com/problems/reorder-list) | [C++](./Scripts/143.cpp) | [Simulation](./Insights/143.md) | Medium
+|144| [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) | [C++](./Scripts/144.cpp) | [DFS](./Insights/144.md) | Medium
+|145| [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal) | [C++](./Scripts/145.cpp) | [DFS](./Insights/145.md) | Medium
+|146| [LRU Cache](https://leetcode.com/problems/lru-cache) | [C++](./Scripts/146.cpp) | [Data Structure](./Insights/146.md) | Medium
+|147| [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list) | [C++](./Scripts/147.cpp) | [Simulation](./Insights/147.md) | Medium
+|149| [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | [C++](./Scripts/149.cpp) | [Tricky](./Insights/149.md) | Hard
+|150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [C++](./Scripts/150.cpp) | [Data Structure](./Insights/150.md) | Medium
 |151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | [PY](./Scripts/151..py) | [TBC...](./Insights/151.md) | Medium
 |152| [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | [C++](./Scripts/152.cpp) | [TBC...](./Insights/152.md) | Medium
 |153| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [C++](./Scripts/153.cpp) | [TBC...](./Insights/153.md) | Medium
@@ -309,4 +310,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |410| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [C++](./Scripts/410.cpp) | [Binary Search](./Insights/410.md) | Hard
 |412| [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)| [C++](./Scripts/412.cpp) | [Simulation](./Insights/412.md) | Easy
 |413| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)| [C++](./Scripts/413.cpp) | [](./Insights/413.md) | Medium
-|414| [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [C++](./Scripts/414.cpp) | [](./Insights/414.md) | Easy
+|414| [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [C++](./Scripts/414.cpp) | [Simulation](./Insights/414.md) | Easy
+|416| [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [C++](./Scripts/416.cpp) | [Data Structure](./Insights/416.md) | Medium
