@@ -146,13 +146,13 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |147| [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list) | [C++](./Scripts/147.cpp) | [Simulation](./Insights/147.md) | Medium
 |149| [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | [C++](./Scripts/149.cpp) | [Tricky](./Insights/149.md) | Hard
 |150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [C++](./Scripts/150.cpp) | [Data Structure](./Insights/150.md) | Medium
-|151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | [PY](./Scripts/151..py) | [TBC...](./Insights/151.md) | Medium
-|152| [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | [C++](./Scripts/152.cpp) | [TBC...](./Insights/152.md) | Medium
-|153| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [C++](./Scripts/153.cpp) | [TBC...](./Insights/153.md) | Medium
-|154| [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | [C++](./Scripts/154.cpp) | [TBC...](./Insights/154.md) | Hard
-|155| [Min Stack](https://leetcode.com/problems/min-stack) | [C++](./Scripts/155.cpp) | [TBC...](./Insights/155.md) | Easy
-|160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | [C++](./Scripts/160.cpp) | [TBC...](./Insights/160.md) | Easy
-|162| [Find Peak Element](https://leetcode.com/problems/find-peak-element) | [C++](./Scripts/162.cpp) | [TBC...](./Insights/162.md) | Medium
+|151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | [Tricky](./Scripts/151..py) | [TBC...](./Insights/151.md) | Medium
+|152| [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | [C++](./Scripts/152.cpp) | [DP](./Insights/152.md) | Medium
+|153| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [C++](./Scripts/153.cpp) | [Binary Search](./Insights/153.md) | Medium
+|154| [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | [C++](./Scripts/154.cpp) | [Binary Search](./Insights/154.md) | Hard
+|155| [Min Stack](https://leetcode.com/problems/min-stack) | [C++](./Scripts/155.cpp) | [Data Structure](./Insights/155.md) | Easy
+|160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | [C++](./Scripts/160.cpp) | [Linked List Operation](./Insights/160.md) | Easy
+|162| [Find Peak Element](https://leetcode.com/problems/find-peak-element) | [C++](./Scripts/162.cpp) | [Binary Search](./Insights/162.md) | Medium
 |164| [Maximum Gap](https://leetcode.com/problems/maximum-gap) | [C++](./Scripts/164.cpp) | [TBC...](./Insights/164.md) | Hard
 |165| [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) | [C++](./Scripts/165.cpp) | [TBC...](./Insights/165.md) | Medium
 |166| [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal) | [C++](./Scripts/166.cpp) | [TBC...](./Insights/166.md) | Medium
@@ -312,3 +312,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |413| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)| [C++](./Scripts/413.cpp) | [](./Insights/413.md) | Medium
 |414| [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [C++](./Scripts/414.cpp) | [Simulation](./Insights/414.md) | Easy
 |416| [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [C++](./Scripts/416.cpp) | [Data Structure](./Insights/416.md) | Medium
+|417| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)| [C++](./Scripts/417.cpp) | [Data Structure](./Insights/417.md) | Medium

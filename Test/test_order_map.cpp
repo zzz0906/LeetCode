@@ -3,7 +3,28 @@
 #include <vector>
 #include <set>
 #include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
+struct pair_hash {
+    template <class T1, class T2>
+    std::size_t operator () (const std::pair<T1,T2> &p) const {
+        auto h1 = std::hash<T1>{}(p.first);
+        auto h2 = std::hash<T2>{}(p.second);
+
+        // Mainly for demonstration purposes, i.e. works but is overly simple
+        // In the real world, use sth. like boost.hash_combine
+        return h1 ^ h2;  
+    }
+};
+void dfs(int i, bool & why){
+    if (i == 5){
+        why = true;
+        return;
+    }else{
+        dfs(i-1,why);
+        return;
+    }
+}
 int main(){
     // unordered_map<char, int> letterCnt;
     // letterCnt['a'] = 1;
@@ -32,9 +53,12 @@ int main(){
     // vector<int> vect2(arr, arr + n);
     // sort(vect2.begin(), vect2.end());
     // cout<<lower_bound(vect2.begin(), vect2.end(),vect[3]) - vect2.begin();
-
-    long long a = 4294967291;
-    cout << int(a) << endl;
+    bool why = false;
+    dfs(10,why);
+    cout << why << endl;
+    vector<vector<int>> a;
+    a.push_back({1,2});
+    unordered_map<pair<int,int>, bool, pair_hash> records;
     // vector<int> t, res(10);
     // cout<<t.size()<<endl;
     //cout<<tmp.size()<<endl;

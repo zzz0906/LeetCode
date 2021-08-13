@@ -130,3 +130,15 @@ let me see the std. oh std is the same as me? the use hashset instead of binary 
 we do not need to consider half pointer. Because we search from small to bigger.
 
 yeh, hashset is better than binary search.
+
+## Group Anagrams
+
+Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+
+this is a really easy question.
+
+we can use a dict as the key, and the value as the list for the words.
+
+AC!
