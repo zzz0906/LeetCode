@@ -23,6 +23,11 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
 * [128](./Insights/128.md) Longest Consecutive Sequence
 * [141] (./Insights/141.md) Linked List Cycle
+* [166] (./Insights/166.md) Fraction to Recurring Decimal
+* [169] (./Insights/169.md) Majority Element
+* [177] (./Insights/177.md) Nth Highest Salary
+* [179] (./Insights/179.md) Largest Number
+* [185] (./Insights/185.md) Department Top Three Salaries
 * [233](./Insights/233.md) Number of Digit One
 * [262](./Insights/262.md) Trips and Users
 
@@ -81,14 +86,14 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [C++](./Scripts/74.cpp) | [Binary Search](./Insights/74.md) | Medium
 |75| [Sort Colors](https://leetcode.com/problems/sort-colors) | [C++](./Scripts/75.cpp) | [Trick](./Insights/75.md) | Medium
 |76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](./Scripts/76.cpp) | [Greedy](./Insights/76.md) | Hard
-|77| [Combinations](https://leetcode.com/problems/combinations) | [SQL](./Scripts/77..sql) | [DFS](./Insights/77.md) | Medium
+|77| [Combinations](https://leetcode.com/problems/combinations) | [SQL](./Scripts/77.sql) | [DFS](./Insights/77.md) | Medium
 |79| [Word Search](https://leetcode.com/problems/word-search) | [C++](./Scripts/79.cpp) | [DFS](./Insights/79.md) | Medium
 |80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./Scripts/80.cpp) | [Data Structure](./Insights/80.md) | Medium
 |81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [Binary Search](./Scripts/81.cpp) | [TBC...](./Insights/81.md) | Medium
 |82| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [C++](./Scripts/82.cpp) | [Linked List Operation](./Insights/82.md) | Medium
 |83| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](./Scripts/83.cpp) | [Linked List Operation](./Insights/83.md) | Easy
 |84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [c++](./Scripts/84.cpp) | [Tricky](./Insights/84.md) | Hard
-|85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | [SQL](./Scripts/85..sql) | [Tricky](./Insights/85.md) | Hard
+|85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | [SQL](./Scripts/85.sql) | [Tricky](./Insights/85.md) | Hard
 |86| [Partition List](https://leetcode.com/problems/partition-list) | [C++](./Scripts/86.cpp) | [Linked List Operation](./Insights/86.md) | Medium
 |87| [Scramble String](https://leetcode.com/problems/scramble-string) | [C++](./Scripts/87.cpp) | [Recursion](./Insights/87.md) | Hard
 |88| [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | [C++](./Scripts/88.cpp) | [Merge Sort](./Insights/88.md) | Easy
@@ -100,7 +105,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |94| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [C++](./Scripts/94.cpp) | [DFS](./Insights/94.md) | Medium
 |95| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | [C++](./Scripts/95.cpp) | [DFS](./Insights/95.md) | Medium
 |97| [Interleaving String](https://leetcode.com/problems/interleaving-string) | [C++](./Scripts/97.cpp) | [DP](./Insights/97.md) | Hard
-|98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [SQL](./Scripts/98..sql) | [DFS](./Insights/98.md) | Medium
+|98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [SQL](./Scripts/98.sql) | [DFS](./Insights/98.md) | Medium
 |99| [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [C++](./Scripts/99.cpp) | [DFS](./Insights/99.md) | Hard
 |101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [C++](./Scripts/101.cpp) | [DFS](./Insights/101.md) | Easy
 |102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [C++](./Scripts/102.cpp) | [DFS](./Insights/102.md) | Medium
@@ -154,37 +159,37 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | [C++](./Scripts/160.cpp) | [Linked List Operation](./Insights/160.md) | Easy
 |162| [Find Peak Element](https://leetcode.com/problems/find-peak-element) | [C++](./Scripts/162.cpp) | [Binary Search](./Insights/162.md) | Medium
 |164| [Maximum Gap](https://leetcode.com/problems/maximum-gap) | [C++](./Scripts/164.cpp) | [TBC...](./Insights/164.md) | Hard
-|165| [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) | [C++](./Scripts/165.cpp) | [TBC...](./Insights/165.md) | Medium
-|166| [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal) | [C++](./Scripts/166.cpp) | [TBC...](./Insights/166.md) | Medium
-|167| [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | [C++](./Scripts/167.cpp) | [TBC...](./Insights/167.md) | Easy
-|168| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | [C++](./Scripts/168.cpp) | [TBC...](./Insights/168.md) | Easy
-|169| [Majority Element](https://leetcode.com/problems/majority-element) | [C++](./Scripts/169.cpp) | [TBC...](./Insights/169.md) | Easy
-|171| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | [C++](./Scripts/171.cpp) | [TBC...](./Insights/171.md) | Easy
-|172| [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | [C++](./Scripts/172.cpp) | [TBC...](./Insights/172.md) | Easy
-|173| [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | [C++](./Scripts/173.cpp) | [TBC...](./Insights/173.md) | Medium
-|174| [Dungeon Game](https://leetcode.com/problems/dungeon-game) | [C++](./Scripts/174.cpp) | [TBC...](./Insights/174.md) | Hard
-|175| [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) | [SQL](./Scripts/175..sql) | [TBC...](./Insights/175.md) | Easy
-|176| [Second Highest Salary](https://leetcode.com/problems/second-highest-salary) | [SQL](./Scripts/176..sql) | [TBC...](./Insights/176.md) | Easy
-|177| [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary) | [SQL](./Scripts/177..sql) | [TBC...](./Insights/177.md) | Medium
-|178| [Rank Scores](https://leetcode.com/problems/rank-scores) | [SQL](./Scripts/178..sql) | [TBC...](./Insights/178.md) | Medium
-|179| [Largest Number](https://leetcode.com/problems/largest-number) | [C++](./Scripts/179.cpp) | [TBC...](./Insights/179.md) | Medium
-|180| [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers) | [SQL](./Scripts/180..sql) | [TBC...](./Insights/180.md) | Medium
-|181| [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers) | [SQL](./Scripts/181..sql) | [TBC...](./Insights/181.md) | Easy
-|182| [Duplicate Emails](https://leetcode.com/problems/duplicate-emails) | [SQL](./Scripts/182..sql) | [TBC...](./Insights/182.md) | Easy
-|183| [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order) | [SQL](./Scripts/183..sql) | [TBC...](./Insights/183.md) | Easy
-|184| [Department Highest Salary](https://leetcode.com/problems/department-highest-salary) | [SQL](./Scripts/184..sql) | [TBC...](./Insights/184.md) | Medium
-|185| [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries) | [SQL](./Scripts/185..sql) | [TBC...](./Insights/185.md) | Hard
-|187| [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences) | [C++](./Scripts/187.cpp) | [TBC...](./Insights/187.md) | Medium
-|188| [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [C++](./Scripts/188.cpp) | [TBC...](./Insights/188.md) | Hard
-|189| [Rotate Array](https://leetcode.com/problems/rotate-array) | [C++](./Scripts/189.cpp) | [TBC...](./Insights/189.md) | Medium
-|190| [Reverse Bits](https://leetcode.com/problems/reverse-bits) | [C++](./Scripts/190.cpp) | [TBC...](./Insights/190.md) | Easy
+|165| [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) | [C++](./Scripts/165.cpp) | [Data Structure](./Insights/165.md) | Medium
+|166| [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal) | [C++](./Scripts/166.cpp) | [Tricky](./Insights/166.md) | Medium
+|167| [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | [C++](./Scripts/167.cpp) | [Binary Search](./Insights/167.md) | Easy
+|168| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | [C++](./Scripts/168.cpp) | [Simulation](./Insights/168.md) | Easy
+|169| [Majority Element](https://leetcode.com/problems/majority-element) | [C++](./Scripts/169.cpp) | [Tricky](./Insights/169.md) | Easy
+|171| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | [C++](./Scripts/171.cpp) | [Simulation](./Insights/171.md) | Easy
+|172| [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | [C++](./Scripts/172.cpp) | [Tricky](./Insights/172.md) | Easy
+|173| [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | [C++](./Scripts/173.cpp) | [DFS](./Insights/173.md) | Medium
+|174| [Dungeon Game](https://leetcode.com/problems/dungeon-game) | [C++](./Scripts/174.cpp) | [DP](./Insights/174.md) | Hard
+|175| [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) | [SQL](./Scripts/175.sql) | [SQL](./Insights/175.md) | Easy
+|176| [Second Highest Salary](https://leetcode.com/problems/second-highest-salary) | [SQL](./Scripts/176.sql) | [SQL](./Insights/176.md) | Easy
+|177| [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary) | [SQL](./Scripts/177.sql) | [SQL](./Insights/177.md) | Medium
+|178| [Rank Scores](https://leetcode.com/problems/rank-scores) | [SQL](./Scripts/178.sql) | [SQL](./Insights/178.md) | Medium
+|179| [Largest Number](https://leetcode.com/problems/largest-number) | [C++](./Scripts/179.cpp) | [Recurssion](./Insights/179.md) | Medium
+|180| [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers) | [SQL](./Scripts/180.sql) | [SQL](./Insights/180.md) | Medium
+|181| [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers) | [SQL](./Scripts/181.sql) | [SQL](./Insights/181.md) | Easy
+|182| [Duplicate Emails](https://leetcode.com/problems/duplicate-emails) | [SQL](./Scripts/182.sql) | [SQL](./Insights/182.md) | Easy
+|183| [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order) | [SQL](./Scripts/183.sql) | [SQL](./Insights/183.md) | Easy
+|184| [Department Highest Salary](https://leetcode.com/problems/department-highest-salary) | [SQL](./Scripts/184.sql) | [SQL](./Insights/184.md) | Medium
+|185| [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries) | [SQL](./Scripts/185.sql) | [SQL](./Insights/185.md) | Hard
+|187| [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences) | [C++](./Scripts/187.cpp) | [Data Structure](./Insights/187.md) | Medium
+|188| [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [DP](./Scripts/188.cpp) | [TBC...](./Insights/188.md) | Hard
+|189| [Rotate Array](https://leetcode.com/problems/rotate-array) | [C++](./Scripts/189.cpp) | [Simulation](./Insights/189.md) | Medium
+|190| [Reverse Bits](https://leetcode.com/problems/reverse-bits) | [C++](./Scripts/190.cpp) | [Bit Operation](./Insights/190.md) | Easy
 |191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [C++](./Scripts/191.cpp) | [TBC...](./Insights/191.md) | Easy
 |192| [Word Frequency](https://leetcode.com/problems/word-frequency) | [SH](./Scripts/192..sh) | [TBC...](./Insights/192.md) | Medium
 |193| [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers) | [SH](./Scripts/193..sh) | [TBC...](./Insights/193.md) | Easy
 |194| [Transpose File](https://leetcode.com/problems/transpose-file) | [SH](./Scripts/194..sh) | [TBC...](./Insights/194.md) | Medium
 |195| [Tenth Line](https://leetcode.com/problems/tenth-line) | [SH](./Scripts/195..sh) | [TBC...](./Insights/195.md) | Easy
-|196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails) | [SQL](./Scripts/196..sql) | [TBC...](./Insights/196.md) | Easy
-|197| [Rising Temperature](https://leetcode.com/problems/rising-temperature) | [SQL](./Scripts/197..sql) | [TBC...](./Insights/197.md) | Easy
+|196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails) | [SQL](./Scripts/196.sql) | [TBC...](./Insights/196.md) | Easy
+|197| [Rising Temperature](https://leetcode.com/problems/rising-temperature) | [SQL](./Scripts/197.sql) | [TBC...](./Insights/197.md) | Easy
 |199| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | [C++](./Scripts/199.cpp) | [TBC...](./Insights/199.md) | Medium
 |200| [Number of Islands](https://leetcode.com/problems/number-of-islands) | [C++](./Scripts/200.cpp) | [TBC...](./Insights/200.md) | Medium
 |201| [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | [C++](./Scripts/201.cpp) | [TBC...](./Insights/201.md) | Medium
@@ -225,7 +230,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |257| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | [C++](./Scripts/257.cpp) | [TBC...](./Insights/257.md) | Easy
 |258| [Add Digits](https://leetcode.com/problems/add-digits) | [C++](./Scripts/258.cpp) | [TBC...](./Insights/258.md) | Easy
 |260| [Single Number III](https://leetcode.com/problems/single-number-iii) | [C++](./Scripts/260.cpp) | [TBC...](./Insights/260.md) | Medium
-|262| [Trips and Users](https://leetcode.com/problems/trips-and-users) | [SQL](./Scripts/262..sql) | [TBC...](./Insights/262.md) | Hard
+|262| [Trips and Users](https://leetcode.com/problems/trips-and-users) | [SQL](./Scripts/262.sql) | [TBC...](./Insights/262.md) | Hard
 |263| [Ugly Number](https://leetcode.com/problems/ugly-number) | [C++](./Scripts/263.cpp) | [TBC...](./Insights/263.md) | Easy
 |264| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [C++](./Scripts/264.cpp) | [TBC...](./Insights/264.md) | Medium
 |268| [Missing Number](https://leetcode.com/problems/missing-number) | [C++](./Scripts/268.cpp) | [TBC...](./Insights/268.md) | Easy
@@ -313,3 +318,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |414| [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [C++](./Scripts/414.cpp) | [Simulation](./Insights/414.md) | Easy
 |416| [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [C++](./Scripts/416.cpp) | [Data Structure](./Insights/416.md) | Medium
 |417| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)| [C++](./Scripts/417.cpp) | [Data Structure](./Insights/417.md) | Medium
+|419| [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)| [C++](./Scripts/419.cpp) | [DFS](./Insights/419.md) | Medium
