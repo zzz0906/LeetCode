@@ -89,7 +89,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |77| [Combinations](https://leetcode.com/problems/combinations) | [SQL](./Scripts/77.sql) | [DFS](./Insights/77.md) | Medium
 |79| [Word Search](https://leetcode.com/problems/word-search) | [C++](./Scripts/79.cpp) | [DFS](./Insights/79.md) | Medium
 |80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./Scripts/80.cpp) | [Data Structure](./Insights/80.md) | Medium
-|81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [Binary Search](./Scripts/81.cpp) | [TBC...](./Insights/81.md) | Medium
+|81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [Binary Search](./Scripts/81.cpp) | [Binary Search](./Insights/81.md) | Medium
 |82| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [C++](./Scripts/82.cpp) | [Linked List Operation](./Insights/82.md) | Medium
 |83| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](./Scripts/83.cpp) | [Linked List Operation](./Insights/83.md) | Easy
 |84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [c++](./Scripts/84.cpp) | [Tricky](./Insights/84.md) | Hard
@@ -158,7 +158,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |155| [Min Stack](https://leetcode.com/problems/min-stack) | [C++](./Scripts/155.cpp) | [Data Structure](./Insights/155.md) | Easy
 |160| [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | [C++](./Scripts/160.cpp) | [Linked List Operation](./Insights/160.md) | Easy
 |162| [Find Peak Element](https://leetcode.com/problems/find-peak-element) | [C++](./Scripts/162.cpp) | [Binary Search](./Insights/162.md) | Medium
-|164| [Maximum Gap](https://leetcode.com/problems/maximum-gap) | [C++](./Scripts/164.cpp) | [TBC...](./Insights/164.md) | Hard
+|164| [Maximum Gap](https://leetcode.com/problems/maximum-gap) | [C++](./Scripts/164.cpp) | [Tricky](./Insights/164.md) | Hard
 |165| [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) | [C++](./Scripts/165.cpp) | [Data Structure](./Insights/165.md) | Medium
 |166| [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal) | [C++](./Scripts/166.cpp) | [Tricky](./Insights/166.md) | Medium
 |167| [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | [C++](./Scripts/167.cpp) | [Binary Search](./Insights/167.md) | Easy
@@ -180,7 +180,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |184| [Department Highest Salary](https://leetcode.com/problems/department-highest-salary) | [SQL](./Scripts/184.sql) | [SQL](./Insights/184.md) | Medium
 |185| [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries) | [SQL](./Scripts/185.sql) | [SQL](./Insights/185.md) | Hard
 |187| [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences) | [C++](./Scripts/187.cpp) | [Data Structure](./Insights/187.md) | Medium
-|188| [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [DP](./Scripts/188.cpp) | [TBC...](./Insights/188.md) | Hard
+|188| [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [C++](./Scripts/188.cpp) | [DP](./Insights/188.md) | Hard
 |189| [Rotate Array](https://leetcode.com/problems/rotate-array) | [C++](./Scripts/189.cpp) | [Simulation](./Insights/189.md) | Medium
 |190| [Reverse Bits](https://leetcode.com/problems/reverse-bits) | [C++](./Scripts/190.cpp) | [Bit Operation](./Insights/190.md) | Easy
 |191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [C++](./Scripts/191.cpp) | [TBC...](./Insights/191.md) | Easy
@@ -314,7 +314,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |409| [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)| [C++](./Scripts/409.py) | [Brute Force](./Insights/409.md) | Easy
 |410| [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)| [C++](./Scripts/410.cpp) | [Binary Search](./Insights/410.md) | Hard
 |412| [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)| [C++](./Scripts/412.cpp) | [Simulation](./Insights/412.md) | Easy
-|413| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)| [C++](./Scripts/413.cpp) | [](./Insights/413.md) | Medium
+|413| [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)| [C++](./Scripts/413.cpp) | [Tricky](./Insights/413.md) | Medium
 |414| [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)| [C++](./Scripts/414.cpp) | [Simulation](./Insights/414.md) | Easy
 |416| [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [C++](./Scripts/416.cpp) | [Data Structure](./Insights/416.md) | Medium
 |417| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)| [C++](./Scripts/417.cpp) | [Data Structure](./Insights/417.md) | Medium
