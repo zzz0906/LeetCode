@@ -218,7 +218,8 @@ pip-log.txt
 #LeetCode
 *.[exe]
 *.exe
-
+*.out
 #VSCODE
 
 .vscode/
+
