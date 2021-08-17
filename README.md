@@ -22,19 +22,23 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 
 * [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
 * [128](./Insights/128.md) Longest Consecutive Sequence
-* [141] (./Insights/141.md) Linked List Cycle
-* [166] (./Insights/166.md) Fraction to Recurring Decimal
-* [169] (./Insights/169.md) Majority Element
-* [177] (./Insights/177.md) Nth Highest Salary
-* [179] (./Insights/179.md) Largest Number
-* [185] (./Insights/185.md) Department Top Three Salaries
+* [141](./Insights/141.md) Linked List Cycle
+* [166](./Insights/166.md) Fraction to Recurring Decimal
+* [169](./Insights/169.md) Majority Element
+* [177](./Insights/177.md) Nth Highest Salary
+* [179](./Insights/179.md) Largest Number
+* [185](./Insights/185.md) Department Top Three Salaries
+* [192](./Insights/192.md) Word Frequency
+* [194](./Insights/194.md) Transpose File
+* [199](./Insights/199.md) Binary Tree Right Side View
+* [214](./Insights/214.md) Shortest Palindrome
+* [218](./Insights/218.md) The Skyline Problem
 * [233](./Insights/233.md) Number of Digit One
-* [262](./Insights/262.md) Trips and Users
-
-
-
+* [239](./Insights/239.md) Sliding Window Maximum
+* [240](./Insights/240.md) Search a 2D Matrix II
+* [287](./Insights/287.md) Find the Duplicate Number
+ 
 ## Summary Table
-
 | # | Title | Solution | Insights | Difficulty|
 |---| ----- | -------- | ---------- | ---------|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [C++](./Scripts/10.cpp)|[Recursion](./Insights/10.md)| Hard
@@ -48,7 +52,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Scripts/25.cpp)|[Simulation](./Insights/25.md)|Hard
 |29| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | [C++](./Scripts/29.cpp) | [Bit Operation](./Insights/29.md) | Medium
 |30| [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | [C++](./Scripts/30.cpp) | [Data Structure](./Insights/30.md) | Hard
-|31| [Next Permutation](https://leetcode.com/problems/next-permutation) | [PY](./Scripts/31..py) | [Trick](./Insights/31.md) | Medium
+|31| [Next Permutation](https://leetcode.com/problems/next-permutation) | [PY](./Scripts/31.py) | [Trick](./Insights/31.md) | Medium
 |32| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [C++](./Scripts/32.cpp) | [DP](./Insights/32.md) | Hard
 |33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [C++](./Scripts/33.cpp) | [Binary Search](./Insights/33.md) | Medium
 |34| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [C++](./Scripts/34.cpp) | [Binary Search](./Insights/34.md) | Medium
@@ -73,11 +77,11 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |58| [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | [C++](./Scripts/58.cpp) | [Trick](./Insights/58.md) | Easy
 |59| [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | [C++](./Scripts/59.cpp) | [Trick](./Insights/59.md) | Medium
 |60| [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [C++](./Scripts/60.cpp) | [DFS](./Insights/60.md) | Hard
-|61| [Rotate List](https://leetcode.com/problems/rotate-list) | [PY](./Scripts/61..py) | [Trick](./Insights/61.md) | Medium
+|61| [Rotate List](https://leetcode.com/problems/rotate-list) | [PY](./Scripts/61.py) | [Trick](./Insights/61.md) | Medium
 |64| [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [C++](./Scripts/64.cpp) | [DP](./Insights/64.md) | Medium
 |65| [Valid Number](https://leetcode.com/problems/valid-number) | [C++](./Scripts/65.cpp) | [STATE MACHINE](./Insights/65.md) | Hard
 |66| [Plus One](https://leetcode.com/problems/plus-one) | [C++](./Scripts/66.cpp) | [Arbitrary-precision Arithmetic](./Insights/66.md) | Easy
-|67| [Add Binary](https://leetcode.com/problems/add-binary) | [PY](./Scripts/67..py) | [Arbitrary-precision Arithmetic](./Insights/67.md) | Easy
+|67| [Add Binary](https://leetcode.com/problems/add-binary) | [PY](./Scripts/67.py) | [Arbitrary-precision Arithmetic](./Insights/67.md) | Easy
 |68| [Text Justification](https://leetcode.com/problems/text-justification) | [C++](./Scripts/68.cpp) | [Trick](./Insights/68.md) | Hard
 |69| [Sqrt(x)](https://leetcode.com/problems/sqrtx) | [C++](./Scripts/69.cpp) | [Trick](./Insights/69.md) | Easy
 |71| [Simplify Path](https://leetcode.com/problems/simplify-path) | [C++](./Scripts/71.cpp) | [String Process](./Insights/71.md) | Medium
@@ -86,13 +90,13 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [C++](./Scripts/74.cpp) | [Binary Search](./Insights/74.md) | Medium
 |75| [Sort Colors](https://leetcode.com/problems/sort-colors) | [C++](./Scripts/75.cpp) | [Trick](./Insights/75.md) | Medium
 |76| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | [C++](./Scripts/76.cpp) | [Greedy](./Insights/76.md) | Hard
-|77| [Combinations](https://leetcode.com/problems/combinations) | [SQL](./Scripts/77.sql) | [DFS](./Insights/77.md) | Medium
+|77| [Combinations](https://leetcode.com/problems/combinations) | [C++](./Scripts/77.cpp) | [DFS](./Insights/77.md) | Medium
 |79| [Word Search](https://leetcode.com/problems/word-search) | [C++](./Scripts/79.cpp) | [DFS](./Insights/79.md) | Medium
 |80| [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [C++](./Scripts/80.cpp) | [Data Structure](./Insights/80.md) | Medium
-|81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [Binary Search](./Scripts/81.cpp) | [Binary Search](./Insights/81.md) | Medium
+|81| [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [C++](./Scripts/81.cpp) | [Binary Search](./Insights/81.md) | Medium
 |82| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [C++](./Scripts/82.cpp) | [Linked List Operation](./Insights/82.md) | Medium
 |83| [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [C++](./Scripts/83.cpp) | [Linked List Operation](./Insights/83.md) | Easy
-|84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [c++](./Scripts/84.cpp) | [Tricky](./Insights/84.md) | Hard
+|84| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | [C++](./Scripts/84.cpp) | [Tricky](./Insights/84.md) | Hard
 |85| [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | [SQL](./Scripts/85.sql) | [Tricky](./Insights/85.md) | Hard
 |86| [Partition List](https://leetcode.com/problems/partition-list) | [C++](./Scripts/86.cpp) | [Linked List Operation](./Insights/86.md) | Medium
 |87| [Scramble String](https://leetcode.com/problems/scramble-string) | [C++](./Scripts/87.cpp) | [Recursion](./Insights/87.md) | Hard
@@ -101,11 +105,11 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |90| [Subsets II](https://leetcode.com/problems/subsets-ii) | [C++](./Scripts/90.cpp) | [DFS](./Insights/90.md) | Medium
 |91| [Decode Ways](https://leetcode.com/problems/decode-ways) | [C++](./Scripts/91.cpp) | [DP](./Insights/91.md) | Medium
 |92| [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | [C++](./Scripts/92.cpp) | [Linked List Operation](./Insights/92.md) | Medium
-|93| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [CPP](./Scripts/93.cpp) | [Brute Force](./Insights/93.md) | Medium
+|93| [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | [C++](./Scripts/93.cpp) | [Brute Force](./Insights/93.md) | Medium
 |94| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [C++](./Scripts/94.cpp) | [DFS](./Insights/94.md) | Medium
 |95| [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | [C++](./Scripts/95.cpp) | [DFS](./Insights/95.md) | Medium
 |97| [Interleaving String](https://leetcode.com/problems/interleaving-string) | [C++](./Scripts/97.cpp) | [DP](./Insights/97.md) | Hard
-|98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [SQL](./Scripts/98.sql) | [DFS](./Insights/98.md) | Medium
+|98| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [C++](./Scripts/98.cpp) | [DFS](./Insights/98.md) | Medium
 |99| [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree) | [C++](./Scripts/99.cpp) | [DFS](./Insights/99.md) | Hard
 |101| [Symmetric Tree](https://leetcode.com/problems/symmetric-tree) | [C++](./Scripts/101.cpp) | [DFS](./Insights/101.md) | Easy
 |102| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | [C++](./Scripts/102.cpp) | [DFS](./Insights/102.md) | Medium
@@ -116,7 +120,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |107| [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [C++](./Scripts/107.cpp) | [DFS](./Insights/107.md) | Medium
 |108| [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | [C++](./Scripts/108.cpp) | [Recrusion](./Insights/108.md) | Easy
 |109| [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) | [C++](./Scripts/109.cpp) | [Recursion](./Insights/109.md) | Medium
-|110| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | [DFS](./Scripts/110.cpp) | [TBC...](./Insights/110.md) | Easy
+|110| [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | [C++](./Scripts/110.cpp) | [DFS](./Insights/110.md) | Easy
 |111| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | [C++](./Scripts/111.cpp) | [DFS](./Insights/111.md) | Easy
 |112| [Path Sum](https://leetcode.com/problems/path-sum) | [C++](./Scripts/112.cpp) | [DFS](./Insights/112.md) | Easy
 |113| [Path Sum II](https://leetcode.com/problems/path-sum-ii) | [C++](./Scripts/113.cpp) | [DFS](./Insights/113.md) | Medium
@@ -140,8 +144,8 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |135| [Candy](https://leetcode.com/problems/candy) | [C++](./Scripts/135.cpp) | [DP](./Insights/135.md) | Hard
 |137| [Single Number II](https://leetcode.com/problems/single-number-ii) | [C++](./Scripts/137.cpp) | [BIT OPERATION](./Insights/137.md) | Medium
 |138| [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | [C++](./Scripts/138.cpp) | [Brute Force](./Insights/138.md) | Medium
-|139| [Word Break](https://leetcode.com/problems/word-break) | [PY](./Scripts/139..py) | [DP](./Insights/139.md) | Medium
-|140| [Word Break II](https://leetcode.com/problems/word-break-ii) | [PY](./Scripts/140..py) | [DFS](./Insights/140.md) | Hard
+|139| [Word Break](https://leetcode.com/problems/word-break) | [PY](./Scripts/139.py) | [DP](./Insights/139.md) | Medium
+|140| [Word Break II](https://leetcode.com/problems/word-break-ii) | [PY](./Scripts/140.py) | [DFS](./Insights/140.md) | Hard
 |141| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | [C++](./Scripts/141.cpp) | [Tricky](./Insights/141.md) | Easy
 |142| [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii) | [C++](./Scripts/142.cpp) | [Tricky](./Insights/142.md) | Medium
 |143| [Reorder List](https://leetcode.com/problems/reorder-list) | [C++](./Scripts/143.cpp) | [Simulation](./Insights/143.md) | Medium
@@ -151,7 +155,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |147| [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list) | [C++](./Scripts/147.cpp) | [Simulation](./Insights/147.md) | Medium
 |149| [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) | [C++](./Scripts/149.cpp) | [Tricky](./Insights/149.md) | Hard
 |150| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [C++](./Scripts/150.cpp) | [Data Structure](./Insights/150.md) | Medium
-|151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | [Tricky](./Scripts/151..py) | [TBC...](./Insights/151.md) | Medium
+|151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string) | [PYs](./Scripts/151.py) | [Simulation](./Insights/151.md) | Medium
 |152| [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | [C++](./Scripts/152.cpp) | [DP](./Insights/152.md) | Medium
 |153| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [C++](./Scripts/153.cpp) | [Binary Search](./Insights/153.md) | Medium
 |154| [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | [C++](./Scripts/154.cpp) | [Binary Search](./Insights/154.md) | Hard
@@ -183,72 +187,72 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |188| [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [C++](./Scripts/188.cpp) | [DP](./Insights/188.md) | Hard
 |189| [Rotate Array](https://leetcode.com/problems/rotate-array) | [C++](./Scripts/189.cpp) | [Simulation](./Insights/189.md) | Medium
 |190| [Reverse Bits](https://leetcode.com/problems/reverse-bits) | [C++](./Scripts/190.cpp) | [Bit Operation](./Insights/190.md) | Easy
-|191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [C++](./Scripts/191.cpp) | [TBC...](./Insights/191.md) | Easy
-|192| [Word Frequency](https://leetcode.com/problems/word-frequency) | [SH](./Scripts/192..sh) | [TBC...](./Insights/192.md) | Medium
-|193| [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers) | [SH](./Scripts/193..sh) | [TBC...](./Insights/193.md) | Easy
-|194| [Transpose File](https://leetcode.com/problems/transpose-file) | [SH](./Scripts/194..sh) | [TBC...](./Insights/194.md) | Medium
-|195| [Tenth Line](https://leetcode.com/problems/tenth-line) | [SH](./Scripts/195..sh) | [TBC...](./Insights/195.md) | Easy
-|196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails) | [SQL](./Scripts/196.sql) | [TBC...](./Insights/196.md) | Easy
-|197| [Rising Temperature](https://leetcode.com/problems/rising-temperature) | [SQL](./Scripts/197.sql) | [TBC...](./Insights/197.md) | Easy
-|199| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | [C++](./Scripts/199.cpp) | [TBC...](./Insights/199.md) | Medium
-|200| [Number of Islands](https://leetcode.com/problems/number-of-islands) | [C++](./Scripts/200.cpp) | [TBC...](./Insights/200.md) | Medium
-|201| [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | [C++](./Scripts/201.cpp) | [TBC...](./Insights/201.md) | Medium
-|202| [Happy Number](https://leetcode.com/problems/happy-number) | [C++](./Scripts/202.cpp) | [TBC...](./Insights/202.md) | Easy
-|203| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [C++](./Scripts/203.cpp) | [TBC...](./Insights/203.md) | Easy
-|204| [Count Primes](https://leetcode.com/problems/count-primes) | [C++](./Scripts/204.cpp) | [TBC...](./Insights/204.md) | Easy
-|205| [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | [C++](./Scripts/205.cpp) | [TBC...](./Insights/205.md) | Easy
-|206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [C++](./Scripts/206.cpp) | [TBC...](./Insights/206.md) | Easy
-|207| [Course Schedule](https://leetcode.com/problems/course-schedule) | [C++](./Scripts/207.cpp) | [TBC...](./Insights/207.md) | Medium
-|208| [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | [C++](./Scripts/208.cpp) | [TBC...](./Insights/208.md) | Medium
-|209| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | [C++](./Scripts/209.cpp) | [TBC...](./Insights/209.md) | Medium
-|210| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | [C++](./Scripts/210.cpp) | [TBC...](./Insights/210.md) | Medium
-|212| [Word Search II](https://leetcode.com/problems/word-search-ii) | [C++](./Scripts/212.cpp) | [TBC...](./Insights/212.md) | Hard
-|214| [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome) | [C++](./Scripts/214.cpp) | [TBC...](./Insights/214.md) | Hard
-|215| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | [C++](./Scripts/215.cpp) | [TBC...](./Insights/215.md) | Medium
-|217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [C++](./Scripts/217.cpp) | [TBC...](./Insights/217.md) | Easy
-|218| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem) | [C++](./Scripts/218.cpp) | [TBC...](./Insights/218.md) | Hard
-|219| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | [C++](./Scripts/219.cpp) | [TBC...](./Insights/219.md) | Easy
-|222| [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | [C++](./Scripts/222.cpp) | [TBC...](./Insights/222.md) | Medium
-|223| [Rectangle Area](https://leetcode.com/problems/rectangle-area) | [C++](./Scripts/223.cpp) | [TBC...](./Insights/223.md) | Medium
-|224| [Basic Calculator](https://leetcode.com/problems/basic-calculator) | [PY](./Scripts/224..py) | [TBC...](./Insights/224.md) | Hard
-|225| [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | [C++](./Scripts/225.cpp) | [TBC...](./Insights/225.md) | Easy
-|226| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [C++](./Scripts/226.cpp) | [TBC...](./Insights/226.md) | Easy
-|227| [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | [C++](./Scripts/227.cpp) | [TBC...](./Insights/227.md) | Medium
-|230| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | [C++](./Scripts/230.cpp) | [TBC...](./Insights/230.md) | Medium
-|231| [Power of Two](https://leetcode.com/problems/power-of-two) | [C++](./Scripts/231.cpp) | [TBC...](./Insights/231.md) | Easy
-|232| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [C++](./Scripts/232.cpp) | [TBC...](./Insights/232.md) | Easy
-|233| [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) | [C++](./Scripts/233.cpp) | [TBC...](./Insights/233.md) | Hard
-|234| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [C++](./Scripts/234.cpp) | [TBC...](./Insights/234.md) | Easy
-|235| [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [C++](./Scripts/235.cpp) | [TBC...](./Insights/235.md) | Easy
-|236| [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | [C++](./Scripts/236.cpp) | [TBC...](./Insights/236.md) | Medium
-|237| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | [C++](./Scripts/237.cpp) | [TBC...](./Insights/237.md) | Easy
-|238| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [C++](./Scripts/238.cpp) | [TBC...](./Insights/238.md) | Medium
-|239| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | [C++](./Scripts/239.cpp) | [TBC...](./Insights/239.md) | Hard
-|240| [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | [C++](./Scripts/240.cpp) | [TBC...](./Insights/240.md) | Medium
-|241| [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) | [C++](./Scripts/241.cpp) | [TBC...](./Insights/241.md) | Medium
-|242| [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [C++](./Scripts/242.cpp) | [TBC...](./Insights/242.md) | Easy
-|257| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | [C++](./Scripts/257.cpp) | [TBC...](./Insights/257.md) | Easy
-|258| [Add Digits](https://leetcode.com/problems/add-digits) | [C++](./Scripts/258.cpp) | [TBC...](./Insights/258.md) | Easy
-|260| [Single Number III](https://leetcode.com/problems/single-number-iii) | [C++](./Scripts/260.cpp) | [TBC...](./Insights/260.md) | Medium
-|262| [Trips and Users](https://leetcode.com/problems/trips-and-users) | [SQL](./Scripts/262.sql) | [TBC...](./Insights/262.md) | Hard
-|263| [Ugly Number](https://leetcode.com/problems/ugly-number) | [C++](./Scripts/263.cpp) | [TBC...](./Insights/263.md) | Easy
-|264| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [C++](./Scripts/264.cpp) | [TBC...](./Insights/264.md) | Medium
-|268| [Missing Number](https://leetcode.com/problems/missing-number) | [C++](./Scripts/268.cpp) | [TBC...](./Insights/268.md) | Easy
-|273| [Integer to English Words](https://leetcode.com/problems/integer-to-english-words) | [C++](./Scripts/273.cpp) | [TBC...](./Insights/273.md) | Hard
-|274| [H-Index](https://leetcode.com/problems/h-index) | [C++](./Scripts/274.cpp) | [TBC...](./Insights/274.md) | Medium
-|275| [H-Index II](https://leetcode.com/problems/h-index-ii) | [C++](./Scripts/275.cpp) | [TBC...](./Insights/275.md) | Medium
-|278| [First Bad Version](https://leetcode.com/problems/first-bad-version) | [C++](./Scripts/278.cpp) | [TBC...](./Insights/278.md) | Easy
-|279| [Perfect Squares](https://leetcode.com/problems/perfect-squares) | [PY](./Scripts/279..py) | [TBC...](./Insights/279.md) | Medium
-|282| [Expression Add Operators](https://leetcode.com/problems/expression-add-operators) | [C++](./Scripts/282.cpp) | [TBC...](./Insights/282.md) | Hard
-|283| [Move Zeroes](https://leetcode.com/problems/move-zeroes) | [PY](./Scripts/283..py) | [TBC...](./Insights/283.md) | Easy
-|284| [Peeking Iterator](https://leetcode.com/problems/peeking-iterator) | [C++](./Scripts/284.cpp) | [TBC...](./Insights/284.md) | Medium
-|287| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | [C++](./Scripts/287.cpp) | [TBC...](./Insights/287.md) | Medium
-|289| [Game of Life](https://leetcode.com/problems/game-of-life) | [C++](./Scripts/289.cpp) | [TBC...](./Insights/289.md) | Medium
-|292| [Nim Game](https://leetcode.com/problems/nim-game) | [C++](./Scripts/292.cpp) | [TBC...](./Insights/292.md) | Easy
-|301| [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses) | [C++](./Scripts/301.cpp) | [TBC...](./Insights/301.md) | Hard
-|303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | [C++](./Scripts/303.cpp) | [TBC...](./Insights/303.md) | Easy
-|304| [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [C++](./Scripts/304.cpp) | [TBC...](./Insights/304.md) | Medium
-|306| [Additive Number](https://leetcode.com/problems/additive-number) | [C++](./Scripts/306.cpp) | [TBC...](./Insights/306.md) | Medium
+|191| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | [C++](./Scripts/191.cpp) | [Bit Operations](./Insights/191.md) | Easy
+|192| [Word Frequency](https://leetcode.com/problems/word-frequency) | [SH](./Scripts/192.sh) | [Linux](./Insights/192.md) | Medium
+|193| [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers) | [SH](./Scripts/193.sh) | [Linux](./Insights/193.md) | Easy
+|194| [Transpose File](https://leetcode.com/problems/transpose-file) | [SH](./Scripts/194.sh) | [Linux](./Insights/194.md) | Medium
+|195| [Tenth Line](https://leetcode.com/problems/tenth-line) | [SH](./Scripts/195.sh) | [Linux](./Insights/195.md) | Easy
+|196| [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails) | [SQL](./Scripts/196.sql) | [SQL](./Insights/196.md) | Easy
+|197| [Rising Temperature](https://leetcode.com/problems/rising-temperature) | [SQL](./Scripts/197.sql) | [SQL](./Insights/197.md) | Easy
+|199| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | [C++](./Scripts/199.cpp) | [Tricky](./Insights/199.md) | Medium
+|200| [Number of Islands](https://leetcode.com/problems/number-of-islands) | [C++](./Scripts/200.cpp) | [DFS](./Insights/200.md) | Medium
+|201| [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | [C++](./Scripts/201.cpp) | [Bit Operations](./Insights/201.md) | Medium
+|202| [Happy Number](https://leetcode.com/problems/happy-number) | [C++](./Scripts/202.cpp) | [Simulation](./Insights/202.md) | Easy
+|203| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | [C++](./Scripts/203.cpp) | [Linked List Operations](./Insights/203.md) | Easy
+|204| [Count Primes](https://leetcode.com/problems/count-primes) | [C++](./Scripts/204.cpp) | [Tricky](./Insights/204.md) | Easy
+|205| [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | [C++](./Scripts/205.cpp) | [Simulation](./Insights/205.md) | Easy
+|206| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | [C++](./Scripts/206.cpp) | [Linked List Operations](./Insights/206.md) | Easy
+|207| [Course Schedule](https://leetcode.com/problems/course-schedule) | [C++](./Scripts/207.cpp) | [DFS](./Insights/207.md) | Medium
+|208| [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) | [C++](./Scripts/208.cpp) | [Data Structure](./Insights/208.md) | Medium
+|209| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum) | [C++](./Scripts/209.cpp) | [Tricky](./Insights/209.md) | Medium
+|210| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii) | [C++](./Scripts/210.cpp) | [Brute Force](./Insights/210.md) | Medium
+|212| [Word Search II](https://leetcode.com/problems/word-search-ii) | [C++](./Scripts/212.cpp) | [Data Structure](./Insights/212.md) | Hard
+|214| [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome) | [C++](./Scripts/214.cpp) | [Recursion](./Insights/214.md) | Hard
+|215| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array) | [C++](./Scripts/215.cpp) | [Simulation](./Insights/215.md) | Medium
+|217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [C++](./Scripts/217.cpp) | [Data Structure](./Insights/217.md) | Easy
+|218| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem) | [C++](./Scripts/218.cpp) | [Simulation](./Insights/218.md) | Hard
+|219| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | [C++](./Scripts/219.cpp) | [Data Structure](./Insights/219.md) | Easy
+|222| [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | [C++](./Scripts/222.cpp) | [Recursion](./Insights/222.md) | Medium
+|223| [Rectangle Area](https://leetcode.com/problems/rectangle-area) | [C++](./Scripts/223.cpp) | [Tricky](./Insights/223.md) | Medium
+|224| [Basic Calculator](https://leetcode.com/problems/basic-calculator) | [PY](./Scripts/224.py) | [Stack](./Insights/224.md) | Hard
+|225| [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues) | [C++](./Scripts/225.cpp) | [Data Structure](./Insights/225.md) | Easy
+|226| [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) | [C++](./Scripts/226.cpp) | [Recursion](./Insights/226.md) | Easy
+|227| [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii) | [C++](./Scripts/227.cpp) | [Stack](./Insights/227.md) | Medium
+|230| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | [C++](./Scripts/230.cpp) | [DFS](./Insights/230.md) | Medium
+|231| [Power of Two](https://leetcode.com/problems/power-of-two) | [C++](./Scripts/231.cpp) | [Simulation](./Insights/231.md) | Easy
+|232| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks) | [C++](./Scripts/232.cpp) | [Data Structure](./Insights/232.md) | Easy
+|233| [Number of Digit One](https://leetcode.com/problems/number-of-digit-one) | [C++](./Scripts/233.cpp) | [Tricky](./Insights/233.md) | Hard
+|234| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list) | [C++](./Scripts/234.cpp) | [Linked List Operation](./Insights/234.md) | Easy
+|235| [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [C++](./Scripts/235.cpp) | [Recursion](./Insights/235.md) | Easy
+|236| [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | [C++](./Scripts/236.cpp) | [Recursion](./Insights/236.md) | Medium
+|237| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list) | [C++](./Scripts/237.cpp) | [Linked List Operation](./Insights/237.md) | Easy
+|238| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self) | [C++](./Scripts/238.cpp) | [Tricky](./Insights/238.md) | Medium
+|239| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) | [C++](./Scripts/239.cpp) | [Tricky](./Insights/239.md) | Hard
+|240| [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii) | [C++](./Scripts/240.cpp) | [Binary Search](./Insights/240.md) | Medium
+|241| [Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses) | [C++](./Scripts/241.cpp) | [DP+Recursion](./Insights/241.md) | Medium
+|242| [Valid Anagram](https://leetcode.com/problems/valid-anagram) | [C++](./Scripts/242.cpp) | [Data Structure](./Insights/242.md) | Easy
+|257| [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths) | [C++](./Scripts/257.cpp) | [Recursion](./Insights/257.md) | Easy
+|258| [Add Digits](https://leetcode.com/problems/add-digits) | [C++](./Scripts/258.cpp) | [Simulation](./Insights/258.md) | Easy
+|260| [Single Number III](https://leetcode.com/problems/single-number-iii) | [C++](./Scripts/260.cpp) | [Bit Operations](./Insights/260.md) | Medium
+|262| [Trips and Users](https://leetcode.com/problems/trips-and-users) | [SQL](./Scripts/262.sql) | [SQL](./Insights/262.md) | Hard
+|263| [Ugly Number](https://leetcode.com/problems/ugly-number) | [C++](./Scripts/263.cpp) | [Simulation](./Insights/263.md) | Easy
+|264| [Ugly Number II](https://leetcode.com/problems/ugly-number-ii) | [C++](./Scripts/264.cpp) | [Simulation](./Insights/264.md) | Medium
+|268| [Missing Number](https://leetcode.com/problems/missing-number) | [C++](./Scripts/268.cpp) | [Tricky](./Insights/268.md) | Easy
+|273| [Integer to English Words](https://leetcode.com/problems/integer-to-english-words) | [C++](./Scripts/273.cpp) | [Simulation](./Insights/273.md) | Hard
+|274| [H-Index](https://leetcode.com/problems/h-index) | [C++](./Scripts/274.cpp) | [Tricky](./Insights/274.md) | Medium
+|275| [H-Index II](https://leetcode.com/problems/h-index-ii) | [C++](./Scripts/275.cpp) | [Tricky](./Insights/275.md) | Medium
+|278| [First Bad Version](https://leetcode.com/problems/first-bad-version) | [C++](./Scripts/278.cpp) | [Binary Search](./Insights/278.md) | Easy
+|279| [Perfect Squares](https://leetcode.com/problems/perfect-squares) | [PY](./Scripts/279.py) | [DP](./Insights/279.md) | Medium
+|282| [Expression Add Operators](https://leetcode.com/problems/expression-add-operators) | [C++](./Scripts/282.cpp) | [DFS](./Insights/282.md) | Hard
+|283| [Move Zeroes](https://leetcode.com/problems/move-zeroes) | [PY](./Scripts/283.py) | [Simulation](./Insights/283.md) | Easy
+|284| [Peeking Iterator](https://leetcode.com/problems/peeking-iterator) | [C++](./Scripts/284.cpp) | [Simulation](./Insights/284.md) | Medium
+|287| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number) | [C++](./Scripts/287.cpp) | [Tricky](./Insights/287.md) | Medium
+|289| [Game of Life](https://leetcode.com/problems/game-of-life) | [C++](./Scripts/289.cpp) | [Simulation](./Insights/289.md) | Medium
+|292| [Nim Game](https://leetcode.com/problems/nim-game) | [C++](./Scripts/292.cpp) | [Tricky](./Insights/292.md) | Easy
+|301| [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses) | [C++](./Scripts/301.cpp) | [Brute Force](./Insights/301.md) | Hard
+|303| [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable) | [C++](./Scripts/303.cpp) | [Data Structure](./Insights/303.md) | Easy
+|304| [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable) | [C++](./Scripts/304.cpp) | [Data Structure](./Insights/304.md) | Medium
+|306| [Additive Number](https://leetcode.com/problems/additive-number) | [C++](./Scripts/306.cpp) | [Brute Force](./Insights/306.md) | Medium
 |307| [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | [C++](./Scripts/307.cpp)|[Data Structure](./Insights/307.md)|Medium
 |309| [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [C++](./Scripts/309_std.cpp)|[DP](./Insights/309.md)|Medium
 |312| [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [C++](./Scripts/312_std.cpp)|[DP](./Insights/312.md)| Hard
@@ -261,7 +265,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |327| [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [C++](./Scripts/327.cpp) | [Data Structure](./Insights/327.md) | Hard
 |328| [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [C++](./Scripts/328.cpp) | [Data Structure](./Insights/328.md) | Medium
 |329| [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)| [C++](./Scripts/329.cpp) | [DP+DFS](./Insights/329.md) | Hard
-|330| [Patching Array](https://leetcode.com/problems/patching-array/)| [C++](./Scripts/330.cpp) | [TBC...](./Insights/330.md) | Hard
+|330| [Patching Array](https://leetcode.com/problems/patching-array/)| [C++](./Scripts/330.cpp) | [Tricky](./Insights/330.md) | Hard
 |331| [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)| [C++](./Scripts/331.cpp) | [Tricky](./Insights/331.md) | Medium
 |332| [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)| [C++](./Scripts/332.cpp) | [DFS+Tricky](./Insights/332.md) | Medium
 |334| [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)| [C++](./Scripts/334.cpp) | [Tricky](./Insights/334.md) | Medium
@@ -319,3 +323,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |416| [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [C++](./Scripts/416.cpp) | [Data Structure](./Insights/416.md) | Medium
 |417| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)| [C++](./Scripts/417.cpp) | [Data Structure](./Insights/417.md) | Medium
 |419| [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)| [C++](./Scripts/419.cpp) | [DFS](./Insights/419.md) | Medium
+|420| [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)| [C++](./Scripts/420.cpp) | [Greedy](./Insights/420.md) | Hard
