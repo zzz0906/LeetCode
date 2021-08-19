@@ -168,3 +168,27 @@ int sumRange(int left, int right) Returns the sum of the elements of nums betwee
 303 also done before~
 
 Just prefix sum.
+
+## Count Good Nodes in Binary Tree
+
+Given a binary tree root, a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X.
+
+Return the number of good nodes in the binary tree.
+
+DFS and store the past maximum as a variable in the dfs. AC
+
+## Decode Ways
+
+91 has done before. DFS?
+
+Yes, but we make recursion reversely, because the number at the behind do not contain more probability.
+
+1. it's valid; the last one is zero, we cannot only select tmp[1]
+2. it's valid the last one is not zero, we can still select tmp[1] and let tmp[0] belong to others
+3. it's invalid, the last one is zero, we cannot deal with the zero, return 0
+4. it's invalid, the last one is not zero, we can hope if we divid them in another can get a better result.
+
+
+OH...fuck, I found I use DP before, not DFS...
+
+The same idea as DFS...more simple.

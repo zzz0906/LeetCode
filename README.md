@@ -20,6 +20,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 
 * Hard to associate them with a fixed algorithm
 
+* [91](./Insights/91.md) Decode Ways
 * [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
 * [128](./Insights/128.md) Longest Consecutive Sequence
 * [141](./Insights/141.md) Linked List Cycle
@@ -37,6 +38,9 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [239](./Insights/239.md) Sliding Window Maximum
 * [240](./Insights/240.md) Search a 2D Matrix II
 * [287](./Insights/287.md) Find the Duplicate Number
+* [420](./Insights/420.md) Strong Password Checker
+* [421](./Insights/421.md) Maximum XOR of Two Numbers in an Array
+
  
 ## Summary Table
 | # | Title | Solution | Insights | Difficulty|
@@ -324,3 +328,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |417| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)| [C++](./Scripts/417.cpp) | [Data Structure](./Insights/417.md) | Medium
 |419| [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)| [C++](./Scripts/419.cpp) | [DFS](./Insights/419.md) | Medium
 |420| [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/)| [C++](./Scripts/420.cpp) | [Greedy](./Insights/420.md) | Hard
+|421| [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)| [C++](./Scripts/421.cpp) | [Data Structure](./Insights/421.md) | Medium
+|423| [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)| [C++](./Scripts/423.cpp) | [Simulation](./Insights/423.md) | Medium
+|424| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [C++](./Scripts/424.cpp) | [Binary Search](./Insights/424.md) | Medium
