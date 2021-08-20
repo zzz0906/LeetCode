@@ -192,3 +192,32 @@ Yes, but we make recursion reversely, because the number at the behind do not co
 OH...fuck, I found I use DP before, not DFS...
 
 The same idea as DFS...more simple.
+
+## Maximum Product of Splitted Binary Tree
+
+Given the root of a binary tree, split the binary tree into two subtrees by removing one edge such that the product of the sums of the subtrees is maximized.
+
+Return the maximum product of the sums of the two subtrees. Since the answer may be too large, return it modulo 109 + 7.
+
+Note that you need to maximize the answer before taking the mod and not after taking it.
+
+if we can get the sum in o(1)
+
+This is a question I have done in Xiecheng's interviewer.
+
+we need to enumerate all edges and get the sum in O(1)
+
+If we know the sum of a subtree, the answer is max( (total_sum - subtree_sum) * subtree_sum) in each node.
+
+Oh Xiecheng's interviewer need record the max of each tree. it's different. It doesn't satisfy the property of total - sub.
+
+(sum - x)*x => maximum  (-x^2 + sum*x)' = -2x + sum*x
+
+thus, when x = sum / 2, the function reach the maximum value.
+
+* The number of nodes in the tree is in the range [2, 5 * 104].
+* 1 <= Node.val <= 104
+
+So the ans's maximum is (2.5*10^4*10^4)^2 = 9*10^16 < 2^64
+
+yes ac!

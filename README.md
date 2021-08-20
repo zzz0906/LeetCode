@@ -331,3 +331,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |421| [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)| [C++](./Scripts/421.cpp) | [Data Structure](./Insights/421.md) | Medium
 |423| [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)| [C++](./Scripts/423.cpp) | [Simulation](./Insights/423.md) | Medium
 |424| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [C++](./Scripts/424.cpp) | [Binary Search](./Insights/424.md) | Medium
+|427| [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)| [C++](./Scripts/427.cpp) | [Recursion](./Insights/427.md) | Medium
