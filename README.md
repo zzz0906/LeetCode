@@ -332,3 +332,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |423| [Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/)| [C++](./Scripts/423.cpp) | [Simulation](./Insights/423.md) | Medium
 |424| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| [C++](./Scripts/424.cpp) | [Binary Search](./Insights/424.md) | Medium
 |427| [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)| [C++](./Scripts/427.cpp) | [Recursion](./Insights/427.md) | Medium
+|429| [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)| [C++](./Scripts/429.cpp) | [DFS](./Insights/429.md) | Medium

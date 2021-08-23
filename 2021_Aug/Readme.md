@@ -221,3 +221,41 @@ thus, when x = sum / 2, the function reach the maximum value.
 So the ans's maximum is (2.5*10^4*10^4)^2 = 9*10^16 < 2^64
 
 yes ac!
+
+## Rectangle Area II
+
+We are given a list of (axis-aligned) rectangles. Each rectangle[i] = [xi1, yi1, xi2, yi2] , where (xi1, yi1) are the coordinates of the bottom-left corner, and (xi2, yi2) are the coordinates of the top-right corner of the ith rectangle.
+
+Find the total area covered by all rectangles in the plane. Since the answer may be too large, return it modulo 109 + 7.
+
+This is a little hard. How to calculate the share rectangles. In my view, compute area for each unit 1
+
+oh, the std use my idea. calculate as the unit.
+
+My idea is scanning from 1 to maximum wide as 1 unit, and Given the left and right, we know xi1, xi2 has a height yi1 yi2; we records a most height for each unit.
+
+* 1 <= rectangles.length <= 200
+* rectanges[i].length = 4
+* 0 <= rectangles[i][j] <= 109
+* The total area covered by all rectangles will never exceed 263 - 1 and thus will fit in a 64-bit signed integer.
+
+We know, we can accumulate each are's sum for the height area. 
+
+But here we can also use a n^2 to update each area. Like we records all left and right and height, if some has a new interval then we can update it. Oh, we can use interval tree to do this.
+
+let me see the std's solution.
+
+We can learn this idea to solve this kind of question. Use map to do it. map will sort it.we can push x axis as the key.
+and the pair as value. pair's first value is height as the left and right. And 1 -1 means we have a start and ends and we push all the x's height into the same x asis's key's vector. Also, we will use count map to compute current x's height; 
+
+for each x, we iterate all height for current x axis, we use a count to record the start and end; 1 + -1 => means we have a closure. We want to know current's height (It can be non continus;)
+
+for x1 => 31 - 4-1 5-1 - 19 8-1 - 11
+
+we can use a 1, -1 and count to iterate all height for current x to the next x;
+
+Let me summarize it.
+
+* a xis map for all the (height, count +1 , -1) pair
+* heightcount map for the same x to sum all the non continus heights
+* hegihtcount 's key is the height and value is the +1 ,-1 pair to compute the count. count is the +1 -1 for the start and end to construct the no-continus's height
