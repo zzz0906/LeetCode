@@ -259,3 +259,15 @@ Let me summarize it.
 * a xis map for all the (height, count +1 , -1) pair
 * heightcount map for the same x to sum all the non continus heights
 * hegihtcount 's key is the height and value is the +1 ,-1 pair to compute the count. count is the +1 -1 for the start and end to construct the no-continus's height
+
+## Two Sum IV - Input is a BST
+
+Given the root of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target.
+
+the same, fixed one number them find another number in the tree.
+
+BFS for the tree and return the value? It's nlogn.
+
+let me try using python.
+
+AC!
