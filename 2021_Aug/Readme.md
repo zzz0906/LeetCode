@@ -271,3 +271,58 @@ BFS for the tree and return the value? It's nlogn.
 let me try using python.
 
 AC!
+
+## Complex Number Multiplication
+
+A complex number can be represented as a string on the form "real+imaginaryi" where:
+
+real is the real part and is an integer in the range [-100, 100].
+imaginary is the imaginary part and is an integer in the range [-100, 100].
+i^2 == -1.
+Given two complex numbers num1 and num2 as strings, return a string of the complex number that represents their multiplications.
+
+just add their corresponding position's value?
+
+(x1 + y1\*i)\*(x2 + y2\*i)
+
+x1\*x1 - (y1\*y2) + (x1\*y2 + y1\*x2)i
+
+yes AC!
+
+## Sum of Square Numbers
+
+Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.
+
+o(n) is not possible. a\*a + b\*b = c
+
+oh we can iterate ans in sqrt(c)
+
+because if two numbers are both greater than sqrt c than a^2 + b^2 > 2c
+
+or sqrt(c/2) if both greater than c/2; than we have > c
+
+thus we need to enumerate one value from 1 to sqrt(c/2)
+
+yes AC.
+
+## Range Addition II
+
+You are given an m x n matrix M initialized with all 0's and an array of operations ops, where ops[i] = [ai, bi] means M[x][y] should be incremented by one for all 0 <= x < ai and 0 <= y < bi.
+
+Count and return the number of maximum integers in the matrix after performing all the operations.
+
+first we only let the right down corner's upper matrix be incremented. Thus, it's easily to think the same value must be in the same left upper matrix.
+
+* 1 <= m, n <= 4 * 104
+* 0 <= ops.length <= 104
+* ops[i].length == 2
+* 1 <= ai <= m
+* 1 <= bi <= n
+
+each operation will perform let same value be different with others not in the upper left matrix
+
+for example [2,1] and [0,3]
+
+oh the problem as me the maximum number not most common number
+
+so the answer must be the most upper left matrix. So we only need to return the minimum number of each.
