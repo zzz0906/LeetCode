@@ -88,7 +88,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |67| [Add Binary](https://leetcode.com/problems/add-binary) | [PY](./Scripts/67.py) | [Arbitrary-precision Arithmetic](./Insights/67.md) | Easy
 |68| [Text Justification](https://leetcode.com/problems/text-justification) | [C++](./Scripts/68.cpp) | [Trick](./Insights/68.md) | Hard
 |69| [Sqrt(x)](https://leetcode.com/problems/sqrtx) | [C++](./Scripts/69.cpp) | [Trick](./Insights/69.md) | Easy
-|71| [Simplify Path](https://leetcode.com/problems/simplify-path) | [C++](./Scripts/71.cpp) | [String Process](./Insights/71.md) | Medium
+|71| [Simplify Path](https://leetcode.com/problems/simplify-path) | [C++](./Scripts/71.cpp) | [String Operations](./Insights/71.md) | Medium
 |72| [Edit Distance](https://leetcode.com/problems/edit-distance) | [C++](./Scripts/72.cpp) | [DP](./Insights/72.md) | Hard
 |73| [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | [C++](./Scripts/73.cpp) | [Trick](./Insights/73.md) | Medium
 |74| [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | [C++](./Scripts/74.cpp) | [Binary Search](./Insights/74.md) | Medium
@@ -336,3 +336,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |430| [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| [C++](./Scripts/430.cpp) | [Recursion](./Insights/430.md) | Medium
 |432| [All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)| [C++](./Scripts/432.cpp) | [Data Structure](./Insights/432.md) | Hard
 |433| [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)| [C++](./Scripts/433.cpp) | [DFS](./Insights/433.md) | Medium
+|434| [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)| [PY](./Scripts/434.py) | [String Operations](./Insights/434.md) | Easy
