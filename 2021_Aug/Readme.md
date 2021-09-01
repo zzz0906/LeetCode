@@ -326,3 +326,17 @@ for example [2,1] and [0,3]
 oh the problem as me the maximum number not most common number
 
 so the answer must be the most upper left matrix. So we only need to return the minimum number of each.
+
+## Find Minimum in Rotated Sorted Array
+
+Question I have also done before. We still can use binary search for this question.
+
+6 7 0 1 2 3 4 5
+
+bigger smaller bigger so if it's still less than middle one, then left and bigger than middle one and less than start it must in the right. else in the left
+
+oh, it just need us to find the minimum one. I wrote a o(n) before.
+
+let me update to logn using binary search.
+
+if middle > right, means the start point in the right interval, just let left = mid + 1

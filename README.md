@@ -335,3 +335,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |429| [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)| [C++](./Scripts/429.cpp) | [DFS](./Insights/429.md) | Medium
 |430| [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| [C++](./Scripts/430.cpp) | [Recursion](./Insights/430.md) | Medium
 |432| [All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)| [C++](./Scripts/432.cpp) | [Data Structure](./Insights/432.md) | Hard
+|433| [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)| [C++](./Scripts/433.cpp) | [DFS](./Insights/433.md) | Medium
