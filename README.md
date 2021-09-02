@@ -337,3 +337,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |432| [All O`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)| [C++](./Scripts/432.cpp) | [Data Structure](./Insights/432.md) | Hard
 |433| [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)| [C++](./Scripts/433.cpp) | [DFS](./Insights/433.md) | Medium
 |434| [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)| [PY](./Scripts/434.py) | [String Operations](./Insights/434.md) | Easy
+|435| [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)| [CPP](./Scripts/435.cpp) | [Greedy](./Insights/435.md) | Medium
