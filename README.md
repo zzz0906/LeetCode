@@ -339,3 +339,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |434| [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)| [PY](./Scripts/434.py) | [String Operations](./Insights/434.md) | Easy
 |435| [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)| [CPP](./Scripts/435.cpp) | [Greedy](./Insights/435.md) | Medium
 |436| [Find Right Interval](https://leetcode.com/problems/find-right-interval/)| [CPP](./Scripts/436.cpp) | [Data Structure](./Insights/436.md) | Medium
+|437| [Path Sum III](https://leetcode.com/problems/path-sum-iii/)| [CPP](./Scripts/437.cpp) | [DFS](./Insights/437.md) | Medium
