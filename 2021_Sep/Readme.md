@@ -39,3 +39,19 @@ T0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.
 Given n, return the value of Tn.
 
 Just do the iteration.
+
+## Shortest Path in a Grid with Obstacles elimination
+
+You are given an m x n integer matrix grid where each cell is either 0 (empty) or 1 (obstacle). You can move up, down, left, or right from and to an empty cell in one step.
+
+Return the minimum number of steps to walk from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1) given that you can eliminate at most k obstacles. If it is not possible to find such walk return -1.
+
+DP [i][j][k] means we still have k chance to eliminate the obstacles?
+
+DP[i][j][k] down, left, or right; DP[i-1][j][k], DP[i][j-1][k], DP[i-1][j-1][k] when i,j is not an obstacle. When i,j is an obstacle, it shall be DP[i-1][j][k + 1], DP[i][j-1][k + 1], DP[i-1][j-1][k + 1]
+
+My method seems ok, but i use too much time to code it. Let me see the std.
+
+the std use the bfs. First put the one step nodes in the queue. And if the one step go to a obstacles, we need to use the k. We use a i,j,k, visited array to record all the nodes + elimination choice we have used. We need to ensure, we will not go to the same node with the same choice we rest.
+
+## 
