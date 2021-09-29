@@ -341,4 +341,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |436| [Find Right Interval](https://leetcode.com/problems/find-right-interval/)| [CPP](./Scripts/436.cpp) | [Data Structure](./Insights/436.md) | Medium
 |437| [Path Sum III](https://leetcode.com/problems/path-sum-iii/)| [CPP](./Scripts/437.cpp) | [DFS](./Insights/437.md) | Medium
 |438| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [CPP](./Scripts/438.cpp) | [String Operations](./Insights/438.md) | Medium
-|440| [Find All Anagrams in a String](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)| [CPP](./Scripts/440.cpp) | [Tricky](./Insights/440.md) | Hard
+|440| [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)| [CPP](./Scripts/440.cpp) | [Tricky](./Insights/440.md) | Hard
+|441| [Arranging Coins](https://leetcode.com/problems/arranging-coins/)| [CPP](./Scripts/441.cpp) | [Tricky](./Insights/441.md) | Easy

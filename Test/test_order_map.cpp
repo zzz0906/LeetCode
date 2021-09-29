@@ -1,8 +1,3 @@
-#include <iostream>
-#include <unordered_map>
-#include <vector>
-#include <set>
-#include <algorithm>
 #include <bits/stdc++.h>
 using namespace std;
 struct pair_hash {
@@ -56,9 +51,11 @@ int main(){
     bool why = false;
     dfs(10,why);
     cout << why << endl;
-    vector<vector<int>> a;
+    vector<vector<int> > a;
     a.push_back({1,2});
     unordered_map<pair<int,int>, bool, pair_hash> records;
+
+    cout <<"hello world" << endl;
     // vector<int> t, res(10);
     // cout<<t.size()<<endl;
     //cout<<tmp.size()<<endl;

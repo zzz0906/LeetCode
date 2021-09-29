@@ -72,3 +72,31 @@ Given an array of strings emails where we send one email to each email[i], retur
 Just process all the mail and put them all into a hashmap?
 
 AC.
+
+## Sort Array By Parity II
+
+Given an array of integers nums, half of the integers in nums are odd, and the other half are even.
+
+Sort the array so that whenever nums[i] is odd, i is odd, and whenever nums[i] is even, i is even.
+
+Return any answer array that satisfies this condition.
+
+Follow Up: Could you solve it in-place?
+
+so the hard part of the question is to sort it in-place.
+
+2 4 6 8 10's places, we can only place the even number. We can do it in o(n).
+
+so, we can still do quick sort in o(logn)? 1 2 3 4 5 6 => 2 4 6 8 12
+
+left mid right, we need to compare their order. 
+
+oh the problem do not let us to sort it...
+
+how about using two pointers?
+
+holy fuck...AC. But it's a long time for me to consider when shall move the next even number - numOfEven; the pos record the position of current position. We only move the numOfEven, when we have used this number it's
+
+* nums[numOfEven] % 2 == 0 && numOfEven % 2 == 0 && numOfEven < pos
+or
+* num[numOfEven] % 2 != 0 we will let numOfEven++; when find another even, we will exchange numofeven and pos;
