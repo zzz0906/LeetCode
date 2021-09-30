@@ -100,3 +100,21 @@ holy fuck...AC. But it's a long time for me to consider when shall move the next
 * nums[numOfEven] % 2 == 0 && numOfEven % 2 == 0 && numOfEven < pos
 or
 * num[numOfEven] % 2 != 0 we will let numOfEven++; when find another even, we will exchange numofeven and pos;
+
+## Split Linked List in Parts
+
+Given the head of a singly linked list and an integer k, split the linked list into k consecutive linked list parts.
+
+The length of each part should be as equal as possible: no two parts should have a size differing by more than one. This may lead to some parts being null.
+
+The parts should be in the order of occurrence in the input list, and parts occurring earlier should always have a size greater than or equal to parts occurring later.
+
+Return an array of the k parts.
+
+just length / k and compute each part iterately? Then the (5/3) => 1.5
+
+then we can spread 1 to each element.
+
+but, how to do the spread; oh I know we can use a variable to record it/
+
+Yes AC. And be careful with the size < k. Set each section as 1 and push the rest nullptr to the results vector.

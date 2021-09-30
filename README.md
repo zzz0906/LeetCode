@@ -343,3 +343,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |438| [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [CPP](./Scripts/438.cpp) | [String Operations](./Insights/438.md) | Medium
 |440| [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)| [CPP](./Scripts/440.cpp) | [Tricky](./Insights/440.md) | Hard
 |441| [Arranging Coins](https://leetcode.com/problems/arranging-coins/)| [CPP](./Scripts/441.cpp) | [Tricky](./Insights/441.md) | Easy
+|442| [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)| [CPP](./Scripts/442.cpp) | [Tricky](./Insights/442.md) | Medium
