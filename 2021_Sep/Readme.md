@@ -118,3 +118,11 @@ then we can spread 1 to each element.
 but, how to do the spread; oh I know we can use a variable to record it/
 
 Yes AC. And be careful with the size < k. Set each section as 1 and push the rest nullptr to the results vector.
+
+## Partition to K Equal Sum Subsets
+
+Given an integer array nums and an integer k, return true if it is possible to divide this array into k non-empty subsets whose sums are all equal.
+
+the subset's size do not need to be equal, thus we can put a larget vlaue into a set.
+
+oh...the std use brute force. So attention: when in the real interview, you can choose to use brute force also in the acm problem, only if your time complexity is acceptable.
