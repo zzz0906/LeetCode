@@ -10,3 +10,13 @@ A common subsequence of two strings is a subsequence that is common to both stri
 typical DP. f[i,j] means the maximum common subsequence before i and j. Thus, DP[i][j] will come from DP[i-1][j-1] + 1 or DP[i][j-1], DP[i-1][j] 's maximum
 
 AC!
+
+## 201. Bitwise AND of Numbers Range
+
+I have submitted this problem before, just remember if the length diff is bigger than 1, which means that the beginning of the bit form is 1&0 = 0; it must have corss a total diff form because it carry a number to the head.[100 - 1000]
+
+## 543. Diameter of Binary Tree
+
+we can dfs two path for a node. And store the length1 + length2 as a path. And compare the path to the answer. We only store the maximum answer which shall be diameter.
+
+yes, ac!

@@ -346,3 +346,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |442| [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)| [CPP](./Scripts/442.cpp) | [Tricky](./Insights/442.md) | Medium
 |443| [String Compression](https://leetcode.com/problems/string-compression/)| [CPP](./Scripts/443.cpp) | [String](./Insights/443.md) | Medium
 |446| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)| [CPP](./Scripts/446.cpp) | [DP | Tricky](./Insights/446.md) | Hard
+|447| [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)| [CPP](./Scripts/447.cpp) | [Data Structure](./Insights/447.md) | Medium
