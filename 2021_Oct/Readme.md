@@ -38,3 +38,19 @@ You call a pre-defined API int guess(int num), which returns 3 possible results:
 Return the number that I picked.
 
 I also have done before. just binary search.
+
+## 1008. Construct Binary Search Tree from Preorder Traversal
+
+Given an array of integers preorder, which represents the preorder traversal of a BST (i.e., binary search tree), construct the tree and return its root.
+
+It is guaranteed that there is always possible to find a binary search tree with the given requirements for the given test cases.
+
+A binary search tree is a binary tree where for every node, any descendant of Node.left has a value strictly less than Node.val, and any descendant of Node.right has a value strictly greater than Node.val.
+
+A preorder traversal of a binary tree displays the value of the node first, then traverses Node.left, then traverses Node.right
+
+so given a A....[smaller than A] we cecusive call smaller than A and take them as the left tree of A.
+
+let's do this.
+
+AC

@@ -348,3 +348,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |446| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)| [CPP](./Scripts/446.cpp) | [DP | Tricky](./Insights/446.md) | Hard
 |447| [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)| [CPP](./Scripts/447.cpp) | [Data Structure](./Insights/447.md) | Medium
 |448| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| [CPP](./Scripts/448.cpp) | [Tricky](./Insights/448.md) | Easy
+|450| [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [CPP](./Scripts/450.cpp) | [Data Structure](./Insights/450.md) | Medium
