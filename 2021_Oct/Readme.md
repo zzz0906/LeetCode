@@ -54,3 +54,21 @@ so given a A....[smaller than A] we cecusive call smaller than A and take them a
 let's do this.
 
 AC
+
+## 279. Perfect Squares
+
+279. done before!
+
+## 309
+
+also done before... DP
+
+DP record current money. And use buy,sold,rest to do the DP. I thnik this question is hard.
+
+buy[i] means we bought a stock before ith day's maximum profit.
+
+sell[i] means we sold a stock before ith day's maximum profit.
+
+rest[i] means we are coll down in ith day's maximum profit.
+
+buy[i]  = max(rest[i-1] - price, buy[i-1]), sell[i] = max(buy[i-1] + price, sell[i-1]), rest[i] = max(sell[i-1], buy[i-1], rest[i-1])

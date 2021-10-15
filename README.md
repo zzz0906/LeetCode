@@ -349,3 +349,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |447| [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)| [CPP](./Scripts/447.cpp) | [Data Structure](./Insights/447.md) | Medium
 |448| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| [CPP](./Scripts/448.cpp) | [Tricky](./Insights/448.md) | Easy
 |450| [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [CPP](./Scripts/450.cpp) | [Data Structure](./Insights/450.md) | Medium
+|451| [Sort Characters By Frequency](https://leetcode.com/problems/delete-node-in-a-bst/)| [PY](./Scripts/451.py) | [Data Structure](./Insights/451.md) | Medium
