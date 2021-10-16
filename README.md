@@ -350,3 +350,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |448| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| [CPP](./Scripts/448.cpp) | [Tricky](./Insights/448.md) | Easy
 |450| [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [CPP](./Scripts/450.cpp) | [Data Structure](./Insights/450.md) | Medium
 |451| [Sort Characters By Frequency](https://leetcode.com/problems/delete-node-in-a-bst/)| [PY](./Scripts/451.py) | [Data Structure](./Insights/451.md) | Medium
+|452| [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)| [CPP](./Scripts/452.cpp) | [Data Structure](./Insights/452.md) | Medium

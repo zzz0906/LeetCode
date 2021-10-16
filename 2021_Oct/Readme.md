@@ -72,3 +72,10 @@ sell[i] means we sold a stock before ith day's maximum profit.
 rest[i] means we are coll down in ith day's maximum profit.
 
 buy[i]  = max(rest[i-1] - price, buy[i-1]), sell[i] = max(buy[i-1] + price, sell[i-1]), rest[i] = max(sell[i-1], buy[i-1], rest[i-1])
+
+## 123. Best Time to Buy and Sell Stock III
+
+still do it before. it's still a dp. 
+
+* l[i][j] = max(g[i - 1][j - 1] + max(diff, 0), l[i - 1][j] + diff);
+* g[i][j] = max(l[i][j], g[i - 1][j]);
