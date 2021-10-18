@@ -79,3 +79,21 @@ still do it before. it's still a dp.
 
 * l[i][j] = max(g[i - 1][j - 1] + max(diff, 0), l[i - 1][j] + diff);
 * g[i][j] = max(l[i][j], g[i - 1][j]);
+
+## 437. Path Sum III
+
+Finished it before. Why all the problems are done before in these three days? Strange...
+
+make a array to record father's sum and count how many elements that add current value eqaul to target. Also, do not forget zero add current value.
+
+## 993. Cousins in Binary Tree
+
+Given the root of a binary tree with unique values and the values of two different nodes of the tree x and y, return true if the nodes corresponding to the values x and y in the tree are cousins, or false otherwise.
+
+Two nodes of a binary tree are cousins if they have the same depth with different parents.
+
+Note that in a binary tree, the root node is at the depth 0, and children of each depth k node are at the depth k + 1.
+
+I found hard to return the depth from the dfs
+
+we can use a `pass by value` to solve this problem and compare them in a same dfs.
