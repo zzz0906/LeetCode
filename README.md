@@ -352,3 +352,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |451| [Sort Characters By Frequency](https://leetcode.com/problems/delete-node-in-a-bst/)| [PY](./Scripts/451.py) | [Data Structure](./Insights/451.md) | Medium
 |452| [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)| [CPP](./Scripts/452.cpp) | [Tricky](./Insights/452.md) | Medium
 |453| [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)| [PY](./Scripts/453.py) | [Tricky](./Insights/453.md) | Medium
+|454| [4Sum II](https://leetcode.com/problems/4sum-ii/)| [CPP](./Scripts/454.cpp) | [Data Structure](./Insights/454.md) | Medium
