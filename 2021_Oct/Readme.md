@@ -113,3 +113,23 @@ we can use a map to do the o(n) tiem complexity?
 nope, we still need to iterate the following index after current to find the next big one.
 
 let me see the std's solution. oh, it's the same.
+
+## 151. Reverse Words in a String
+
+we can reverse the whole string first, And reverse each word separately (determined by the space).
+
+s.reverse
+
+and we use for loop, if we find a space, we need to do the reverse for the word because we reverse the whole string before.
+
+```
+while (start < s.length && end < s.lengt()){
+    while (s[start] == ' ') start++;
+    end = start;
+    while (s[end] != ' ') end++;
+    end -= 1;
+    reverse(s.begin() + start, s.begin() + end);
+}
+```
+
+AC!
