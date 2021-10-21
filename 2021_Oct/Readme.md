@@ -133,3 +133,16 @@ while (start < s.length && end < s.lengt()){
 ```
 
 AC!
+
+## 380. Insert Delete GetRandom O(1)
+
+Implement the RandomizedSet class:
+
+* RandomizedSet() Initializes the RandomizedSet object.
+* bool insert(int val) Inserts an item val into the set if not present. Returns true if the item was not present, false otherwise.
+* bool remove(int val) Removes an item val from the set if present. Returns true if the item was present, false otherwise.
+* int getRandom() Returns a random element from the current set of elements (it's guaranteed that at least one element exists when this method is called). Each element must have the same probability of being returned.
+
+we use a unordered_map to map integer to index. because there is no duplicates. We can delete it by swap the last one with the one we want to delete (value->index o(1) swap o(1) delete the last one in vector o(1))
+
+AC!

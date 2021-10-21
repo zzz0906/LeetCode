@@ -354,3 +354,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |453| [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/)| [PY](./Scripts/453.py) | [Tricky](./Insights/453.md) | Medium
 |454| [4Sum II](https://leetcode.com/problems/4sum-ii/)| [CPP](./Scripts/454.cpp) | [Data Structure](./Insights/454.md) | Medium
 |455| [Assign Cookies](https://leetcode.com/problems/assign-cookies/)| [CPP](./Scripts/455.cpp) | [Greedy](./Insights/455.md) | Easy
+|456| [132 Pattern](https://leetcode.com/problems/132-pattern/)| [CPP](./Scripts/456.cpp) | [Stack](./Insights/456.md) | Medium
