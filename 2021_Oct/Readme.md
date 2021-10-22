@@ -146,3 +146,9 @@ Implement the RandomizedSet class:
 we use a unordered_map to map integer to index. because there is no duplicates. We can delete it by swap the last one with the one we want to delete (value->index o(1) swap o(1) delete the last one in vector o(1))
 
 AC!
+
+## 451. Sort Characters By Frequency
+
+I have done it before!
+
+just use a hashmap to do count the number
