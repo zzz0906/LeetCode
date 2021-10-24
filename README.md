@@ -40,7 +40,8 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [287](./Insights/287.md) Find the Duplicate Number
 * [420](./Insights/420.md) Strong Password Checker
 * [421](./Insights/421.md) Maximum XOR of Two Numbers in an Array
-* [132](./Insights/132.md) 132 Pattern
+* [456](./Insights/456.md) 132 Pattern
+* [458](./Insights/458.md) Poor Pigs
 
  
 ## Summary Table
@@ -357,3 +358,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |455| [Assign Cookies](https://leetcode.com/problems/assign-cookies/)| [CPP](./Scripts/455.cpp) | [Greedy](./Insights/455.md) | Easy
 |456| [132 Pattern](https://leetcode.com/problems/132-pattern/)| [CPP](./Scripts/456.cpp) | [Stack](./Insights/456.md) | Medium
 |457| [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)| [CPP](./Scripts/457.cpp) | [Simulation](./Insights/457.md) | Medium
+|458| [Poor Pigs](https://leetcode.com/problems/poor-pigs/)| [CPP](./Scripts/458.cpp) | [Mathematics](./Insights/458.md) | HARD
+
