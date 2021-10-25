@@ -162,3 +162,8 @@ According to Wikipedia, every level, except possibly the last, is completely fil
 Design an algorithm that runs in less than O(n) time complexity.
 
 I think my past ans is std. It's so celever. It only go the most left and right. If the length is equal, it means it's complete and we can compute by pow(2,N).
+
+## 155. Min Stack
+
+This problem is tricky. We can use two stacks to do this. we use another stack to record current minimum and push it into the stack. we know that for a element, if its upper (stack's upper) is greater than it, if we want to get minimum, these values are meaningless. Because if we want to pop, these upper values are out of the stack first. And we the minimum must be the element instead of these upper values. Thus, for another stack, we only push the value less than the top value.
+

@@ -347,7 +347,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |441| [Arranging Coins](https://leetcode.com/problems/arranging-coins/)| [CPP](./Scripts/441.cpp) | [Tricky](./Insights/441.md) | Easy
 |442| [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)| [CPP](./Scripts/442.cpp) | [Tricky](./Insights/442.md) | Medium
 |443| [String Compression](https://leetcode.com/problems/string-compression/)| [CPP](./Scripts/443.cpp) | [String](./Insights/443.md) | Medium
-|446| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)| [CPP](./Scripts/446.cpp) | [DP | Tricky](./Insights/446.md) | Hard
+|446| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)| [CPP](./Scripts/446.cpp) | [DP / Tricky](./Insights/446.md) | Hard
 |447| [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)| [CPP](./Scripts/447.cpp) | [Data Structure](./Insights/447.md) | Medium
 |448| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| [CPP](./Scripts/448.cpp) | [Tricky](./Insights/448.md) | Easy
 |450| [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)| [CPP](./Scripts/450.cpp) | [Data Structure](./Insights/450.md) | Medium
@@ -359,4 +359,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |456| [132 Pattern](https://leetcode.com/problems/132-pattern/)| [CPP](./Scripts/456.cpp) | [Stack](./Insights/456.md) | Medium
 |457| [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)| [CPP](./Scripts/457.cpp) | [Simulation](./Insights/457.md) | Medium
 |458| [Poor Pigs](https://leetcode.com/problems/poor-pigs/)| [CPP](./Scripts/458.cpp) | [Mathematics](./Insights/458.md) | HARD
-
+|459| [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)| [PY](./Scripts/459.py) | [String Process](./Insights/459.md) | Easy
+|460| [LFU Cache](https://leetcode.com/problems/lfu-cache/)| [CPP](./Scripts/460.cpp) | [Mathematics](./Insights/460.md) | Hard
