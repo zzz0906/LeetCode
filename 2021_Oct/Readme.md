@@ -167,3 +167,8 @@ I think my past ans is std. It's so celever. It only go the most left and right.
 
 This problem is tricky. We can use two stacks to do this. we use another stack to record current minimum and push it into the stack. we know that for a element, if its upper (stack's upper) is greater than it, if we want to get minimum, these values are meaningless. Because if we want to pop, these upper values are out of the stack first. And we the minimum must be the element instead of these upper values. Thus, for another stack, we only push the value less than the top value.
 
+## 226. Invert Binary Tree
+
+Given the root of a binary tree, invert the tree, and return its root.
+
+Just swap these two child. And do this process recursively.
