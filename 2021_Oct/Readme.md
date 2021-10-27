@@ -172,3 +172,15 @@ This problem is tricky. We can use two stacks to do this. we use another stack t
 Given the root of a binary tree, invert the tree, and return its root.
 
 Just swap these two child. And do this process recursively.
+
+## 75. Sort Colors
+
+Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+
+We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+
+You must solve this problem without using the library's sort function.
+
+we can use double pointer. Because we only need to push 0 to the head and 2 to the end. Thus, we can store the position of red and blue we have stored.
+
+AC.

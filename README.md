@@ -361,3 +361,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |458| [Poor Pigs](https://leetcode.com/problems/poor-pigs/)| [CPP](./Scripts/458.cpp) | [Mathematics](./Insights/458.md) | HARD
 |459| [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)| [PY](./Scripts/459.py) | [String Process](./Insights/459.md) | Easy
 |460| [LFU Cache](https://leetcode.com/problems/lfu-cache/)| [CPP](./Scripts/460.cpp) | [Mathematics](./Insights/460.md) | Hard
+|461| [Hamming Distance](https://leetcode.com/problems/hamming-distance/)| [CPP](./Scripts/461.cpp) | [](./Insights/461.md) | Easy
