@@ -184,3 +184,11 @@ You must solve this problem without using the library's sort function.
 we can use double pointer. Because we only need to push 0 to the head and 2 to the end. Thus, we can store the position of red and blue we have stored.
 
 AC.
+
+## 15. 3Sum
+
+Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
+
+Notice that the solution set must not contain duplicate triplets.
+
+sort the array. And enumerate the first number. And use two pointer, one from small to big and another from big to small. Thus, we can move if its sum is bigger, move the bigger one to smaller one, etc. => n^2. AC.
