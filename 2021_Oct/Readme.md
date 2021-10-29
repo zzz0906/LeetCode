@@ -192,3 +192,19 @@ Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]]
 Notice that the solution set must not contain duplicate triplets.
 
 sort the array. And enumerate the first number. And use two pointer, one from small to big and another from big to small. Thus, we can move if its sum is bigger, move the bigger one to smaller one, etc. => n^2. AC.
+
+## 994. Rotting Oranges
+
+You are given an m x n grid where each cell can have one of three values:
+
+* 0 representing an empty cell,
+* 1 representing a fresh orange, or
+* 2 representing a rotten orange.
+
+Every minute, any fresh orange that is 4-directionally adjacent to a rotten orange becomes rotten.
+
+Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.
+
+BFS? We can add a step to store the step we bfs here. The step variable is like a timestamp. And we only store the minimum one. Overall, it's a mn algorithm. If next one's timestamp is smaller, we won't bfs to it, because this update is meaningless. And return the final step. The start point is all the rotten orange. we find the maximum value.
+
+AC!

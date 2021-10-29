@@ -363,4 +363,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |460| [LFU Cache](https://leetcode.com/problems/lfu-cache/)| [CPP](./Scripts/460.cpp) | [Mathematics](./Insights/460.md) | Hard
 |461| [Hamming Distance](https://leetcode.com/problems/hamming-distance/)| [CPP](./Scripts/461.cpp) | [Bit Operation](./Insights/461.md) | Easy
 |462| [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)| [PY](./Scripts/462.py) | [Tricky](./Insights/462.md) | Medium
-|463| [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)| [PY](./Scripts/463.py) | [BFS](./Insights/463.md) | Easy
+|463| [Island Perimeter](https://leetcode.com/problems/island-perimeter/)| [PY](./Scripts/463.py) | [Brute Force](./Insights/463.md) | Easy
+|464| [Can I Win](https://leetcode.com/problems/can-i-win/)| [PY](./Scripts/464.py) | [BFS](./Insights/464.md) | Medium
