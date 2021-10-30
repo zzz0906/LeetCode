@@ -208,3 +208,24 @@ Return the minimum number of minutes that must elapse until no cell has a fresh 
 BFS? We can add a step to store the step we bfs here. The step variable is like a timestamp. And we only store the minimum one. Overall, it's a mn algorithm. If next one's timestamp is smaller, we won't bfs to it, because this update is meaningless. And return the final step. The start point is all the rotten orange. we find the maximum value.
 
 AC!
+
+## 1044. Longest Duplicate Substring
+
+Given a string s, consider all duplicated substrings: (contiguous) substrings of s that occur 2 or more times. The occurrences may overlap.
+
+Return any duplicated substring that has the longest possible length. If s does not have a duplicated substring, the answer is "".
+
+* 2 <= s.length <= $3 * 10^4$
+* s consists of lowercase English letters.
+
+Trie tree? Maybe we can add a count. But we have to get all substring. It's o(n^2), we have to use 6*10^8. That's impossible. I guess it's a string algorithm, like state machine. can we use double pointer?
+
+yes, KMP + binary search as the correct algorithm. And the correct algorithm is Rabin–Karp. RK encode each substring as a hash value. for example, 'bcd' will store as $1*26^2 + 2*26 + 3$ And we use a slides window to store all the maximum duplaces string. And after that, if we want to move the windows, we have to minus the last first character value =  last character related number * 2^window_length. And times rest values 26, and add the new value. We have to find whether there is a duplicates value.
+
+I have a question, whether it satisfies the condition to use binary search. Actually, we can use binary search. Because if there is no duplicates for length n, we cannot find more longer length string. If we can, which means there is a length-n substring of these two duplicates string, it's a contradiction.
+
+Overall, we can use binary search. And time complexity is o(loglength * length) complexity.
+
+Pay attention to this: we want to move the windows, we have to minus the last first character value, we have to minus a value, thus it may be a negative value when we use modular. Therefore, we need to add m and % m again. Oh, even we use this hash method, it‘s still possible to be different with the same value. For example, abz == aca. 
+
+Great question.

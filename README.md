@@ -42,6 +42,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [421](./Insights/421.md) Maximum XOR of Two Numbers in an Array
 * [456](./Insights/456.md) 132 Pattern
 * [458](./Insights/458.md) Poor Pigs
+* [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
  
 ## Summary Table
@@ -365,3 +366,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |462| [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)| [PY](./Scripts/462.py) | [Tricky](./Insights/462.md) | Medium
 |463| [Island Perimeter](https://leetcode.com/problems/island-perimeter/)| [PY](./Scripts/463.py) | [Brute Force](./Insights/463.md) | Easy
 |464| [Can I Win](https://leetcode.com/problems/can-i-win/)| [PY](./Scripts/464.py) | [BFS](./Insights/464.md) | Medium
+|466| [Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)| [CPP](./Scripts/466.cpp) | [BFS](./Insights/466.md) | Hard
