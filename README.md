@@ -366,4 +366,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |462| [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)| [PY](./Scripts/462.py) | [Tricky](./Insights/462.md) | Medium
 |463| [Island Perimeter](https://leetcode.com/problems/island-perimeter/)| [PY](./Scripts/463.py) | [Brute Force](./Insights/463.md) | Easy
 |464| [Can I Win](https://leetcode.com/problems/can-i-win/)| [PY](./Scripts/464.py) | [BFS](./Insights/464.md) | Medium
-|466| [Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)| [CPP](./Scripts/466.cpp) | [BFS](./Insights/466.md) | Hard
+|466| [Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)| [CPP](./Scripts/466.cpp) | [Tricky+String Operation](./Insights/466.md) | Hard
+|467| [Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)| [CPP](./Scripts/467.cpp) | [BFS](./Insights/467.md) | Medium

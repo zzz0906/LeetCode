@@ -229,3 +229,7 @@ Overall, we can use binary search. And time complexity is o(loglength * length) 
 Pay attention to this: we want to move the windows, we have to minus the last first character value, we have to minus a value, thus it may be a negative value when we use modular. Therefore, we need to add m and % m again. Oh, even we use this hash method, it‘s still possible to be different with the same value. For example, abz == aca. 
 
 Great question.
+
+## 430. Flatten a Multilevel Doubly Linked List
+
+[Done before](../Insights/430.md)
