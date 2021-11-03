@@ -12,14 +12,13 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 
     2. xxx_std means I use some one else code (because it's a easy question or easy to implement (lazy) or too hard (I can't do it!')). Basically I use [grandyang's code !](https://github.com/grandyang/leetcode), Thanks for his help!
 
-* **Insigt** folder is use to record my insights, if you cannot understand the code, please find my corresponding insight file and read it. (My solution may not be the best)
+* **Insigts** folder is use to record my insights, if you cannot understand the code, please find my corresponding insight file and read it. (My solution may not be the best)
 * **Year_Month** folder gives [daily challenge](https://leetcode.com/explore/) in leetcode. I only finish weekdays' problems. Readme in this folder give the insights.
 
 
 ## Valuable Problems
 
 * Hard to associate them with a fixed algorithm
-
 * [91](./Insights/91.md) Decode Ways
 * [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
 * [128](./Insights/128.md) Longest Consecutive Sequence
@@ -42,7 +41,12 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [421](./Insights/421.md) Maximum XOR of Two Numbers in an Array
 * [456](./Insights/456.md) 132 Pattern
 * [458](./Insights/458.md) Poor Pigs
+* [472](./Insights/472.md) Concatenated Words
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
+
+## Fixed Template
+
+* [Trie](./Scripts/Trie.cpp) - [472](./Insights/472.md)
 
  
 ## Summary Table
@@ -368,4 +372,6 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |464| [Can I Win](https://leetcode.com/problems/can-i-win/)| [PY](./Scripts/464.py) | [BFS](./Insights/464.md) | Medium
 |466| [Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)| [CPP](./Scripts/466.cpp) | [Tricky+String Operations](./Insights/466.md) | Hard
 |467| [Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)| [CPP](./Scripts/467.cpp) | [Tricky](./Insights/467.md) | Medium
-|468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [PY](./Scripts/468.cpp) | [String Operations](./ScriptsInsights/468.md) | Medium
+|468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [PY](./Scripts/468.py) | [String Operations](./ScriptsInsights/468.md) | Medium
+|470| [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)| [CPP](./Scripts/470.cpp) | [Mathematics](./ScriptsInsights/470.md) | Medium
+|472| [Concatenated Words](https://leetcode.com/problems/concatenated-words/)| [CPP](./Scripts/472.cpp) | [Tricky+DP+String Operations](./ScriptsInsights/472.md) | Hard
