@@ -47,6 +47,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 ## Fixed Template
 
 * [Trie](./Scripts/Trie.cpp) - [472](./Insights/472.md)
+* [PairHash](./Scripts/PairHash.cpp)
 
  
 ## Summary Table
@@ -375,3 +376,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [PY](./Scripts/468.py) | [String Operations](./ScriptsInsights/468.md) | Medium
 |470| [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)| [CPP](./Scripts/470.cpp) | [Mathematics](./ScriptsInsights/470.md) | Medium
 |472| [Concatenated Words](https://leetcode.com/problems/concatenated-words/)| [CPP](./Scripts/472.cpp) | [Tricky+DP+String Operations](./ScriptsInsights/472.md) | Hard
+|473| [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)| [CPP](./Scripts/473.cpp) | [DP+Tricky+DFS](./ScriptsInsights/473.md) | Medium

@@ -32,3 +32,7 @@ OH, i know, we need to walk over every single block once. It's a pure brute forc
 [also done before](../Insights/129.md)
 
 when we reach the leaf, add the number we accumulated.
+
+## 404. Sum of Left Leaves
+
+similar easy question. Just add the left child into the res.
