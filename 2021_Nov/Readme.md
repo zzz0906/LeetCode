@@ -36,3 +36,15 @@ when we reach the leaf, add the number we accumulated.
 ## 404. Sum of Left Leaves
 
 similar easy question. Just add the left child into the res.
+
+## 441. Arranging Coins
+
+You have n coins and you want to build a staircase with these coins. The staircase consists of k rows where the ith row has exactly i coins. The last row of the staircase may be incomplete.
+
+Given the integer n, return the number of complete rows of the staircase you will build.
+
+Find the maximum kk such that $\frac{k (k + 1)}{2} \le N$
+
+$k = \sqrt{(2*N + \frac{1}{4})} - \frac{1}{2}$
+
+AC.
