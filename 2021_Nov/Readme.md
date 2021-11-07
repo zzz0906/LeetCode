@@ -48,3 +48,17 @@ Find the maximum kk such that $\frac{k (k + 1)}{2} \le N$
 $k = \sqrt{(2*N + \frac{1}{4})} - \frac{1}{2}$
 
 AC.
+
+## 260. Single Number III
+
+Given an integer array nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once. You can return the answer in any order.
+
+You must write an algorithm that runs in linear runtime complexity and uses only constant extra space.
+
+## 43. Multiply Strings
+
+Why these days always show me the problem I have done before.
+
+Just the Arbitrary-precision arithmetic again.
+
+Start from the start position, use a integer to store the carry bit. Remember ignore the leading zero.
