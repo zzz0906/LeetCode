@@ -62,3 +62,19 @@ Why these days always show me the problem I have done before.
 Just the Arbitrary-precision arithmetic again.
 
 Start from the start position, use a integer to store the carry bit. Remember ignore the leading zero.
+
+## 96. Unique Binary Search Trees
+
+holy it's a mathematical question. [96](../Insigts/96.md)
+
+It's like a DP question. Let's see the situation of 2
+
+it has a left and non right and a right no left => dp[0]\*dp[1] + dp[1]\*dp[0]
+
+for the situation of 3 we have 0,2 1,1 2,0 (the root take up 1 node) we have 2 nodes rest
+
+Thus, we store the number of tree combinations in a dp array. And we take away a node as the root. 
+
+It's actual a Catalan number. we cuase Catalan numbers can be expressed directly in terms of binomial coefficients by
+
+$\pi_{k=2}^n \frac{n + k}{k}$

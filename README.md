@@ -379,3 +379,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |473| [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)| [CPP](./Scripts/473.cpp) | [DP+Tricky+DFS](./ScriptsInsights/473.md) | Medium
 |474| [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)| [CPP](./Scripts/474.cpp) | [DP](./ScriptsInsights/474.md) | Medium
 |475| [Heaters](https://leetcode.com/problems/heaters/)| [CPP](./Scripts/475.cpp) | [Binary Search](./ScriptsInsights/475.md) | Medium
+|477| [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)| [CPP](./Scripts/477.cpp) | [Bit Operations](./ScriptsInsights/477.md) | Medium
