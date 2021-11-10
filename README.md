@@ -42,6 +42,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [456](./Insights/456.md) 132 Pattern
 * [458](./Insights/458.md) Poor Pigs
 * [472](./Insights/472.md) Concatenated Words
+* [479](./Insights/479.md) Largest Palindrome Product
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Fixed Template
@@ -380,3 +381,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |474| [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)| [CPP](./Scripts/474.cpp) | [DP](./ScriptsInsights/474.md) | Medium
 |475| [Heaters](https://leetcode.com/problems/heaters/)| [CPP](./Scripts/475.cpp) | [Binary Search](./ScriptsInsights/475.md) | Medium
 |477| [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)| [CPP](./Scripts/477.cpp) | [Bit Operations](./ScriptsInsights/477.md) | Medium
+|478| [Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)| [CPP](./Scripts/478.cpp) | [Mathematics](./ScriptsInsights/478.md) | Medium
+|479| [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)| [CPP](./Scripts/479.cpp) | [](./ScriptsInsights/479.md) | Hard
