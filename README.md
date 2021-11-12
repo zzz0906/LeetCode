@@ -382,4 +382,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |475| [Heaters](https://leetcode.com/problems/heaters/)| [CPP](./Scripts/475.cpp) | [Binary Search](./ScriptsInsights/475.md) | Medium
 |477| [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)| [CPP](./Scripts/477.cpp) | [Bit Operations](./ScriptsInsights/477.md) | Medium
 |478| [Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)| [CPP](./Scripts/478.cpp) | [Mathematics](./ScriptsInsights/478.md) | Medium
-|479| [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)| [CPP](./Scripts/479.cpp) | [](./ScriptsInsights/479.md) | Hard
+|479| [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)| [CPP](./Scripts/479.cpp) | [Brute Force](./ScriptsInsights/479.md) | Hard
+|480| [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)| [CPP](./Scripts/480.cpp) | [Data Structure](./ScriptsInsights/480.md) | Hard

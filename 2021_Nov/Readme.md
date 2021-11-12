@@ -151,3 +151,6 @@ On each day, you may decide to buy and/or sell the stock. You can only hold at m
 Find and return the maximum profit you can achieve.
 
 It's a greedy algorithm. yes. I think the most Reverso-Context part is the greedy. If we buy in the lower and sell it in a higher we can get the maximum profit. Because!!! If we have a higher in the future, we can buy and sell in the same day. Thus, if the price of future is higher, we still can buy it a day before and earn the profit. Thus, it's a greedy.
+
+## 203. Remove Linked List Elements
+
