@@ -154,3 +154,15 @@ It's a greedy algorithm. yes. I think the most Reverso-Context part is the greed
 
 ## 203. Remove Linked List Elements
 
+## 739. Daily Temperatures
+
+Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.
+
+* 1 <= temperatures.length <= 105
+* 30 <= temperatures[i] <= 100
+
+For this question, it seems to ask to find a bigger value after. Can we do it reversely? The answer for a element will be the value > its and its position. yeap, it seems make sense. But how to do the insert operation. Which data structure is better. First the ds shall keep in order. And we can add an element. Multiset? let me try.
+
+Oh, I think maybe we can use monotone queue? Because smaller value and far away value is meaningless, we only need the bigger one. And the element in monotone queue is the index. Let me try.
+
+AC. Yes. This property is really important, we only need closer and bigger one. Which means, in our queue, we only keep it in the smaller -> bigger. And for the new one, it must be closer, so all the elements in the monotone queue who is smaller than the new one, shall out, they will never be the answer anymore.
