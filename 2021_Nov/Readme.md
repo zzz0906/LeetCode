@@ -166,3 +166,33 @@ For this question, it seems to ask to find a bigger value after. Can we do it re
 Oh, I think maybe we can use monotone queue? Because smaller value and far away value is meaningless, we only need the bigger one. And the element in monotone queue is the index. Let me try.
 
 AC. Yes. This property is really important, we only need closer and bigger one. Which means, in our queue, we only keep it in the smaller -> bigger. And for the new one, it must be closer, so all the elements in the monotone queue who is smaller than the new one, shall out, they will never be the answer anymore.
+
+## 1286. Iterator for Combination
+
+Design the CombinationIterator class:
+
+* CombinationIterator(string characters, int combinationLength) Initializes the object with a string characters of sorted distinct lowercase English letters and a number combinationLength as arguments.
+* next() Returns the next combination of length combinationLength in lexicographical order.
+* hasNext() Returns true if and only if there exists a next combination.
+
+dfs all results? 1 <= combinationLength <= characters.length <= 15
+
+my dfs method is out of date. Use bitmask!
+
+Total subsets possible for "abc" = 2^len("abc") = 2^3 = 8
+Now bitmasks for all 8 subset are as follows:
+Remember In bitmask, indexing goes from LSB to MSB i.e. from right to left.
+For, eg: In string, "afgh" we have 'h' at 0th bit and 'g' at 1th bit, and so on till 'a' at 3rd bit.
+
+* 000      ->      empty string      ->      Empty set (NOT added to our combinations set)
+* 001      ->      "a"               ->      Length of string is 1 and combinationLength is 2, hence NOT added
+* 010      ->      "b"               ->      Same as above
+* 011      ->      "ba"              ->      Length of string = combinationsLength, hence ADDED to combinations set (In sorted order i.e. "ab")
+* 100      ->      "c"               ->      Length of string is 1 and combinationLength is 2, hence NOT added
+* 101      ->      "ca"              ->      Length of string = combinationsLength, hence ADDED to combinations set (In sorted order i.e. "ac")
+* 110      ->      "cb"              ->      Length of string = combinationsLength, hence ADDED to combinations set (In sorted order i.e. "bc")
+* 111      ->      "cba"             ->      Length of string is 3, but combinationsLength is 2 hence NOT added to combinations set
+
+If we iterate these number, it will represent the string. However, for this problem, lexicographical order and no duplicate character. It means, we shall use set. And we can use bitmask for my set as above. And we only need to iterate all it number from 1 to 2^15.
+
+Actually, I consider we can also use dfs for 2^15. For each position, we can do add or do not add to answer string. Overall, we will get a final answer. And we sort the string before. Through this way, we get a 2^15 solution.

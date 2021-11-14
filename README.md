@@ -385,3 +385,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |479| [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)| [CPP](./Scripts/479.cpp) | [Brute Force](./ScriptsInsights/479.md) | Hard
 |480| [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)| [CPP](./Scripts/480.cpp) | [Data Structure](./ScriptsInsights/480.md) | Hard
 |481| [Magical String](https://leetcode.com/problems/magical-string/)| [CPP](./Scripts/481.cpp) | [Mathematics+String Operations](./ScriptsInsights/481.md) | Medium
+|482| [License Key Formatting](https://leetcode.com/problems/license-key-formatting/)| [PY](./Scripts/482.py) | [String Operations](./ScriptsInsights/482.md) | Easy
