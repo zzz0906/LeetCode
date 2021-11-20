@@ -196,3 +196,39 @@ For, eg: In string, "afgh" we have 'h' at 0th bit and 'g' at 1th bit, and so on 
 If we iterate these number, it will represent the string. However, for this problem, lexicographical order and no duplicate character. It means, we shall use set. And we can use bitmask for my set as above. And we only need to iterate all it number from 1 to 2^15.
 
 Actually, I consider we can also use dfs for 2^15. For each position, we can do add or do not add to answer string. Overall, we will get a final answer. And we sort the string before. Through this way, we get a 2^15 solution.
+
+## 62. Unique Paths
+
+A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
+
+The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
+
+How many possible unique paths are there?
+
+A typical DP problem. f[i][j] = f[i-1][j] + f[i][j-1]; AC.
+
+## 448. Find All Numbers Disappeared in an Array
+
+Just put the value in the locations where its value is. 1 to 1, and all scan in the final time. If the index do not match value put them into the answer array.
+
+## 540. Single Element in a Sorted Array
+
+You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.
+
+Return the single element that appears only once.
+
+Your solution must run in O(log n) time and O(1) space.
+
+we have to perform binary search in the array. But how to move left or right? If each number appears twice, then it will be 11 22 33 44
+
+and for the odd length n. down(n/2) -> means the middle, let me give an example
+
+01 23 45 6 => single one in the right for 3
+
+01 2 34 56 => single one in the left for 3
+
+So, we can determine which one is the duplicate to decide to move to the next or right? let me try.
+
+Also, we need to return the value.
+
+And, for the final binary search iteration, we reach right and right + 1 as left. We still have to determine which one is single by their adjacent value and determine whether we reach the first and last index. Because it will do not have left or right value when we in the start and end.
