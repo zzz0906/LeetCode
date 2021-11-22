@@ -14,7 +14,7 @@ public:
             this->index = index;
         }
     };
-    vector<int> dailyTemperatures(vector<int>& temperatures) {
+    vector<int> dailyTemperatures(std::vector<int>& temperatures) {
         // vector<Vindex> temp;
         // for (int i = 0; i < temperatures.size(); i++) {
         //     temp.push_back(Vindex(temperatures[i], i));
@@ -48,3 +48,6 @@ public:
         return res;
     }
 };
+int main(){
+    cout << 1 << endl;
+}

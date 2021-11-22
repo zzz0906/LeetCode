@@ -37,3 +37,7 @@ public:
         return nums[left];
     }
 };
+int main(){
+	vector<int> s;
+	cout << 1 << endl;
+}

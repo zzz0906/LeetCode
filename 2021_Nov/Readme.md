@@ -232,3 +232,23 @@ So, we can determine which one is the duplicate to decide to move to the next or
 Also, we need to return the value.
 
 And, for the final binary search iteration, we reach right and right + 1 as left. We still have to determine which one is single by their adjacent value and determine whether we reach the first and last index. Because it will do not have left or right value when we in the start and end.
+
+## 106. Construct Binary Tree from Inorder and Postorder Traversal
+
+[have done this problem before](../Insights/106.md).
+
+we shall use post order to determine the split point. Because the inorder is left root right; postorder is left right root. Thus, we know the last one of postorder is root, this node's position in the inorder's left size is the size of left tree. We can extract this part to build a left tree recursively. The right tree shall be built in the same way. Thus, we can do it by split two vector and build tree recursively.
+
+## 450. Delete Node in a BST
+
+[also done before](../Insights/450.md)
+
+we seem to find the node, and delete it. if it has children, then replace them with child, if child do not have children, we can only replace current one with its children and do not link the children.
+
+my solution is to swap (delete value) with (the smallest value in its right tree.)
+
+```
+while (cur->left) cur = cur->left;
+root->val = cur->val;
+root->right = deleteNode(root->right, cur->val);
+```
