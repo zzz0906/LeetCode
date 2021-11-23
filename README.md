@@ -1,4 +1,4 @@
-# LeetCode Recording
+# LeetCode Record
 
 Practicing my programming skill day by day
 
@@ -390,3 +390,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |485| [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [CPP](./Scripts/485.cpp) | [Tricky](./ScriptsInsights/485.md) | Easy
 |486| [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [CPP](./Scripts/486.cpp) | [DP](./ScriptsInsights/486.md) | Medium
 |488| [Zuma Game](https://leetcode.com/problems/zuma-game/)| [PY](./Scripts/488.py) | [Brute Force](./ScriptsInsights/488.md) | Hard
+|491| [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)| [PY](./Scripts/491.py) | [Brute Force](./ScriptsInsights/491.md) | Medium

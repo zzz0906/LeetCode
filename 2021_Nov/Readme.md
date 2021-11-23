@@ -252,3 +252,37 @@ while (cur->left) cur = cur->left;
 root->val = cur->val;
 root->right = deleteNode(root->right, cur->val);
 ```
+
+## 952. Largest Component Size by Common Factor
+
+You are given an integer array of unique positive integers nums. Consider the following graph:
+
+* There are nums.length nodes, labeled nums[0] to nums[nums.length - 1],
+* There is an undirected edge between nums[i] and nums[j] if nums[i] and nums[j] share a common factor greater than 1.
+
+Return the size of the largest connected component in the graph.
+
+* 1 <= nums.length <= 2 * 104
+* 1 <= nums[i] <= 105
+
+All the values of nums are unique.
+
+we may have nums.length*nums.length edges. 2\*10^8 solution, thus, we must optimize this problem. some number like 6 can share factors of 2 and 3. can we use some solution like disjoint set? factors -> set. But how to map this relationship? we can use a number to represent the factors. we shall find the factors of one number. 
+
+How to find factors of one number efficiently？ can preprocess all prime factors first (< 10^5). Or we can use below algorithms:
+
+1. divid 2 first
+2. the rest of num must be the odd number. we only need to iterate all odd number from 1-sqrt(n)
+3. why only need to sqrt(n)? let me assume there are two factors > sqrt(n) and they are sqrt(n) + k and sqrt(n) + (l). Mutiply them we will get n + ksqrt(n) + lsqrt(n) + lk > n; Thus, there may be one factors > sqrt(n)
+
+Then, our algorithm turn into (10^2.5) then O(sqrt(nums[i])*nums.length) is affordable!
+
+oh...I still have to use disjoint set. I must think about a new way to solve it. I still need to use a disjoint set.
+
+I spend almost of my time for this problem... let me see the std solution.
+
+yeah, my idea is correct. But my implementation is so poor. let me see the std solution.
+
+the std idea use another way. I hope to merge all the elements. If they share factors, I will extract their factors and multiply them. But std do not do that. The std get all the number from 2 - maxelements. And if they have an elements 2, then it will link to 2. like, 2 -> 2, 6 will link to 3 and 2. and first it will link to 2 and then it will let 2 link to 3. Thus, we connect 2 and 3 by 6. So, in std's idea, it will find an element to take as the root of the factor.
+
+AND most important!!! how to calculate the answer. Now all the element share factors will link to the same root. Thus, we only need to count the number of children for the root. We can use a hashset, and ++ for each root of each number. AC!
