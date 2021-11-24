@@ -286,3 +286,22 @@ yeah, my idea is correct. But my implementation is so poor. let me see the std s
 the std idea use another way. I hope to merge all the elements. If they share factors, I will extract their factors and multiply them. But std do not do that. The std get all the number from 2 - maxelements. And if they have an elements 2, then it will link to 2. like, 2 -> 2, 6 will link to 3 and 2. and first it will link to 2 and then it will let 2 link to 3. Thus, we connect 2 and 3 by 6. So, in std's idea, it will find an element to take as the root of the factor.
 
 AND most important!!! how to calculate the answer. Now all the element share factors will link to the same root. Thus, we only need to count the number of children for the root. We can use a hashset, and ++ for each root of each number. AC!
+
+## 986. Interval List Intersections
+
+ou are given two lists of closed intervals, firstList and secondList, where firstList[i] = [starti, endi] and secondList[j] = [startj, endj]. Each list of intervals is pairwise disjoint and in sorted order.
+
+Return the intersection of these two interval lists.
+
+A closed interval [a, b] (with a <= b) denotes the set of real numbers x with a <= x <= b.
+
+The intersection of two closed intervals is a set of real numbers that are either empty or represented as a closed interval. For example, the intersection of [1, 3] and [2, 4] is [2, 3].
+
+* 0 <= firstList.length, secondList.length <= 1000
+* firstList.length + secondList.length >= 1
+* 0 <= starti < endi <= 109
+* endi < starti+1
+* 0 <= startj < endj <= 109
+* endj < startj+1
+
+can we use two pointer to point current intervals? we only need to move the disjointset who has smaller right interval. and count the current joint interface. The time complexity is O(n). let me try. oh holy...AC
