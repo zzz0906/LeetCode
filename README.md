@@ -49,6 +49,8 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 
 * [Trie](./Scripts/Trie.cpp) - [472](./Insights/472.md)
 * [PairHash](./Scripts/PairHash.cpp)
+* [Disjoint set](./Scripts/disjointSet.cpp)
+* [Fenwick Tree](./Scripts/FenwickTree.cpp)
 
  
 ## Summary Table
@@ -393,3 +395,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |491| [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)| [PY](./Scripts/491.py) | [Brute Force]
 (./ScriptsInsights/491.md) | Medium
 |492| [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)| [CPP](./Scripts/492.cpp) | [Tricky](./ScriptsInsights/492.md) | Easy
+|493| [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)| [CPP](./Scripts/493.cpp) | [Data Structure](./ScriptsInsights/493.md) | Hard

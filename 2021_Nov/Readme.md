@@ -305,3 +305,17 @@ The intersection of two closed intervals is a set of real numbers that are eithe
 * endj < startj+1
 
 can we use two pointer to point current intervals? we only need to move the disjointset who has smaller right interval. and count the current joint interface. The time complexity is O(n). let me try. oh holy...AC
+
+## 53. Maximum Subarray
+
+Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
+A subarray is a contiguous part of an array.
+
+it must use a slides window. But when to move the left pointer? when cur sum of slides window < 0? We just move the left poitner of the slides window. Also, if the next left value is less than 0, we can move the left pointer. AC!
+
+the interval must begin at a positive number. my last time use a similar idea. We only need to care whose prefix sum > 0 and accumulate them can results in bigger value. 
+
+But how to use divide and conquer? the std give us a solution. We can store the maximum range value for the left and also maximum range value for the right, and compare them with combine left and right's expand from the middle point. 
+
+And summarize the solution above, we only store the positive value before. cursum = max(cursum + nums[i], nums[i]). Positive accumlated sum can let the answer be bigger! if our sum reach negative, we can drop it. Because the element we just added to the currentsum result in negative, if we want the answer to be continuous, we must add it, thus, we will introduce a negative sum for the next one, we shall drop it.
