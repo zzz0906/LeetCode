@@ -319,3 +319,13 @@ the interval must begin at a positive number. my last time use a similar idea. W
 But how to use divide and conquer? the std give us a solution. We can store the maximum range value for the left and also maximum range value for the right, and compare them with combine left and right's expand from the middle point. 
 
 And summarize the solution above, we only store the positive value before. cursum = max(cursum + nums[i], nums[i]). Positive accumlated sum can let the answer be bigger! if our sum reach negative, we can drop it. Because the element we just added to the currentsum result in negative, if we want the answer to be continuous, we must add it, thus, we will introduce a negative sum for the next one, we shall drop it.
+
+## 35. Search Insert Position
+
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+lower bound...return an pointer not less than the current element, if target < all elements, it will return the first index. if no such element, it will return the .end() pos.
+
+AC.
