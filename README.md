@@ -396,4 +396,8 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |492| [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)| [CPP](./Scripts/492.cpp) | [Tricky](./ScriptsInsights/492.md) | Easy
 |493| [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)| [CPP](./Scripts/493.cpp) | [Data Structure](./ScriptsInsights/493.md) | Hard
 |494| [Target Sum](https://leetcode.com/problems/target-sum/)| [CPP](./Scripts/494.cpp) | [Brute Force + DP](./ScriptsInsights/494.md) | Medium
-|495| [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)| [CPP](./Scripts/495.cpp) | [Simulation](./ScriptsInsights/495.md) | Easy
+|495| [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)| [CPP](./Scripts/495.cpp) | [Simulation](./ScrptsInsights/495.md) | Easy
+|496| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)| [CPP](./Scripts/496.cpp) | [Data Structure](./ScriptsInsights/496.md) | Easy
+|497| [Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)| [CPP](./Scripts/497.cpp) | [Data Structure](./ScriptsInsights/497.md) | Medium
+|498| [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)| [PY](./Scripts/498.py) | [Tricky](./ScriptsInsights/498.md) | Medium
+|500| [Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [PY](./Scripts/500.py) | [Tricky](./ScriptsInsights/500.md) | Easy

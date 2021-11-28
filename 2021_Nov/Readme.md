@@ -344,3 +344,11 @@ we can store a global product except 0. And flag the position of zero. yes my pa
 * 2. cur except nums[i] == 0 and zero >= 1
 * 3. cur except nums[i] != 0 and zero >= 1
 * 4. cur except nums[i] != 0 and zero >= 1
+
+## 797. All Paths From Source to Target
+
+Given a directed acyclic graph (DAG) of n nodes labeled from 0 to n - 1, find all possible paths from node 0 to node n - 1 and return them in any order.
+
+The graph is given as follows: graph[i] is a list of all nodes you can visit from node i (i.e., there is a directed edge from node i to node graph[i][j]).
+
+dfs? return the curnode + future path to do a recursive. yes ac.
