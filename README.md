@@ -398,6 +398,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |494| [Target Sum](https://leetcode.com/problems/target-sum/)| [CPP](./Scripts/494.cpp) | [Brute Force + DP](./ScriptsInsights/494.md) | Medium
 |495| [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)| [CPP](./Scripts/495.cpp) | [Simulation](./ScrptsInsights/495.md) | Easy
 |496| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)| [CPP](./Scripts/496.cpp) | [Data Structure](./ScriptsInsights/496.md) | Easy
-|497| [Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)| [CPP](./Scripts/497.cpp) | [Data Structure](./ScriptsInsights/497.md) | Medium
+|497| [Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)| [CPP](./Scripts/497.cpp) | [Binary Search](./ScriptsInsights/497.md) | Medium
 |498| [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)| [PY](./Scripts/498.py) | [Tricky](./ScriptsInsights/498.md) | Medium
 |500| [Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [PY](./Scripts/500.py) | [Tricky](./ScriptsInsights/500.md) | Easy
+|501| [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)| [PY](./Scripts/501.py) | [Data Structure](./ScriptsInsights/501.md) | Easy
