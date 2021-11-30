@@ -364,3 +364,39 @@ After merging the accounts, return the accounts in the following format: the fir
 oh...disjoint set by the same mail? A B, A C, C,D => A,B,C,D
 
 map => mail to mail a root mail contain lots of child mails => disjoint set. Let me try to use this idea. We also need to map root mail -> its corresponding owner's name. Overall AC!
+
+## 85. Maximal Rectangle
+
+Given a rows x cols binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.
+
+I remember this problem is a [DP](../Insights/85.md)? we accumulate row's 1? It's an idea we scan the array, accumulate a height and keep scanning the same height in the next row.
+
+std use an array height to store the continous 1 in current row i of the array. Also, we won't clear the height! the height's elements will keep. So it has the continous 1 before.
+
+oh! careful. The std idea is to scan from first row to last row and accumulate the 1 by column. 
+
+2 3 4 indicates a graph as below:
+
+0 0 1
+
+0 1 1
+
+1 1 1
+ 
+1 1 1
+
+then we can have 4*1 3*2 2*3 we need to pop out stack reversely. so the problem turn into
+
+2 3 4 we need to calcualte the are. Thus, it's a histogram graph (like figure above). We have three histograms. thus, we need to find the rules. It's a monotonic queue!! we only need store the smaller one, because it may result in more connection. for example, 4->4->5->3->2. Thus, we need to pop out 4 3 3 and to calculate the area. OH!!! I know, if we pop out all the elements it means we can use the i as the whole index length!
+
+```
+res = max(res, height[tmp] * (s.empty() ? i : (i - s.top() - 1)));
+```
+
+understanding this line of code is keen to our problem.
+
+Overall
+
+1. start from each row and take it as a histogram that accumlated '1'
+2. get largest area of the histograms
+
