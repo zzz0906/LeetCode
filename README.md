@@ -43,6 +43,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [458](./Insights/458.md) Poor Pigs
 * [472](./Insights/472.md) Concatenated Words
 * [479](./Insights/479.md) Largest Palindrome Product
+* [502](./Insights/502.md) IPO
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Fixed Template
@@ -402,3 +403,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |498| [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)| [PY](./Scripts/498.py) | [Tricky](./ScriptsInsights/498.md) | Medium
 |500| [Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [PY](./Scripts/500.py) | [Tricky](./ScriptsInsights/500.md) | Easy
 |501| [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)| [PY](./Scripts/501.py) | [Data Structure](./ScriptsInsights/501.md) | Easy
+|502| [IPO](https://leetcode.com/problems/ipo/)| [PY](./Scripts/502.py) | [Greedy](./ScriptsInsights/502.md) | Hard

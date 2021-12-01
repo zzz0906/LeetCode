@@ -399,4 +399,3 @@ Overall
 
 1. start from each row and take it as a histogram that accumlated '1'
 2. get largest area of the histograms
-
