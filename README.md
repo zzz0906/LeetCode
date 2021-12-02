@@ -404,3 +404,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |500| [Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [PY](./Scripts/500.py) | [Tricky](./ScriptsInsights/500.md) | Easy
 |501| [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)| [PY](./Scripts/501.py) | [Data Structure](./ScriptsInsights/501.md) | Easy
 |502| [IPO](https://leetcode.com/problems/ipo/)| [PY](./Scripts/502.py) | [Greedy](./ScriptsInsights/502.md) | Hard
+|503| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)| [PY](./Scripts/503.py) | [Greedy](./ScriptsInsights/503.md) | Medium
