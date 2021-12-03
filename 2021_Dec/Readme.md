@@ -34,3 +34,13 @@ I find a std who impelement my idea perfect!
 * use 1 as the odd head, 2 as even number
 * move two step each time and link them
 * link 1 and 2
+
+## 152. Maximum Product Subarray
+
+Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product.
+
+It is guaranteed that the answer will fit in a 32-bit integer.
+
+A subarray is a contiguous subsequence of the array.
+
+[done before](../Insights/152.md) we can use the prefix product, but there will be some zero, for example, 1,0,5,3,4. The std answer use dp. Because continous array must have an ending. we use f[i] to represent the maximum continous array ending in the i. because the negative value will turn into positive biggest. Thus, we store a minimum and maximum as the dp value. We can get three values - f[i] = f1[i-1]*nums[i], nums[i], f2[i-1]*nums[i].
