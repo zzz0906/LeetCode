@@ -44,3 +44,24 @@ It is guaranteed that the answer will fit in a 32-bit integer.
 A subarray is a contiguous subsequence of the array.
 
 [done before](../Insights/152.md) we can use the prefix product, but there will be some zero, for example, 1,0,5,3,4. The std answer use dp. Because continous array must have an ending. we use f[i] to represent the maximum continous array ending in the i. because the negative value will turn into positive biggest. Thus, we store a minimum and maximum as the dp value. We can get three values - f[i] = f1[i-1]*nums[i], nums[i], f2[i-1]*nums[i].
+
+## 1032. Stream of Characters
+
+
+## 337. House Robber III
+
+[done before] but in another daily challenge
+
+just dfs and we compare root + left left + left right + right right + right left and root left + root right! (we cannot steal adjacent)
+
+and use a unordered map as the memory search.
+
+AC!
+
+## 1290. Convert Binary Number in a Linked List to Integer
+
+I remember I have done it before in a daily challenge.
+
+Actually it's easy. just store the exp and multiply it to the answer.
+
+

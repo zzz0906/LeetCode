@@ -377,32 +377,36 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |464| [Can I Win](https://leetcode.com/problems/can-i-win/)| [PY](./Scripts/464.py) | [BFS](./Insights/464.md) | Medium
 |466| [Count The Repetitions](https://leetcode.com/problems/count-the-repetitions/)| [CPP](./Scripts/466.cpp) | [Tricky+String Operations](./Insights/466.md) | Hard
 |467| [Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)| [CPP](./Scripts/467.cpp) | [Tricky](./Insights/467.md) | Medium
-|468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [PY](./Scripts/468.py) | [String Operations](./ScriptsInsights/468.md) | Medium
-|470| [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)| [CPP](./Scripts/470.cpp) | [Mathematics](./ScriptsInsights/470.md) | Medium
-|472| [Concatenated Words](https://leetcode.com/problems/concatenated-words/)| [CPP](./Scripts/472.cpp) | [Tricky+DP+String Operations](./ScriptsInsights/472.md) | Hard
-|473| [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)| [CPP](./Scripts/473.cpp) | [DP+Tricky+DFS](./ScriptsInsights/473.md) | Medium
-|474| [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)| [CPP](./Scripts/474.cpp) | [DP](./ScriptsInsights/474.md) | Medium
-|475| [Heaters](https://leetcode.com/problems/heaters/)| [CPP](./Scripts/475.cpp) | [Binary Search](./ScriptsInsights/475.md) | Medium
-|477| [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)| [CPP](./Scripts/477.cpp) | [Bit Operations](./ScriptsInsights/477.md) | Medium
-|478| [Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)| [CPP](./Scripts/478.cpp) | [Mathematics](./ScriptsInsights/478.md) | Medium
-|479| [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)| [CPP](./Scripts/479.cpp) | [Brute Force](./ScriptsInsights/479.md) | Hard
-|480| [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)| [CPP](./Scripts/480.cpp) | [Data Structure](./ScriptsInsights/480.md) | Hard
-|481| [Magical String](https://leetcode.com/problems/magical-string/)| [CPP](./Scripts/481.cpp) | [Mathematics+String Operations](./ScriptsInsights/481.md) | Medium
-|482| [License Key Formatting](https://leetcode.com/problems/license-key-formatting/)| [PY](./Scripts/482.py) | [String Operations](./ScriptsInsights/482.md) | Easy
-|483| [Smallest Good Base](https://leetcode.com/problems/smallest-good-base/)| [CPP](./Scripts/483.cpp) | [Mathematics](./ScriptsInsights/483.md) | Hard
-|485| [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [CPP](./Scripts/485.cpp) | [Tricky](./ScriptsInsights/485.md) | Easy
-|486| [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [CPP](./Scripts/486.cpp) | [DP](./ScriptsInsights/486.md) | Medium
-|488| [Zuma Game](https://leetcode.com/problems/zuma-game/)| [PY](./Scripts/488.py) | [Brute Force](./ScriptsInsights/488.md) | Hard
-|491| [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)| [PY](./Scripts/491.py) | [Brute Force](./ScriptsInsights/491.md) | Medium
-|492| [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)| [CPP](./Scripts/492.cpp) | [Tricky](./ScriptsInsights/492.md) | Easy
-|493| [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)| [CPP](./Scripts/493.cpp) | [Data Structure](./ScriptsInsights/493.md) | Hard
-|494| [Target Sum](https://leetcode.com/problems/target-sum/)| [CPP](./Scripts/494.cpp) | [Brute Force + DP](./ScriptsInsights/494.md) | Medium
+|468| [Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [PY](./Scripts/468.py) | [String Operations](./Insights/468.md) | Medium
+|470| [Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)| [CPP](./Scripts/470.cpp) | [Mathematics](./Insights/470.md) | Medium
+|472| [Concatenated Words](https://leetcode.com/problems/concatenated-words/)| [CPP](./Scripts/472.cpp) | [Tricky+DP+String Operations](./Insights/472.md) | Hard
+|473| [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)| [CPP](./Scripts/473.cpp) | [DP+Tricky+DFS](./Insights/473.md) | Medium
+|474| [Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)| [CPP](./Scripts/474.cpp) | [DP](./Insights/474.md) | Medium
+|475| [Heaters](https://leetcode.com/problems/heaters/)| [CPP](./Scripts/475.cpp) | [Binary Search](./Insights/475.md) | Medium
+|477| [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)| [CPP](./Scripts/477.cpp) | [Bit Operations](./Insights/477.md) | Medium
+|478| [Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle/)| [CPP](./Scripts/478.cpp) | [Mathematics](./Insights/478.md) | Medium
+|479| [Largest Palindrome Product](https://leetcode.com/problems/largest-palindrome-product/)| [CPP](./Scripts/479.cpp) | [Brute Force](./Insights/479.md) | Hard
+|480| [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)| [CPP](./Scripts/480.cpp) | [Data Structure](./Insights/480.md) | Hard
+|481| [Magical String](https://leetcode.com/problems/magical-string/)| [CPP](./Scripts/481.cpp) | [Mathematics+String Operations](./Insights/481.md) | Medium
+|482| [License Key Formatting](https://leetcode.com/problems/license-key-formatting/)| [PY](./Scripts/482.py) | [String Operations](./Insights/482.md) | Easy
+|483| [Smallest Good Base](https://leetcode.com/problems/smallest-good-base/)| [CPP](./Scripts/483.cpp) | [Mathematics](./Insights/483.md) | Hard
+|485| [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)| [CPP](./Scripts/485.cpp) | [Tricky](./Insights/485.md) | Easy
+|486| [Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [CPP](./Scripts/486.cpp) | [DP](./Insights/486.md) | Medium
+|488| [Zuma Game](https://leetcode.com/problems/zuma-game/)| [PY](./Scripts/488.py) | [Brute Force](./Insights/488.md) | Hard
+|491| [Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/)| [PY](./Scripts/491.py) | [Brute Force](./Insights/491.md) | Medium
+|492| [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)| [CPP](./Scripts/492.cpp) | [Tricky](./Insights/492.md) | Easy
+|493| [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)| [CPP](./Scripts/493.cpp) | [Data Structure](./Insights/493.md) | Hard
+|494| [Target Sum](https://leetcode.com/problems/target-sum/)| [CPP](./Scripts/494.cpp) | [Brute Force + DP](./Insights/494.md) | Medium
 |495| [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)| [CPP](./Scripts/495.cpp) | [Simulation](./ScrptsInsights/495.md) | Easy
-|496| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)| [CPP](./Scripts/496.cpp) | [Data Structure](./ScriptsInsights/496.md) | Easy
-|497| [Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)| [CPP](./Scripts/497.cpp) | [Binary Search](./ScriptsInsights/497.md) | Medium
-|498| [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)| [PY](./Scripts/498.py) | [Tricky](./ScriptsInsights/498.md) | Medium
-|500| [Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [PY](./Scripts/500.py) | [Tricky](./ScriptsInsights/500.md) | Easy
-|501| [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)| [PY](./Scripts/501.py) | [Data Structure](./ScriptsInsights/501.md) | Easy
-|502| [IPO](https://leetcode.com/problems/ipo/)| [PY](./Scripts/502.py) | [Greedy](./ScriptsInsights/502.md) | Hard
-|503| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)| [PY](./Scripts/503.py) | [Data Structure](./ScriptsInsights/503.md) | Medium
-|504| [Base 7](https://leetcode.com/problems/base-7/) | [PY](./Scripts/504.py) | [Tricky](./ScriptsInsights/504.md) | Easy
+|496| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)| [CPP](./Scripts/496.cpp) | [Data Structure](./Insights/496.md) | Easy
+|497| [Random Point in Non-overlapping Rectangles](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)| [CPP](./Scripts/497.cpp) | [Binary Search](./Insights/497.md) | Medium
+|498| [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)| [PY](./Scripts/498.py) | [Tricky](./Insights/498.md) | Medium
+|500| [Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [PY](./Scripts/500.py) | [Tricky](./Insights/500.md) | Easy
+|501| [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)| [PY](./Scripts/501.py) | [Data Structure](./Insights/501.md) | Easy
+|502| [IPO](https://leetcode.com/problems/ipo/)| [PY](./Scripts/502.py) | [Greedy](./Insights/502.md) | Hard
+|503| [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)| [PY](./Scripts/503.py) | [Data Structure](./Insights/503.md) | Medium
+|504| [Base 7](https://leetcode.com/problems/base-7/) | [PY](./Scripts/504.py) | [Tricky](./Insights/504.md) | Easy
+|506| [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [PY](./Scripts/506.py) | [Data Structure](./Insights/506.md) | Easy
+|507| [Perfect Number](https://leetcode.com/problems/perfect-number/) | [PY](./Scripts/507.py) | [Tricky](./Insights/507.md) | Easy
+|508| [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [PY](./Scripts/508.py) | [Data Structure](./Insights/508.md) | Medium
+
