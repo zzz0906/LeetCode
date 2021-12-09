@@ -409,4 +409,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |506| [Relative Ranks](https://leetcode.com/problems/relative-ranks/) | [PY](./Scripts/506.py) | [Data Structure](./Insights/506.md) | Easy
 |507| [Perfect Number](https://leetcode.com/problems/perfect-number/) | [PY](./Scripts/507.py) | [Tricky](./Insights/507.md) | Easy
 |508| [Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [PY](./Scripts/508.py) | [Data Structure](./Insights/508.md) | Medium
-
+|509| [Most Frequent Subtree Sum](https://leetcode.com/problems/fibonacci-number/) | [PY](./Scripts/509.py) | [Simulation](./Insights/509.md) | Easy
+|513| [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [PY](./Scripts/513.py) | [Data Structure](./Insights/513.md) | Medium

@@ -45,9 +45,6 @@ A subarray is a contiguous subsequence of the array.
 
 [done before](../Insights/152.md) we can use the prefix product, but there will be some zero, for example, 1,0,5,3,4. The std answer use dp. Because continous array must have an ending. we use f[i] to represent the maximum continous array ending in the i. because the negative value will turn into positive biggest. Thus, we store a minimum and maximum as the dp value. We can get three values - f[i] = f1[i-1]*nums[i], nums[i], f2[i-1]*nums[i].
 
-## 1032. Stream of Characters
-
-
 ## 337. House Robber III
 
 [done before] but in another daily challenge
@@ -64,4 +61,16 @@ I remember I have done it before in a daily challenge.
 
 Actually it's easy. just store the exp and multiply it to the answer.
 
+## 1306. Jump Game III
 
+Given an array of non-negative integers arr, you are initially positioned at start index of the array. When you are at index i, you can jump to i + arr[i] or i - arr[i], check if you can reach to any index with value 0.
+
+Notice that you can not jump outside of the array at any time.
+
+DP? I remember I have done this problem in high school.
+
+this is a graph. And we to know whether index 0 can reach each nodes. Can we use dfs? it most have 2*5*10^4 nodes and edges. I guess so. we can use such solution.
+
+we build the graph and start from the nodes and we do not traverse the same node twice.
+
+yep, ac. And when we reach zero, we return all the dfs stack.
