@@ -74,3 +74,18 @@ this is a graph. And we to know whether index 0 can reach each nodes. Can we use
 we build the graph and start from the nodes and we do not traverse the same node twice.
 
 yep, ac. And when we reach zero, we return all the dfs stack.
+
+## 416. Partition Equal Subset Sum
+
+done before. the problem only need to divide the array into two subset.
+
+* 1 <= nums.length <= 200
+* 1 <= nums[i] <= 100
+
+the sum can be treated as the index of array. we can use f[sum - i] | f[i] to update the f[i]
+
+## 938. Range Sum of BST
+
+Given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].
+
+dfs and determine whether the sum is between the range sum?
