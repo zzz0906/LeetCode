@@ -89,3 +89,24 @@ the sum can be treated as the index of array. we can use f[sum - i] | f[i] to up
 Given the root node of a binary search tree and two integers low and high, return the sum of values of all nodes with a value in the inclusive range [low, high].
 
 dfs and determine whether the sum is between the range sum?
+
+## 147. Insertion Sort List
+
+done before! simulate insertion. be careful with linked list implementation.
+
+## 310. Minimum Height Trees
+
+A tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree.
+
+Given a tree of n nodes labelled from 0 to n - 1, and an array of n - 1 edges where edges[i] = [ai, bi] indicates that there is an undirected edge between the two nodes ai and bi in the tree, you can choose any node of the tree as the root. When you select a node x as the root, the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h))  are called minimum height trees (MHTs).
+
+Return a list of all MHTs' root labels. You can return the answer in any order.
+
+The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.
+
+It's clear we shall use the middle point of the key path in the tree.
+
+[done before](../Insights/310.md) 
+
+yep, but the correct answer is to use topology sort. we need to push_back the vertex with more degree as more as possible. And we shall sort to unitl we have only 2 vertices. because less degree, more nodes means more nodes are in the depth places, thus we need to do the topolgy sort.
+
