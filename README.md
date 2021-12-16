@@ -46,7 +46,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [502](./Insights/502.md) IPO
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
-## Fixed Template
+## Template
 
 * [Trie](./Scripts/Trie.cpp) - [472](./Insights/472.md)
 * [PairHash](./Scripts/PairHash.cpp)
