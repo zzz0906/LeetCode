@@ -44,6 +44,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [472](./Insights/472.md) Concatenated Words
 * [479](./Insights/479.md) Largest Palindrome Product
 * [502](./Insights/502.md) IPO
+* [516](./Insights/516.md) Longest Palindromic Subsequence == LCS
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Template
@@ -228,6 +229,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |217| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | [C++](./Scripts/217.cpp) | [Data Structure](./Insights/217.md) | Easy
 |218| [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem) | [C++](./Scripts/218.cpp) | [Simulation](./Insights/218.md) | Hard
 |219| [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii) | [C++](./Scripts/219.cpp) | [Data Structure](./Insights/219.md) | Easy
+|221| [Maximal Square](https://leetcode.com/problems/maximal-square/) | [C++](./2021_Dec/17.cpp) | [DP](./2021_Dec/Readme.md) | Medium
 |222| [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes) | [C++](./Scripts/222.cpp) | [Recursion](./Insights/222.md) | Medium
 |223| [Rectangle Area](https://leetcode.com/problems/rectangle-area) | [C++](./Scripts/223.cpp) | [Tricky](./Insights/223.md) | Medium
 |224| [Basic Calculator](https://leetcode.com/problems/basic-calculator) | [PY](./Scripts/224.py) | [Stack](./Insights/224.md) | Hard
@@ -413,3 +415,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |513| [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [PY](./Scripts/513.py) | [Data Structure](./Insights/513.md) | Medium
 |514| [Freedom Trail](https://leetcode.com/problems/freedom-trail/) | [CPP](./Scripts/514_std.cpp) | [DP](./Insights/514.md) | Hard
 |515| [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [PY](./Scripts/515.py) | [Data Structure](./Insights/515.md) | Medium
+|516| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/dd) | [PY](./Scripts/516_std.py) | [DP](./Insights/516.md) | Medium

@@ -110,3 +110,12 @@ It's clear we shall use the middle point of the key path in the tree.
 
 yep, but the correct answer is to use topology sort. we need to push_back the vertex with more degree as more as possible. And we shall sort to unitl we have only 2 vertices. because less degree, more nodes means more nodes are in the depth places, thus we need to do the topolgy sort.
 
+## 221. Maximal Square
+
+Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
+
+Interesting, I have no idea even I have done this before. Let me see my past solution. I use a 2d array - answer to store the maximum square we can build using this node as the most right down cornor nodes.
+
+Using this condition, we do not need to check the 1 and 0 of the sqaures above. Because, we can use f[i-1][j-1] => to expand current i,j. But we shall check the matrix from f[i-1][j-1] => last line's maximal square, f[i-1][j-1] most right 1 because it's 1's sqaure, we need to j - check most right 1 - j is still all 1. If not, we need to find the nearest 0 and break. In the same way, we can find the longest vertical 1 for the column j. And because we have use f[i-1][j-1] to represent the square in the left upper square. If our check all of them are 1, then the maximal square for i,j is f[i-1,j-1] ohterwise f[i,j] is the minimal of (column's longest 1 and row's longest 1).
+
+AC!
