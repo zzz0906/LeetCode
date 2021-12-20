@@ -119,3 +119,18 @@ Interesting, I have no idea even I have done this before. Let me see my past sol
 Using this condition, we do not need to check the 1 and 0 of the sqaures above. Because, we can use f[i-1][j-1] => to expand current i,j. But we shall check the matrix from f[i-1][j-1] => last line's maximal square, f[i-1][j-1] most right 1 because it's 1's sqaure, we need to j - check most right 1 - j is still all 1. If not, we need to find the nearest 0 and break. In the same way, we can find the longest vertical 1 for the column j. And because we have use f[i-1][j-1] to represent the square in the left upper square. If our check all of them are 1, then the maximal square for i,j is f[i-1,j-1] ohterwise f[i,j] is the minimal of (column's longest 1 and row's longest 1).
 
 AC!
+
+## 1200. Minimum Absolute Difference
+
+Given an array of distinct integers arr, find all pairs of elements with the minimum absolute difference of any two elements. 
+
+Return a list of pairs in ascending order(with respect to pairs), each pair [a, b] follows
+
+a, b are from arr
+a < b
+b - a equals to the minimum absolute difference of any two elements in arr
+
+2 <= arr.length <= 10^5
+-10^6 <= arr[i] <= 10^6
+
+sort it and then the minimum absolute diff will be the adjacent element for the current elements. Thus we can put them into the answre list. let me try.

@@ -45,6 +45,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [479](./Insights/479.md) Largest Palindrome Product
 * [502](./Insights/502.md) IPO
 * [516](./Insights/516.md) Longest Palindromic Subsequence == LCS
+* [517](./Insights/517.md) Super Washing Machines
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Template
@@ -416,3 +417,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |514| [Freedom Trail](https://leetcode.com/problems/freedom-trail/) | [CPP](./Scripts/514_std.cpp) | [DP](./Insights/514.md) | Hard
 |515| [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [PY](./Scripts/515.py) | [Data Structure](./Insights/515.md) | Medium
 |516| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/dd) | [PY](./Scripts/516_std.py) | [DP](./Insights/516.md) | Medium
+|517| [Super Washing Machines](https://leetcode.com/problems/super-washing-machines/) | [PY](./Scripts/517.py) | [Greedy](./Insights/517.md) | Hard
