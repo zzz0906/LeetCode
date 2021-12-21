@@ -418,3 +418,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |515| [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [PY](./Scripts/515.py) | [Data Structure](./Insights/515.md) | Medium
 |516| [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/dd) | [PY](./Scripts/516_std.py) | [DP](./Insights/516.md) | Medium
 |517| [Super Washing Machines](https://leetcode.com/problems/super-washing-machines/) | [PY](./Scripts/517.py) | [Greedy](./Insights/517.md) | Hard
+|518| [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [CPP](./Scripts/518.cpp) | [DP](./Insights/518.md) | Medium

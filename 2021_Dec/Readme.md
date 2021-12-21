@@ -134,3 +134,19 @@ b - a equals to the minimum absolute difference of any two elements in arr
 -10^6 <= arr[i] <= 10^6
 
 sort it and then the minimum absolute diff will be the adjacent element for the current elements. Thus we can put them into the answre list. let me try.
+
+## 231. Power of Two
+
+Given an integer n, return true if it is a power of two. Otherwise, return false.
+
+An integer n is a power of two, if there exists an integer x such that n == 2^x.
+
+The basic idea is to divide n with 2 iterately unitl n == 1. And each iteration we will determine n % 2 == 0 or not. Thus, if finally n == 1, it means we can use 2*2...*2 to make a n. 
+
+Follow up: Could you solve it without loops/recursion?
+
+Because -2^31 <= n <= 2^31 - 1, we can use binary search! If 2^16 < target, it means k > 16. We will find a k until 2^k-1 < n, 2^k+1 > n. It satisfy the property of binary search. 
+
+And an interesting thing - if we use n - 2*(n/2) != 0 to determine n % 2 == 0. Oh because if we use mod, we need to calculate the mod result of n % 2. But, if we use n - 2*(n/2) we only need to calculate one divide and one multipies. 
+
+AC!
