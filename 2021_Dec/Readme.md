@@ -150,3 +150,21 @@ Because -2^31 <= n <= 2^31 - 1, we can use binary search! If 2^16 < target, it m
 And an interesting thing - if we use n - 2*(n/2) != 0 to determine n % 2 == 0. Oh because if we use mod, we need to calculate the mod result of n % 2. But, if we use n - 2*(n/2) we only need to calculate one divide and one multipies. 
 
 AC!
+
+## Reorder List
+
+You are given the head of a singly linked-list. The list can be represented as:
+
+L0 -> L1 -> ... -> Ln - 1 -> Ln
+Reorder the list to be on the following form:
+
+L0 → Ln → L1 → Ln - 1 → L2 -> Ln - 2 -> …
+You may not modify the values in the list's nodes. Only nodes themselves may be changed.
+
+I walk through my past solution. In the past, I just each time I will move one element to the start Ln to the L0.. 
+
+But each time, I have to iterate to the end of the linked list. 
+
+So this is a n^2 algorithm...faster than 5.01% of C++ online submissions for Reorder List.
+
+Let me see the std.
