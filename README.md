@@ -421,3 +421,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |517| [Super Washing Machines](https://leetcode.com/problems/super-washing-machines/) | [PY](./Scripts/517.py) | [Greedy](./Insights/517.md) | Hard
 |518| [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [CPP](./Scripts/518.cpp) | [DP](./Insights/518.md) | Medium
 |519| [Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/) | [CPP](./Scripts/519.cpp) | [Tricky](./Insights/519.md) | Medium
+|520| [Detect Capital](https://leetcode.com/problems/detect-capital/) | [GO](./Scripts/520.go) | [Simulation](./Insights/520.md) | Easy
