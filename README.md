@@ -422,3 +422,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |518| [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [CPP](./Scripts/518.cpp) | [DP](./Insights/518.md) | Medium
 |519| [Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix/) | [CPP](./Scripts/519.cpp) | [Tricky](./Insights/519.md) | Medium
 |520| [Detect Capital](https://leetcode.com/problems/detect-capital/) | [GO](./Scripts/520.go) | [Simulation](./Insights/520.md) | Easy
+|521| [521. Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [GO](./Scripts/521.go) | [Simulation](./Insights/521.md) | Easy

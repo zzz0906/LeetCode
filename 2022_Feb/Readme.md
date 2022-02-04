@@ -42,3 +42,24 @@ Then, we iterate the first two sum, and use the hashmap to ensure the -1*element
 Overall, we need to iterate the first sum, the complexity is n^2.
 
 AC
+
+## 525. Contiguous Array
+
+Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.
+
+the problem description make me confused. I wonder what is an subarray equal to to 0 and 1. Then I realize, the subarray contains the same number of 1 and 0.
+
+1 <= nums.length <= 105
+nums[i] is either 0 or 1.
+
+therefore, we cannot have an n^2 algorithm. We need to have a n algorithm.
+
+how about O(n) preprocess the prefix 1 and 0' sum;
+
+and binary search the answer? oh, it seems do not satisfy the monotonous.
+
+Let me see the std.
+
+holy, when we have a one, we can add 1, when we have a zero, we can minus 1. and do the accumulated sum. if s = n, it means we have more n between 1 - current pos. So we need to delete n from 1 - some pos between 1 - current pos. How to know it, we can use a hashmap to record the sum -> pos; it means from 1 - pos we have a accumulated sum sum. Therefore, when we have s = n, we need to find n in the hashmap to find the answer. And because the answer is to get the maximal length. So, we need to let the pos in the hashmap as close as possible.
+
+AC!
