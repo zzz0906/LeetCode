@@ -63,3 +63,24 @@ Let me see the std.
 holy, when we have a one, we can add 1, when we have a zero, we can minus 1. and do the accumulated sum. if s = n, it means we have more n between 1 - current pos. So we need to delete n from 1 - some pos between 1 - current pos. How to know it, we can use a hashmap to record the sum -> pos; it means from 1 - pos we have a accumulated sum sum. Therefore, when we have s = n, we need to find n in the hashmap to find the answer. And because the answer is to get the maximal length. So, we need to let the pos in the hashmap as close as possible.
 
 AC!
+
+## 39. Combination Sum
+
+done before.
+
+Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.
+
+The same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different.
+
+It is guaranteed that the number of unique combinations that sum up to target is less than 150 combinations for the given input.
+
+* 1 <= candidates.length <= 30
+* 1 <= candidates[i] <= 200
+* All elements of candidates are distinct.
+* 1 <= target <= 500
+
+the maximal sum is 200*30 = 6000, therefore, can we use a DP array to store the possibilities combinations for all the sum?
+
+it costs a lot to write the go...shit. I will still use C. let me see the std directly to see whether my answer is correct.
+
+holy...the answer use dfs directly. Brute force!!! it's improtant to estimate the TC of brute force. 
