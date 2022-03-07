@@ -46,6 +46,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [502](./Insights/502.md) IPO
 * [516](./Insights/516.md) Longest Palindromic Subsequence == LCS
 * [517](./Insights/517.md) Super Washing Machines
+* [523](./Insights/523.md) Continuous Subarray Sum
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Template
@@ -424,4 +425,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |520| [Detect Capital](https://leetcode.com/problems/detect-capital/) | [GO](./Scripts/520.go) | [Simulation](./Insights/520.md) | Easy
 |521| [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [GO](./Scripts/521.go) | [Simulation](./Insights/521.md) | Easy
 |522| [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) | [GO](./Scripts/522.go) | [Greedy](./Insights/522.md) | Medium
+|523| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [GO](./Scripts/523.go) | [Data Structure](./Insights/523.md) | Medium
 
