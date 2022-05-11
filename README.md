@@ -8,7 +8,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 
 
 * **Scripts** folder is use to store my accepted code. you can copy it to submit. But I recommend you to read my code and insights then write your own code.
-    1. C,C++,Python3,Java. I ill choose one given by my mood. I'd like to learn GO in the future and add it.
+    1. C,CPP,Python3,Java. I ill choose one given by my mood. I'd like to learn GO in the future and add it.
 
     2. xxx_std means I use some one else code (because it's a easy question or easy to implement (lazy) or too hard (I can't do it!')). Basically I use [grandyang's code !](https://github.com/grandyang/leetcode), Thanks for his help!
 
@@ -61,14 +61,14 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 ## Summary Table
 | # | Title | Solution | Insights | Difficulty|
 |---| ----- | -------- | ---------- | ---------|
-|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [C++](./Scripts/10.cpp)|[Recursion](./Insights/10.md)| Hard
-|11| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [C++](./Scripts/11.cpp)|[Trcik](./Insights/11.md)|medium
-|12| [Interger to Roman](https://leetcode.com/problems/integer-to-roman/) | [C++](./Scripts/12.cpp)|[Trcik](./Insights/12.md)|medium
-|15| [3Sum](https://leetcode.com/problems/3sum/) | [C++](./Scripts/15.cpp)|[Divide and Conquer](./Insights/15.md)|medium
-|16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [C++](./Scripts/16.cpp)|[Divide and Conquer](./Insights/16.md)|medium
-|18| [4Sum](https://leetcode.com/problems/4sum/) | [C++](./Scripts/18.cpp)|[Divide and Conquer](./Insights/18.md)|medium
-|22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [C++](./Scripts/22.cpp)|[Recursion](./Insights/22.md)|medium 
-|23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
+|10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [CPP](./Scripts/10.cpp)|[Recursion](./Insights/10.md)| Hard
+|11| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [CPP](./Scripts/11.cpp)|[Trcik](./Insights/11.md)|medium
+|12| [Interger to Roman](https://leetcode.com/problems/integer-to-roman/) | [CPP](./Scripts/12.cpp)|[Trcik](./Insights/12.md)|medium
+|15| [3Sum](https://leetcode.com/problems/3sum/) | [CPP](./Scripts/15.cpp)|[Divide and Conquer](./Insights/15.md)|medium
+|16| [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | [CPP](./Scripts/16.cpp)|[Divide and Conquer](./Insights/16.md)|medium
+|18| [4Sum](https://leetcode.com/problems/4sum/) | [CPP](./Scripts/18.cpp)|[Divide and Conquer](./Insights/18.md)|medium
+|22| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [CPP](./Scripts/22.cpp)|[Recursion](./Insights/22.md)|medium 
+|23| [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [CPP](./Scripts/23.cpp)|[Merge](./Insights/23.md)|Hard
 |25| [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./Scripts/25.cpp)|[Simulation](./Insights/25.md)|Hard
 |29| [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | [C++](./Scripts/29.cpp) | [Bit Operation](./Insights/29.md) | Medium
 |30| [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | [C++](./Scripts/30.cpp) | [Data Structure](./Insights/30.md) | Hard
@@ -426,4 +426,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |521| [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [GO](./Scripts/521.go) | [Simulation](./Insights/521.md) | Easy
 |522| [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) | [GO](./Scripts/522.go) | [Greedy](./Insights/522.md) | Medium
 |523| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [GO](./Scripts/523.go) | [Data Structure](./Insights/523.md) | Medium
-
+|524| [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [Go](./Scripts/524.go) | [String Operations](./Insights/524.md) | Medium
