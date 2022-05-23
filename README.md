@@ -426,6 +426,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |521| [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/) | [GO](./Scripts/521.go) | [Simulation](./Insights/521.md) | Easy
 |522| [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) | [GO](./Scripts/522.go) | [Greedy](./Insights/522.md) | Medium
 |523| [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | [GO](./Scripts/523.go) | [Data Structure](./Insights/523.md) | Medium
-|524| [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [Go](./Scripts/524.go) | [String Operations](./Insights/524.md) | Medium
-|526| [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | [Go](./Scripts/526.go) | [Brute Force](./Insights/526.md) | Medium
-|528| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [C++](./Scripts/528.cpp) | [](./Insights/528.md) | Medium
+|524| [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | [GO](./Scripts/524.go) | [String Operations](./Insights/524.md) | Medium
+|526| [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | [GO](./Scripts/526.go) | [Brute Force](./Insights/526.md) | Medium
+|528| [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [C++](./Scripts/528.cpp) | [Binary Search](./Insights/528.md) | Medium
+|529| [Minesweeper](https://leetcode.com/problems/minesweeper/) | [GO](./Scripts/529.go) | [Simulation](./Insights/529.md) | Medium
