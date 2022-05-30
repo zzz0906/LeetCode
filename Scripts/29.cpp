@@ -8,6 +8,8 @@ public:
         int flag = 1;
         int answer = 0;
         if (dividend == 0) return 0;
+
+
         double tmp = dividend;
         if (divisor < 0){
             flag = -1;
@@ -17,15 +19,18 @@ public:
                 tmp = double(dividend);
                 tmp = tmp * - 1;
             }
-        } else if (dividend < 0){
-            flag = -1;
-            tmp = double(dividend);
-            tmp = tmp * - 1;
+        } else {
+            if (dividend < 0){
+                flag = -1;
+                tmp = double(dividend);
+                tmp = tmp * - 1;
+            }
         }
         while (tmp >= divisor) {
             tmp -= divisor;
             answer ++;
         }
+        
         return flag * answer;
     }
 };

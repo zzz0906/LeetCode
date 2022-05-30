@@ -50,3 +50,55 @@ f[i,j,k] means for the current i items, we use j 1 and k 0. and the dimension i 
 yes, i am correct. But my code is so ugly. the std use another dp array. array means the number of m,n can represent the maximum number of string. We know that, currently, we have to use m and n 1 and 0, it means in the before we only can use at most i - m, j - n's ones and zeros. f[i][j] = max(f[i][j], f[i - m][j- n] + 1). 
 
 Yes, this is knapsack problem!
+
+## 32. Longest Valid Parentheses
+
+Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+
+I have done it before. 
+
+DP problem. It's very hard to understand why we need to itearte when s[j] = ')'  plus 2 plus the variable DP[j] before.
+
+## 1342. Number of Steps to Reduce a Number to Zero
+
+Given an integer num, return the number of steps to reduce it to zero.
+
+In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+
+just simulation until it turn into zero.
+
+AC.
+
+But the std use a bit operation to accelearte the process. 100 means we need three step, each step move a zero and when facing a last 1 we minus 1 then move a zero. I think this is core idea.  Thus overall we need number of 1 * 2 + number of zero step.
+
+## 318. Maximum Product of Word Lengths
+
+Given a string array words, return the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters. If no such two words exist, return 0
+
+I have done it before. The brute force way is to compare any two string to see if they have common character. If not, try to use compare the product of length fo these two string with the result. Overall, the time complexity will be O(N\*M\*length*\length). 
+
+The question turn into how to check containing common character quickly. we can use a 26 array to represent each string. Then complixy will O(N\*N\*26) 1000000\*26; Or if we can use bit mask, we can use an 26 integer to represent the number. Then the complixy will be N*N. Yes, it seems the optimal solution. Let me see how I finished it before. Oh...N\*N\*26. Let me use bit mask this time. AC!
+
+## 29. Divide Two Integers
+
+Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
+
+The integer division should truncate toward zero, which means losing its fractional part. For example, 8.345 would be truncated to 8, and -2.7335 would be truncated to -2.
+
+Return the quotient after dividing dividend by divisor.
+
+Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. For this problem, if the quotient is strictly greater than 231 - 1, then return 231 - 1, and if the quotient is strictly less than $-2^31$, then return $-2^31.$
+
+It's interesting. The std ansewr is using algorithm - quick power. we can use minus each time until the result value > 0. But we need to take the result very carefully if both negative, we can turn them into both positive. If one of them are negative we can turn one into positive and time a positive symbol in the end.
+
+TLE...we shall use bit operation. 
+
+The labs() function in C++ returns the absolute value of a long or long int data. The labs() function can be thought as the long int version of abs(). It is defined in <cstdlib> header file.
+
+We transfer it to the longer abs value. And then we use a quick power. Each time we minus divisor * 2 == divisor << 2 Until we cannot afford this minus because it will turn into a negative number. For example
+
+17 / 3 = 5 => 3 << 2 1 << 2 = 4 + 1 = 5
+
+So we just find the maximal even number the divisor can multiply to reach a value which is still less and equal than the dividend. We repeat our process. And the thing we try to do is to construct the binary form of the answer. And use bit operation to get its back.
+
+AC!
