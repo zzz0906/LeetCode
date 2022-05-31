@@ -102,3 +102,13 @@ We transfer it to the longer abs value. And then we use a quick power. Each time
 So we just find the maximal even number the divisor can multiply to reach a value which is still less and equal than the dividend. We repeat our process. And the thing we try to do is to construct the binary form of the answer. And use bit operation to get its back.
 
 AC!
+
+## 1461. Check If a String Contains All Binary Codes of Size K
+
+Given a binary string s and an integer k, return true if every binary code of length k is a substring of s. Otherwise, return false.
+
+If a string needs to contain all the binary code of length k, such as 0 we shall have 00 01 10 11 if we can share some substring of these strings, we can know that it at least has 00110 five characters. 
+
+The brute force way is to detect each combination one by one. 
+
+Let me see the std's ansewr directly, it use a hashset to insert all the length-k strings. Because it only contain 0,1, the length-k  non-duplicate strings must equal to 2^k. If not, we can just return false.

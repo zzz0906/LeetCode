@@ -434,3 +434,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |532| [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [GO](./Scripts/532.go) | [Simulation](./Insights/532.md) | Medium
 |535| [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [GO](./Scripts/535.go) | [String Operation](./Insights/535.md) | Medium
 |538| [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [GO](./Scripts/538.go) | [DFS](./Insights/538.md) | Medium
+|539| [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [GO](./Scripts/539.go) | [DFS](./Insights/539.md) | Medium
