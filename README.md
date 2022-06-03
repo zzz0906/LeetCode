@@ -435,3 +435,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |535| [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/) | [GO](./Scripts/535.go) | [String Operation](./Insights/535.md) | Medium
 |538| [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [GO](./Scripts/538.go) | [DFS](./Insights/538.md) | Medium
 |539| [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [GO](./Scripts/539.go) | [Tricky](./Insights/539.md) | Medium
+|540| [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [CPP](./Scripts/540.cpp) | [Binary Search](./Insights/540.md) | Medium
