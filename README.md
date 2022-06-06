@@ -47,6 +47,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [516](./Insights/516.md) Longest Palindromic Subsequence == LCS
 * [517](./Insights/517.md) Super Washing Machines
 * [523](./Insights/523.md) Continuous Subarray Sum
+* [542](./Insights/542.md) 01 Matrix
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Template
@@ -436,3 +437,5 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |538| [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [GO](./Scripts/538.go) | [DFS](./Insights/538.md) | Medium
 |539| [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [GO](./Scripts/539.go) | [Tricky](./Insights/539.md) | Medium
 |540| [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [CPP](./Scripts/540.cpp) | [Binary Search](./Insights/540.md) | Medium
+|541| [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | [GO](./Scripts/541.go) | [String Operation](./Insights/541.md) | Easy
+|542| [01 Matrix](https://leetcode.com/problems/01-matrix/) | [GO](./Scripts/542.go) | [DP](./Insights/542.md) | Medium
