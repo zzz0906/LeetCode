@@ -48,6 +48,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [517](./Insights/517.md) Super Washing Machines
 * [523](./Insights/523.md) Continuous Subarray Sum
 * [542](./Insights/542.md) 01 Matrix
+* [546](./Insights/546.md) Remove Boxes
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Template
@@ -439,3 +440,8 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |540| [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [CPP](./Scripts/540.cpp) | [Binary Search](./Insights/540.md) | Medium
 |541| [Reverse String II](https://leetcode.com/problems/reverse-string-ii/) | [GO](./Scripts/541.go) | [String Operation](./Insights/541.md) | Easy
 |542| [01 Matrix](https://leetcode.com/problems/01-matrix/) | [GO](./Scripts/542.go) | [DP](./Insights/542.md) | Medium
+|546| [Remove Boxes](https://leetcode.com/problems/remove-boxes/) | [CPP](./Scripts/546.cpp) | [DP](./Insights/546.md) | Hard
+|547| [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [GO](./Scripts/547.go) | [Brute Force](./Insights/547.md) | Medium
+|551| [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [GO](./Scripts/551.go) | [Brute Force](./Insights/551.md) | Easy
+|552| [Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) | [C++](./Scripts/552.cpp) | [Mathematics](./Insights/552.md) | Hard
+|553| [Optimal Division](https://leetcode.com/problems/optimal-division/) | [GO](./Scripts/553.go) | [Tricky](./Insights/553.md) | Medium

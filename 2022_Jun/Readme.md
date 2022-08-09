@@ -64,3 +64,13 @@ k2 -> m -> k1->m
 We can see that if we iterate these two linked list, after iterating k1 m k2 and k2 m k1 we will have the same length iteration and reach the same intersection. AC!! If no intersection they will be equal as a == b == nil. AC!
 
 Also, in golang, both struct and struct pointer shall use . to indicate attribute.
+
+## 88. Merge Sorted Array
+
+You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n, representing the number of elements in nums1 and nums2 respectively.
+
+Merge nums1 and nums2 into a single array sorted in non-decreasing order.
+
+The final sorted array should not be returned by the function, but instead be stored inside the array nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2 has a length of n.
+
+The std is thinking about from bigger to smaller. the maximal one shall put in the final position. Also, if there are still some number rest in the num2, we shall put all of them into num1.
