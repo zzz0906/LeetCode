@@ -445,3 +445,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |551| [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/) | [GO](./Scripts/551.go) | [Brute Force](./Insights/551.md) | Easy
 |552| [Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/) | [C++](./Scripts/552.cpp) | [Mathematics](./Insights/552.md) | Hard
 |553| [Optimal Division](https://leetcode.com/problems/optimal-division/) | [GO](./Scripts/553.go) | [Tricky](./Insights/553.md) | Medium
+|554| [Brick Wall](https://leetcode.com/problems/brick-wall/) | [GO](./Scripts/554.go) | [Dynamic Programming](./Insights/554.md) | Medium
