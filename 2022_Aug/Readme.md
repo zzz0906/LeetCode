@@ -69,3 +69,11 @@ Clearly, we can use recuesive way to check each subtree satisfy above condition 
 Actually It do have some problem, the right value may be bigger than its root. Thus it shall still be smaller than it root. let me see how to solve this problem.
 
 Thus, the principle is the maximal of its left tree shall be smaller than root value and minimal of minimal of right shall be smaller than the root. Thus each time we need to return the maximal and minimal each time. I need to learn how return multiple value in golang.
+
+## 235. Lowest Common Ancestor of a Binary Search Tree
+
+Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.
+
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
+
+I have done this question before. Just use BST to search it. If it's both left and right return true. Oh the optimization point is 'Because the query must exist' therefore, if the value is in its left, it means the value < left else the value > right. If both of them < root, then we need to search in root.left. If both of them > root, then we need to search in the root right. Other wise it means maximal > root and minimal < root we can return root directly. AC!
