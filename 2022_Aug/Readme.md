@@ -53,3 +53,19 @@ Given an integer array nums where the elements are sorted in ascending order, co
 A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.
 
 Just use the middle point as the cut and repeat the process unitl we only have one element or null element.
+
+## 98. Validate Binary Search Tree
+
+Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+
+A valid BST is defined as follows:
+
+* The left subtree of a node contains only nodes with keys less than the node's key.
+* The right subtree of a node contains only nodes with keys greater than the node's key.
+* Both the left and right subtrees must also be binary search trees.
+
+Clearly, we can use recuesive way to check each subtree satisfy above condition or until we find a false condition.
+
+Actually It do have some problem, the right value may be bigger than its root. Thus it shall still be smaller than it root. let me see how to solve this problem.
+
+Thus, the principle is the maximal of its left tree shall be smaller than root value and minimal of minimal of right shall be smaller than the root. Thus each time we need to return the maximal and minimal each time. I need to learn how return multiple value in golang.
