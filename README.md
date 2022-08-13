@@ -448,3 +448,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |554| [Brick Wall](https://leetcode.com/problems/brick-wall/) | [GO](./Scripts/554.go) | [Dynamic Programming](./Insights/554.md) | Medium
 |556| [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | [GO](./Scripts/556.go) | [Data Structure](./Insights/556.md) | Medium
 |557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [PY](./Scripts/557.py) | [String Opeartion](./Insights/557.md) | Easy
+|558| [Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/) | [PY](./Scripts/558.py) | [Recursion](./Insights/558.md) | Medium

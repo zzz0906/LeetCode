@@ -77,3 +77,15 @@ Given a binary search tree (BST), find the lowest common ancestor (LCA) node of 
 According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 
 I have done this question before. Just use BST to search it. If it's both left and right return true. Oh the optimization point is 'Because the query must exist' therefore, if the value is in its left, it means the value < left else the value > right. If both of them < root, then we need to search in root.left. If both of them > root, then we need to search in the root right. Other wise it means maximal > root and minimal < root we can return root directly. AC!
+
+## 30. Substring with Concatenation of All Words
+
+You are given a string s and an array of strings words of the same length. Return all starting indices of substring(s) in s that is a concatenation of each word in words exactly once, in any order, and without any intervening characters.
+
+You can return the answer in any order.
+
+Interesting, this question seems not too hard. We can start from each index and too see if it can match the word in the dictionary.
+
+Oh each word's size is the same. so the length will be words.size()*words[0].size()
+
+Oh my solution tle, so the brute force cannot be accepted. OH, I found a std solution who use brute force and accpeted.  A tricky thing to do the iteration is: 1 - words[0].length is enough. Because we will use the slides window, And if we cannot find the word, we will give up this slides windows and restart from the next pos (right + word_len) And each possibilities is organized from 0 x 2x 3x 1 x + 1 => x 2x 3x. It's like a modular thing. So, we can only enumerate from 0 - x. And each time we move the winodws on this 0 x 2x 3x ....until we find the series window length equal to the words size. Very clear and great std code solution. Easy to understand.
