@@ -89,3 +89,21 @@ Interesting, this question seems not too hard. We can start from each index and 
 Oh each word's size is the same. so the length will be words.size()*words[0].size()
 
 Oh my solution tle, so the brute force cannot be accepted. OH, I found a std solution who use brute force and accpeted.  A tricky thing to do the iteration is: 1 - words[0].length is enough. Because we will use the slides window, And if we cannot find the word, we will give up this slides windows and restart from the next pos (right + word_len) And each possibilities is organized from 0 x 2x 3x 1 x + 1 => x 2x 3x. It's like a modular thing. So, we can only enumerate from 0 - x. And each time we move the winodws on this 0 x 2x 3x ....until we find the series window length equal to the words size. Very clear and great std code solution. Easy to understand.
+
+## 126. Word Ladder II
+
+A transformation sequence from word beginWord to word endWord using a dictionary wordList is a sequence of words beginWord -> s1 -> s2 -> ... -> sk such that:
+
+* Every adjacent pair of words differs by a single letter.
+* Every si for 1 <= i <= k is in wordList. Note that beginWord does not need to be in wordList. sk == endWord
+
+Given two words, beginWord and endWord, and a dictionary wordList, return all the shortest transformation sequences from beginWord to endWord, or an empty list if no such sequence exists. Each sequence should be returned as a list of the words [beginWord, s1, s2, ..., sk].
+
+I try to run my old program and I found that - memory out of limit.
+
+Let me see the std's solution. The correct solution is still dfs. 
+
+1. bfs to find how many steps we need to use the begin word to construct the other words through modifying one word.
+2. dfs from the end words and each time to see if the modification words is return one step back in the dfs. And because we start dfs in the reverse order we need to do the dfs in the another order.
+
+AC. not so hard, but we need to try some tricky way to do the optimizton - very hard to think!
