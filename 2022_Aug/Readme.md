@@ -134,3 +134,9 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 Given a roman numeral, convert it to an integer.
 
 Just use a iteration. And if next value is bigger than curernt one we will minus current one other wise we will add current one. AC!
+
+## 387. First Unique Character in a String
+
+Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
+
+I finished this question yesterday. just use a map to count. And do the iteration again until we find a cout equal to one. AC!
