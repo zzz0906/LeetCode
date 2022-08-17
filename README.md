@@ -452,3 +452,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |559| [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [PY](./Scripts/559.py) | [Recursion](./Insights/559.md) | Easy
 |560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [PY](./Scripts/560.py) | [Data Structure](./Insights/560.md) | Medium
 |561| [Array Partition](https://leetcode.com/problems/subarray-sum-equals-k/) | [PY](./Scripts/561.py) | [Greedy](./Insights/561.md) | Easy
+|563| [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | [PY](./Scripts/563.py) | [Recursion](./Insights/563.md) | Easy

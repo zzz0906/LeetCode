@@ -140,3 +140,20 @@ Just use a iteration. And if next value is bigger than curernt one we will minus
 Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
 
 I finished this question yesterday. just use a map to count. And do the iteration again until we find a cout equal to one. AC!
+
+## 804. Unique Morse Code Words
+
+International Morse Code defines a standard encoding where each letter is mapped to a series of dots and dashes, as follows:
+
+'a' maps to ".-",
+'b' maps to "-...",
+'c' maps to "-.-.", and so on.
+For convenience, the full table for the 26 letters of the English alphabet is given below:
+
+[".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+Given an array of strings words where each word can be written as a concatenation of the Morse code of each letter.
+
+For example, "cab" can be written as "-.-..--...", which is the concatenation of "-.-.", ".-", and "-...". We will call such a concatenation the transformation of a word.
+Return the number of different transformations among all words we have.
+
+dict + transofrmation? use hashset to count the numebr of transfomration we have? let me try. AC!
