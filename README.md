@@ -453,3 +453,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [PY](./Scripts/560.py) | [Data Structure](./Insights/560.md) | Medium
 |561| [Array Partition](https://leetcode.com/problems/subarray-sum-equals-k/) | [PY](./Scripts/561.py) | [Greedy](./Insights/561.md) | Easy
 |563| [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/) | [PY](./Scripts/563.py) | [Recursion](./Insights/563.md) | Easy
+|564| [Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/) | [PY](./Scripts/564.py) | [Tricky](./Insights/564.md) | Hard
