@@ -457,3 +457,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |566| [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) | [PY](./Scripts/566.py) | [Tricky](./Insights/566.md) | Easy
 |567| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./Scripts/567.cpp) | [Data Structure](./Insights/567.md) | Medium
 |572| [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [GO](./Scripts/572.go) | [Data Structure](./Insights/572.md) | Easy
+|575| [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [GO](./Scripts/575.go) | [Simulation](./Insights/575.md) | Easy
