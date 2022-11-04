@@ -458,3 +458,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |567| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [C++](./Scripts/567.cpp) | [Data Structure](./Insights/567.md) | Medium
 |572| [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [GO](./Scripts/572.go) | [Data Structure](./Insights/572.md) | Easy
 |575| [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [GO](./Scripts/575.go) | [Simulation](./Insights/575.md) | Easy
+|576| [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [GO](./Scripts/576.go) | [Memory Based Search](./Insights/576.md) | Medium
