@@ -462,3 +462,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |581| [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [GO](./Scripts/581.go) | [Tricky](./Insights/581.md) | Medium
 |583| [Delete Operation for Two Strings](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [GO](./Scripts/583.go) | [Dynamic Programming](./Insights/583.md) | Medium
 |584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [SQL](./Scripts/584.sql) | [Tricky](./Insights/584.md) | Easy
+|586| [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [SQL](./Scripts/586.sql) | [Tricky](./Insights/586.md) | Easy
