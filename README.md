@@ -463,3 +463,4 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 |583| [Delete Operation for Two Strings](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [GO](./Scripts/583.go) | [Dynamic Programming](./Insights/583.md) | Medium
 |584| [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/) | [SQL](./Scripts/584.sql) | [Tricky](./Insights/584.md) | Easy
 |586| [Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders/) | [SQL](./Scripts/586.sql) | [Tricky](./Insights/586.md) | Easy
+|587| [Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | [GO](./Scripts/587.go) | [Computing Geometry](./Insights/587.md) | Hard
