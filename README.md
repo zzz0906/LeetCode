@@ -4,16 +4,16 @@ Practicing my programming skill day by day
 
 Record my insights or std's solution
 
-I labeled problems according to its best solution's algorithm. If there is no fixed type of algorithm, I will labeled it trick (use brain, no template algorithm). Also, if I do not list it in the summary table, it means that the problems are easy enough to finish it in my sophomore.
+I labeled problems according to their best solution algorithm. If there is no fixed type of algorithm, I will label it a trick (use brain, no template algorithm). Also, if I do not list it in the summary table, it means that the problems are easy enough to finish in my sophomore.
 
 
-* **Scripts** folder is use to store my accepted code. you can copy it to submit. But I recommend you to read my code and insights then write your own code.
-    1. C,CPP,Python3,Java. I ill choose one given by my mood. I'd like to learn GO in the future and add it.
+* **Scripts** folder is used to store my accepted code. You can copy it to submit. But I recommend you to read my code and insights, then write your own code.
+    1. C, CPP, Python3, Java, GO. I will choose one given my mood. 
 
-    2. xxx_std means I use some one else code (because it's a easy question or easy to implement (lazy) or too hard (I can't do it!')). Basically I use [grandyang's code !](https://github.com/grandyang/leetcode), Thanks for his help!
+    2. xxx_std means I use someone else codes (because it's an easy question or easy to implement (lazy) or too hard (I can't do it!')). Basically, I use [grandyang's code !](https://github.com/grandyang/leetcode), thanks for his help!
 
-* **Insigts** folder is use to record my insights, if you cannot understand the code, please find my corresponding insight file and read it. (My solution may not be the best)
-* **Year_Month** folder gives [daily challenge](https://leetcode.com/explore/) in leetcode. I only finish weekdays' problems. Readme in this folder give the insights.
+* **Insights** folder is used to record my insights, if you cannot understand the code, please find my corresponding insight file and read it. (My solution may not be the best)
+* **Year_Month** folder gives [daily challenge](https://leetcode.com/explore/) in leetcode. I only finish weekday problems. Readme in this folder gives insights.
 
 
 ## Valuable Problems
