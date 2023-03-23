@@ -49,6 +49,7 @@ I labeled problems according to its best solution's algorithm. If there is no fi
 * [523](./Insights/523.md) Continuous Subarray Sum
 * [542](./Insights/542.md) 01 Matrix
 * [546](./Insights/546.md) Remove Boxes
+* [591](./Insights/591.md)  Tag Validator
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Template
