@@ -1,24 +1,23 @@
 # LeetCode Record
 
-Practicing my programming skill day by day
+🐼 A daily journey of honing my programming skills and documenting my insights solutions and std solutions.
 
-Record my insights or std's solution
-
-I labeled problems according to their best solution algorithm. If there is no fixed type of algorithm, I will label it a trick (use brain, no template algorithm). Also, if I do not list it in the summary table, it means that the problems are easy enough to finish in my sophomore.
+I categorize problems based on their optimal solution algorithm. If there's no fixed algorithm, I label it as a trick (requiring creativity, no template algorithm). If a problem isn't listed in the summary table, it means it's simple enough to complete during my sophomore year.
 
 
-* **Scripts** folder is used to store my accepted code. You can copy it to submit. But I recommend you to read my code and insights, then write your own code.
-    1. C, CPP, Python3, Java, GO. I will choose one given my mood. 
+* **Scripts** folder is used to store my accepted code. Feel free to copy it for submission, but I recommend reading my code and insights before writing your own solution.
+    1. I use languages such as C, CPP, Python3, Java, and GO depending on my preference.
 
-    2. xxx_std means I use someone else codes (because it's an easy question or easy to implement (lazy) or too hard (I can't do it!')). Basically, I use [grandyang's code !](https://github.com/grandyang/leetcode), thanks for his help!
+    2. Filenames with xxx_std indicate that I've used someone else's code, either because the question is easy, the implementation is straightforward (I'm feeling lazy), or the problem is too difficult. I often use [grandyang's code !](https://github.com/grandyang/leetcode), and I'm grateful for his help!
 
-* **Insights** folder is used to record my insights, if you cannot understand the code, please find my corresponding insight file and read it. (My solution may not be the best)
-* **Year_Month** folder gives [daily challenge](https://leetcode.com/explore/) in leetcode. I only finish weekday problems. Readme in this folder gives insights.
+* **Insights** folder contains records of my insights for each problem. If you're having trouble understanding the code, refer to the corresponding insight file (note that my solutions might not always be the best).
+
+* **Year_Month** folder contains the [daily challenge](https://leetcode.com/explore/) on LeetCode. I complete the weekday problems, and the Readme in this folder provides insights.
 
 
 ## Valuable Problems
+Hard to associate them with a fixed algorithm
 
-* Hard to associate them with a fixed algorithm
 * [91](./Insights/91.md) Decode Ways
 * [117](./Insights/117.md) Populating Next Right Pointers in Each Node II
 * [128](./Insights/128.md) Longest Consecutive Sequence
