@@ -469,3 +469,4 @@ Hard to associate them with a fixed algorithm
 |592| [Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [PY](./Scripts/592.py) | [math](./Insights/592.md) | Medium
 |594| [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [GO](./Scripts/594.go) | [math](./Insights/594.md) | Easy
 |595| [Big Countries](https://leetcode.com/problems/big-countries/description/) | [SQL](./Scripts/595.sql) | [math](./Insights/595.md) | Easy
+|596| [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [SQL](./Scripts/596.sql) | [math](./Insights/596.md) | Easy
