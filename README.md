@@ -466,8 +466,9 @@ Hard to associate them with a fixed algorithm
 |587| [Erect the Fence](https://leetcode.com/problems/erect-the-fence/) | [GO](./Scripts/587.go) | [Computing Geometry](./Insights/587.md) | Hard
 |590| [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [GO](./Scripts/590.go) | [DFS](./Insights/590.md) | Easy
 |591| [Tag Validator](https://leetcode.com/problems/tag-validator/) | [PY](./Scripts/591.py) | [State Machine](./Insights/591.md) | Hard
-|592| [Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [PY](./Scripts/592.py) | [math](./Insights/592.md) | Medium
-|594| [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [GO](./Scripts/594.go) | [math](./Insights/594.md) | Easy
+|592| [Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/) | [PY](./Scripts/592.py) | [Mathematics](./Insights/592.md) | Medium
+|594| [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) | [GO](./Scripts/594.go) | [Mathematics](./Insights/594.md) | Easy
 |595| [Big Countries](https://leetcode.com/problems/big-countries/description/) | [SQL](./Scripts/595.sql) | [Tricky](./Insights/595.md) | Easy
 |596| [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [SQL](./Scripts/596.sql) | [Trikcy](./Insights/596.md) | Easy
 |599| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [GO](./Scripts/599.go) | [Data Structure](./Insights/599.md) | Easy
+|600| [Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | [GO](./Scripts/600.go) | [Mathematics](./Insights/600.md) | Hard
