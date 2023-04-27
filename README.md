@@ -472,3 +472,4 @@ Hard to associate them with a fixed algorithm
 |596| [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/) | [SQL](./Scripts/596.sql) | [Trikcy](./Insights/596.md) | Easy
 |599| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [GO](./Scripts/599.go) | [Data Structure](./Insights/599.md) | Easy
 |600| [Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | [GO](./Scripts/600.go) | [Mathematics](./Insights/600.md) | Hard
+|601| [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/) | [SQL](./Scripts/601.sql) | [Tricky](./Insights/601.md) | Hard
