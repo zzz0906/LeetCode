@@ -473,3 +473,4 @@ Hard to associate them with a fixed algorithm
 |599| [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [GO](./Scripts/599.go) | [Data Structure](./Insights/599.md) | Easy
 |600| [Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | [GO](./Scripts/600.go) | [Mathematics](./Insights/600.md) | Hard
 |601| [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/) | [SQL](./Scripts/601.sql) | [Tricky](./Insights/601.md) | Hard
+|602| [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | [SQL](./Scripts/602.sql) | [Tricky](./Insights/602.md) | Medium
