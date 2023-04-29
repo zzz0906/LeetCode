@@ -474,3 +474,4 @@ Hard to associate them with a fixed algorithm
 |600| [Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) | [GO](./Scripts/600.go) | [Mathematics](./Insights/600.md) | Hard
 |601| [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/) | [SQL](./Scripts/601.sql) | [Tricky](./Insights/601.md) | Hard
 |602| [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | [SQL](./Scripts/602.sql) | [Tricky](./Insights/602.md) | Medium
+|605| [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [GO](./Scripts/605.go) | [Greedy](./Insights/605.md) | Easy
