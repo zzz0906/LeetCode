@@ -317,7 +317,7 @@ Hard to associate them with a fixed algorithm
 |378| [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| [C++](./Scripts/378.cpp) | [Binary Search](./Insights/378.md) | Medium
 |380| [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)| [C++](./Scripts/380.cpp) | [Data Structure](./Insights/380.md) | Medium
 |381| [Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)| [C++](./Scripts/381.cpp) | [Data Structure](./Insights/381.md) | Hard
-|383| [Ransom Note](https://leetcode.com/problems/ransom-note/)| [PY](./Scripts/383.py) | [String](./Insights/383.md) | Easy
+|383| [Ransom Note](https://leetcode.com/problems/ransom-note/)| [PY](./Scripts/383.py) | [String Operations](./Insights/383.md) | Easy
 |384| [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)| [C++](./Scripts/384.cpp) | [Data Structure](./Insights/384.md) | Medium
 |385| [Mini Parser](https://leetcode.com/problems/mini-parser/)| [C++](./Scripts/385.cpp) | [Recursion](./Insights/385.md) | Medium
 |386| [Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers/)| [C++](./Scripts/386.cpp) | [Trick](./Insights/386.md) | Medium
@@ -325,7 +325,7 @@ Hard to associate them with a fixed algorithm
 |388| [Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)| [C++](./Scripts/388.cpp) | [Data Structure](./Insights/388.md) | Medium
 |390| [Elimination Game](https://leetcode.com/problems/elimination-game/)| [C++](./Scripts/390.cpp) | [Data Structure](./Insights/390.md) | Medium
 |391| [Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle/)| [C++](./Scripts/391.cpp) | [Bit Operation](./Insights/391.md) | Hard
-|392| [Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [PY](./Scripts/392.py) | [String](./Insights/392.md) | Easy
+|392| [Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [PY](./Scripts/392.py) | [String Operations](./Insights/392.md) | Easy
 |393| [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)| [C++](./Scripts/393.cpp) | [Bit Operation](./Insights/393.md) | Medium
 |396| [Rotate Function](https://leetcode.com/problems/rotate-function/)| [C++](./Scripts/396.py) | [Tricky](./Insights/396.md) | Medium
 |397| [Integer Replacement](https://leetcode.com/problems/integer-replacement/)| [C++](./Scripts/397.cpp) | [Tricky](./Insights/397.md) | Medium
@@ -363,7 +363,7 @@ Hard to associate them with a fixed algorithm
 |440| [K-th Smallest in Lexicographical Order](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/)| [CPP](./Scripts/440.cpp) | [Tricky](./Insights/440.md) | Hard
 |441| [Arranging Coins](https://leetcode.com/problems/arranging-coins/)| [CPP](./Scripts/441.cpp) | [Tricky](./Insights/441.md) | Easy
 |442| [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)| [CPP](./Scripts/442.cpp) | [Tricky](./Insights/442.md) | Medium
-|443| [String Compression](https://leetcode.com/problems/string-compression/)| [CPP](./Scripts/443.cpp) | [String](./Insights/443.md) | Medium
+|443| [String Compression](https://leetcode.com/problems/string-compression/)| [CPP](./Scripts/443.cpp) | [String Operations](./Insights/443.md) | Medium
 |446| [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)| [CPP](./Scripts/446.cpp) | [DP / Tricky](./Insights/446.md) | Hard
 |447| [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/)| [CPP](./Scripts/447.cpp) | [Data Structure](./Insights/447.md) | Medium
 |448| [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| [CPP](./Scripts/448.cpp) | [Tricky](./Insights/448.md) | Easy
@@ -376,7 +376,7 @@ Hard to associate them with a fixed algorithm
 |456| [132 Pattern](https://leetcode.com/problems/132-pattern/)| [CPP](./Scripts/456.cpp) | [Stack](./Insights/456.md) | Medium
 |457| [Circular Array Loop](https://leetcode.com/problems/circular-array-loop/)| [CPP](./Scripts/457.cpp) | [Simulation](./Insights/457.md) | Medium
 |458| [Poor Pigs](https://leetcode.com/problems/poor-pigs/)| [CPP](./Scripts/458.cpp) | [Mathematics](./Insights/458.md) | HARD
-|459| [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)| [PY](./Scripts/459.py) | [String Process](./Insights/459.md) | Easy
+|459| [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)| [PY](./Scripts/459.py) | [String Operations](./Insights/459.md) | Easy
 |460| [LFU Cache](https://leetcode.com/problems/lfu-cache/)| [CPP](./Scripts/460.cpp) | [Mathematics](./Insights/460.md) | Hard
 |461| [Hamming Distance](https://leetcode.com/problems/hamming-distance/)| [CPP](./Scripts/461.cpp) | [Bit Operation](./Insights/461.md) | Easy
 |462| [Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)| [PY](./Scripts/462.py) | [Tricky](./Insights/462.md) | Medium
@@ -447,7 +447,7 @@ Hard to associate them with a fixed algorithm
 |553| [Optimal Division](https://leetcode.com/problems/optimal-division/) | [GO](./Scripts/553.go) | [Tricky](./Insights/553.md) | Medium
 |554| [Brick Wall](https://leetcode.com/problems/brick-wall/) | [GO](./Scripts/554.go) | [Dynamic Programming](./Insights/554.md) | Medium
 |556| [Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) | [GO](./Scripts/556.go) | [Data Structure](./Insights/556.md) | Medium
-|557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [PY](./Scripts/557.py) | [String Opeartion](./Insights/557.md) | Easy
+|557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [PY](./Scripts/557.py) | [String Operations](./Insights/557.md) | Easy
 |558| [Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/) | [PY](./Scripts/558.py) | [Recursion](./Insights/558.md) | Medium
 |559| [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [PY](./Scripts/559.py) | [Recursion](./Insights/559.md) | Easy
 |560| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [PY](./Scripts/560.py) | [Data Structure](./Insights/560.md) | Medium
@@ -475,3 +475,4 @@ Hard to associate them with a fixed algorithm
 |601| [Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium/) | [SQL](./Scripts/601.sql) | [Tricky](./Insights/601.md) | Hard
 |602| [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | [SQL](./Scripts/602.sql) | [Tricky](./Insights/602.md) | Medium
 |605| [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [GO](./Scripts/605.go) | [Greedy](./Insights/605.md) | Easy
+|606| [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [GO](./Scripts/606.go) | [String Operations](./Insights/606.md) | Easy
