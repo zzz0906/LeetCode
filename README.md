@@ -476,3 +476,4 @@ Hard to associate them with a fixed algorithm
 |602| [Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | [SQL](./Scripts/602.sql) | [Tricky](./Insights/602.md) | Medium
 |605| [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | [GO](./Scripts/605.go) | [Greedy](./Insights/605.md) | Easy
 |606| [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [GO](./Scripts/606.go) | [String Operations](./Insights/606.md) | Easy
+|607| [Sales Person](https://leetcode.com/problems/sales-person/) | [SQL](./Scripts/607.sql) | [Tricky](./Insights/607.md) | Easy

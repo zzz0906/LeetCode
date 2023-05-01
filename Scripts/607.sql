@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select name from SalesPerson left join (select sales_id, sum(redbit) as rednum from (select sales_id, case when Company.name='RED' then 1 else 0 end as redbit from Orders left join Company on Orders.com_id = Company.com_id) OrderCompany group by sales_id) t on SalesPerson.sales_id = t.sales_id where rednum = 0 or rednum is null
