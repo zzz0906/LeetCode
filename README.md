@@ -478,3 +478,4 @@ Hard to associate them with a fixed algorithm
 |606| [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/) | [GO](./Scripts/606.go) | [String Operations](./Insights/606.md) | Easy
 |607| [Sales Person](https://leetcode.com/problems/sales-person/) | [SQL](./Scripts/607.sql) | [Tricky](./Insights/607.md) | Easy
 |608| [Tree Node](https://leetcode.com/problems/tree-node/) | [SQL](./Scripts/608.sql) | [Tricky](./Insights/608.md) | Easy
+|610| [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/description/) | [SQL](./Scripts/610.sql) | [Tricky](./Insights/610.md) | Easy
