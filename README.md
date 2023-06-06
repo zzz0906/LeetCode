@@ -481,3 +481,4 @@ Hard to associate them with a fixed algorithm
 |610| [Triangle Judgement](https://leetcode.com/problems/triangle-judgement/description/) | [SQL](./Scripts/610.sql) | [Tricky](./Insights/610.md) | Easy
 |611| [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/) | [GO](./Scripts/611.go) | [Tricky](./Insights/611.md) | Medium
 |617| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [GO](./Scripts/617.go) | [Tricky](./Insights/617.md) | Easy
+|619| [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [SQL](./Scripts/619.sql) | [Tricky](./Insights/619.md) | Easy
