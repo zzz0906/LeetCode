@@ -483,3 +483,4 @@ Hard to associate them with a fixed algorithm
 |617| [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [GO](./Scripts/617.go) | [Tricky](./Insights/617.md) | Easy
 |619| [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [SQL](./Scripts/619.sql) | [Tricky](./Insights/619.md) | Easy
 |621| [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [GO](./Scripts/621.go) | [Tricky](./Insights/621.md) | Medium
+|622| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [GO](./Scripts/622.go) | [Tricky](./Insights/622.md) | Medium
