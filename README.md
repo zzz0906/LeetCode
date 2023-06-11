@@ -484,3 +484,4 @@ Hard to associate them with a fixed algorithm
 |619| [Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | [SQL](./Scripts/619.sql) | [Tricky](./Insights/619.md) | Easy
 |621| [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [GO](./Scripts/621.go) | [Tricky](./Insights/621.md) | Medium
 |622| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [GO](./Scripts/622.go) | [Tricky](./Insights/622.md) | Medium
+|623| [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [GO](./Scripts/623.go) | [Tricky](./Insights/623.md) | Medium
