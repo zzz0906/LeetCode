@@ -486,3 +486,4 @@ Hard to associate them with a fixed algorithm
 |622| [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [GO](./Scripts/622.go) | [Tricky](./Insights/622.md) | Medium
 |623| [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [GO](./Scripts/623.go) | [Tricky](./Insights/623.md) | Medium
 |626| [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [SQL](./Scripts/626.sql) | [SQL](./Insights/626.md) | Medium
+|627| [Swap Salary](https://leetcode.com/problems/swap-salary/) | [SQL](./Scripts/627.sql) | [SQL](./Insights/627.md) | Easy
