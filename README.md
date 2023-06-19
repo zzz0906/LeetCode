@@ -487,4 +487,5 @@ Hard to associate them with a fixed algorithm
 |623| [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/) | [GO](./Scripts/623.go) | [Tricky](./Insights/623.md) | Medium
 |626| [Exchange Seats](https://leetcode.com/problems/exchange-seats/) | [SQL](./Scripts/626.sql) | [SQL](./Insights/626.md) | Medium
 |627| [Swap Salary](https://leetcode.com/problems/swap-salary/) | [SQL](./Scripts/627.sql) | [SQL](./Insights/627.md) | Easy
-|628| [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [GO](./Scripts/628.go) | [GO](./Insights/628.md) | Easy·
+|628| [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [GO](./Scripts/628.go) | [GO](./Insights/628.md) | Easy
+|630| [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [GO](./Scripts/630.go) | [GO](./Insights/630.md) | Hard
