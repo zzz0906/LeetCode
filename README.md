@@ -49,6 +49,7 @@ Hard to associate them with a fixed algorithm
 * [542](./Insights/542.md) 01 Matrix
 * [546](./Insights/546.md) Remove Boxes
 * [591](./Insights/591.md)  Tag Validator
+* [632](./Insights/632.md)  Smallest Range Covering Elements from K Lists
 * [1044](./2021_Oct/Readme.md) Longest Duplicate Substring
 
 ## Template
@@ -489,4 +490,4 @@ Hard to associate them with a fixed algorithm
 |627| [Swap Salary](https://leetcode.com/problems/swap-salary/) | [SQL](./Scripts/627.sql) | [Tricky](./Insights/627.md) | Easy
 |628| [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [GO](./Scripts/628.go) | [Tricky](./Insights/628.md) | Easy
 |630| [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [GO](./Scripts/630.go) | [Data Structure](./Insights/630.md) | Hard
-|632| [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [GO](./Scripts/632.go) | [](./Insights/632.md) | Hard
+|632| [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [GO](./Scripts/632.go) | [Tricky + Data Structure](./Insights/632.md) | Hard

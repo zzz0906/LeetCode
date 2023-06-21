@@ -1,13 +1,13 @@
-type IntHeap []int
+type IntHeap [][2]int
 
 func (h IntHeap) Len() int           { return len(h) }
-func (h IntHeap) Less(i, j int) bool { return h[i] < h[j] }
+func (h IntHeap) Less(i, j int) bool { return h[i][1] < h[j][1] }
 func (h IntHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 
 func (h *IntHeap) Push(x interface{}) {
 	// Push and Pop use pointer receivers because they modify the slice's length,
 	// not just its contents.
-	*h = append(*h, x.(int))
+	*h = append(*h, x.([2]int))
 }
 
 func (h *IntHeap) Pop() interface{} {
@@ -18,36 +18,38 @@ func (h *IntHeap) Pop() interface{} {
 	return x
 }
 
-type MinHeap struct {
-	IntHeap
+func (h *IntHeap) Top() interface{} {
+	return (*h)[0]
 }
 
-func (h MinHeap) Less(i, j int) bool { return h.IntHeap[i] < h.IntHeap[j] }
-
 func smallestRange(nums [][]int) []int {
-	h := &MinHeap{}
+	h := &IntHeap{}
 	heap.Init(h)
-	max := 0
-	for i := 0; i < len(nums); i++ {
-		heap.Push(h, i)
-		if nums[i][0] > max {
-			max = nums[i][0]
+	maxVal := math.MinInt32
+	for i, list := range nums {
+		heap.Push(h, [2]int{i, list[0]})
+		if list[0] > maxVal {
+			maxVal = list[0]
 		}
 	}
-	min := (*h).IntHeap[0]
-	res := []int{min, max}
+	covered := make([]int, len(nums))
+	for i := range covered {
+		covered[i] = 0
+	}
+	res := []int{(*h)[0][1], maxVal}
 	for {
-		minIndex := heap.Pop(h).(int)
-		if len(nums[minIndex]) == 1 {
+		top := heap.Pop(h).([2]int)
+		covered[top[0]]++
+		if covered[top[0]] == len(nums[top[0]]) {
 			break
 		}
-		nums[minIndex] = nums[minIndex][1:]
-		heap.Push(h, minIndex)
-		max = (*h).IntHeap[0]
-		min = (*h).IntHeap[0]
-		if max-min < res[1]-res[0] {
-			res[0] = min
-			res[1] = max
+		if nums[top[0]][covered[top[0]]] > maxVal {
+			maxVal = nums[top[0]][covered[top[0]]]
+		}
+		heap.Push(h, [2]int{top[0], nums[top[0]][covered[top[0]]]})
+		if maxVal-(*h)[0][1] < res[1]-res[0] {
+			res = []int{(*h)[0][1], maxVal}
 		}
 	}
+	return res
 }
