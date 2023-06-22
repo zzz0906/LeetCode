@@ -491,3 +491,4 @@ Hard to associate them with a fixed algorithm
 |628| [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [GO](./Scripts/628.go) | [Tricky](./Insights/628.md) | Easy
 |630| [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [GO](./Scripts/630.go) | [Data Structure](./Insights/630.md) | Hard
 |632| [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [GO](./Scripts/632.go) | [Tricky + Data Structure](./Insights/632.md) | Hard
+|636| [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [GO](./Scripts/636.go) | [Tricky + Data Structure](./Insights/636.md) | Medium
