@@ -493,3 +493,4 @@ Hard to associate them with a fixed algorithm
 |632| [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | [GO](./Scripts/632.go) | [Tricky + Data Structure](./Insights/632.md) | Hard
 |636| [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [GO](./Scripts/636.go) | [Tricky +Stack](./Insights/636.md) | Medium
 |637| [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [GO](./Scripts/637.go) | [Data Structure](./Insights/637.md) | Easy
+|638| [Shopping Offers](https://leetcode.com/problems/shopping-offers/) | [GO](./Scripts/638.go) | [](./Insights/638.md) | Medium
